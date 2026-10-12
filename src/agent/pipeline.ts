@@ -304,6 +304,12 @@ export async function researchCandidate(ctx: PipelineContext, c: Candidate): Pro
   });
 
   // Only a full description is used for length-based findings; truncated meta descriptions are ignored.
+  // The review ceiling must be checkable: a published/unclear book with no observable count is not kept as a lead.
+  if ((bookPages.length || sitePages.length) && countForFilter == null && ["published_ebook", "other_formats_only", "unclear"].includes(status) && !crowdfunding && !explicitSeeking) {
+    for (const e of errors) recordError(ctx, e.stage, e.message, e.url || null, null);
+    return { kind: "skipped", reason: `No ratings/review count observable on any accessible listing; ≤${ctx.config.maxReviewCount} filter cannot be applied (status: ${status}).` };
+  }
+
   const description = ld?.description ?? grExtras?.description ?? null;
   const publisher = ld?.publisher ?? null;
   const publisherIsLarge = isLargePublisher(publisher) || isLargePublisher(grExtras?.publicationLine);

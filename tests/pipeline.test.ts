@@ -43,6 +43,7 @@ const cands: Candidate[] = [
   { authorName: "Jane Doe", bookTitle: "Night Tide", goodreadsUrl: "https://www.goodreads.com/book/show/1", bookUrls: ["https://www.amazon.com/dp/B0X"], websiteUrl: "https://janedoebooks.com/", countryClaim: "New Zealand", countryEvidenceUrl: "https://janedoebooks.com/", statusHint: "published_ebook" },
   { authorName: "Rich Author", bookTitle: "Big Seller", goodreadsUrl: "https://www.goodreads.com/book/show/2" },
   { authorName: "Sam Nomail", bookTitle: "Quiet Book", goodreadsUrl: "https://www.goodreads.com/book/show/3", websiteUrl: "https://samnomail.net/", countryClaim: "Germany", countryEvidenceUrl: "https://samnomail.net/" },
+  { authorName: "No Count", bookTitle: "Uncounted", websiteUrl: "https://samnomail.net/" },
   { authorName: "Ghost Writer", bookTitle: "Missing", goodreadsUrl: "https://www.goodreads.com/book/show/404" },
 ];
 
@@ -69,6 +70,7 @@ describe("research pipeline (offline fixtures)", () => {
     const rc = db.prepare("SELECT candidate_key, status, message FROM run_candidates WHERE run_id = ?").all(id) as any[];
     expect(rc.find((r) => r.candidate_key.startsWith("rich author")).status).toBe("skipped");
     expect(rc.find((r) => r.candidate_key.startsWith("ghost writer")).status).toBe("failed");
+    expect(rc.find((r) => r.candidate_key.startsWith("no count")).status).toBe("skipped");
 
     const jane = db.prepare("SELECT * FROM authors WHERE name = 'Jane Doe'").get() as any;
     expect(jane.country).toBe("New Zealand");
