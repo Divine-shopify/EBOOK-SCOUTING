@@ -15,6 +15,7 @@
     "export": "tsx src/cli/export.ts",
     "db:migrate": "tsx src/cli/migrate.ts",
     "report": "tsx src/cli/report.ts",
+    "prospect": "tsx src/cli/prospect.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },

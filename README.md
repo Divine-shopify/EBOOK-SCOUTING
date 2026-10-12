@@ -147,3 +147,83 @@ seeds/       discovery seed files used for the initial run
 exports/     generated workbook + CSVs
 reports/     run reports
 ```
+
+---
+
+# eBook Author Prospecting Agent (`src/prospector/`)
+
+A second agent in this repo, built for one job: find real eBook authors and author-owned businesses with **evidence of a specific service need**, and write them to `Global_eBook_Author_Prospects_200.xlsx`. It reuses AuthorScout's fetcher (SSRF guard, robots.txt, per-host throttling, retries, cache), page extraction and ExcelJS. It has its own database (`data/prospector.db`) and its own qualification rules.
+
+It does not write outreach messages, send email, submit forms or contact anyone.
+
+## Commands
+
+```bash
+npm run prospect -- doctor                    # tests each integration and prints OK/FAIL
+npm run prospect -- discover-social --pages 3 # keyless: Bluesky post search + Mastodon hashtag timelines
+npm run prospect -- discover-web --queries q.json   # needs BRAVE_SEARCH_API_KEY / TAVILY_API_KEY / SERPAPI_API_KEY
+npm run prospect -- ingest seeds/prospects/*.json   # researcher/seed candidates (schema: src/prospector/candidate.ts)
+npm run prospect -- import-log seeds/prospects/x.searchlog.json
+npm run prospect -- check-file seeds/prospects/x.json   # dry-run verdicts; nothing saved
+npm run prospect -- verify --all              # verify + qualify every pending candidate (resumable)
+npm run prospect -- requalify                 # re-queue everything after a rule change (fetches stay cached)
+npm run prospect -- export                    # writes Global_eBook_Author_Prospects_200.xlsx
+npm run prospect -- status
+```
+
+Behind the agent proxy in the cloud container, set `NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt` if TLS fails. API keys belong in `.env`, never in code.
+
+## Discovery channels
+
+| Channel | Key needed | What it does |
+|---|---|---|
+| Bluesky public AppView (`api.bsky.app`) | none | Searches posts with ~47 service-request phrases in 8 languages, then loads each author's profile |
+| Mastodon public hashtag timelines | none | Scans #amwriting, #indieauthor, #selfpublishing and similar tags on 5 instances |
+| Brave / Tavily / SerpAPI | yes | Fetches each result page; a page becomes a candidate only if it shows request or stage wording and names its owner |
+| Seed files (`seeds/prospects/*.json`) | none | Candidates found by a researcher, for example a Claude session using its web-search tool. They are re-verified like everything else |
+
+Every query is written to `px_search_log` with the number of results reviewed, candidates added, rejections and the reasons for them.
+
+## Verification (`verify.ts`)
+
+Nothing in a candidate is trusted. The agent re-fetches the source page, the official website and its contact page, and up to 3 additional URLs, then checks:
+
+- **Evidence quote:** must occur in the page the agent fetched itself. Matching is exact after normalisation, or at least 80% of 5-word shingles.
+- **Signals (`lexicon.ts`):**
+  - A first-person explicit request in 8 languages.
+  - Production-stage wording: pre-order, cover reveal, release date, in edits, relaunch.
+  - These are discarded when the sentence or post reads as a provider advert, a recommendation, a past or negated request, a third party's job ad, or a pitch-party/querying post.
+  - On third-party pages, only the verified quote is scanned.
+- **Identity:** the name appears on the official website. Or a public profile describes the person as an author **and** the name is a real two-part personal or pen name.
+- **eBook connection:** retailer links on the author's site, eBook or self-publishing wording in author-owned text, or a verified request for a book-production service.
+- **Location:** recorded only when location wording ("lives in Cork, Ireland") appears on a fetched page. Otherwise the country is `Unverified`.
+- **Emails:** only addresses displayed on the author's own fetched site or contact page. They are labelled *publicly displayed, not deliverability-checked*. Addresses are never guessed.
+- **Never fetched:** Amazon, Reddit, Kickstarter, Facebook, Instagram, X, LinkedIn, kboards (its robots.txt blocks AI agents), Upwork, Fiverr, YouTube, TikTok. Evidence hosted only there can reach *Needs Review*, never *Ready*.
+
+## Qualification (`qualify.ts`)
+
+| Field | Rule |
+|---|---|
+| Buying Intent: High | Verified explicit request, 12 months old or less (or undated with a current year on author-owned pages) |
+| Buying Intent: Medium | Explicit request 12–24 months old or undated; or production-stage wording that is current |
+| Research Confidence: High | Identity, eBook connection and evidence all agent-verified, and the evidence is current |
+| Research Confidence: Medium | Identity and evidence verified, but some uncertainty remains: age, or eBook format only implied |
+| Lead Status: Ready | Intent High/Medium, confidence High/Medium, identity verified, eBook connection, and not a service provider |
+| Lead Status: Needs Review | Some evidence exists, but identity, the eBook link or the page itself could not be verified |
+| Lead Status: Excluded | Everything else, including service providers and requests more than 24 months old |
+
+**Dedup:** records are matched on normalised name, website domain, email and profile URL. Duplicates are merged into the stronger record, keeping the sources and evidence of both.
+
+## Workbook
+
+The workbook has five sheets:
+
+1. **Qualified Prospects:** the 28 required columns, in order.
+2. **Needs Review:** the same 28 columns.
+3. **Research Log:** every query.
+4. **Excluded & Duplicates:** with a reason for each.
+5. **Campaign Summary:** totals, the market measure, and the rules.
+
+All sheets have filters and a frozen header, URL columns are clickable, and formula injection is neutralised.
+
+Tests: `npx vitest run tests/prospector.test.ts` (offline fixtures).

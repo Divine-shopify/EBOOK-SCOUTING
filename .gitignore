@@ -5,3 +5,4 @@ data/*.db-*
 data/cache/
 exports/tmp/
 data/*.log
+data/prospector.db
