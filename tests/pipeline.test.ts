@@ -27,7 +27,7 @@ const book = (name: string, author: string, ratings: number, reviews: number, ex
 <body><h1>${name}</h1><a href="https://www.goodreads.com/author/show/1.${author.replace(/ /g, "_")}">${author}</a><div data-testid="publicationInfo">First published March 3, 2026</div>${extra}</body></html>`;
 
 const PAGES: Record<string, string> = {
-  "https://www.goodreads.com/book/show/1": book("Night Tide", "Jane Doe", 312, 58),
+  "https://www.goodreads.com/book/show/1": book("Night Tide", "Jane Doe", 312, 58, "<p>Review: I think this book is looking for a professional editor, honestly.</p>"),
   "https://www.goodreads.com/book/show/2": book("Big Seller", "Rich Author", 25000, 3000),
   "https://www.goodreads.com/book/show/3": book("Quiet Book", "Sam Nomail", 40, 10),
   "https://www.goodreads.com/author/show/1.Jane_Doe": `<body>Jane Doe · 4 distinct works</body>`,
@@ -88,6 +88,8 @@ describe("research pipeline (offline fixtures)", () => {
     expect(codes).toEqual(expect.arrayContaining(["H01", "D01", "C09", "G02"]));
     expect((db.prepare("SELECT COUNT(*) n FROM evidence WHERE author_id = ? AND source_url IS NOT NULL").get(jane.id) as any).n).toBeGreaterThan(3);
 
+    // Reader-review text on a retailer/Goodreads page must not count as the author's buying signal.
+    expect((db.prepare("SELECT COUNT(*) n FROM evidence WHERE author_id = ? AND kind = 'buying_signal'").get(jane.id) as any).n).toBe(0);
     const sam = db.prepare("SELECT * FROM authors WHERE name = 'Sam Nomail'").get() as any;
     expect(sam.country).toBeNull(); // claim not supported by any fetched page
     const samContacts = db.prepare("SELECT email, contact_type FROM contacts WHERE author_id = ?").all(sam.id) as any[];

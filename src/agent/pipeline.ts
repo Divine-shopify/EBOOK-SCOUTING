@@ -229,8 +229,18 @@ export async function researchCandidate(ctx: PipelineContext, c: Candidate): Pro
 
   // ---- 5. Signals
   const allText = [statusEvidenceText ?? "", siteText, ...bookPages.map((p) => p.info.text)].join(" \n ");
-  let explicitSeeking = allText.match(SEEKING_RE)?.[0]?.trim() ?? null;
-  if (explicitSeeking && /\b(we|our clients|our authors|services|we offer)\b/i.test(explicitSeeking)) explicitSeeking = null; // vendor copy, not the author
+  // Buying signals only from author-controlled pages (never retailer/Goodreads pages, which carry reader reviews),
+  // and only in first person ("I'm looking for an editor").
+  const statusEvidenceIsAuthorOwned = !!c.statusEvidenceUrl && ["author_site", "substack", "medium", "wattpad", "royalroad", "reedsy"].includes(platformOf(c.statusEvidenceUrl));
+  const authorOwnedText = [statusEvidenceIsAuthorOwned ? statusEvidenceText ?? "" : "", siteText].join(" \n ");
+  let explicitSeeking: string | null = null;
+  for (const m of authorOwnedText.matchAll(new RegExp(SEEKING_RE.source, "gi"))) {
+    const sentence = m[0].trim();
+    if (/\b(I|I'm|I am|I've|my|me|ich|je|yo|io|ik)\b/.test(sentence) && !/\b(we offer|our clients|our authors|services|reviewer|review)\b/i.test(sentence)) {
+      explicitSeeking = sentence;
+      break;
+    }
+  }
   const crowdfunding = [...bookUrls, c.statusEvidenceUrl ?? ""].some((u) => CROWDFUND_RE.test(u));
   const retailerLinks = [...new Set([...sitePages.flatMap((p) => p.info.retailerLinks), ...bookUrls])];
   const retailerPlatforms = [...new Set(retailerLinks.map(platformOf))];
@@ -259,7 +269,8 @@ export async function researchCandidate(ctx: PipelineContext, c: Candidate): Pro
   }
 
   const publicationDate = goodreadsPubDate(grExtras?.publicationLine) ?? ld?.datePublished ?? c.publicationDate ?? null;
-  const platforms = [...new Set([...bookUrls.map(platformOf), ...(c.discoveryPlatform ? [c.discoveryPlatform.toLowerCase()] : [])])];
+  // Status is derived from the book's own listing URLs, never from where the lead was discovered.
+  const platforms = [...new Set(bookUrls.map(platformOf))];
 
   // Optional AI pass (spend-limited by the runner)
   let aiNotes: string[] = [];
