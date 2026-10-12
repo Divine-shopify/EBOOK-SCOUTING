@@ -106,5 +106,189 @@
   "language": "en",
   "country": "Canada",
   "platforms": []
+ },
+ {
+  "name": "Cathy McGough",
+  "businessName": "Stratford Living Publishing",
+  "authorType": "Self-Published Author",
+  "region": "Ontario",
+  "locationQuote": "She lives and writes in Ontario, Canada",
+  "bookTitle": "Jump and Say Happy New Year in 25 Languages!",
+  "genre": "Children's picture books; thrillers; poetry",
+  "platforms": [
+   "IngramSpark"
+  ],
+  "sourceUrl": "https://cathymcgough.com/books/series/hardcover-jump-series-ages-4-8-in-with-a-heart-thumping-action-chorus/ab2nmr",
+  "evidenceQuote": "HARDCOVER JUMP SERIES AGES 4-8 IN WITH A HEART THUMPING ACTION CHORUS More revised editions of the JUMP SERIES coming soon!",
+  "officialWebsite": "https://cathymcgough.com/",
+  "additionalUrls": [
+   "https://cathymcgough.com/about"
+  ],
+  "notes": "Multi-genre indie author distributing via IngramSpark; revised editions of a 12-book children's series rolling out, hardcover editions on pre-order.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site crawl: Canada Fiction Fest 2026 event pages (events.humanitix.com/host/canada-fiction-fest), reached via \"Canada Fiction Fest\" 2026 indie authors",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Renée Gendron",
+  "authorType": "Independent Author",
+  "genre": "Romance (fantasy, sci-fi, contemporary)",
+  "sourceUrl": "https://reneegendron.com/",
+  "evidenceQuote": "Cyberpunk Book 1: In atoning for her past, Kana risks her future. New Release Coming Soon",
+  "officialWebsite": "https://reneegendron.com/",
+  "additionalUrls": [
+   "https://reneegendron.com/upcoming-releases",
+   "https://events.humanitix.com/author-readings-romance"
+  ],
+  "notes": "Romance author (Canada Fiction Fest 2026 romance readings); site lists upcoming releases incl. Nearer Realm Tales book 2 and a new cyberpunk romance.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site crawl: Canada Fiction Fest 2026 event pages (events.humanitix.com/host/canada-fiction-fest), reached via \"Canada Fiction Fest\" 2026 indie authors",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": []
+ },
+ {
+  "name": "Matthew Williams",
+  "authorType": "Self-Published Author",
+  "genre": "Science fiction",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "bookTitle": "Transverse",
+  "sourceUrl": "https://storiesbywilliams.com/",
+  "evidenceQuote": "Transverse Cover Reveal! Yes, it's about that time. You know the one I mean. When a work-in-progress is just shy of completion",
+  "evidenceDate": "2026-05-26",
+  "officialWebsite": "https://storiesbywilliams.com/",
+  "additionalUrls": [
+   "https://storiesbywilliams.com/the-formist-series/",
+   "https://www.sfcanada.org/sfc-blogs/"
+  ],
+  "notes": "SF Canada member blog; fourth novel (Formist series bridge) had cover reveal May 2026, 'pending a final edit' before Kindle release (Aug 2026 post). Location not stated on site.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site directory crawl: sfcanada.org/sfc-blogs (SF Canada member blogs), reached via \"Canada Fiction Fest\" 2026 indie authors",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Abigail de Niverville",
+  "authorType": "Self-Published Author",
+  "region": "Ontario",
+  "city": "Toronto",
+  "locationQuote": "Here in Toronto, the weather has been so up and down.",
+  "bookTitle": "We Go Together",
+  "genre": "YA contemporary",
+  "platforms": [
+   "Books2Read (D2D)",
+   "itch.io"
+  ],
+  "sourceUrl": "https://buttondown.com/adeniverville/archive/having-a-writing-identity-crisis/",
+  "evidenceQuote": "As for We Go Together , I would like to edit and re-release it.",
+  "evidenceDate": "2026-06-01",
+  "officialWebsite": "https://adeniverville.com/",
+  "additionalUrls": [
+   "https://buttondown.com/adeniverville/archive/canadian-book-bundle",
+   "https://adeniverville.itch.io"
+  ],
+  "notes": "Toronto indie YA author (Hidden Gems All-Canadian itch.io bundle, Mar 2026); re-released I Knew Him in Apr 2026 and plans to edit and re-release We Go Together.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "\"Canadian indie authors\" book bundle 2026 BookFunnel all-Canadian",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Robert Chazz Chute",
+  "authorType": "Self-Published Author",
+  "locationQuote": "As a proud and thankful Canadian (and a member of the Crime Writers of Canada)",
+  "bookTitle": "When the Night Finds Us",
+  "genre": "Crime thriller",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://allthatchazz.com/",
+  "evidenceQuote": "Where the Night Takes Us launches on Amazon for just 99 cents for a limited time. PRE-ORDER NOW",
+  "officialWebsite": "https://allthatchazz.com/",
+  "additionalUrls": [
+   "https://crimewriterscanada.com/index.php/en/page/books/browse-by-title/search_year/2026/P25"
+  ],
+  "notes": "Indie thriller author (CWC member); Fear-Death series book 1 on pre-order and book 2 'in the editorial pipeline' (going over edits), 2026 posts.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site directory crawl: crimewriterscanada.com book catalogue 2026/2027 (indie titles with books2read links)",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Winona Kent",
+  "authorType": "Independent Author",
+  "region": "British Columbia",
+  "city": "New Westminster",
+  "locationQuote": "Award-winning Canadian mystery writer Winona Kent",
+  "bookTitle": "Under the Boardwalk",
+  "genre": "Mystery",
+  "platforms": [
+   "Books2Read (D2D)"
+  ],
+  "sourceUrl": "https://www.winonakent.com/",
+  "evidenceQuote": "Under the Boardwalk Coming Soon The next chapter in Jason Davey's adventures. The story flows through New Westminster, BC!",
+  "officialWebsite": "https://www.winonakent.com/",
+  "additionalUrls": [
+   "https://www.winonakent.com/jason-davey-series.html"
+  ],
+  "notes": "Jason Davey series book 6 announced with placeholder cover; 'brand new cover coming in October 2027' (needs final cover).",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site directory crawl: crimewriterscanada.com book catalogue 2026/2027 (indie titles with books2read links)",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Karina Halle",
+  "businessName": "Metal Blonde Books",
+  "authorType": "Independent Author",
+  "genre": "Romance / horror romance",
+  "sourceUrl": "https://authorkarinahalle.com/",
+  "evidenceQuote": "A standalone dark gothic horror romance set on a haunted Scottish loch — perfect for spooky season. Preorder Now",
+  "officialWebsite": "https://authorkarinahalle.com/",
+  "notes": "Hybrid (largely self-published) romance author; new standalone BONETIDE on pre-order. Location not stated on fetched pages (known BC-based).",
+  "discovery": {
+   "channel": "web_search",
+   "query": "guessed author domain from Canadian indie author recall, verified by fetch",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": [],
+  "additionalUrls": []
  }
 ]

@@ -152,7 +152,8 @@
   "locationQuote": "55122 Mainz",
   "genre": "Reisebericht",
   "additionalUrls": [
-   "https://petralupp.com/impressum/"
+   "https://petralupp.com/impressum/",
+   "https://petralupp.com/buecher-regal/"
   ],
   "notes": "Travel-memoir series; Band 3 due Herbst/Winter 2026.",
   "discovery": {
@@ -173,31 +174,6 @@
   "officialWebsite": "https://berylbrighton.de/",
   "genre": "Regency Liebesroman",
   "notes": "Regency romance series 'Lord of Second Chance'; Selfpublisher-Verband lists 4 releases Jun-Sep 2026.",
-  "discovery": {
-   "channel": "directory_crawl",
-   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
-   "provider": "direct-fetch",
-   "market": "Germany",
-   "date": "2026-10-12"
-  }
- },
- {
-  "name": "Kristin Weber",
-  "authorType": "Self-Published Author",
-  "language": "de",
-  "platforms": [],
-  "sourceUrl": "https://www.kristin-weber.de/veranstaltung/buchmesse-rosenheim/",
-  "evidenceQuote": "Dort werde ich meine Bücher präsentieren und meine Neuerscheinungen vorstellen.",
-  "officialWebsite": "https://www.kristin-weber.de/",
-  "country": "Germany",
-  "region": "Hessen",
-  "city": "Meinhard",
-  "locationQuote": "37276 Meinhard Deutschland",
-  "genre": "Historischer Roman",
-  "additionalUrls": [
-   "https://www.kristin-weber.de/impressum/"
-  ],
-  "notes": "Historical novelist; Selfpublisher-Verband lists recent/upcoming releases.",
   "discovery": {
    "channel": "directory_crawl",
    "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
@@ -364,33 +340,6 @@
   }
  },
  {
-  "name": "Christine Steinmann",
-  "authorType": "Self-Published Author",
-  "language": "de",
-  "platforms": [],
-  "sourceUrl": "https://www.christinesteinmann.de/news?slug=kupfer-update",
-  "evidenceQuote": "Hoffentlich ganz viel, damit alles in die finale Version von KUPFER einfließen kann. Diese erscheint am 01. November 2026.",
-  "officialWebsite": "https://www.christinesteinmann.de/",
-  "country": "Germany",
-  "region": "Niedersachsen",
-  "city": "Braunschweig",
-  "locationQuote": "38100 Braunschweig Deutschland",
-  "bookTitle": "KUPFER",
-  "genre": "Fantasy",
-  "additionalUrls": [
-   "https://www.christinesteinmann.de/impressum",
-   "https://www.christinesteinmann.de/news"
-  ],
-  "notes": "Fantasy series 'Das Licht von Ildin'; KUPFER (test-reader phase) releases 01.11.2026; Selfpublishing-Buchpreis nominee.",
-  "discovery": {
-   "channel": "directory_crawl",
-   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
-   "provider": "direct-fetch",
-   "market": "Germany",
-   "date": "2026-10-12"
-  }
- },
- {
   "name": "E.B.A. Hund",
   "authorType": "Self-Published Author",
   "language": "de",
@@ -513,7 +462,7 @@
   "language": "de",
   "platforms": [],
   "sourceUrl": "https://gekritzel.at/blog/",
-  "evidenceQuote": "Endlich ist es so weit. Lektorat und Korrektorat sind eingearbeitet, der Buchsatz erledigt, die Widmung geschrieben.",
+  "evidenceQuote": "Band II erscheint am 19.04.2026 März 31, 2026 Endlich ist es so weit. Lektorat und Korrektorat sind eingearbeitet, der Buchsatz erledigt",
   "officialWebsite": "https://gekritzel.at/",
   "country": "Austria",
   "region": "Niederösterreich",
@@ -567,7 +516,10 @@
    "provider": "direct-fetch",
    "market": "Germany",
    "date": "2026-10-12"
-  }
+  },
+  "additionalUrls": [
+   "https://kerstin-g-rush.de/carvers-creek-die-entdeckung-des-wahren-gluecks/"
+  ]
  },
  {
   "name": "Linda Bier",
@@ -701,32 +653,6 @@
   }
  },
  {
-  "name": "Peaches Keeley Anderson",
-  "authorType": "Self-Published Author",
-  "language": "de",
-  "platforms": [],
-  "sourceUrl": "https://www.peaches-keeley-anderson.de/buecher/",
-  "evidenceQuote": "Don't kiss me until Christmas - Ein Neuanfang in Cornwall Details → 📖 Cornwall Feelings Band 3 erscheint im November 2026",
-  "officialWebsite": "https://www.peaches-keeley-anderson.de/",
-  "bookTitle": "Don't kiss me until Christmas",
-  "genre": "Feelgood-Romance",
-  "country": "Germany",
-  "region": "Nordrhein-Westfalen",
-  "city": "Tönisvorst",
-  "locationQuote": "47918 Tönisvorst",
-  "additionalUrls": [
-   "https://www.peaches-keeley-anderson.de/impressum/"
-  ],
-  "notes": "Cornwall Feelings Band 3 due Nov 2026.",
-  "discovery": {
-   "channel": "directory_crawl",
-   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
-   "provider": "direct-fetch",
-   "market": "Germany",
-   "date": "2026-10-12"
-  }
- },
- {
   "name": "Sabine Hirschfeld",
   "authorType": "Self-Published Author",
   "language": "de",
@@ -739,7 +665,8 @@
   "locationQuote": "Sie lebt und schreibt in Hamburg-Altona",
   "genre": "Krimi",
   "additionalUrls": [
-   "https://sabinehirschfeld.com/ueber-mich/"
+   "https://sabinehirschfeld.com/ueber-mich/",
+   "https://sabinehirschfeld.com/buecher/"
   ],
   "notes": "HAMBURG MORD crime series; Band 4 autumn 2026.",
   "discovery": {
@@ -808,7 +735,8 @@
   "bookTitle": "Meine Waldspielgruppe",
   "genre": "Kinderbuch",
   "additionalUrls": [
-   "https://www.muetterimpulse.de/impressum/"
+   "https://www.muetterimpulse.de/impressum/",
+   "https://www.muetterimpulse.de/kindergartenfrei-buch/"
   ],
   "notes": "Blog Mütterimpulse; children's book released 1 Sep 2026.",
   "discovery": {
@@ -852,7 +780,8 @@
   "bookTitle": "DAMND Unit 2: Hexengrab",
   "genre": "Urban Fantasy (queer)",
   "additionalUrls": [
-   "https://www.terry-byrnes.com/ueber-mich/"
+   "https://www.terry-byrnes.com/ueber-mich/",
+   "https://www.terry-byrnes.com/romane/damnd_unit_1_der_abgrund/"
   ],
   "notes": "Queer urban fantasy; Band 2 spring 2026.",
   "discovery": {
@@ -864,21 +793,86 @@
   }
  },
  {
-  "name": "Teresa Arzberg",
+  "name": "Daniella J. Sommers",
   "authorType": "Self-Published Author",
   "language": "de",
   "platforms": [],
-  "sourceUrl": "https://www.teresa-arzberg.ch/",
-  "evidenceQuote": "November 2026 Art Academy 2 erscheint mit neuem Glow up! Erfahre hier mehr.",
-  "officialWebsite": "https://www.teresa-arzberg.ch/",
-  "genre": "Kinder- und Jugendbuch",
-  "bookTitle": "Art Academy",
-  "notes": "Relaunch of Art Academy series with new covers ('Glow up'), Art Academy 3 due 1 Dec 2026. Swiss domain; location not confirmed.",
+  "sourceUrl": "https://www.djsommers.de/",
+  "evidenceQuote": "Das Finale der Trilogie »Die Erbin der vier Winde - Im Sog der Dunkelheit« erscheint am 08. März 2027",
+  "officialWebsite": "https://www.djsommers.de/",
+  "bookTitle": "Die Erbin der vier Winde - Im Sog der Dunkelheit",
+  "genre": "Fantasy",
+  "notes": "Trilogy finale releasing 08.03.2027, pre-order with limited book box.",
   "discovery": {
    "channel": "directory_crawl",
-   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
    "provider": "direct-fetch",
-   "market": "Switzerland",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Lina Hansson",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://www.linahansson.com/buecher/sturm-am-himmel-ueber-sylt-band-2",
+  "evidenceQuote": "Bringt er neue Probleme mit sich, oder macht er den Weg frei für ein Happy End? Der zweite Band erscheint am 1. Mai 2026 Bei Amazon vorbestellen",
+  "officialWebsite": "https://www.linahansson.com/",
+  "bookTitle": "Sturm am Himmel über Sylt, Band 2",
+  "genre": "Liebesroman",
+  "notes": "Sylt romance series; location not confirmed (Impressum lists the webmaster's address).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Minny Baker",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://minny-baker.de/aktuelles/",
+  "evidenceQuote": "Bald gibt es Neuigkeiten Minny Baker 2026-05-08T18:03:15+00:00 Mai 8th, 2026 | Tags: Buchnews , Coming Soon , Neuerscheinung",
+  "officialWebsite": "https://minny-baker.de/",
+  "country": "Germany",
+  "region": "Niedersachsen",
+  "city": "Soltau",
+  "locationQuote": "29614 Soltau Deutschland",
+  "genre": "Romance (Wonder Dance-Reihe)",
+  "additionalUrls": [
+   "https://minny-baker.de/impressum/"
+  ],
+  "evidenceDate": "2026-05-08",
+  "notes": "May 2026 news post tagged Coming Soon / Neuerscheinung; weak stage evidence.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Rose Bloom",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://rose-bloom.de/fallen-sun-reihe/",
+  "evidenceQuote": "Fallen Sun Reihe VORBESTELLBAR Schöne und das Biest Vibes und eine düstere, atmosphärische Fantasywelt verbunden mit einer epischen Liebesgeschichte!",
+  "officialWebsite": "https://rose-bloom.de/",
+  "genre": "Romantasy / Dark Academia",
+  "notes": "Writes as Rose Bloom, Aspen Skye, Lena Herzberg, Olivia Swan; Fallen Sun series on pre-order (© 2026). Site also lists 'Grafikdesign'.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
    "date": "2026-10-12"
   }
  }
