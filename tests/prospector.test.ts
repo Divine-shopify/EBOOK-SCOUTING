@@ -154,3 +154,11 @@ describe("author self-promotion is not provider advertising", () => {
     expect(detectSignals("Check out my new release dates for 2027.", { wholeTextIsOnePost: true }).some((s) => s.kind === "stage")).toBe(true);
   });
 });
+
+describe("German Impressum location", () => {
+  it("maps five-digit Impressum postcodes to Germany only", async () => {
+    const { countryFromImpressum } = await import("../src/prospector/markets.js");
+    expect(countryFromImpressum("Impressum Angaben gemäß § 5 TMG: Mira Valentin, Musterweg 1, 91438 Bad Windsheim")?.country).toBe("Germany");
+    expect(countryFromImpressum("Impressum: Musterweg 1, 1010 Wien, Österreich")).toBeNull();
+  });
+});

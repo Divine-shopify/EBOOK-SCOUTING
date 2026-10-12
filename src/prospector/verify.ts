@@ -5,7 +5,7 @@ import { SEED_ONLY, platformOf } from "../adapters/sources.js";
 import { domainOf, normalizeKey } from "../util/text.js";
 import type { ProspectCandidate } from "./candidate.js";
 import { detectSignals, EBOOK_TERMS, RETAILERS, AUTHOR_PROFILE, PROVIDER_PROFILE, type SignalHit } from "./lexicon.js";
-import { countryFromText, marketByName } from "./markets.js";
+import { countryFromImpressum, countryFromText, marketByName } from "./markets.js";
 
 /** Hosts the agent never fetches: bot-blocking or terms prohibit automated access. Evidence there stays unverified. */
 export const NO_FETCH_HOSTS =
@@ -366,7 +366,7 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
   }
   if (!v.country) {
     for (const t of ownTexts) {
-      const found = countryFromText(t.text);
+      const found = countryFromText(t.text) ?? countryFromImpressum(t.text);
       if (found) {
         v.country = { ...found, url: t.url };
         break;

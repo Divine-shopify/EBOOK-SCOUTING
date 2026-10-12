@@ -21,7 +21,7 @@
   "notes": "ALLi member; runs own imprint Mortlake Press; book 9 of DCI Rob Miller due Jan 2027, cover not yet revealed.",
   "discovery": {
    "channel": "web_crawl",
-   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=Inspirational Indie Author Interview (ALLi member interviews 2022-2026) + author sites",
    "provider": "claude-webfetch",
    "market": "United Kingdom/Ireland",
    "date": "2026-10-12"
@@ -36,16 +36,17 @@
   "city": "Nottingham",
   "locationQuote": "you’ll find me back home in Nottingham, UK",
   "genre": "Adventure thriller",
-  "sourceUrl": "https://www.lukerichardsonauthor.com/books-series/series-sierra-byrd",
-  "evidenceQuote": "We’re currently working on Nora ‘Sierra’ Byrd’s next airborne adventure. Secure your copy by pre-ordering now",
+  "bookTitle": "The Alchemist’s Codex",
+  "sourceUrl": "https://www.lukerichardsonauthor.com/books-series/series-eden-black-archaeological-thrillers/",
+  "evidenceQuote": "Coming October 2026 The Alchemist's Codex: Eden Black Archaeological Thrillers Book 8 Pre-order now",
   "officialWebsite": "https://www.lukerichardsonauthor.com/",
   "additionalUrls": [
    "https://www.lukerichardsonauthor.com/about/"
   ],
-  "notes": "ALLi podcast guest (Sept 2026); next Sierra Byrd book in progress and on pre-order.",
+  "notes": "ALLi podcast guest (Sept 2026); Eden Black book 8 on pre-order for Oct 2026; next Sierra Byrd book in progress.",
   "discovery": {
    "channel": "web_crawl",
-   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=Inspirational Indie Author Interview (ALLi member interviews 2022-2026) + author sites",
    "provider": "claude-webfetch",
    "market": "United Kingdom/Ireland",
    "date": "2026-10-12"
@@ -71,7 +72,7 @@
   "notes": "ALLi podcast guest (Aug 2026); publishes via own Happy Day Press; book 3 forthcoming (illustrated children's series).",
   "discovery": {
    "channel": "web_crawl",
-   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=Inspirational Indie Author Interview (ALLi member interviews 2022-2026) + author sites",
    "provider": "claude-webfetch",
    "market": "United Kingdom/Ireland",
    "date": "2026-10-12"
@@ -97,7 +98,270 @@
   "notes": "ALLi interview (Dec 2025) says full-time writer and publisher based in Exeter; 4th Mary Fox book forthcoming.",
   "discovery": {
    "channel": "web_crawl",
-   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=Inspirational Indie Author Interview (ALLi member interviews 2022-2026) + author sites",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Keith A Pearson",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "locationQuote": "Keith A Pearson was born in 1971 in Aldershot, Hampshire",
+  "bookTitle": "Haverstock",
+  "genre": "Comic mystery / time-travel humour",
+  "sourceUrl": "https://www.keithapearson.co.uk/my-books/",
+  "evidenceQuote": "Coming Soon Haverstock Action Mystery",
+  "officialWebsite": "https://www.keithapearson.co.uk/",
+  "additionalUrls": [
+   "https://www.keithapearson.co.uk/keith-a-pearson-biography/"
+  ],
+  "notes": "ALLi podcast guest; biography says third Clement novel Haverstock planned for late 2026; The Closing Terms also marked Coming Soon.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=Inspirational Indie Author Interview (ALLi member interviews 2022-2026) + author sites",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Stephen Small",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Warrington",
+  "locationQuote": "Originally a native of Liverpool, Stephen now lives in nearby Warrington",
+  "bookTitle": "The Gods",
+  "genre": "Technothriller",
+  "sourceUrl": "https://stephensmall.co.uk/books",
+  "evidenceQuote": "Launching on 15 October 2026 Pre-order now",
+  "officialWebsite": "https://stephensmall.co.uk/",
+  "additionalUrls": [
+   "https://stephensmall.co.uk/about",
+   "https://stephensmall.co.uk/news"
+  ],
+  "notes": "Love Books Tours author; new technothriller The Gods on pre-order, launching 15 Oct 2026; news page says Coming soon.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://kellylacey.com/feed/ (Love Books Tours blog-tour listings 2025-2026) + author-domain lookup",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Rosemary A. Johns",
+  "businessName": "Fantasy Rebel",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "in The United Kingdom",
+  "genre": "Romantasy / paranormal romance",
+  "bookTitle": "Shadow Kings",
+  "sourceUrl": "https://rosemaryajohns.com/blog/",
+  "evidenceQuote": "Keep your eyes peeled because the release date is coming soon!",
+  "officialWebsite": "https://rosemaryajohns.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/15571684",
+   "https://rosemaryajohns.com/about/"
+  ],
+  "notes": "USA Today bestselling indie romantasy author publishing via own Fantasy Rebel imprint; blog (Oct 2026) announces Shadow Kings duet audiobook with release date coming soon. Location only from Goodreads profile (born: United Kingdom).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Hannah Haze",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "in The United Kingdom",
+  "genre": "Paranormal / omegaverse why-choose romance",
+  "bookTitle": "Bonds of Silver & Spell",
+  "sourceUrl": "http://www.hannahhaze.com/",
+  "evidenceQuote": "Book 2 of the Bonds of Silver & Spell trilogy available for pre-order!",
+  "officialWebsite": "http://www.hannahhaze.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/20836707"
+  ],
+  "notes": "Indie romance author; homepage shows COMING SOON / PRE-ORDER NOW / PRE-ORDER EBOOK and PRE-ORDER AUDIOBOOK. Location only via Goodreads profile (born: United Kingdom).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Ruby Scott",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "The United Kingdom",
+  "genre": "Lesbian romance",
+  "sourceUrl": "https://www.rubyscott.com/collections/all-books",
+  "evidenceQuote": "Available in English, German, and Spanish, with some of the catalogue also in audio. French and Italian translations coming soon.",
+  "officialWebsite": "https://www.rubyscott.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/20725555"
+  ],
+  "notes": "Indie lesfic author selling direct (Shopify); French and Italian translations of the catalogue in the pipeline. Location only via Goodreads profile.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Amy McGavin",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "city": "Glasgow",
+  "locationQuote": "The pair live in Glasgow with their daughter and very lively cocker spaniel.",
+  "bookTitle": "The Florist and the Fighter",
+  "genre": "Contemporary romance",
+  "sourceUrl": "https://www.amymcgavin.com/books/the-florist-and-the-fighter/",
+  "evidenceQuote": "First person, dual POV, present tense eBook Release date 23 October 2026 Availability Amazon (including Kindle Unlimited), public libraries",
+  "officialWebsite": "https://www.amymcgavin.com/",
+  "additionalUrls": [
+   "https://www.amymcgavin.com/about/"
+  ],
+  "notes": "Pen name of a Scottish wife-and-husband team; new romance ebook releases 23 Oct 2026 (KU); page also marked Coming soon; own ISBN prefix 978-1-916734.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Karen Baugh Menuhin",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "locationQuote": "We live in the Cotswolds.",
+  "bookTitle": "Assassin",
+  "genre": "1920s cosy crime / mystery",
+  "sourceUrl": "https://karenmenuhin.com/",
+  "evidenceQuote": "COMING SOON Assassin Book 5 In the The Alexander Wolfe Series.",
+  "officialWebsite": "https://karenmenuhin.com/",
+  "notes": "ALLi podcast guest (2023), indie cosy-crime author; homepage lists Assassin (Alexander Wolfe #5) as COMING SOON / AVAILABLE TO PRE-ORDER and A Ghost in Gold (Miss Busby #6) as COMING SOON.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Jayne Castel",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "city": "Edinburgh",
+  "locationQuote": "writes epic Historical Romance and Celtic Romantasy from her home in Edinburgh, Scotland",
+  "bookTitle": "Never Meant to be His",
+  "genre": "Historical romance / Celtic romantasy",
+  "sourceUrl": "https://www.jaynecastel.com/coming-soon",
+  "evidenceQuote": "Preorder Never Meant to be His from my shop for USD$3.99 (release date, November 12, 2026). You'll also get a free bonus epilogue.",
+  "officialWebsite": "https://www.jaynecastel.com/",
+  "additionalUrls": [
+   "https://www.jaynecastel.com/about-jayne"
+  ],
+  "notes": "55+ book indie author selling direct from own shop plus Amazon; Never Meant to be His on preorder for 12 Nov 2026 (direct) / 19 Nov (Amazon); homepage says Coming soon! PREORDER NOW!",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Frances M. Thompson",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "The United Kingdom",
+  "bookTitle": "Stand By Your Man",
+  "genre": "Queer contemporary romance",
+  "sourceUrl": "https://fmthompson.com/products/stand-by-your-man-ebook-pre-order-exclusive-offer-free-character-art",
+  "evidenceQuote": "RELEASE DATE - 10th November 2026. THIS PRE-ORDER OFFER IS EXCLUSIVE TO MY SHOP AND INCLUDES FREE DIGITAL ART!",
+  "officialWebsite": "https://fmthompson.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/7044639"
+  ],
+  "notes": "Indie bi-romance author selling direct (Shopify); ebook pre-order for 10 Nov 2026. Location only via Goodreads profile.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Lizzie Lamb",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "locationQuote": "Craigneuk, Scotland, The United Kingdom",
+  "genre": "Contemporary romance (Scottish settings)",
+  "sourceUrl": "https://lizzielamb.co.uk/2025/12/13/2025-christmas-newsletter-highlights-and-upcoming-novels/",
+  "evidenceQuote": "I am currently writing the last in the series (title to be announced) for publication in 2026.",
+  "evidenceDate": "2025-12-13",
+  "officialWebsite": "https://lizzielamb.co.uk/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/6577099",
+   "https://lizzielamb.co.uk/about-2/"
+  ],
+  "notes": "RNA Indie Champion 2023; self-publishes paperback/Kindle; final book of Dark Highland Skies series in progress for 2026; about page says she is writing book eight.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Helen Harper",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "city": "Edinburgh",
+  "locationQuote": "Helen currently lives in Edinburgh with far too many cats",
+  "genre": "Urban fantasy",
+  "sourceUrl": "https://www.helenharper.co.uk/book-series/corrigan/",
+  "evidenceQuote": "Coming Soon! The fifth and final book in the Corrigan series, re-telling the events of Bloodlust from Corrigan's point of view.",
+  "officialWebsite": "https://www.helenharper.co.uk/",
+  "additionalUrls": [
+   "http://helenharper.co.uk"
+  ],
+  "notes": "Prolific indie urban fantasy author; fifth/final Corrigan book announced as coming soon.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
    "provider": "claude-webfetch",
    "market": "United Kingdom/Ireland",
    "date": "2026-10-12"

@@ -70,3 +70,10 @@ export function countryFromText(text: string): { country: string; quote: string 
   }
   return null;
 }
+
+/** German Impressum addresses ("91438 Bad Windsheim") imply Germany: five-digit postcodes are German (AT/CH use four). */
+export function countryFromImpressum(text: string): { country: string; quote: string } | null {
+  if (!/\bimpressum\b/i.test(text) || /\b(österreich|austria|schweiz|switzerland|suisse)\b/i.test(text)) return null;
+  const m = /\b(?:D-)?(\d{5})\s+([A-ZÄÖÜ][a-zäöüß]+(?:[ -][A-ZÄÖÜ]?[a-zäöüß]+)*)/.exec(text.slice(text.search(/\bimpressum\b/i)));
+  return m ? { country: "Germany", quote: `Impressum address: ${m[1]} ${m[2]}` } : null;
+}

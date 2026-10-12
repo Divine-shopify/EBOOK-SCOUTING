@@ -875,5 +875,55 @@
    "market": "Germany",
    "date": "2026-10-12"
   }
+ },
+ {
+  "name": "Fay Lynch",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.faylynch.com/",
+  "evidenceQuote": "Kleiner Hinweis: es wird episch – und möglicherweise ein wenig hinterhältig. Und Freundschaften könnten auf dem Spiel stehen, haha!!! >:D Coming soon",
+  "officialWebsite": "https://www.faylynch.com/",
+  "country": "Germany",
+  "region": "Hessen",
+  "city": "Wiesbaden",
+  "locationQuote": "65205 Wiesbaden",
+  "bookTitle": "Schattenmal Band II",
+  "genre": "Romantasy",
+  "additionalUrls": [
+   "https://www.faylynch.com/impressum"
+  ],
+  "notes": "Romantasy author (also illustrator/ceramicist); Schattenmal Band II 'coming soon', updates dated August 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Katie McLane",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://katie-mclane.de/",
+  "evidenceQuote": "Neuerscheinung Coming Soon! Ab 13.11.2026",
+  "officialWebsite": "https://katie-mclane.de/",
+  "country": "Germany",
+  "region": "Nordrhein-Westfalen",
+  "locationQuote": "Ich lebe mit meiner Familie im Herzen Nordrhein-Westfalens",
+  "genre": "Romance",
+  "additionalUrls": [
+   "https://katie-mclane.de/Ueber-mich/"
+  ],
+  "notes": "Romance author; new release from 13.11.2026 (also listed in Selfpublisher-Verband catalogue).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
  }
 ]
