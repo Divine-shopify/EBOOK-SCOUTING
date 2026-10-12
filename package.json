@@ -1,0 +1,36 @@
+{
+  "name": "authorscout-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AuthorScout AI — autonomous ebook author research and public professional email discovery agent",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "tsx src/server/index.ts",
+    "start": "tsx src/server/index.ts",
+    "research": "tsx src/cli/research.ts",
+    "discover": "tsx src/cli/discover.ts",
+    "export": "tsx src/cli/export.ts",
+    "db:migrate": "tsx src/cli/migrate.ts",
+    "report": "tsx src/cli/report.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "cheerio": "^1.0.0",
+    "exceljs": "^4.4.0",
+    "hono": "^4.6.14",
+    "playwright-core": "^1.49.1",
+    "undici": "^6.29.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

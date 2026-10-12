@@ -1,0 +1,418 @@
+[
+ {
+  "authorName": "Scott Palmer",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.goodreads.com/author/show/48141491.Scott_Palmer",
+  "language": "English",
+  "genres": [
+   "epic fantasy",
+   "dark fantasy"
+  ],
+  "websiteUrl": "https://www.scottpalmerauthor.com/",
+  "contactPageUrl": "https://www.scottpalmerauthor.com/contact",
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/48141491.Scott_Palmer",
+   "https://www.booktopia.com.au/blog/?p=176164"
+  ],
+  "bookTitle": "A Chorus of War (The Last Ballad #2)",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/221554245-a-chorus-of-war"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/221554245-a-chorus-of-war",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/221554245-a-chorus-of-war",
+  "publicationDate": "2025-06-17",
+  "reviewCountObserved": 22,
+  "ratingObserved": 4.63,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "Globe and Mail self-published fantasy summer 2025 -> goodreads 'A Memory of Song Scott Palmer'",
+  "discoveryPlatform": "The Globe and Mail article + Goodreads",
+  "notes": "Goodreads bio: born in and lives in London, Ontario, Canada (also stated in Booktopia interview). Series: A Memory of Song (196 ratings), The Sound of Starfall (73), A Chorus of War (Kindle Edition, 22 ratings), A Dance in the Dust (10). Steep ratings drop-off from book 1 to book 2. Website is fairly complete (newsletter via free novella, shop, maps, Discord); no publisher stated on site or Goodreads. Featured in Globe and Mail summer 2025 self-published fantasy list."
+ },
+ {
+  "authorName": "K. Godin",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.goodreads.com/author/show/21783154.K_Godin",
+  "language": "English",
+  "genres": [
+   "fantasy",
+   "romance",
+   "high fantasy romance"
+  ],
+  "websiteUrl": "https://authorkgodin.com",
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/21783154.K_Godin"
+  ],
+  "bookTitle": "Ballad of Broken Banners (The Anointed, Book One)",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/222210330-ballad-of-broken-banners"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/222210330-ballad-of-broken-banners",
+  "statusHint": "unclear",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/222210330-ballad-of-broken-banners",
+  "publicationDate": "2025-04-22",
+  "reviewCountObserved": 123,
+  "ratingObserved": 4.18,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "Globe and Mail self-published fantasy summer 2025 -> goodreads 'K. Godin Ballad of Broken Banners'",
+  "discoveryPlatform": "The Globe and Mail article + Goodreads",
+  "notes": "Goodreads bio: 'lives in beautiful Ontario Canada'. Other books: Legend of the Huntress (1,223 ratings), Summoning of the Siren (201). New series start has far fewer ratings than earlier series. Goodreads lists format as 'Unknown Binding' and no publisher, so ebook format not confirmed. Website authorkgodin.com (listed on Goodreads) failed DNS resolution when fetched - possibly down. Globe and Mail called it a 'new Canadian series'."
+ },
+ {
+  "authorName": "F.M. Aden",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.goodreads.com/author/show/35562533.F_M_Aden",
+  "language": "English",
+  "genres": [
+   "fantasy romance",
+   "YA fantasy",
+   "gothic fantasy"
+  ],
+  "websiteUrl": "https://www.fmaden.com/",
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/35562533.F_M_Aden"
+  ],
+  "bookTitle": "A Bargain of Shadows (#1)",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/219841463-a-bargain-of-shadows"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/219841463-a-bargain-of-shadows",
+  "statusHint": "unclear",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/219841463-a-bargain-of-shadows",
+  "publicationDate": "2025-01-10",
+  "reviewCountObserved": 21,
+  "ratingObserved": 4.12,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "Globe and Mail self-published fantasy summer 2025 -> goodreads 'F.M. Aden The Bride of Death'",
+  "discoveryPlatform": "The Globe and Mail article + Goodreads",
+  "notes": "Country: Goodreads bio says she grew up in Toronto, Canada; Globe and Mail calls her 'The Canadian author' (https://www.theglobeandmail.com/arts/books/article-self-published-fantasy-books-summer-2025). Current residence not explicitly stated. Best-known title The Bride of Death (2024) has 634 ratings; 2025 release A Bargain of Shadows only 21; Trueborn #3 The Queen of Ruin listed with 0 ratings. Goodreads format 'Unknown Binding'. Website returned HTTP 403 to fetcher."
+ },
+ {
+  "authorName": "Brooke Marley Jones",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.goodreads.com/author/show/49716900.Brooke_Marley_Jones",
+  "language": "English",
+  "genres": [
+   "fantasy",
+   "horror",
+   "romance",
+   "gothic fairy tale"
+  ],
+  "websiteUrl": null,
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/49716900.Brooke_Marley_Jones"
+  ],
+  "bookTitle": "The Hound of Scrying Hollow",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/228396713-the-hound-of-scrying-hollow",
+   "https://www.podiumentertainment.com/titles/117026/the-hound-of-scrying-hollow"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/228396713-the-hound-of-scrying-hollow",
+  "statusHint": "unclear",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/228396713-the-hound-of-scrying-hollow",
+  "publicationDate": "2025-06-01",
+  "reviewCountObserved": 571,
+  "ratingObserved": 3.91,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "Globe and Mail self-published fantasy summer 2025 -> goodreads 'Brooke Marley Jones Hound of Scrying Hollow'",
+  "discoveryPlatform": "The Globe and Mail article + Goodreads",
+  "notes": "Goodreads bio: 'resides in Niagara'; born in Canada; Globe and Mail calls her a Canadian author. Goodreads edition shown is Paperback; publisher not listed. Audiobook released by Podium Entertainment (Sep 9, 2025) - may indicate an audio rights deal; ebook indie status not verified. No website listed on Goodreads author page and none found. Earlier book The Forest Where the Phoenix Sleeps has 957 ratings."
+ },
+ {
+  "authorName": "Stephanie Caye",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.stephaniecaye.com",
+  "language": "English",
+  "genres": [
+   "urban fantasy",
+   "fae fantasy"
+  ],
+  "websiteUrl": "https://www.stephaniecaye.com",
+  "contactPageUrl": "https://www.stephaniecaye.com/#contact",
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/22334506.Stephanie_Caye"
+  ],
+  "bookTitle": "Stark Raving Mab: Gravity's Daughter Book 3",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/220451940-stark-raving-mab"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/220451940-stark-raving-mab",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.stephaniecaye.com",
+  "publicationDate": "2024-10-11",
+  "reviewCountObserved": 6,
+  "ratingObserved": 4.5,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "Globe and Mail self-published fantasy summer 2025 -> goodreads 'Stephanie Caye The Flaws of Gravity'",
+  "discoveryPlatform": "The Globe and Mail article + Goodreads",
+  "notes": "Lives in Montreal (Goodreads bio + website; website lists Canada as country). Publisher listed as 'SC Smith' on site. Books sold wide: Kobo, Apple, B&N, Amazon, Bookshop.org, itch.io, Google Play. Very low Goodreads counts across trilogy (34 / 12 / 6 ratings). No newsletter signup found on website; contact is an in-page form only. Latest release 2024 (no 2025 release observed)."
+ },
+ {
+  "authorName": "Claris Lam",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.goodreads.com/author/show/22277014.Claris_Lam",
+  "language": "English",
+  "genres": [
+   "mystery",
+   "fantasy",
+   "children's fantasy",
+   "poetry"
+  ],
+  "websiteUrl": "https://clarislam.ca/",
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/22277014.Claris_Lam",
+   "https://buttondown.com/clarislamauthor",
+   "https://clarislam.carrd.co/",
+   "http://www.twitter.com/ClarisLamAuthor"
+  ],
+  "bookTitle": "Sadie Rowe And The Missing Necklace",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/247173265-sadie-rowe-and-the-missing-necklace"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/247173265-sadie-rowe-and-the-missing-necklace",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://buttondown.com/clarislamauthor/archive?page=2",
+  "publicationDate": "2026-02-23",
+  "reviewCountObserved": 0,
+  "ratingObserved": null,
+  "reviewCountSource": "Goodreads ratings count (author page listing)",
+  "discoveryQuery": "Draft2Digital author spotlight 2025 indie author based in Canada new release",
+  "discoveryPlatform": "Buttondown newsletter + Goodreads",
+  "notes": "Goodreads bio: 'Chinese-Canadian multigenre author'; newsletter refers to 'Canadian indie authors (including myself)'. Current city not stated. Many works with almost no Goodreads ratings (author total 20 ratings across 9 works; Harlow Mystery books at 0-5). Delisted from Draft2Digital in April 2026 per newsletter (narrower distribution). Website clarislam.ca did not render content for fetcher."
+ },
+ {
+  "authorName": "Tracy Tong",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://canadianindieauthors.substack.com/p/author-spotlight-tracy-tong",
+  "language": "English",
+  "genres": [
+   "contemporary romance",
+   "romantic comedy"
+  ],
+  "websiteUrl": "https://tracytongbooks.com/",
+  "contactPageUrl": "https://tracytongbooks.com/contact/",
+  "profileUrls": [
+   "https://canadianindieauthors.substack.com/p/author-spotlight-tracy-tong",
+   "https://tracytongbooks.substack.com/"
+  ],
+  "bookTitle": "Flip the Switch: The Story of Carol and Mark (Love: Some Assembly Required #4)",
+  "bookUrls": [
+   "https://tracytongbooks.com/shop/"
+  ],
+  "goodreadsUrl": null,
+  "statusHint": "forthcoming",
+  "statusEvidenceUrl": "https://canadianindieauthors.substack.com/p/author-spotlight-tracy-tong",
+  "publicationDate": "2026-11-08",
+  "reviewCountObserved": null,
+  "ratingObserved": null,
+  "reviewCountSource": null,
+  "discoveryQuery": "Canadian Indie Authors substack author spotlights",
+  "discoveryPlatform": "Canadian Indie Authors (Substack)",
+  "notes": "Spotlight says she lives in Ontario. Earlier books in the series sold as $5 ebooks on her own site shop: 404 Love Not Found, Love at First Flight, You Had Me at Waffles. Goodreads/Amazon/Kobo searches did not surface any listing for her books - very low discoverability; no review count observed (hard filter not verifiable but no listing found). Website homepage does not list book titles or release dates; no retailer links (sells direct, signed copies)."
+ },
+ {
+  "authorName": "Andrew LiVecchi",
+  "penName": null,
+  "countryClaim": "Canada",
+  "countryEvidenceUrl": "https://www.goodreads.com/book/show/242290229-rage-of-the-raven-queen",
+  "language": "English",
+  "genres": [
+   "epic fantasy",
+   "sword and sorcery"
+  ],
+  "websiteUrl": "https://andrewlivecchi.com/",
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/22920840.Andrew_LiVecchi",
+   "https://andrewlivecchi.substack.com/"
+  ],
+  "bookTitle": "Rage of the Raven Queen: Book Two of The Lays of Athewain",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/242290229-rage-of-the-raven-queen",
+   "https://www.goodreads.com/book/show/219484092-son-of-the-thunder-goddess"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/242290229-rage-of-the-raven-queen",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/242290229-rage-of-the-raven-queen",
+  "publicationDate": "2025-11-12",
+  "reviewCountObserved": 9,
+  "ratingObserved": 4.22,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "local author self-published new fantasy novel 2025 (Substack 'The Mead Hall: Reflections on 2025')",
+  "discoveryPlatform": "Substack + Goodreads",
+  "notes": "Goodreads bio: 'Andrew lives in Cambridge, Ontario'. Self-describes as indie/self-published in newsletter. Book 1 Son of the Thunder Goddess (Mar 2025) ~27-28 ratings; Book 2 Kindle Edition 9 ratings. Book 3 hoped for 2026. Retail links via books2read. Website not fetched."
+ },
+ {
+  "authorName": "K.D. Elledge",
+  "penName": null,
+  "countryClaim": "United States",
+  "countryEvidenceUrl": "https://www.audible.com/author/KD-Elledge/B0D7NJ4WNB",
+  "language": "English",
+  "genres": [
+   "romance",
+   "romantic suspense",
+   "thriller"
+  ],
+  "websiteUrl": null,
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/49814740.K_D_Elledge",
+   "https://www.audible.com/author/KD-Elledge/B0D7NJ4WNB"
+  ],
+  "bookTitle": "Dear Finley",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/239603004-dear-finley"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/239603004-dear-finley",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/239603004-dear-finley",
+  "publicationDate": "2025-07-31",
+  "reviewCountObserved": 19,
+  "ratingObserved": 4.32,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "indie romance author \"lives in North Carolina\" new release 2025 Kindle Unlimited",
+  "discoveryPlatform": "Audible author page + Goodreads",
+  "notes": "Audible bio: 'I reside in rural North Carolina'; Goodreads: born Shelby, NC. Self-published debut Finding Maisy (June 2024, per bio). 4-5 books (Finding Maisy, Out of Time, Dear Finley, Happy Accidents). Dear Finley Kindle Edition 473 pages. Ratings split across multiple Goodreads editions (19/5/2). No website listed on Goodreads author page."
+ },
+ {
+  "authorName": "Abigail Morrison",
+  "penName": null,
+  "countryClaim": "United States",
+  "countryEvidenceUrl": "https://www.goodreads.com/author/show/22690416.Abigail_Morrison",
+  "language": "English",
+  "genres": [
+   "young adult",
+   "fantasy",
+   "crystal punk"
+  ],
+  "websiteUrl": "https://amorrisonbooks.com/",
+  "contactPageUrl": "https://amorrisonbooks.com/contact/",
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/22690416.Abigail_Morrison"
+  ],
+  "bookTitle": "Downfall (Chronicles of Castia Book 1)",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/249344800-downfall",
+   "https://www.amazon.com/dp/B0GRD8XL7Z"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/249344800-downfall",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/249344800-downfall",
+  "publicationDate": "2026-03-31",
+  "reviewCountObserved": 8,
+  "ratingObserved": 4.88,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "\"lives in Wisconsin\" author self-published fantasy series Kindle 2025",
+  "discoveryPlatform": "Goodreads",
+  "notes": "Goodreads bio and website: 'Wisconsin-based'. Two books (The Yochni's Eye 2022, 26 ratings; Downfall Kindle Edition 2026, 8 ratings). Website links only to Amazon; no newsletter signup observed; publisher not stated."
+ },
+ {
+  "authorName": "Sarah Wallace",
+  "penName": null,
+  "countryClaim": "United States",
+  "countryEvidenceUrl": "https://sarahwallacewriter.com/about/",
+  "language": "English",
+  "genres": [
+   "queer historical romance",
+   "Regency fantasy romance",
+   "cozy fantasy"
+  ],
+  "websiteUrl": "https://sarahwallacewriter.com",
+  "contactPageUrl": "https://sarahwallacewriter.com/contact/",
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/7307580.Sarah_Wallace",
+   "https://www.smashwords.com/profile/view/SarahWallace6599"
+  ],
+  "bookTitle": "Cleaning Spells Before Courtship (Fae & Human Relations #4, co-written with S.O. Callahan)",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/239919949-cleaning-spells-before-courtship",
+   "https://www.smashwords.com/books/view/1825307"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/239919949-cleaning-spells-before-courtship",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.smashwords.com/books/view/1825307",
+  "publicationDate": "2025-10-04",
+  "reviewCountObserved": 275,
+  "ratingObserved": 4.29,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "smashwords profile author new release 2025 fantasy series",
+  "discoveryPlatform": "Smashwords + author website",
+  "notes": "About page: 'Sarah Wallace lives in Florida'. Self-published (Smashwords publisher field 'Sarah Wallace'); ebook $4.99 on Smashwords. Prolific: Meddle & Mend series, Fae & Human Relations (co-author S.O. Callahan), Powell Productions (2 books June 2026), boxed sets. Smashwords profile has no bio/location. No newsletter mentioned on website homepage."
+ },
+ {
+  "authorName": "Thomasina Bloom",
+  "penName": null,
+  "countryClaim": "United States",
+  "countryEvidenceUrl": "https://www.netgalley.com/catalog/publisher/124866",
+  "language": "English",
+  "genres": [
+   "fantasy",
+   "romantasy",
+   "new adult",
+   "science fiction"
+  ],
+  "websiteUrl": "https://thomasinabloom.com/",
+  "contactPageUrl": null,
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/58039478.Thomasina_Bloom",
+   "https://www.netgalley.com/catalog/publisher/124866"
+  ],
+  "bookTitle": "Ash of My Dragon (Wyrmhorne Saga #1)",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/246685943-ash-of-my-dragon",
+   "https://mybook.to/ashofmydragon"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/246685943-ash-of-my-dragon",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/246685943-ash-of-my-dragon",
+  "publicationDate": "2026-05-28",
+  "reviewCountObserved": 133,
+  "ratingObserved": 3.83,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "indie author website \"lives in Maine\" fantasy series new release 2026 ebook",
+  "discoveryPlatform": "NetGalley (self-publisher listing) + Goodreads",
+  "notes": "NetGalley profile (publisher = author herself): 'lives in Maine', base United States; website header 'Somewhere in Maine'. Multiple series: Songbirds & Raptors (Fly the Wild Sky 22 ratings, later books 9/5/2/0), Wyrmhorne Saga (Book 2 Blood of My Dragon 0 ratings), Whole Armor. Website has no dedicated contact page (form + email), no explicitly labelled newsletter; publisher not stated. Kindle Edition."
+ },
+ {
+  "authorName": "Kayla Robinson",
+  "penName": null,
+  "countryClaim": "United States",
+  "countryEvidenceUrl": "https://www.goodreads.com/book/show/240370768-firestorm",
+  "language": "English",
+  "genres": [
+   "fantasy",
+   "romantasy"
+  ],
+  "websiteUrl": "https://kaylarobinsonauthor.com/",
+  "contactPageUrl": "https://kaylarobinsonauthor.com/contact/",
+  "profileUrls": [
+   "https://www.goodreads.com/author/show/50949812.Kayla_Robinson",
+   "https://www.audible.com/author/Kayla-Robinson/B0CZB5K1VR"
+  ],
+  "bookTitle": "Firestorm: Shadowed Embers Book #1",
+  "bookUrls": [
+   "https://www.goodreads.com/book/show/240370768-firestorm"
+  ],
+  "goodreadsUrl": "https://www.goodreads.com/book/show/240370768-firestorm",
+  "statusHint": "published_ebook",
+  "statusEvidenceUrl": "https://www.goodreads.com/book/show/240370768-firestorm",
+  "publicationDate": "2025-12-21",
+  "reviewCountObserved": 29,
+  "ratingObserved": 4.78,
+  "reviewCountSource": "Goodreads ratings count",
+  "discoveryQuery": "indie author website \"lives in Kentucky\" books new release 2026 series Kindle Unlimited",
+  "discoveryPlatform": "Audible author page + Goodreads",
+  "notes": "Goodreads bio: 'lives in rural Kentucky'; Audible bio calls her an indie fantasy author on a farm in rural Kentucky. ~12 works across Wickedly Immortal series, Wicked Embers, Shadowed Embers (Nightshade book 2, 13 ratings). Firestorm Kindle Edition. Website has no retailer links (only signed-copy order form, Discord) and no newsletter - only a Google Form giveaway signup; Goodreads author page lists no social links."
+ }
+]

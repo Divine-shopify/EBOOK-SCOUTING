@@ -1,0 +1,119 @@
+[
+  {
+    "authorName": "Sarah Honey",
+    "bookTitle": "The Royal Rogue",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL42706720W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/219344534",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Lucius Montegrot",
+    "bookTitle": "The Union Impossible",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44045054W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "Devil May Hunt",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43938961W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/239344718",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "Devil May Breathe",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43938931W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/230448335",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Lucian Cross",
+    "bookTitle": "The Matter Destructor",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45844535W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Kaitlyn Swanson",
+    "bookTitle": "Queen of the Crimson Throne",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45919208W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Sonam Zangmo",
+    "bookTitle": "The Resonant Heir — Book I",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL46092389W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "The Devil's Embrace",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43938922W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/234804678",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Valerie Hunter",
+    "bookTitle": "The Girl Who Bit Me",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45977350W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/247053738",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  }
+]
