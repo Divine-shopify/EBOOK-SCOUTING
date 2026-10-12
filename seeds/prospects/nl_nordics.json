@@ -1,0 +1,106 @@
+[
+ {
+  "name": "Stephanie Storm",
+  "authorType": "Self-Published Author",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://thestephaniestorm.com/",
+  "evidenceQuote": "Fragmented: A Hansel & Gretel retelling is available for pre-order.",
+  "officialWebsite": "https://thestephaniestorm.com/",
+  "additionalUrls": [
+   "https://thestephaniestorm.com/about"
+  ],
+  "platforms": [],
+  "notes": "Indie dark romantasy author (Spicy & Steamy Book Event 2026 attendee); pre-order live for 'Fragmented'. Site also has an author-services page (side business) - review before outreach.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Now based in Amsterdam with her husband and their border collie",
+  "city": "Amsterdam",
+  "bookTitle": "Fragmented",
+  "genre": "Dark fantasy / fairy-tale retelling romance",
+  "contactPage": "https://thestephaniestorm.com/contact"
+ },
+ {
+  "name": "D.E. Haggerty",
+  "authorType": "Self-Published Author",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://dehaggerty.com/",
+  "evidenceQuote": "Coming Soon! Are you ready for… ❤️An NFL running back who falls first… and absolutely refuses to fall quietly?",
+  "officialWebsite": "https://dehaggerty.com/",
+  "additionalUrls": [
+   "https://dehaggerty.com/about/",
+   "https://dehaggerty.com/coming-soon-2/"
+  ],
+  "platforms": [],
+  "notes": "Prolific indie romance author (multiple series, IT/DE/FR translations); homepage teases an upcoming sports romance; ARC team page.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Originally from the United States, she now lives in the Netherlands with her husband",
+  "genre": "Contemporary / sports romance",
+  "contactPage": "https://dehaggerty.com/contact/"
+ },
+ {
+  "name": "Rachel Elisabeth",
+  "authorType": "Independent Author",
+  "country": "Netherlands",
+  "language": "nl",
+  "sourceUrl": "https://rachelelisabeth.nl/",
+  "evidenceQuote": "ready to release on November 6th of this year",
+  "officialWebsite": "https://rachelelisabeth.nl/",
+  "additionalUrls": [
+   "https://rachelelisabeth.nl/about/"
+  ],
+  "platforms": [],
+  "notes": "Dutch romantasy author; English translation 'My Purgatory' (with W. Griffin Publishing) releasing 6 Nov 2026 with ARC + street-team sign-ups; Troonduel 3 due 12 Feb 2027. Dutch editions via a small publisher, so hybrid. Location not stated on site (attends NL events).",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "bookTitle": "My Purgatory",
+  "genre": "Romantasy / dark romance",
+  "evidenceDate": "2026-07-28"
+ },
+ {
+  "name": "Clarissa Wild",
+  "authorType": "Self-Published Author",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://www.clarissawild.com/blog/",
+  "evidenceQuote": "Title: BOYS WHO CRAVE Author: Clarissa Wild Genre: Dark RH Romance Release Date: June 30th, 2026",
+  "officialWebsite": "https://www.clarissawild.com/",
+  "additionalUrls": [
+   "https://spicysteamybookevent.nl/en/authors-2026/",
+   "https://www.clarissawild.com/about/"
+  ],
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "notes": "NYT/USA Today bestselling indie dark-romance author (KU). Evidence is a 27 May 2026 cover-reveal post; that title released 30 Jun 2026, so the opportunity is her ongoing release cycle. Location from her Spicy & Steamy Book Event 2026 bio.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "who was born and raised in the Netherlands",
+  "bookTitle": "BOYS WHO CRAVE",
+  "genre": "Dark romance / why-choose romance",
+  "evidenceDate": "2026-05-27"
+ }
+]

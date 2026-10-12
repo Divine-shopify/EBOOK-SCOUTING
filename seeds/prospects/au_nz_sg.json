@@ -1,5 +1,387 @@
 [
-{"name":"M.L. Tompsett","authorType":"Self-Published Author","country":"Australia","region":"Victoria","locationQuote":"they live in Victoria, Australia","language":"en","genre":"Paranormal / speculative romance","platforms":["Kobo","Google Play"],"sourceUrl":"https://mltompsett.com/2026/10/06/melbourne-readers-im-coming-for-you/","evidenceQuote":"Fingers crossed I will also have two brand-new and newly released speculative fiction print books just for you.","evidenceDate":"2026-10-06","officialWebsite":"https://mltompsett.com/","additionalUrls":["https://mltompsett.com/about/","https://www.goodreads.com/author/show/16121684.M_L_Tompsett/blog"],"notes":"Indie romance/spec-fic author, signing at ARRA Romantic Rendezvous 2027 Melbourne, two new books in production.","discovery":{"channel":"web_search","query":"Australian romance indie author \"coming 2026\" preorder Kobo author website","provider":"claude-websearch","market":"Australia","date":"2026-10-12"}},
-{"name":"Bronte-Marie Wesson","authorType":"Independent Author","country":"Australia","city":"Sydney","language":"en","bookTitle":"The Ascension of Souls","genre":"Fantasy","sourceUrl":"https://www.thebrontemarie.com/","evidenceQuote":"A hybrid author and content creator who has four books on the way, as quick as the crow flies.","officialWebsite":"https://www.thebrontemarie.com/","additionalUrls":["https://www.supanova.com.au/guests/bronte-marie-wesson/"],"notes":"Homepage lists The Ascension of Souls (2026) and further books on the way; Supanova guest page says Sydney.","discovery":{"channel":"web_search","query":"Brisbane author \"pre-order\" \"2026\" fantasy indie author blog","provider":"claude-websearch","market":"Australia","date":"2026-10-12"}},
-{"name":"Bonnie Shotbolt","businessName":"Bonnie Shotbolt Books","authorType":"Self-Published Author","country":"New Zealand","locationQuote":"I have over 10 years’ experience in New Zealand schools.","language":"en","bookTitle":"The Secret of Patupaiarehe Island","genre":"Middle-grade fiction","sourceUrl":"https://sites.google.com/view/shotboltbooks","evidenceQuote":"I’m proud to share that I’ve published my first junior fiction novel.","officialWebsite":"https://sites.google.com/view/shotboltbooks","notes":"First-time NZ children's author with own publishing platform; 2026 junior fiction novel.","discovery":{"channel":"web_search","query":"NZ author \"self-published\" \"Christchurch\" new novel 2026 launch","provider":"claude-websearch","market":"New Zealand","date":"2026-10-12"}}
+ {
+  "name": "C. A. Phipps",
+  "authorType": "Self-Published Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.caphipps.com/",
+  "evidenceQuote": "Explore Our Book Bundles — Now Featuring French & German Editions! Coming soon! Coming Soon! Find Your Next Series",
+  "officialWebsite": "https://www.caphipps.com/",
+  "additionalUrls": [
+   "https://www.caphipps.com/pages/about-c-a-phipps"
+  ],
+  "notes": "NZ cozy-mystery author selling ebooks direct (Shopify); translated bundles and new titles coming soon. Listed at Ages of Pages NZ book fair.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "C. A. Phipps is a USA Today best-selling author from beautiful New Zealand.",
+  "genre": "Cozy mystery"
+ },
+ {
+  "name": "Caro Geelen",
+  "authorType": "Self-Published Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.carogeelen.com/product/song-of-the-towers-book-3/",
+  "evidenceQuote": "Book Details Pages 345 Language English Release Date June 2026 Availability ePub, Paperback",
+  "officialWebsite": "https://www.carogeelen.com/",
+  "additionalUrls": [
+   "https://www.carogeelen.com/about/",
+   "https://www.carogeelen.com/its-book-three-time-baby/"
+  ],
+  "notes": "NZ indie YA fantasy author; book 3 of trilogy June 2026 in ePub; first book fair (Ages of Pages Hamilton 2026).",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "She lives in New Zealand with her husband and two kids",
+  "genre": "YA fantasy",
+  "bookTitle": "Song of the Towers"
+ },
+ {
+  "name": "Courtney Clark Michaels",
+  "authorType": "Independent Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.courtneyclarkmichaels.com/",
+  "evidenceQuote": "PREORDER NOW Ada and Cece's High School Revenge! From bestselling authors Eve Dangerfield and Courtney",
+  "officialWebsite": "https://www.courtneyclarkmichaels.com/",
+  "additionalUrls": [
+   "https://www.courtneyclarkmichaels.com/about"
+  ],
+  "notes": "NZ romance author with a co-written title on pre-order; listed at Ages of Pages NZ fair.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Courtney writes contemporary romance from the heart of New Zealand’s winemaking region.",
+  "genre": "Contemporary romance"
+ },
+ {
+  "name": "Lisa Faye Spicer",
+  "authorType": "Independent Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.lisafayespicer.com/",
+  "evidenceQuote": "Coming Soon! In a sleepy seaside village, artist Pearl liked to rescue things, animals and",
+  "officialWebsite": "https://www.lisafayespicer.com/",
+  "additionalUrls": [
+   "https://www.lisafayespicer.com/about"
+  ],
+  "notes": "NZ romance author (RWNZ Koru Award 2026), new book coming soon; direct store on own site.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "won the Romance Writers New Zealand (RWNZ) Koru Award of Excellence",
+  "genre": "Romance"
+ },
+ {
+  "name": "Esme Brett",
+  "authorType": "Self-Published Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.esmebrett.com/comingsoon",
+  "evidenceQuote": "Coming soon Wide-Eyed: A Spicy romcom BOOK 2 IN THE HOLLIDAY FAMILY SERIES",
+  "officialWebsite": "https://www.esmebrett.com/",
+  "additionalUrls": [
+   "https://www.esmebrett.com/about"
+  ],
+  "notes": "NZ indie romcom author; book 2 of series on Coming Soon page (Amazon paperback & Kindle).",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "She lives in Aotearoa New Zealand with two handsome lads—one feline and one human",
+  "genre": "Romantic comedy",
+  "bookTitle": "Wide-Eyed"
+ },
+ {
+  "name": "Bronwen Evans",
+  "authorType": "Independent Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.bronwenevans.com/",
+  "evidenceQuote": "She wants his heart, and she has only three weeks to win it. Pre-Order Now Coming November",
+  "officialWebsite": "https://www.bronwenevans.com/",
+  "additionalUrls": [
+   "https://www.bronwenevans.com/about"
+  ],
+  "notes": "NZ-educated USA Today romance author; new titles on pre-order (Coming November); site © 2026. Listed at Ages of Pages NZ.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Bronwen attended Victoria University, Wellington, New Zealand",
+  "genre": "Historical / sports romance"
+ },
+ {
+  "name": "Cassandra Samuels",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "http://www.cassandrasamuels.com/books.html",
+  "evidenceQuote": "Spies Like Us - Series Once Upon a Wicked Wager Release Date: 16th January 2026",
+  "officialWebsite": "http://www.cassandrasamuels.com/",
+  "additionalUrls": [
+   "http://www.cassandrasamuels.com/about-cassandra.html"
+  ],
+  "notes": "Australian Regency romance author; Spies Like Us series with 2026 release dates (Jan/Apr/Jul 2026).",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Cassandra lives with her fabulously supportive husband on the NSW South Coast",
+  "region": "New South Wales",
+  "genre": "Regency romance"
+ },
+ {
+  "name": "Isabella Hargreaves",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "http://www.isabellahargreaves.com/",
+  "evidenceQuote": "Charity’s Cavalier: English Civil Wars romance (Book 6) - ready for final edits. (release date tba)",
+  "officialWebsite": "http://www.isabellahargreaves.com/",
+  "additionalUrls": [
+   "http://www.isabellahargreaves.com/about-me.html"
+  ],
+  "notes": "Brisbane indie historical romance author; Book 6 ready for final edits, Regency series re-release date tba.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "I live in Brisbane, Australia, where I work as an historian",
+  "city": "Brisbane",
+  "region": "Queensland",
+  "genre": "Historical romance",
+  "bookTitle": "Charity’s Cavalier"
+ },
+ {
+  "name": "M.J. Scott",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.mjscott.net/books-dragon-forged/",
+  "evidenceQuote": "Dragon Forged My next romantasy series, coming soon.",
+  "officialWebsite": "https://www.mjscott.net/",
+  "additionalUrls": [
+   "https://www.mjscott.net/about-3/"
+  ],
+  "notes": "Melbourne hybrid author (re-released her backlist herself in 2024); new romantasy series coming soon.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Once upon a time, a tiny bookworm was born in Melbourne, Australia",
+  "city": "Melbourne",
+  "genre": "Romantasy"
+ },
+ {
+  "name": "Renee Dahlia",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "http://www.reneedahlia.com",
+  "evidenceQuote": "COMING SOON 2026 Rent A Rake series (mm) A Duke's Wager (#1): 16 April 2026",
+  "officialWebsite": "http://www.reneedahlia.com/",
+  "additionalUrls": [
+   "http://www.reneedahlia.com/about/"
+  ],
+  "notes": "Sydney romance author with 2026 release schedule (Rent A Rake series). Location only via #sydney social widget; unverified.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Historical / sports romance"
+ },
+ {
+  "name": "Sara Bennett",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "http://www.sara-bennett.com/",
+  "evidenceQuote": "I’ve been in a writing frenzy lately, so many books! I’m currently editing my Lyon’s Den book from Dragonblade",
+  "officialWebsite": "http://www.sara-bennett.com/",
+  "additionalUrls": [],
+  "notes": "Australian historical romance author currently editing next book (small press Dragonblade); 2026 release out.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Sara Bennett is an Australian bestselling author of Historical Romance.",
+  "genre": "Historical romance"
+ },
+ {
+  "name": "L.A. Monteiro",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://authorlamonteiro.com/",
+  "evidenceQuote": "Get a free story PREORDER NOW Hating the Lion Her only escape from the feral lion shifter is to become his mate.",
+  "officialWebsite": "https://authorlamonteiro.com/",
+  "additionalUrls": [
+   "https://authorlamonteiro.com/about"
+  ],
+  "notes": "Indie spicy monster-romance author, preorder live; RWA (Australia) awards finalist 2026. Location inferred from RWA membership only.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Finalist in Romance Writers of Australia (RWA) Opal Awards for unpublished manuscript, 2026",
+  "genre": "Monster romance",
+  "bookTitle": "Hating the Lion"
+ },
+ {
+  "name": "Estelle Pettersen",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://elusiveromance.com/pre-order-now-watch-your-six-bringer-of-chaos-3-a-space-opera-novel/",
+  "evidenceQuote": "Pre-order Now: Watch Your Six: Bringer of Chaos #3 – A Space Opera Novel",
+  "officialWebsite": "https://elusiveromance.com/",
+  "additionalUrls": [
+   "https://elusiveromance.com/about/about-the-author/"
+  ],
+  "notes": "Queensland romance author, book 3 on pre-order (posted 24 July 2026). Note: site also mentions beta-reading/editing services.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "from the University of Queensland, Australia",
+  "genre": "Space opera romance",
+  "bookTitle": "Watch Your Six",
+  "evidenceDate": "2026-07-24"
+ },
+ {
+  "name": "Jennifer Raines",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://jenniferrainesauthor.com/my-books/",
+  "evidenceQuote": "COMING SOON: Tainted By Jennifer Raines Poppy Madsen’s not exactly in hiding.",
+  "officialWebsite": "https://jenniferrainesauthor.com/",
+  "additionalUrls": [
+   "https://jenniferrainesauthor.com/about/"
+  ],
+  "notes": "Australian romance author; next book Tainted coming soon.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Australian Jennifer Raines writes sensuous contemporary romances",
+  "genre": "Contemporary romance",
+  "bookTitle": "Tainted"
+ },
+ {
+  "name": "Toni Grant",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://tonigrantauthor.com/fiction-books-directory/",
+  "evidenceQuote": "to end a legacy of violence and save her ten-year-old son from an international criminal empire. Release date 2026",
+  "officialWebsite": "https://tonigrantauthor.com/",
+  "additionalUrls": [
+   "https://tonigrantauthor.com/about-toni/"
+  ],
+  "notes": "Australian author of the Serpent trilogy; next title listed with Release date 2026.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Toni Grant is an Australian author with a passion for history and adventure.",
+  "genre": "Historical adventure"
+ },
+ {
+  "name": "Sarah L Richhelm",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.authorsarahlrichhelm.com/books",
+  "evidenceQuote": "BOOK 1 OUT NOW BOOK 2 Releasing Nov 2026 BOOK 3 Coming Soon NOVELLA Coming Soon",
+  "officialWebsite": "https://www.authorsarahlrichhelm.com/",
+  "additionalUrls": [
+   "https://www.authorsarahlrichhelm.com/about"
+  ],
+  "notes": "Brisbane NA urban-fantasy author; Shadow Cages book 2 Nov 2026, book 3 and novella coming soon; eARC applications open.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "reside in Brisbane, Australia with my partner",
+  "city": "Brisbane",
+  "region": "Queensland",
+  "genre": "Urban fantasy / paranormal romance"
+ },
+ {
+  "name": "S.E. Gilchrist",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.segilchrist.com/",
+  "evidenceQuote": "Cover Reveal for my cosy mystery: The Body in the Bath House",
+  "officialWebsite": "https://www.segilchrist.com/",
+  "additionalUrls": [],
+  "notes": "Australian author; cover reveal for new cosy mystery posted 2026-04-26.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "small towns in rural/outback Australia",
+  "genre": "Cosy mystery / sci-fi romance",
+  "bookTitle": "The Body in the Bath House",
+  "evidenceDate": "2026-04-26"
+ }
 ]
