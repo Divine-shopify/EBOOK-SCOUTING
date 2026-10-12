@@ -1,0 +1,107 @@
+[
+ {
+  "name": "Biba Pearce",
+  "businessName": "Mortlake Press",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "London",
+  "locationQuote": "Biba is the founder and owner of Mortlake Press, an independent publisher based in London",
+  "bookTitle": "The Fulham Pier Murders",
+  "genre": "Crime thriller",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://bibapearce.com/",
+  "evidenceQuote": "THE FULHAM PIER MURDERS (DCI ROB MILLER – Book 9) Release date: 14 January 2027 Cover coming soon",
+  "officialWebsite": "https://bibapearce.com/",
+  "additionalUrls": [
+   "https://bibapearce.com/about/"
+  ],
+  "notes": "ALLi member; runs own imprint Mortlake Press; book 9 of DCI Rob Miller due Jan 2027, cover not yet revealed.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Luke Richardson",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Nottingham",
+  "locationQuote": "you’ll find me back home in Nottingham, UK",
+  "genre": "Adventure thriller",
+  "sourceUrl": "https://www.lukerichardsonauthor.com/books-series/series-sierra-byrd",
+  "evidenceQuote": "We’re currently working on Nora ‘Sierra’ Byrd’s next airborne adventure. Secure your copy by pre-ordering now",
+  "officialWebsite": "https://www.lukerichardsonauthor.com/",
+  "additionalUrls": [
+   "https://www.lukerichardsonauthor.com/about/"
+  ],
+  "notes": "ALLi podcast guest (Sept 2026); next Sierra Byrd book in progress and on pre-order.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Julie Day",
+  "businessName": "Happy Day Press",
+  "authorType": "Author-Owned Business",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "London",
+  "locationQuote": "I was born and bred in south-east London, in a flat just up the road from where I live now",
+  "bookTitle": "The Dare",
+  "genre": "Children's books (autistic characters)",
+  "sourceUrl": "https://www.julieaday.co.uk/news",
+  "evidenceQuote": "Coming Soon Book 3 of The Unlucky Adventures of Sammi Squirrel - The Dare. What will Sammi get up to next?",
+  "officialWebsite": "https://www.julieaday.co.uk/",
+  "additionalUrls": [
+   "https://www.julieaday.co.uk/about"
+  ],
+  "notes": "ALLi podcast guest (Aug 2026); publishes via own Happy Day Press; book 3 forthcoming (illustrated children's series).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Jonathan Posner",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Exeter",
+  "locationQuote": "Being based in the UK, I prefer reasonable times for a call",
+  "bookTitle": "The Assassin’s Revenge",
+  "genre": "Time-travel historical adventure",
+  "sourceUrl": "https://jonathanposnerauthor.com/book/the-river-of-fire/",
+  "evidenceQuote": "The Assassin’s Revenge – Mary Fox’s 4th adventure – is coming soon. Register using the form below, for news and updates.",
+  "officialWebsite": "https://jonathanposnerauthor.com/",
+  "additionalUrls": [
+   "https://jonathanposnerauthor.com/book_clubs/",
+   "https://jonathanposnerauthor.com/news/"
+  ],
+  "notes": "ALLi interview (Dec 2025) says full-time writer and publisher based in Exeter; 4th Mary Fox book forthcoming.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.selfpublishingadvice.org/wp-json/wp/v2/posts?search=inspirational indie author (ALLi member interviews 2025-2026)",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ }
+]

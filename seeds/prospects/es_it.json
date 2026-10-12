@@ -1,0 +1,124 @@
+[
+ {
+  "name": "Alberto Meneses",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "region": "Castilla y León",
+  "city": "León",
+  "locationQuote": "Domicilio: León - España.",
+  "language": "es",
+  "bookTitle": "La senda del dolor (Vidas ocultas 2)",
+  "genre": "Thriller policiaco",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle"
+  ],
+  "sourceUrl": "https://albertomeneses.substack.com/p/dolor-lanzamiento",
+  "evidenceQuote": "La nueva serie de Verónica Cuevas ya está disponible en preventa",
+  "evidenceDate": "2026-10-02",
+  "officialWebsite": "https://albertomeneses.es/",
+  "additionalUrls": [
+   "https://albertomeneses.es/aviso-legal",
+   "https://albertomeneses.substack.com/about"
+  ],
+  "notes": "Independent author since 2012, 30+ novels, Kindle Storyteller 2025 winner; new Verónica Cuevas series on pre-order.",
+  "discovery": {
+   "query": "novela ebook Kindle preventa lanzamiento 2026 autora independiente (site:substack.com)",
+   "market": "Spain",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Luis David Pérez",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "region": "Comunidad Valenciana",
+  "city": "Alicante",
+  "locationQuote": "Me llamo Luis David Pérez y soy de Alicante, España.",
+  "language": "es",
+  "bookTitle": "El ladrón de lágrimas",
+  "genre": "Thriller",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle"
+  ],
+  "sourceUrl": "https://luisdavidperezescritor.substack.com/p/hay-lagrimas-que-no-nacen-de-la-tristeza",
+  "evidenceQuote": "El ladrón de lágrimas ya está disponible en preventa para Kindle.",
+  "evidenceDate": "2026-10-09",
+  "officialWebsite": "https://luisdavidperez.com/",
+  "additionalUrls": [
+   "https://luisdavidperez.com/sobre-mi/",
+   "https://luisdavidperezescritor.substack.com/about"
+  ],
+  "notes": "Independent thriller author (14 novels); next book on Kindle pre-order for December 2026.",
+  "discovery": {
+   "query": "novela ebook Kindle preventa lanzamiento 2026 autora independiente (site:substack.com)",
+   "market": "Spain",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Pablo Poveda",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "region": "Comunidad Valenciana",
+  "city": "Elche",
+  "locationQuote": "Soy Pablo Poveda (Elche, España), escritor de novela negra",
+  "language": "es",
+  "bookTitle": "Asesinato en París",
+  "genre": "Novela negra / thriller",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://elescritorfantasma.substack.com/p/yo-que-tu-abriria-esto-el-premio",
+  "evidenceQuote": "Reserva tu copia en preventa, antes de que suba el precio.",
+  "evidenceDate": "2026-10-02",
+  "officialWebsite": "https://elescritorfantasma.substack.com/",
+  "additionalUrls": [
+   "https://elescritorfantasma.substack.com/about",
+   "https://elescritorfantasma.substack.com/p/hablemos-de-la-actualidad"
+  ],
+  "notes": "Independent crime author (Gabriel Caballero, Marta Agulló series); 'Asesinato en París' and 'La muerte del juez' on pre-order. Own domain elescritorfantasma.com returns 403 to bots, so the Substack is used as the official site.",
+  "discovery": {
+   "query": "mi novela próximamente preventa Amazon autopublicación 2026 (site:substack.com)",
+   "market": "Spain",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Micaela Zanni",
+  "authorType": "Self-Published Author",
+  "country": "Italy",
+  "region": "Emilia-Romagna",
+  "city": "Bologna",
+  "locationQuote": "rispetto a Bologna — e lo dico con tutto l’amore che ho per la mia città",
+  "language": "it",
+  "bookTitle": "Gente Differente — la notte come mestiere",
+  "genre": "Saggio / memoir (club culture)",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://micaelazanni.substack.com/p/sto-per-pubblicare-un-libro-ecco",
+  "evidenceQuote": "KINKI – The Secrets of the Dancefloor | Amazon Prime & Apple TV 📖 Gente Differente — in uscita 2026",
+  "evidenceDate": "2026-06-11",
+  "officialWebsite": "https://micaelazanni.substack.com/",
+  "additionalUrls": [
+   "https://micaelazanni.substack.com/p/salone-del-libro-2026-levento-i-libri",
+   "https://micaelazanni.substack.com/about"
+  ],
+  "notes": "Decided to self-publish her essay/memoir after two years with publishers ('Il self publishing non è una ripiego: è una scelta'); book announced as forthcoming in 2026.",
+  "discovery": {
+   "query": "nuovo romanzo in uscita preordine Amazon self publishing 2026 (site:substack.com)",
+   "market": "Italy",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ }
+]
