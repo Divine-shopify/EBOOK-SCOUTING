@@ -231,5 +231,65 @@
    "provider": "claude-websearch",
    "date": "2026-10-12"
   }
+ },
+ {
+  "name": "Rosie Promise",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "region": "Cataluña",
+  "city": "Barcelona",
+  "locationQuote": "Titular: Rosie Promise Ubicación: Barcelona, España",
+  "language": "es",
+  "bookTitle": "El Grinch que me arruinó la Navidad",
+  "genre": "Comedia romántica",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle"
+  ],
+  "sourceUrl": "https://rosiepromise.substack.com/p/he-escrito-una-novela-de-navidad",
+  "evidenceQuote": "Y ahora por fin podemos contarte que: El Grinch que me arruinó la Navidad YA ESTÁ EN PREVENTA.",
+  "evidenceDate": "2026-10-07",
+  "officialWebsite": "https://rosiepromise.com/",
+  "additionalUrls": [
+   "https://rosiepromise.com/aviso-legal/",
+   "https://rosiepromise.substack.com/p/cual-es-la-ultima-decision-cuestionable"
+  ],
+  "notes": "Indie romcom author releasing frequently via Amazon pre-orders (Decisiones Cuestionables series; Christmas romcom co-written with Sarah Valentine). Her aviso legal still shows an '[AÑADIR EMAIL]' placeholder (website upkeep gap).",
+  "discovery": {
+   "channel": "link_following",
+   "query": "co-author named on sarahvalentine.substack.com (found via: novela ebook Kindle preventa lanzamiento 2026 autora independiente)",
+   "market": "Spain",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Iris Boo",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "region": "Norte de España",
+  "locationQuote": "desde una modesta localidad en el norte de España",
+  "language": "es",
+  "bookTitle": "Amnesia",
+  "genre": "Novela romántica",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "sourceUrl": "https://irisboo.es/biblioteca/serie-prestame/prestame-tu-corazon/amnesia/",
+  "evidenceQuote": "Próximamente disponible en Amazon, gratis con kindle unlimited.",
+  "officialWebsite": "https://irisboo.es/",
+  "additionalUrls": [
+   "https://irisboo.es/irisboo/",
+   "https://irisboo.es/capitulo-19/"
+  ],
+  "notes": "Prolific indie romance author (Préstame, Vasiliev/Legacy series) selling via Amazon/KU and a signed-copy shop; currently serializing a new novel ('Tucker') weekly on her blog (chapter 19 dated 08/10/2026). Website footer still says © 2014-2025.",
+  "discovery": {
+   "channel": "direct_fetch",
+   "query": "known Spanish indie romance author site (search budget exhausted)",
+   "market": "Spain",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
  }
 ]

@@ -1,0 +1,885 @@
+[
+ {
+  "name": "Mira Valentin",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://www.mira-valentin.de/",
+  "evidenceQuote": "Mein historischer Roman » Steinseelen« erscheint am 18. März 2027 als veredelte Hardcover-Schmuckausgabe und als E-Book.",
+  "officialWebsite": "https://www.mira-valentin.de/",
+  "country": "Germany",
+  "region": "Bayern",
+  "city": "Bad Windsheim",
+  "locationQuote": "91438 Bad Windsheim",
+  "bookTitle": "Steinseelen",
+  "genre": "Historischer Roman / Fantasy",
+  "additionalUrls": [
+   "https://www.mira-valentin.de/impressum"
+  ],
+  "notes": "Indie author (Kindle Storyteller Award); Steinseelen e-book + hardcover pre-order, release 18 March 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Vera Nentwich",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://vera-nentwich.de/",
+  "evidenceQuote": "Die Krimi-Welt der Vera Nentwich Erscheint am 30.10.2026 Erscheint am 20.10.2026 Alle Bücher ansehen",
+  "officialWebsite": "https://vera-nentwich.de/",
+  "genre": "Krimi",
+  "notes": "Heitere Krimis; two titles releasing 20.10.2026 and 30.10.2026 (listed in Selfpublisher-Verband catalogue).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Elvira Zeißler",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://www.elvirazeissler.de/",
+  "evidenceQuote": "Buch-Neuigkeiten: Das epische Finale der Rage and Harm-Saga erscheint am 17.11.! Jetzt vorbestellen!",
+  "officialWebsite": "https://www.elvirazeissler.de/",
+  "country": "Germany",
+  "region": "Nordrhein-Westfalen",
+  "city": "Unna",
+  "locationQuote": "59425 Unna",
+  "bookTitle": "A Queen of Grace and Fury",
+  "genre": "Romantasy",
+  "additionalUrls": [
+   "https://www.elvirazeissler.de/impressum/",
+   "https://www.selfpublisher-verband.de/buecher/a-queen-of-grace-and-fury/"
+  ],
+  "notes": "Band 3 of Rage and Harm saga; Selfpublisher-Verband lists release 17 November 2026. Author also offers mentoring.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Melanie Judisch",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://melanie-judisch.de/dark-romance",
+  "evidenceQuote": "Die Macht zwischen uns Band 1 Fest in deiner Hand Dark Romance Erscheint am 15 Oktober 2026",
+  "officialWebsite": "https://melanie-judisch.de/",
+  "country": "Germany",
+  "region": "Niedersachsen",
+  "city": "Hannover",
+  "locationQuote": "30519 Hannover",
+  "bookTitle": "Fest in deiner Hand",
+  "genre": "Dark Romance",
+  "additionalUrls": [
+   "https://melanie-judisch.de/impressum"
+  ],
+  "notes": "Series 'Die Macht zwischen uns' Band 1 releasing 15 Oct 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Melissa Ratsch",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://melissa-ratsch.de/news-and-termine/",
+  "evidenceQuote": "01.09.2026 > Release \"Cursed Ones ~ Tödliche Ruhe\" Der dritte und vorletzte Band dieser Romantasy-Reihe erscheint im Herbst.",
+  "officialWebsite": "https://melissa-ratsch.de/",
+  "bookTitle": "Cadill Professors - Vergessenes Wissen",
+  "genre": "Romantasy / Dark Academia",
+  "notes": "News page lists releases 01.12.2026 (Cadill Professors - Vergessenes Wissen) and 01.03.2027 (Cursed Ones ~ Tödliche Gefühle).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Gillian Holden",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.gillianholden.de/",
+  "evidenceQuote": "GILLIAN HOLDEN Autorin Neuerscheinung Neuerscheinung 01.07.2026 Kissed by a Lord: Feurige Küsse von einem Earl",
+  "officialWebsite": "https://www.gillianholden.de/",
+  "bookTitle": "Kissed by a Lord: Feurige Küsse von einem Earl",
+  "genre": "Regency Romance",
+  "notes": "Regency romance; new release 01.07.2026. Impressum address appears to be a shared address service (Oppenheim).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Petra Lupp",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://petralupp.com/",
+  "evidenceQuote": "Der dritte Band erscheint im Herbst/Winter 2026, basierend auf ihrer Plan B Tour durch Panama.",
+  "officialWebsite": "https://petralupp.com/",
+  "country": "Germany",
+  "region": "Rheinland-Pfalz",
+  "city": "Mainz",
+  "locationQuote": "55122 Mainz",
+  "genre": "Reisebericht",
+  "additionalUrls": [
+   "https://petralupp.com/impressum/"
+  ],
+  "notes": "Travel-memoir series; Band 3 due Herbst/Winter 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Beryl Brighton",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://berylbrighton.de/",
+  "evidenceQuote": "Beryl Brighton Neuerscheinung Sie ist wie eine Rose. Er wollte sie pflücken. Doch Rosen haben Dornen … Der neuster Roman der Lord of Second Chance Reihe.",
+  "officialWebsite": "https://berylbrighton.de/",
+  "genre": "Regency Liebesroman",
+  "notes": "Regency romance series 'Lord of Second Chance'; Selfpublisher-Verband lists 4 releases Jun-Sep 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Kristin Weber",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.kristin-weber.de/veranstaltung/buchmesse-rosenheim/",
+  "evidenceQuote": "Dort werde ich meine Bücher präsentieren und meine Neuerscheinungen vorstellen.",
+  "officialWebsite": "https://www.kristin-weber.de/",
+  "country": "Germany",
+  "region": "Hessen",
+  "city": "Meinhard",
+  "locationQuote": "37276 Meinhard Deutschland",
+  "genre": "Historischer Roman",
+  "additionalUrls": [
+   "https://www.kristin-weber.de/impressum/"
+  ],
+  "notes": "Historical novelist; Selfpublisher-Verband lists recent/upcoming releases.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "A.D. WiLK",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.andreawilk.de/collections/neuheiten",
+  "evidenceQuote": "Erscheint am 15.11.2026 Eine Million Wörter in 365 Tagen. Wie du trotz Zweifeln und vollem Alltag endlich mehr schreibst",
+  "officialWebsite": "https://www.andreawilk.de/",
+  "country": "Germany",
+  "city": "Berlin",
+  "locationQuote": "zu Hause in Berlin",
+  "bookTitle": "Eine Million Wörter in 365 Tagen",
+  "genre": "Ratgeber / Liebesroman",
+  "additionalUrls": [
+   "https://www.andreawilk.de/pages/about-me",
+   "https://www.andreawilk.de/collections/liebesromane-mit-tiefgang"
+  ],
+  "notes": "Own shop sells eBooks; title releasing 15.11.2026, third 'Einer dieser Sommer' volume March 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Aikaterini Pegka",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.rinipegka.com/buecher-uebersicht",
+  "evidenceQuote": "Ein poetischer Begleiter aus Gedichten, Texten und Bildern für alle, die den Winter vielleicht ein bisschen anders erleben möchten. Das Buch erscheint im Herbst 2026.",
+  "officialWebsite": "https://www.rinipegka.com/",
+  "country": "Germany",
+  "region": "Bayern",
+  "city": "München",
+  "locationQuote": "80689 München Deutschland",
+  "bookTitle": "110 Tage Winter (vorl. Arbeitstitel)",
+  "genre": "Lyrik / Sachbuch",
+  "additionalUrls": [
+   "https://www.rinipegka.com/impressum"
+  ],
+  "notes": "Working title '110 Tage Winter', VÖT 31.10.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Anna Lummfeld",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://lummfeld.com/2026/01/jetzt-e-book-vorbestellen-a-love-like-chili-berry-dreams/",
+  "evidenceQuote": "Neuerscheinung im Februar 2026 Das E-Book erscheint am 20. Februar 2026 und kann auf Amazon bereits vorbestellt werden.",
+  "officialWebsite": "https://lummfeld.com/",
+  "country": "Switzerland",
+  "locationQuote": "bin in der Schweiz und in Hamburg zu Hause",
+  "bookTitle": "A Love Like Chili Berry Dreams",
+  "genre": "Romance",
+  "evidenceDate": "2026-01-15",
+  "additionalUrls": [
+   "https://lummfeld.com/ueber-mich/",
+   "https://lummfeld.com/impressum/"
+  ],
+  "notes": "Impressum gives 5630 Muri (CH); e-book pre-order post January 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Switzerland",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Beate Müller",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.beate-mueller-schreibt.de/",
+  "evidenceQuote": "Mein Fantasy-Epos \"Tanz der Illusion - Der Preis der Erkenntnis\" erscheint am 02.April 2026.",
+  "officialWebsite": "https://www.beate-mueller-schreibt.de/",
+  "country": "Germany",
+  "region": "Bayern",
+  "city": "Amberg",
+  "locationQuote": "92224 Amberg",
+  "bookTitle": "Tanz der Illusion - Der Preis der Erkenntnis",
+  "genre": "Epische Fantasy",
+  "additionalUrls": [
+   "https://www.beate-mueller-schreibt.de/impressum"
+  ],
+  "notes": "Epic fantasy, release 02.04.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Carin Müller",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://carinmueller.de/buecher/charlotte-mcgregor/highland-crime-der-tote-im-christbaumhain",
+  "evidenceQuote": "Als eBook, Taschenbuch und Hörbuch überall im Handel. eBook kaufen Taschenbuch kaufen - coming soon Hörbuch kaufen - coming soon",
+  "officialWebsite": "https://carinmueller.de/",
+  "businessName": "Charlotte McGregor (pen name)",
+  "genre": "Cosy Crime",
+  "bookTitle": "Highland Crime - Der Tote im Christbaumhain",
+  "locationQuote": "39393 Am Großen Bruch",
+  "country": "Germany",
+  "region": "Sachsen-Anhalt",
+  "additionalUrls": [
+   "https://carinmueller.de/impressum"
+  ],
+  "notes": "Writes as Charlotte McGregor; page shows release date 7.11.2026, paperback/audiobook 'coming soon'.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "C. L. Gerres",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://clgerres.de/meine-buecher/anthologien/",
+  "evidenceQuote": "Buch vorbestellen bei: Amazon Das Buch erscheint am 16. Oktober 2026: Mit Geschichten von: Charlotte Fondraz",
+  "officialWebsite": "https://clgerres.de/",
+  "country": "Germany",
+  "region": "Hessen",
+  "city": "Meinhard",
+  "locationQuote": "37276 Meinhard",
+  "genre": "Epische Fantasy / Anthologie",
+  "additionalUrls": [
+   "https://clgerres.de/impressum/"
+  ],
+  "notes": "Epic fantasy author; historical anthology releasing 16 Oct 2026 (pre-order on Amazon).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Christine Steinmann",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.christinesteinmann.de/news?slug=kupfer-update",
+  "evidenceQuote": "Hoffentlich ganz viel, damit alles in die finale Version von KUPFER einfließen kann. Diese erscheint am 01. November 2026.",
+  "officialWebsite": "https://www.christinesteinmann.de/",
+  "country": "Germany",
+  "region": "Niedersachsen",
+  "city": "Braunschweig",
+  "locationQuote": "38100 Braunschweig Deutschland",
+  "bookTitle": "KUPFER",
+  "genre": "Fantasy",
+  "additionalUrls": [
+   "https://www.christinesteinmann.de/impressum",
+   "https://www.christinesteinmann.de/news"
+  ],
+  "notes": "Fantasy series 'Das Licht von Ildin'; KUPFER (test-reader phase) releases 01.11.2026; Selfpublishing-Buchpreis nominee.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "E.B.A. Hund",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://ebahund.de/",
+  "evidenceQuote": "Band 2 seit 01.09.2026 Hund, E.B.A. - Fusion Hearts Band 3 ab 01.11.2026 Michaels Kurzgeschichte erscheint am 01.12.2026",
+  "officialWebsite": "https://ebahund.de/",
+  "bookTitle": "Fusion Hearts",
+  "genre": "Romance",
+  "additionalUrls": [
+   "https://ebahund.de/blogger-innen/"
+  ],
+  "notes": "Fusion Hearts series Band 3 01.11.2026, short story 01.12.2026; audiobooks with provisional covers.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Elisabeth Grimm",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://elisabethgrimm-autorin.de/",
+  "evidenceQuote": "Die Lösung reicht bis in die Vergangenheit und bringt alle Beteiligten in Gefahr. 224 Seiten | erscheint am 22. August 2026 Zum Buch auf Amazon",
+  "officialWebsite": "https://elisabethgrimm-autorin.de/",
+  "country": "Germany",
+  "region": "Schleswig-Holstein",
+  "city": "Bad Oldesloe",
+  "locationQuote": "23843 Bad Oldesloe Deutschland",
+  "genre": "Küstenkrimi / Insel-Romance",
+  "additionalUrls": [
+   "https://elisabethgrimm-autorin.de/impressum/"
+  ],
+  "notes": "Coastal crime + island romance; release 22 Aug 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Gabriela De Forrest",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.gabrieladeforrest.com/blog/",
+  "evidenceQuote": "Freu Dich schon jetzt auf „Ein Lächeln im Herzen- Gefühlschaos inklusive“. Band 1 erscheint am 07.03.2026",
+  "officialWebsite": "https://www.gabrieladeforrest.com/",
+  "country": "Austria",
+  "region": "Kärnten",
+  "city": "Villach",
+  "locationQuote": "9500 Villach Österreich",
+  "bookTitle": "Ein Lächeln im Herzen- Gefühlschaos inklusive",
+  "genre": "Liebesroman",
+  "additionalUrls": [
+   "https://www.gabrieladeforrest.com/impressum/"
+  ],
+  "notes": "Austrian author (Villach); Band 1 ebook + softcover 07.03.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Austria",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Ingo S. Anders",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://ingoschreibtanders.blog/",
+  "evidenceQuote": "Pressemitteilung: „Du bist schmutzig“ erscheint am Welttag der Patientensicherheit, um diese auch für ME-Patienten einzufordern",
+  "officialWebsite": "https://ingoschreibtanders.blog/",
+  "country": "Germany",
+  "city": "Hamburg",
+  "locationQuote": "21073 Hamburg",
+  "bookTitle": "Du bist schmutzig",
+  "genre": "Queere Literatur",
+  "additionalUrls": [
+   "https://ingoschreibtanders.blog/impressum/"
+  ],
+  "notes": "Blog post dated 1 Aug 2026 announcing release.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Jenny Talas",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.jennytalas.de/buecher/scallop-house/",
+  "evidenceQuote": "Band 1 der Scallop House -Dilogie Band 2 erscheint im Januar 2027 Eine Slow-Burn-Romantasy zwischen Irlands rauer Westküste und der Anderswelt.",
+  "officialWebsite": "https://www.jennytalas.de/",
+  "bookTitle": "Scallop House",
+  "genre": "Romantasy",
+  "notes": "Scallop House Band 2 due January 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Julia Verhoeven",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://gekritzel.at/blog/",
+  "evidenceQuote": "Endlich ist es so weit. Lektorat und Korrektorat sind eingearbeitet, der Buchsatz erledigt, die Widmung geschrieben.",
+  "officialWebsite": "https://gekritzel.at/",
+  "country": "Austria",
+  "region": "Niederösterreich",
+  "locationQuote": "lebe ich im Umland von Wien",
+  "genre": "Dark Fantasy",
+  "additionalUrls": [
+   "https://gekritzel.at/ueber-mich/",
+   "https://gekritzel.at/impressum"
+  ],
+  "notes": "Austrian dark-fantasy author; post 'Band II erscheint am 19.04.2026' (31 March 2026). Impressum: A-2620 Neunkirchen.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Austria",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Katja Engel",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://romane-mit-herz-und-happy-end.de/",
+  "evidenceQuote": "Band 5 · Vorbestellbar Schneesturmküsse in den schottischen Highlands Das nächste Abenteuer in Glenmorie wartet! Erscheint am 31.10.2026.",
+  "officialWebsite": "https://romane-mit-herz-und-happy-end.de/",
+  "bookTitle": "Schneesturmküsse in den schottischen Highlands",
+  "genre": "Liebesroman",
+  "notes": "Glenmorie series Band 5 pre-order, release 31.10.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Kerstin G. Rush",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://kerstin-g-rush.de/meine-buecher/",
+  "evidenceQuote": "Waschzettel zu Hexenbrut & Jägerblut Yukina Meine Bücher Ab sofort Vorbestellbar Mit einem Klick auf die Logos, kommst du direkt zu den jeweiligen Shops:",
+  "officialWebsite": "https://kerstin-g-rush.de/",
+  "genre": "Fantasy",
+  "notes": "'Ab sofort Vorbestellbar' on books page (© 2026).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Linda Bier",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.lindabier.de/aktuelles.html",
+  "evidenceQuote": "Ab sofort bei mir vorbestellbar - ab 24.10.26 im Buchhandel!",
+  "officialWebsite": "https://www.lindabier.de/",
+  "country": "Germany",
+  "region": "Baden-Württemberg",
+  "locationQuote": "Zwischen Tübingen und der schwäbischen Alb wohne ich",
+  "genre": "Fantasy (Hexen-Reihe)",
+  "additionalUrls": [
+   "https://www.lindabier.de/ueber-mich.html"
+  ],
+  "notes": "Sammelband 3 paperback pre-order, in stores 24.10.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Liv Gabriel",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "sourceUrl": "https://www.livgabriel.com/",
+  "evidenceQuote": "SPICY WERWOLF-ROMANTASY für Fans von DÜSTEREN HELDEN und FOUND FAMILY erscheint im Februar 2027",
+  "officialWebsite": "https://www.livgabriel.com/",
+  "genre": "Romantasy",
+  "notes": "New werewolf romantasy due February 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Liv O'Malley",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://dieweltbrauchtmehrhappyends.de/",
+  "evidenceQuote": "Tropes: Famous/Non-Famous + He Falls First Erscheint am 24.09.2026 BUCHVERLIEBT AUF FÖHR BEI AMAZON",
+  "officialWebsite": "https://dieweltbrauchtmehrhappyends.de/",
+  "bookTitle": "Buchverliebt auf Föhr",
+  "genre": "Liebesroman",
+  "notes": "Release 24.09.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Lizzy Glass",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited",
+   "Tolino Media"
+  ],
+  "sourceUrl": "https://autorin-lizzy-glass.de/neuanfang-in-snowberry-ridge/",
+  "evidenceQuote": "Erscheint am: 4. November 2026 Erhältlich als: E-Book und Taschenbuch E-Book auch mit Kindle Unlimited lesbar",
+  "officialWebsite": "https://autorin-lizzy-glass.de/",
+  "bookTitle": "Neuanfang in Snowberry Ridge",
+  "genre": "Liebesroman",
+  "notes": "Winter romance releasing 4 Nov 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Malte Schiefer",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.ijaria.de/",
+  "evidenceQuote": "Wann erscheint endlich Band III? Band III erscheint im Frühjahr 2027, das genaue Datum steht noch nicht fest.",
+  "officialWebsite": "https://www.ijaria.de/",
+  "genre": "Fantasy",
+  "notes": "Ijaria fantasy series; Band III spring 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Patrick Binhack",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.patrick-binhack.de/",
+  "evidenceQuote": "Imogen (eBook) 2. BAND DER BOB TALES-ANTHOLOGIE Weihnachten & Geister. Was will man mehr? ERSCHEINT AM 22. NOV 2026",
+  "officialWebsite": "https://www.patrick-binhack.de/",
+  "country": "Germany",
+  "region": "Baden-Württemberg",
+  "city": "Pforzheim",
+  "locationQuote": "75173 Pforzheim Deutschland",
+  "bookTitle": "Imogen",
+  "genre": "Fantasy",
+  "additionalUrls": [
+   "https://patrick-binhack.de/impressum/"
+  ],
+  "notes": "eBook short story releasing 22 Nov 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Peaches Keeley Anderson",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.peaches-keeley-anderson.de/buecher/",
+  "evidenceQuote": "Don't kiss me until Christmas - Ein Neuanfang in Cornwall Details → 📖 Cornwall Feelings Band 3 erscheint im November 2026",
+  "officialWebsite": "https://www.peaches-keeley-anderson.de/",
+  "bookTitle": "Don't kiss me until Christmas",
+  "genre": "Feelgood-Romance",
+  "country": "Germany",
+  "region": "Nordrhein-Westfalen",
+  "city": "Tönisvorst",
+  "locationQuote": "47918 Tönisvorst",
+  "additionalUrls": [
+   "https://www.peaches-keeley-anderson.de/impressum/"
+  ],
+  "notes": "Cornwall Feelings Band 3 due Nov 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sabine Hirschfeld",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://sabinehirschfeld.com/",
+  "evidenceQuote": "Im norddeutschen Mara-Abels-Krimikosmos sind bisher drei Bände erschienen, die alle in Amazon-Bestsellerrängen landeten. Band 4 erscheint im Herbst 2026.",
+  "officialWebsite": "https://sabinehirschfeld.com/",
+  "country": "Germany",
+  "city": "Hamburg",
+  "locationQuote": "Sie lebt und schreibt in Hamburg-Altona",
+  "genre": "Krimi",
+  "additionalUrls": [
+   "https://sabinehirschfeld.com/ueber-mich/"
+  ],
+  "notes": "HAMBURG MORD crime series; Band 4 autumn 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sabine Schulter",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.sabineschulter.de/start-news/bücher/flammenkrieger/",
+  "evidenceQuote": "Der Eissklave - die Chroniken von Atulis 4 Erscheint am 06.11.2026 Ebook: 420 Seiten Print: 420 Seiten",
+  "officialWebsite": "https://www.sabineschulter.de/",
+  "country": "Germany",
+  "region": "Bayern",
+  "locationQuote": "lebe inzwischen seit über 13 Jahren in Bayern",
+  "bookTitle": "Der Eissklave - die Chroniken von Atulis 4",
+  "genre": "Romantasy",
+  "additionalUrls": [
+   "https://www.sabineschulter.de/start-news/über-mich/"
+  ],
+  "notes": "Atulis series Band 4 pre-order (ebook+print), 06.11.2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sonja Rauche",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://kinderbuchautorin-sonja-rauche.de/",
+  "evidenceQuote": "Eine positive Botschaft über die Bedeutung von Unterstützung und Empathie Hardcover jetzt erhältlich Softcover erscheint am 10.01.2026",
+  "officialWebsite": "https://kinderbuchautorin-sonja-rauche.de/",
+  "genre": "Kinderbuch / Jugendroman",
+  "notes": "Children's/YA author; softcover edition 10.01.2026; Leipzig book fair 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sophie Mikosch",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.muetterimpulse.de/blog/",
+  "evidenceQuote": "Kinderbuch „Meine Waldspielgruppe“ erscheint am 1. September 2026! Hurra – bald ist es so weit",
+  "officialWebsite": "https://www.muetterimpulse.de/",
+  "country": "Germany",
+  "region": "Baden-Württemberg",
+  "city": "Wilhelmsfeld",
+  "locationQuote": "69259 Wilhelmsfeld",
+  "bookTitle": "Meine Waldspielgruppe",
+  "genre": "Kinderbuch",
+  "additionalUrls": [
+   "https://www.muetterimpulse.de/impressum/"
+  ],
+  "notes": "Blog Mütterimpulse; children's book released 1 Sep 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Susanne Sachs",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://sussachs.com/blog/",
+  "evidenceQuote": "Am 24.05.26 ist Release, das eBook „Verborgene Welten“ ist sogar schon vorbestellbar.",
+  "officialWebsite": "https://sussachs.com/",
+  "bookTitle": "Verborgene Welten",
+  "genre": "Science-Fiction",
+  "evidenceDate": "2026-04-13",
+  "notes": "SF author (Sweras series); anthology eBook pre-order post 13 April 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Terry Byrnes",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.terry-byrnes.com/romane/damnd_unit_2_hexengrab/",
+  "evidenceQuote": "Der zweite Band mit Agentin und Hexe Toya Wight erscheint im Frühjahr 2026.",
+  "officialWebsite": "https://www.terry-byrnes.com/",
+  "country": "Germany",
+  "locationQuote": "im Norden Deutschlands",
+  "bookTitle": "DAMND Unit 2: Hexengrab",
+  "genre": "Urban Fantasy (queer)",
+  "additionalUrls": [
+   "https://www.terry-byrnes.com/ueber-mich/"
+  ],
+  "notes": "Queer urban fantasy; Band 2 spring 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis (selfpublisher-verband.de/mitglieder) -> Autorenwebsite, Suche nach 'erscheint am/im', 'vorbestellbar'",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Teresa Arzberg",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://www.teresa-arzberg.ch/",
+  "evidenceQuote": "November 2026 Art Academy 2 erscheint mit neuem Glow up! Erfahre hier mehr.",
+  "officialWebsite": "https://www.teresa-arzberg.ch/",
+  "genre": "Kinder- und Jugendbuch",
+  "bookTitle": "Art Academy",
+  "notes": "Relaunch of Art Academy series with new covers ('Glow up'), Art Academy 3 due 1 Dec 2026. Swiss domain; location not confirmed.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Switzerland",
+   "date": "2026-10-12"
+  }
+ }
+]
