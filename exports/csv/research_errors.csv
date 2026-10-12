@@ -1,0 +1,35 @@
+id,run_id,author,stage,source,url,message,occurred_at
+1,1,K. Godin,author_website,author_site,https://authorkgodin.com,Fetch failed: fetch failed,2026-10-12T18:43:45.053Z
+2,1,F.M. Aden,author_website,author_site,https://www.fmaden.com/,Blocked (robots): robots.txt disallows / on www.fmaden.com,2026-10-12T18:43:45.684Z
+3,1,Claris Lam,author_website,author_site,https://clarislam.ca/,HTTP 403,2026-10-12T18:43:46.434Z
+4,1,Claris Lam,country_evidence,goodreads,https://www.goodreads.com/author/show/22277014.Claris_Lam,Country claim 'Canada' not confirmed on any fetched page; country left blank.,2026-10-12T18:43:46.434Z
+5,1,Abigail Morrison,book_page,amazon,https://www.amazon.com/dp/B0GRD8XL7Z,Not fetched: amazon is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:43:47.922Z
+6,1,Thomasina Bloom,author_website,author_site,https://thomasinabloom.com/,Fetch failed: fetch failed,2026-10-12T18:44:26.125Z
+7,1,C. K. Andersson,book_page,kickstarter,https://www.kickstarter.com/projects/ckandersson/the-offline-series-complete-special-edition-duology/,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:27.415Z
+8,1,A. J. Andersson,book_page,amazon,https://www.amazon.co.uk/dp/B0D121KF26,Not fetched: amazon is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:27.552Z
+9,1,A. J. Andersson,book_page,kickstarter,https://www.kickstarter.com/projects/ajanderssonauthor/chaos-and-creation-the-illustrated-companion-guide,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:27.552Z
+10,1,Jayne Blanco,book_page,kickstarter,https://www.kickstarter.com/projects/jpaltersjblanco51/psychic-feelings-a-supernatural-thriller-by-jp-alters/,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:28.266Z
+11,1,Shayla Morgansen,book_page,kickstarter,https://www.kickstarter.com/projects/shaylawritesmagic/legend-unwritten-special-edition-by-shayla-morgansen,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:28.904Z
+12,1,Aurora Springer,book_page,kickstarter,https://www.kickstarter.com/projects/auroraspringer/taxyon-space-triad-sci-fi-romance-deluxe-trilogy,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:29.146Z
+13,1,Aurora Springer,author_website,author_site,http://www.auroraspringer.org/my-books.html,HTTP 404,2026-10-12T18:44:29.146Z
+14,1,Emma L. Adams,book_page,kickstarter,https://www.kickstarter.com/projects/emmaladams/forest-of-stone-a-deluxe-epic-fantasy-hardcover/,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:29.319Z
+15,1,Helga Viegas,book_page,kickstarter,https://www.kickstarter.com/projects/hbviegas/valeria-is-an-alien-a-black-comedy-about-gender/,Not fetched: kickstarter is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:29.335Z
+16,1,Antonia Vitz,book_page,amazon,https://www.amazon.de/Wird-schon-schiefgehen-Sepp-Franzi-ebook/dp/B0DQKM6MRC/,Not fetched: amazon is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:30.807Z
+17,1,Talia May,author_website,author_site,https://www.taliamay.com/%22/impressum/%22,HTTP 404,2026-10-12T18:44:31.362Z
+18,1,Talia May,country_evidence,author_site,https://www.taliamay.com/,Country claim 'Germany' not confirmed on any fetched page; country left blank.,2026-10-12T18:44:31.362Z
+19,1,Clarissa Gosling,book_page,kobo,https://www.kobo.com/ebook/the-archivist-and-the-knife,Not fetched: kobo is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:31.928Z
+20,1,Nathalie M.L. Römer,book_page,amazon,https://www.amazon.com/dp/B0H9TZX55X,Not fetched: amazon is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:32.397Z
+21,1,Tamara Leonhard,country_evidence,lovelybooks,https://www.lovelybooks.de/autor/Tamara-Leonhard/,Country claim 'France' not confirmed on any fetched page; country left blank.,2026-10-12T18:44:32.837Z
+22,1,Julie Muller-Volb,author_website,author_site,https://juliemullervolb.fr/?page_id=15,HTTP 404,2026-10-12T18:44:32.924Z
+23,1,Eirik Moe Dahll-Larssøn,author_website,author_site,http://eirikmdl.com/,Fetch failed: fetch failed,2026-10-12T18:44:40.637Z
+24,1,Michael Pronko,book_page,goodreads,https://www.goodreads.com/book/show/239974325-tokyo-juku,HTTP 202,2026-10-12T18:44:41.234Z
+25,1,Michael Pronko,book_page,amazon,https://www.amazon.com/Tokyo-Juku-Detective-Hiroshi-Book-ebook/dp/B0FLW78XTZ/,Not fetched: amazon is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:41.234Z
+26,1,Michael Pronko,status_evidence,goodreads,https://www.goodreads.com/book/show/239974325-tokyo-juku,HTTP 202,2026-10-12T18:44:41.234Z
+27,1,Benjamin Cheah,author_website,author_site,http://www.benjamincheah.com/,Fetch failed: fetch failed,2026-10-12T18:44:48.409Z
+28,1,Yakov Merkin,book_page,amazon,https://www.amazon.com/Light-Unto-Another-World-1-ebook/dp/B09CWMH8T6/,Not fetched: amazon is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:48.841Z
+29,1,Ellis Shuman,country_evidence,author_site,https://blogs.timesofisrael.com/author/ellis-shuman/,HTTP 403,2026-10-12T18:44:49.130Z
+30,1,,book_page,goodreads,https://www.goodreads.com/book/show/241424143-a-soul-a-day,HTTP 202,2026-10-12T18:44:49.985Z
+31,1,,status_evidence,goodreads,https://www.goodreads.com/book/show/241424143-a-soul-a-day,HTTP 202,2026-10-12T18:44:49.986Z
+32,1,,book_page,royalroad,https://www.royalroad.com/fiction/163153/game-of-the-gods,Not fetched: royalroad is reference-only (automated access restricted by terms or bot protection).,2026-10-12T18:44:50.524Z
+33,2,Sarah Honey,author_website,author_site,https://linktr.ee/sarahhoney,Blocked (robots): robots.txt disallows /sarahhoney on linktr.ee,2026-10-12T18:45:14.956Z
+34,2,,book_page,goodreads,https://www.goodreads.com/book/show/253654290,HTTP 202,2026-10-12T18:45:16.727Z

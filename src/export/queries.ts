@@ -8,7 +8,7 @@ SELECT a.id AS author_id, a.name AS author, a.pen_name, a.country, a.country_evi
   b.title AS book_title, b.url AS book_url, b.platform, b.publication_status, b.publication_date, b.review_count, b.rating,
   s.total AS lead_score, s.priority,
   s.opportunity_evidence, s.buying_signal, s.commercial_fit, s.author_activity, s.identity_verification, s.contact_availability,
-  (SELECT group_concat(sc.name, '; ') FROM service_opportunities so JOIN service_catalog sc ON sc.code = so.service_code WHERE so.author_id = a.id AND so.strength >= 2) AS top_opportunities,
+  (SELECT group_concat(DISTINCT sc.name) FROM service_opportunities so JOIN service_catalog sc ON sc.code = so.service_code WHERE so.author_id = a.id AND so.strength >= 2) AS top_opportunities,
   (SELECT c.email FROM contacts c WHERE c.author_id = a.id AND c.email IS NOT NULL AND c.verification_status != 'invalid'
      ORDER BY CASE c.contact_type WHEN 'author_business' THEN 0 WHEN 'author_direct' THEN 1 WHEN 'general_inquiry' THEN 2 WHEN 'agent' THEN 3 ELSE 4 END LIMIT 1) AS best_email,
   (SELECT c.contact_type FROM contacts c WHERE c.author_id = a.id AND c.email IS NOT NULL AND c.verification_status != 'invalid'
