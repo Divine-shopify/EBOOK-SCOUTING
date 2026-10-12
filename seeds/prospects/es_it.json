@@ -120,5 +120,116 @@
    "provider": "claude-websearch",
    "date": "2026-10-12"
   }
+ },
+ {
+  "name": "Natalia Belchí",
+  "authorType": "Independent Author",
+  "country": "Spain",
+  "region": "Región de Murcia",
+  "locationQuote": "Mesa r edonda: autoras murcianas de fantasía",
+  "language": "es",
+  "bookTitle": "Cuando el búho se despierte",
+  "genre": "Fantasía",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://nataliabelchi.com/cuandoelbuhosedespierte/",
+  "evidenceQuote": "Comprar en ebook O también lo puedes conseguir aquí: Encuéntralo en tu librería más cercana. PRÓXIMAMENTE EN EDICIÓN BOLSILLO",
+  "officialWebsite": "https://nataliabelchi.com/",
+  "additionalUrls": [
+   "https://nataliabelchi.com/sobre-mi/",
+   "https://nataliabelchi.com/cuando-el-buho-se-despierte-edicion-bolsillo/",
+   "https://nataliabelchi.com/autopublicar-sin-morir-en-el-intento-diario-de-una-escritora-autopublicada-dia-2/"
+  ],
+  "notes": "Hybrid fantasy author; self-published 'El don de Gabriela' in 2026 (blog diary 'Autopublicar sin morir en el intento', 15 Mar 2026; post on formatting her own ebook). Pocket edition of 'Cuando el búho se despierte' announced as coming soon (post 16 Apr 2026). Location only implied ('autoras murcianas').",
+  "discovery": {
+   "channel": "link_following",
+   "query": "from triadaliteraria.wordpress.com 'Novedades Autopublicadas Segundo Trimestre 2026' (found via: autopublicación mi novela portada corrector 2026)",
+   "market": "Spain",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Txema Valenzuela",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "language": "es",
+  "bookTitle": "¡Disparos de Alegría!",
+  "genre": "Novela",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle"
+  ],
+  "sourceUrl": "https://txemavalenzuela.substack.com/p/disparos-de-alegria-la-novela",
+  "evidenceQuote": "Recuerda, ya está en preventa la edición para Kindle",
+  "evidenceDate": "2026-05-27",
+  "officialWebsite": "https://txemavalenzuela.substack.com/",
+  "additionalUrls": [
+   "https://txemavalenzuela.substack.com/about"
+  ],
+  "notes": "Debut novel self-published only on Amazon (ebook + print, launch 15 June 2026); was still reviewing print proofs. Location NOT verified (peninsular Spanish usage only).",
+  "discovery": {
+   "query": "novela ebook Kindle preventa lanzamiento 2026 autora independiente (site:substack.com)",
+   "market": "Spain",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sarah Valentine",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "language": "es",
+  "bookTitle": "Error imperdonable (Errores en Manhattan 4)",
+  "genre": "Novela romántica contemporánea",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle"
+  ],
+  "sourceUrl": "https://sarahvalentine.substack.com/p/mi-error-al-volver-a-la-rutina",
+  "evidenceQuote": "Así que aprovecha y resérvala en preventa, porque hasta el día de lanzamiento estará al 50 % de su precio habitual: solo 1,99 €",
+  "evidenceDate": "2026-09-01",
+  "officialWebsite": "https://sarahvalentine.substack.com/",
+  "additionalUrls": [
+   "https://sarahvalentine.substack.com/p/tu-tambien-cometes-errores"
+  ],
+  "notes": "Spanish-language indie romance author releasing a new title roughly every 1-2 months via Amazon pre-orders (euro pricing). Location NOT verified.",
+  "discovery": {
+   "query": "novela ebook Kindle preventa lanzamiento 2026 autora independiente (site:substack.com)",
+   "market": "Spain",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Eva Alton",
+  "authorType": "Self-Published Author",
+  "country": "Spain",
+  "language": "es",
+  "bookTitle": "Scriptria",
+  "genre": "Romantasy",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle"
+  ],
+  "sourceUrl": "https://evaaltonescritora.substack.com/p/quien-era-la-morada",
+  "evidenceQuote": "Y NO TE PIERDAS MI NOVEDAD DE ROMANTASY EN PREVENTA A SOLO 0,99€",
+  "evidenceDate": "2026-09-23",
+  "officialWebsite": "https://www.evaalton.com/",
+  "additionalUrls": [
+   "https://evaaltonescritora.substack.com/about",
+   "https://www.evaalton.com/p/about-author.html"
+  ],
+  "notes": "Bilingual (ES/EN) indie romantasy/paranormal author (Los Vampiros de Emberbury, Las Brujas de Ibiza); new series Scriptria on long-running ebook pre-order. Location NOT verified.",
+  "discovery": {
+   "query": "\"ya está en preventa\" novela Kindle 2026 escritora (site:substack.com)",
+   "market": "Spain",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
  }
 ]

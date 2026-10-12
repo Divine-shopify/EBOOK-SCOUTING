@@ -1,4 +1,110 @@
 [
-{"name":"Claris Lam","authorType":"Self-Published Author","country":"Canada","locationQuote":"Chinese Canadian author & poet","language":"en","bookTitle":"Sonnets of the Seasons","genre":"Poetry; cozy mystery; YA fantasy","platforms":["itch.io"],"sourceUrl":"https://buttondown.com/clarislamauthor/archive/preparing-2027-publications-july-14th-2026/","evidenceQuote":"Formatted Sonnets of the Seasons for 2027 publication","evidenceDate":"2026-07-14","officialWebsite":"https://clarislam.ca/","additionalUrls":["https://clarislamauthor.substack.com","https://clarislamauthor.itch.io"],"notes":"Indie author preparing three 2027 publications (poetry, Harlow Mystery omnibus, Nostalgiacore); gathering ARC readers late autumn 2026.","discovery":{"channel":"web_search","query":"Canadian indie author \"coming 2026\" ebook preorder cover reveal Toronto author website","provider":"claude-websearch","market":"Canada","date":"2026-10-12"}},
-{"name":"Deborah Cooke","authorType":"Independent Author","country":"Canada","locationQuote":"Deborah makes her home in Canada","language":"en","bookTitle":"Flatiron Five Fitness","genre":"Contemporary romance","platforms":["Kobo","Apple Books","Amazon KDP"],"sourceUrl":"https://deborahcooke.com/2026/10/05/rolling-out-the-new-f5f-ebooks/","evidenceQuote":"I’ve started to update the ebook editions of Flatiron Five Fitness with the new illustrated covers.","evidenceDate":"2026-10-05","officialWebsite":"https://deborahcooke.com/","contactPage":"https://deborahcooke.com/contact/","additionalUrls":["https://www.smashwords.com/profile/view/DeborahCooke8478","https://blogs.tpl.ca/deborahcooke/2009/04/about-deborah-cooke/"],"notes":"Hybrid/indie romance author relaunching series with new illustrated covers and new editions (Oct 2026); Dragonfire new editions due December.","discovery":{"channel":"web_search","query":"\"Ontario\" author \"currently editing\" book two \"2026\" self-published romance author website","provider":"claude-websearch","market":"Canada","date":"2026-10-12"}}
+ {
+  "name": "N.P. Thompson",
+  "authorType": "Self-Published Author",
+  "region": "Ontario",
+  "city": "Ottawa",
+  "locationQuote": "N.P. Thompson lives in Ottawa, Canada",
+  "bookTitle": "The Arcanium Saga",
+  "genre": "Middle grade fantasy",
+  "platforms": [
+   "itch.io"
+  ],
+  "sourceUrl": "https://nptwrites.com/",
+  "evidenceQuote": "The Arcanium Saga Book 5 Title & Cover Reveal Coming Soon! Book 6 Title & Cover Reveal Coming Soon!",
+  "officialWebsite": "https://nptwrites.com/",
+  "additionalUrls": [
+   "https://nptwrites.itch.io"
+  ],
+  "notes": "Indie MG fantasy author (organizer of Canada Fiction Fest); books 5-7 of series announced as coming soon; sells ebooks direct.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "\"Canadian indie authors\" book bundle 2026 BookFunnel all-Canadian",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Douglas Smith",
+  "authorType": "Independent Author",
+  "genre": "Speculative fiction; writing craft",
+  "sourceUrl": "http://www.smithwriter.com/blogs/douglas_smith",
+  "evidenceQuote": "my new writing craft book, Brick by Brick: How to Build a Story, is available for pre-order now on all major ebook retail platforms",
+  "evidenceDate": "2026-08-06",
+  "bookTitle": "Brick by Brick: How to Build a Story",
+  "officialWebsite": "http://www.smithwriter.com/",
+  "additionalUrls": [
+   "http://www.smithwriter.com/about-doug"
+  ],
+  "notes": "Canadian SF Canada member; self-publishing writing craft book via ebook retailers (pre-order Aug 2026).",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site directory crawl: sfcanada.org/sfc-blogs (SF Canada member blogs), reached via \"Canada Fiction Fest\" 2026 indie authors",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": []
+ },
+ {
+  "name": "Judy Penz Sheluk",
+  "businessName": "Superior Shores Press",
+  "authorType": "Author-Owned Business",
+  "region": "Ontario",
+  "city": "Sault Ste. Marie",
+  "locationQuote": "Judy now splits her time between Goulais River and Sault Ste. Marie, Ontario",
+  "bookTitle": "A Fatal Affair: The Murder of Helen Grier",
+  "genre": "True crime / mystery",
+  "platforms": [
+   "Books2Read (D2D)"
+  ],
+  "sourceUrl": "https://judypenzsheluk.com/2026/10/07/news-fall-2026/",
+  "evidenceQuote": "COVER REVEAL: A Fatal Affair: The Murder of Helen Grier Pre-order in select markets at books2read.com/afatalaffair",
+  "evidenceDate": "2026-10-07",
+  "officialWebsite": "https://judypenzsheluk.com/",
+  "additionalUrls": [
+   "https://judypenzsheluk.com/about/"
+  ],
+  "notes": "Founder/owner of Superior Shores Press (own imprint); co-authored true-crime title in pre-order with cover reveal Oct 2026.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site directory crawl: crimewriterscanada.com book catalogue 2026/2027 (indie titles with books2read links)",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Carolyn Arnold",
+  "authorType": "Independent Author",
+  "region": "Ontario",
+  "city": "London",
+  "locationQuote": "She lives near London, Ontario, Canada",
+  "genre": "Crime thriller / mystery",
+  "sourceUrl": "https://carolynarnold.net/",
+  "evidenceQuote": "Start Reading Pre-order Now Shop Carolyn's Books Addictive reads. Twisty Plots. Unforgettable characters.",
+  "officialWebsite": "https://carolynarnold.net/",
+  "additionalUrls": [
+   "https://carolynarnold.net/about/",
+   "https://crimewriterscanada.com/index.php/en/page/books/browse-by-title/search_year/2027"
+  ],
+  "notes": "Prolific crime author; site shows a pre-order for upcoming title; CWC catalogue lists 2027 titles (Dark Water Graves, Fatal Testimony).",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site directory crawl: crimewriterscanada.com book catalogue 2026/2027 (indie titles with books2read links)",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": []
+ }
 ]

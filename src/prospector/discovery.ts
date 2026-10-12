@@ -119,6 +119,8 @@ export function cleanDisplayName(raw: string): string {
   let s = raw.normalize("NFKC").replace(/[\p{Extended_Pictographic}\p{Emoji_Modifier}‍️]/gu, " ");
   s = s.split(/\s[|•·—–\-\/]\s|\s\(|,\s(?:author|writer)|\s\[/i)[0];
   s = s.replace(/[^\p{L}\p{N}\s.'&-]/gu, " ").replace(/\s+/g, " ").trim();
+  s = s.split(" ").filter((w) => !/^[oO0]{2,}$/.test(w)).join(" ");
+  s = s.replace(/^((published|bestselling|best-selling|indie|award-winning|usa today|debut)\s+)+/i, "");
   s = s.replace(/^(author|writer|novelist|autor|autorin|auteur|auteure)\s+/i, "").replace(/(\s+(author|writer|books|writes|novelist|official))+$/i, "").trim();
   return s;
 }

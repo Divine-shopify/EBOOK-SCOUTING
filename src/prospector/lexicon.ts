@@ -53,7 +53,7 @@ export const EXPLICIT_REQUEST = new RegExp(
 
 /** Wording typical of service providers advertising (not a buyer). Checked against the whole post/quote region. */
 export const PROVIDER_PROMO =
-  /\b(commissions? (are )?open|my (rates|services|portfolio|premades?|schedule|books are open)|premade covers?|i offer|we offer|our services|book (a slot|me|now)|dm me (for|to|with)|hire me|slots? (open|available)|openings? (in|for)|bookings? (available|open)|i'?m available|now booking|taking on (new |a few )?(more )?clients|i can help (you|with)|my (editing|design|formatting|cover) (business|services|work)|get in touch for (a )?quote|i got you|check (out )?(my|her|him|them|their) |(free|a) sample edit|sample edits|send (me|over) (a|your)|reach out to (me|chat)|hit me up|starting at \$|i start at \$|rates start|reasonable rates|payment plans?|discount(ed)? rates|promo(tion)? code|limited (time )?offer|amazing offer|if you'?re (an author )?(looking|in need)|if you are (looking|in need)|if (anyone|you|publishers|authors|any authors)( out there)? (is |are )?(looking|need)|in case (anyone|you)|for anyone (who'?s |who is )?looking|anyone looking for an?|any authors (here )?looking|hit up|go to|can'?t recommend|highly recommend|i recommend|i'?d recommend|you should (check|try|hire)|he'?s your guy|she'?s your (gal|girl|person)|they'?re your|do you (still )?need an?|need an? (editor|proofreader|cover designer|formatter)\?|looking for an? [a-z ]{0,30}\?|are you (looking|in need))/i;
+  /\b(commissions? (are )?open|my (rates|services|portfolio|premades?|schedule|books are open)|premade covers?|i offer|we offer|our services|(?<![-\w])book (a slot|me|now)(?! (on|at|from|in)\b)|dm me (for|to|with)|hire me|slots? (open|available)|openings? (in|for)|bookings? (available|open)|i'?m available|now booking|taking on (new |a few )?(more )?clients|i can help (you|with)|my (editing|design|formatting|cover) (business|services|work)|get in touch for (a )?quote|i got you|check out my (portfolio|services|rates|work|availability)|check (her|him|them|their) (out|work)|(free|a) sample edit|sample edits|send (me|over) (a|your)|reach out to (me|chat)|hit me up|starting at \$|i start at \$|rates start|reasonable rates|payment plans?|discount(ed)? rates|promo(tion)? code|limited (time )?offer|amazing offer|if you'?re (an author )?(looking|in need)|if you are (looking|in need)|if (anyone|you|publishers|authors|any authors)( out there)? (is |are )?(looking|need)|in case (anyone|you)|for anyone (who'?s |who is )?looking|anyone looking for an?|any authors (here )?looking|hit up|go to|can'?t recommend|highly recommend|i recommend|i'?d recommend|you should (check|try|hire)|he'?s your guy|she'?s your (gal|girl|person)|they'?re your|do you (still )?need an?|need an? (editor|proofreader|cover designer|formatter)\?|looking for an? [a-z ]{0,30}\?|are you (looking|in need))/i;
 
 export const TRADITIONAL_PITCH = /#(bluepit|pitmad|dvpit|pitdark|kissmad|sffpit|pbpitch|querying|amquerying|mswl|faithpitch|iwsgpit)\b|\bquery(ing)? (agents|letter)\b|\bliterary agent\b|\bseeking (representation|an agent)\b/i;
 
@@ -78,7 +78,7 @@ export function isOwnRequest(sentence: string, matchOffset: number): boolean {
 export const STAGE_TERMS: { re: RegExp; label: string; status: "Forthcoming" | "In Progress" | "Unpublished" | "Relaunch" }[] = [
   { re: /\bcover reveal\b/i, label: "Cover reveal announced", status: "Forthcoming" },
   { re: /\bpre-?orders? (are )?(open|live|available)\b|\bavailable (for|to) pre-?order\b|\bpre-?order (now|today|it|my)\b/i, label: "Pre-order live", status: "Forthcoming" },
-  { re: /\bcoming soon\b|\brelease date\b|\breleases? (on|in) (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|spring|summer|autumn|fall|winter|20\d\d)/i, label: "Upcoming release", status: "Forthcoming" },
+  { re: /\bcoming soon\b|\brelease dates?\b|\breleases? (on|in) (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|spring|summer|autumn|fall|winter|20\d\d)/i, label: "Upcoming release", status: "Forthcoming" },
   { re: /\b(currently|now|still) (editing|revising|drafting|writing)\b|\bin (the )?(editing|revision|edits) (stage|phase)\b|\bwith my editor\b|\bfinal (edits|draft)\b/i, label: "Manuscript in production", status: "In Progress" },
   { re: /\b(finished|completed) (my |the )?(manuscript|first draft|novel)\b|\bmanuscript is (finished|complete|done)\b/i, label: "Manuscript complete", status: "Unpublished" },
   { re: /\b(first|debut) (book|novel|e-?book)\b.{0,60}\b(self-?publish|indie|kdp|kindle)/i, label: "Debut self-published book", status: "Unpublished" },
@@ -167,17 +167,19 @@ function sentenceAt(text: string, i: number): { sentence: string; start: number 
 /** Scans verified text for explicit requests and production-stage wording. */
 /** Posts that mention a service need without being a buyer: job-hunting, anecdotes, journals, no budget, querying. */
 export const NOT_A_BUYER =
-  /\bjob (posting|listing|ad)s?\b|\bcraigslist\b|\bon sub(mission)?\b|\bspecial issue\b|\bjournal\b|\bfind command\b|\bpaid in (gratitude|exposure|hugs)\b|\bfor exposure\b|\bcan'?t afford\b|\bnever be able to afford\b|\bunpaid\b|\bvolunteer\b|\bfor free\b|\bfree of charge\b|\bin exchange for\b/i;
+  /\bjob (posting|listing|ad)s?\b|\bcraigslist\b|\bon sub(mission)?\b|\bspecial issue\b|\bjournal\b|\bfind command\b|\bpaid in (gratitude|exposure|hugs)\b|\bfor exposure\b|\bcan'?t afford\b|\bnever be able to afford\b|\bunpaid\b|\bvolunteer\b|\bfor free\b|\bfree of charge\b|\bin exchange for\b|\b(outside|beyond) (the|my|our) budget\b|\bno budget\b|\bdon'?t have (a|the|any) budget\b|\bcan(not|'?t) pay\b|\bwaste (more )?money\b|\bgame ?jam\b|\bindie ?game|\bgamedev\b|\bvideo ?game|\bpodcast\b|\bguest\b|\bwebcomic\b|\b(sale|discount|affiliate|via=)\b/i;
+/** Books with a large traditional publisher: production services are the publisher's job. */
+export const BIG_PUBLISHER = /\b(penguin|random house|harper ?collins|harper ?north|harper ?voyager|hachette|macmillan|simon (&|and) schuster|bloomsbury|tor books|orbit books|headline|little,? brown|pan macmillan|faber|scholastic|avon books|bookouture|hq stories|transworld|gollancz|del rey|berkley|st\.? martin'?s)\b/i;
 /** "Need" phrasings count only with a request cue; "looking for / seeking" are requests on their own. */
-const WEAK_VERB = /^\W*(?:\w+'?\w*\s+){0,2}?(need|needing|could use)\b/i;
-const REQUEST_CUE = /\b(recommend|recommendations?|recs?|suggestions?|anyone|any(one)? know|dm me|reach out|portfolio|paid|budget|hire|hiring|rates?|quote|for my (book|novel|manuscript|series|picture book|debut|memoir|cookbook|story|wip|cover)|\?)/i;
+const WEAK_VERB = /^\W*(?:\w+'?\w*\s+){0,2}?(need|needing|could use|hiring|hire)\b/i;
+const REQUEST_CUE = /\b(?<!(i|we) (heartily |highly |strongly )?)(recommend|recommendations?|recs?|suggestions?|anyone|any(one)? know|dm me|reach out|portfolio|paid|budget|rates?|quote|for my (book|novel|manuscript|series|picture book|debut|memoir|cookbook|story|wip|cover)|\?)/i;
 const HYPOTHETICAL = /\b(might|may|will|would|could|should|'ll|going to|gonna|eventually|someday|soon)\s+(\w+\s+){0,3}(need|start looking|look for|be looking|hire)/i;
 
 export function detectSignals(raw: string, opts: { wholeTextIsOnePost?: boolean } = {}): SignalHit[] {
   const hits: SignalHit[] = [];
   const text = raw.replace(/[\u2018\u2019\u02bc]/g, "'").replace(/[\u201c\u201d]/g, '"');
   // Pitch-party / querying posts seek a traditional publisher's editor or agent, not a paid service.
-  if (opts.wholeTextIsOnePost && TRADITIONAL_PITCH.test(text)) return [];
+  if (opts.wholeTextIsOnePost && (TRADITIONAL_PITCH.test(text) || BIG_PUBLISHER.test(text))) return [];
   // A post that reads as provider advertising yields no buyer signals at all.
   if (opts.wholeTextIsOnePost && PROVIDER_PROMO.test(text)) return [];
   const notBuyer = opts.wholeTextIsOnePost && NOT_A_BUYER.test(text);

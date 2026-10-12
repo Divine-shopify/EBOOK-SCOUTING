@@ -1,0 +1,7 @@
+[
+  {"sourceUrl": "https://bsky.app/profile/cemurphy.bsky.social/post/3malukybvuk2j", "status": "Excluded", "reason": "Post describes researching cover-artist credits, not a request for a service."},
+  {"sourceUrl": "https://www.clarissawild.com/blog/", "status": "Needs Review", "reason": "Cited release date (30 Jun 2026) has passed; a current production need is not shown."},
+  {"sourceUrl": "https://www.carogeelen.com/product/song-of-the-towers-book-3/", "status": "Needs Review", "reason": "Cited release date (June 2026) has passed; check whether a new title is in production."},
+  {"sourceUrl": "https://bsky.app/profile/rightbrainedleadership.com/post/3lgaz27n3p226", "status": "Needs Review", "reason": "Genuine request, but the display name is a handle; confirm the author's full name on the website before use."},
+  {"sourceUrl": "https://bsky.app/profile/tiktikkobold.bsky.social/post/3len63xkoag2p", "status": "Needs Review", "reason": "Pseudonymous handle without an author website; identity not established."}
+]

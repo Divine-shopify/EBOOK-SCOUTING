@@ -383,5 +383,510 @@
   "genre": "Cosy mystery / sci-fi romance",
   "bookTitle": "The Body in the Bath House",
   "evidenceDate": "2026-04-26"
+ },
+ {
+  "name": "Alivia Fleur",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://aliviafleur.com/",
+  "evidenceQuote": "book 5 in the award winning series Tales from Honeysuckle Street is available for preorder in all stores.",
+  "officialWebsite": "https://aliviafleur.com/",
+  "additionalUrls": [
+   "https://aliviafleur.com/about/"
+  ],
+  "notes": "ARRA 2025 signing author; RWA Ruby 2025 winner; book 5 of series on preorder. Location not confirmed on own site.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Historical romance"
+ },
+ {
+  "name": "Anna Hackett",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://annahackett.com/",
+  "evidenceQuote": "Out Now Norcross Security Coming Soon Unsanctioned #4 10th Nov 2026",
+  "officialWebsite": "https://annahackett.com/",
+  "additionalUrls": [
+   "https://annahackett.com/about/",
+   "https://annahackett.com/coming-soon/"
+  ],
+  "notes": "Perth indie bestseller with a rolling release schedule (Unsanctioned #4 Nov 2026).",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "I live in Perth, Western Australia",
+  "city": "Perth",
+  "region": "Western Australia",
+  "genre": "Action / sci-fi romance"
+ },
+ {
+  "name": "Donna Maree Hanson",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://donnamareehanson.com/cry-havoc-series/",
+  "evidenceQuote": "how will she ever find the time to finish writing! Coming soon in 2026 Gentleman Magician",
+  "officialWebsite": "https://donnamareehanson.com/",
+  "additionalUrls": [
+   "https://donnamareehanson.com/about/"
+  ],
+  "notes": "Canberra indie author (also writes as Dani Kristoff); Cry Havoc series next instalment coming 2026; ARR2027 Canberra signing.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Donna lives in Canberra with her partner and fellow writer Matt",
+  "city": "Canberra",
+  "region": "ACT",
+  "genre": "Fantasy / historical romance",
+  "bookTitle": "Gentleman Magician"
+ },
+ {
+  "name": "Fleur Blüm",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://fleurblum.com/",
+  "evidenceQuote": "Cover Reveal and Pre-orders: Burning For You My new book, Burning For You, is now available for pre-order!",
+  "officialWebsite": "https://fleurblum.com/",
+  "additionalUrls": [],
+  "notes": "Melbourne indie romance author; cover reveal + preorder for book 3 of San Destino series; ARR2027 Melbourne.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Fleur Blüm, a Melbourne-based writer, performer, and musician",
+  "city": "Melbourne",
+  "region": "Victoria",
+  "genre": "Contemporary romance",
+  "bookTitle": "Burning For You"
+ },
+ {
+  "name": "J.M. Adele",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://jmadele.org/blog",
+  "evidenceQuote": "New release , Cover reveal , Books new release , coverreveal January 07, 2026",
+  "officialWebsite": "https://jmadele.org/",
+  "additionalUrls": [
+   "https://jmadele.org/about-1"
+  ],
+  "notes": "Queensland indie romance author; cover reveals and new release posts (Jan 2026); ARR2027 Brisbane.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "She lives in Queensland, Australia",
+  "region": "Queensland",
+  "genre": "Romance",
+  "evidenceDate": "2026-01-07"
+ },
+ {
+  "name": "Maddison Michaels",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://maddisonmichaels.com/",
+  "evidenceQuote": "Book 1 - the jack of hearts release date: 22 Sept 26 Book 2 - the ACE OF SPADES release date: 10 DEC",
+  "officialWebsite": "https://maddisonmichaels.com/",
+  "additionalUrls": [],
+  "notes": "Australian author (also sells 'An Author's Guide to Policing in Australia'); new series with 2026/27 release dates.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Historical mystery romance"
+ },
+ {
+  "name": "Renae Black",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://renaeblack.com/",
+  "evidenceQuote": "out my books and preorder my latest release My Books",
+  "officialWebsite": "https://renaeblack.com/",
+  "additionalUrls": [
+   "https://renaeblack.com/about-renae-black/"
+  ],
+  "notes": "Queensland romance author with a new release on preorder; ARR2025 Brisbane signing.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "I’m currently living in Queensland, in the Moreton Bay region",
+  "region": "Queensland",
+  "genre": "Rural romance"
+ },
+ {
+  "name": "Brooklyn Dean",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.brooklyndean.com/moonshine-romance-series/",
+  "evidenceQuote": "Found family COMING SOON FAKE DATING DR DARCY Dr Reece Hargraves is returning to your pages!",
+  "officialWebsite": "https://www.brooklyndean.com/",
+  "additionalUrls": [
+   "https://www.brooklyndean.com/about/"
+  ],
+  "notes": "Australian small-town romance author (Moonshine series); next book coming soon, MG debut also coming soon.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Small-town romance"
+ },
+ {
+  "name": "Ciana Wynter",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.cianawynter.com/",
+  "evidenceQuote": "REVISED EDITIONS COMING SOON Shop first editions while stocks last",
+  "officialWebsite": "https://www.cianawynter.com/",
+  "additionalUrls": [],
+  "notes": "Independently published dark-romance author relaunching series in revised editions (re-cover/re-edit opportunity); ARR2025 Melbourne.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Dark romance"
+ },
+ {
+  "name": "Demi Clorissa",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.demiclorissa.com/thedivinebrideseries1",
+  "evidenceQuote": "COMING SOON! Will Mia finally be free in the spellbinding finale of the Divine Bride",
+  "officialWebsite": "https://www.demiclorissa.com/",
+  "additionalUrls": [],
+  "notes": "Australian (acknowledges Traditional Custodians of Australia) KU fantasy-romance author; series finale coming soon.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Fantasy romance"
+ },
+ {
+  "name": "Efthalia",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.efthaliaauthor.com/",
+  "evidenceQuote": "Two Times The Curse - Now Available for Pre-order December 4, 2025 Hi everyone, just shouting out some book news.",
+  "officialWebsite": "https://www.efthaliaauthor.com/",
+  "additionalUrls": [
+   "https://www.efthaliaauthor.com/about/"
+  ],
+  "notes": "Sydney fantasy-romance author; new book on preorder (Dec 2025 post); ARR2025 Sydney.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Efthalia lives in the gorgeous city of Sydney in Australia",
+  "city": "Sydney",
+  "region": "New South Wales",
+  "genre": "Fantasy romance",
+  "bookTitle": "Two Times The Curse",
+  "evidenceDate": "2025-12-04"
+ },
+ {
+  "name": "Everly Bane",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.everlybane.com/books",
+  "evidenceQuote": "BUY SECRET WISH PRE-ORDER NOW PRE-ORDER NOW PRE-ORDER NOW PRE-ORDER NOW COMING 2027",
+  "officialWebsite": "https://www.everlybane.com/",
+  "additionalUrls": [],
+  "notes": "Pen name of Taya Rune (ARR2026 Melbourne signing); several titles on preorder and one coming 2027.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Romance"
+ },
+ {
+  "name": "Jennie Jones",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.jenniejonesauthor.com/",
+  "evidenceQuote": "Lucky in Love Coming soon. The new Lucky in Love series. Covers still to be revealed.",
+  "officialWebsite": "https://www.jenniejonesauthor.com/",
+  "additionalUrls": [
+   "https://www.jenniejonesauthor.com/about"
+  ],
+  "notes": "Perth romance author launching new series; covers still to be revealed (cover design stage).",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Jennie now lives in Perth, Western Australia",
+  "city": "Perth",
+  "region": "Western Australia",
+  "genre": "Small-town romance"
+ },
+ {
+  "name": "Livia Deigh",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.liviadeighauthor.com/books",
+  "evidenceQuote": "Books RELEASE DATE: 15 JANUARY 2027 PRE-ORDER THE E-BOOK",
+  "officialWebsite": "https://www.liviadeighauthor.com/",
+  "additionalUrls": [],
+  "notes": "ARR2027 Sydney signing author; ebook preorder for Jan 2027 debut series, books 2-3 coming soon.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Dark romance / romantic suspense",
+  "bookTitle": "Queen of Hearts"
+ },
+ {
+  "name": "Nicole Bazley",
+  "authorType": "Self-Published Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.nicolebazley.com/",
+  "evidenceQuote": "My Third book The Right Side Of His Wrong is due for release in October 2026.",
+  "officialWebsite": "https://www.nicolebazley.com/",
+  "additionalUrls": [],
+  "notes": "WA indie (KU) romance author; book 3 Oct 2026, book 4 started for 2027; ARR2026 Perth.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "region": "Western Australia",
+  "genre": "Romance",
+  "bookTitle": "The Right Side Of His Wrong"
+ },
+ {
+  "name": "Ruby St George",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.rubystgeorge.com/",
+  "evidenceQuote": "Book Four Midnight Magic Coming Soon (December 2026) Book Five Dangerous Magic Coming Soon",
+  "officialWebsite": "https://www.rubystgeorge.com/",
+  "additionalUrls": [
+   "https://www.rubystgeorge.com/about-the-author/"
+  ],
+  "notes": "Australian paranormal romance author; books 4-6 coming soon (Dec 2026); ARR2027 Canberra.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "She lives in Australia with her two black cats",
+  "genre": "Paranormal romance",
+  "bookTitle": "Midnight Magic"
+ },
+ {
+  "name": "Tristen Willis",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.tristenwillis.com/",
+  "evidenceQuote": "Pre-Order Sanctum's Veil Here Pre-Order Now Under The Office Tree ARC Application Form Apply Here",
+  "officialWebsite": "https://www.tristenwillis.com/",
+  "additionalUrls": [],
+  "notes": "ARR2026 Sydney signing author; two titles on preorder and ARC applications open.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "genre": "Romance / romantasy",
+  "bookTitle": "Sanctum's Veil"
+ },
+ {
+  "name": "Wendy Godding",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.wendygodding.com/",
+  "evidenceQuote": "sweeping romantasy of forbidden desire, dangerous magic and deadly secrets. OUT SEPTEMBER 22 PREORDER NOW",
+  "officialWebsite": "https://www.wendygodding.com/",
+  "additionalUrls": [
+   "https://www.wendygodding.com/about"
+  ],
+  "notes": "Perth romantic-fantasy author; new book on preorder; ARR2027 Brisbane.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "She lives in Perth, Western Australia",
+  "city": "Perth",
+  "region": "Western Australia",
+  "genre": "Romantic fantasy"
+ },
+ {
+  "name": "LC Hezemans",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.lchezemansbooks.com/",
+  "evidenceQuote": "Welcome to my Dark Side Dark Psychological Thriller coming soon. Watch this space!",
+  "officialWebsite": "https://www.lchezemansbooks.com/",
+  "additionalUrls": [],
+  "notes": "Australian romance author (Tortured Hearts series) with a psychological thriller coming soon; ARR2025 Sydney.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "LC Hezemans is an Australian author who writes spicy romance novels.",
+  "genre": "Romance / psychological thriller"
+ },
+ {
+  "name": "E.J. Campbell",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://ejcampbellauthor.com/books/bloody-love-notes/",
+  "evidenceQuote": "BOOK I The Bodies Between Us COMING SOON ADD TO YOUR TBR",
+  "officialWebsite": "https://ejcampbellauthor.com/",
+  "additionalUrls": [
+   "https://ejcampbellauthor.com/about/"
+  ],
+  "notes": "Melbourne dark-romance author; new series coming soon; 2026/2027 signing events listed.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Campbell is an Aussie who lives in Melbourne",
+  "city": "Melbourne",
+  "region": "Victoria",
+  "genre": "Dark romance",
+  "bookTitle": "The Bodies Between Us"
+ },
+ {
+  "name": "Johanna M Rae",
+  "authorType": "Independent Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.johannamraeauthor.com/",
+  "evidenceQuote": "View Series Coming soon ... Saving Their Forever (Immortal Trinity 3) Subscribe to my newsletter",
+  "officialWebsite": "https://www.johannamraeauthor.com/",
+  "additionalUrls": [],
+  "notes": "Te Manawa Indie Writers Festival (Auckland 2026) stallholder; final book of Immortal Trinity series coming soon.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "genre": "Paranormal romance",
+  "bookTitle": "Saving Their Forever"
+ },
+ {
+  "name": "Quill Holland",
+  "authorType": "Independent Author",
+  "country": "New Zealand",
+  "language": "en",
+  "sourceUrl": "https://www.quillholland.nz/",
+  "evidenceQuote": "remember how to be a monster … but at what cost to his humanity? Coming Soon!",
+  "officialWebsite": "https://www.quillholland.nz/",
+  "additionalUrls": [],
+  "notes": "NZ debut author (NZIBS creative-writing graduate) with first book coming soon; site still has template text (website help opportunity).",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "New Zealand indie author book fair 2026 authors list romance fantasy signing Auckland",
+   "provider": "claude-websearch",
+   "market": "New Zealand",
+   "date": "2026-10-12"
+  },
+  "genre": "Fantasy"
+ },
+ {
+  "name": "Leesa Bow",
+  "authorType": "Independent Author",
+  "country": "Australia",
+  "language": "en",
+  "sourceUrl": "https://www.leesabow.com/",
+  "evidenceQuote": "Pre-order NOW The Wrong Move Hendricks Billionaires book #2",
+  "officialWebsite": "https://www.leesabow.com/",
+  "additionalUrls": [
+   "https://www.leesabow.com/About.html"
+  ],
+  "notes": "Brisbane romance author (hybrid); book 2 of Hendricks Billionaires on preorder; ARR2026 Brisbane.",
+  "discovery": {
+   "channel": "web_search+directory_crawl",
+   "query": "ARRA A Romantic Rendezvous 2027 Melbourne attending authors list",
+   "provider": "claude-websearch",
+   "market": "Australia",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "she is living out her own happy ever after with her husband in Brisbane, Australia",
+  "city": "Brisbane",
+  "region": "Queensland",
+  "genre": "Contemporary romance",
+  "bookTitle": "The Wrong Move"
  }
 ]

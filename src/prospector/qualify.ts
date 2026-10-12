@@ -3,6 +3,7 @@ import type { Verification } from "./verify.js";
 import { categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.js";
 import { domainOf, normalizeKey } from "../util/text.js";
 import { SHARED_HOSTS } from "./verify.js";
+import { cleanDisplayName } from "./discovery.js";
 
 export const COLUMNS = [
   "Prospect Name", "First Name", "Author or Business Name", "Country", "State or Region", "City", "Preferred Language",
@@ -92,7 +93,9 @@ export function dedupKeysFor(c: ProspectCandidate, v: Verification): string[] {
 }
 
 /** Applies the qualification rules and builds the 28-column record. */
-export function qualify(c: ProspectCandidate, v: Verification, today = new Date()): Decision {
+export function qualify(raw: ProspectCandidate, v: Verification, today = new Date()): Decision {
+  // Social display names are normalised again so rule improvements apply to already-queued candidates.
+  const c = raw.apiText ? { ...raw, name: cleanDisplayName(raw.name) || raw.name } : raw;
   const reasons: string[] = [];
   const explicit = v.signals.filter((s) => s.kind === "explicit");
   const stage = v.signals.filter((s) => s.kind === "stage");

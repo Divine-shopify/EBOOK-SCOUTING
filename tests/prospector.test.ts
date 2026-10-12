@@ -147,3 +147,10 @@ describe("CJK lexicon", () => {
     expect(detectSignals("전자책 표지 디자이너 구합니다").some((s) => s.category === "Cover Design")).toBe(true);
   });
 });
+
+describe("author self-promotion is not provider advertising", () => {
+  it("keeps author launch wording", () => {
+    expect(detectSignals("Pre-order the E-BOOK NOW before release day!", { wholeTextIsOnePost: true }).some((s) => s.kind === "stage")).toBe(true);
+    expect(detectSignals("Check out my new release dates for 2027.", { wholeTextIsOnePost: true }).some((s) => s.kind === "stage")).toBe(true);
+  });
+});
