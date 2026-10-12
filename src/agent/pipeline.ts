@@ -292,7 +292,8 @@ export async function researchCandidate(ctx: PipelineContext, c: Candidate): Pro
     today,
   });
 
-  const description = ld?.description ?? (ldPage ? ldPage.info.metaDescription : null) ?? null;
+  // Only a full description is used for length-based findings; truncated meta descriptions are ignored.
+  const description = ld?.description ?? grExtras?.description ?? null;
   const publisher = ld?.publisher ?? null;
   const publisherIsLarge = isLargePublisher(publisher) || isLargePublisher(grExtras?.publicationLine);
   const selfPublished = publisherIsLarge ? false : /self[- ]published|independently published|indie author|selfpublisher|autoédit|autopublic/i.test(allText) ? true : null;
@@ -412,7 +413,7 @@ export async function researchCandidate(ctx: PipelineContext, c: Candidate): Pro
 
     const profiles = new Set<string>([...(c.profileUrls ?? []), ...(grAuthorUrl ? [grAuthorUrl] : []), ...(websiteUrl ? [websiteUrl] : []), ...socialLinks.slice(0, 10)]);
     for (const u of profiles) {
-      ctx.db.prepare("INSERT OR IGNORE INTO author_profiles(author_id, platform, url, verified, created_at) VALUES (?,?,?,?,?)").run(authorId, platformOf(u), u, sitePages.some((p) => p.info.socialLinks.includes(u)) || u === websiteUrl || u === grAuthorUrl ? 1 : 0, ts);
+      ctx.db.prepare("INSERT OR IGNORE INTO author_profiles(author_id, platform, url, verified, created_at) VALUES (?,?,?,?,?)").run(authorId, platformOf(u) === "author_site" && domainOf(u) !== domain ? "web" : platformOf(u), u, sitePages.some((p) => p.info.socialLinks.includes(u)) || u === websiteUrl || u === grAuthorUrl ? 1 : 0, ts);
     }
 
     const bookKey = `${authorKey}|${normalizeKey(c.bookTitle)}`;

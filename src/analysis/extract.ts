@@ -231,7 +231,7 @@ export function extractPage(html: string, url: string): PageInfo {
 }
 
 /** Goodreads book/show specifics beyond JSON-LD (publication line, series, genres). */
-export function extractGoodreadsExtras(html: string): { publicationLine?: string; expected?: boolean; series?: string; genres: string[]; formatsLine?: string } {
+export function extractGoodreadsExtras(html: string): { publicationLine?: string; expected?: boolean; series?: string; genres: string[]; formatsLine?: string; description?: string } {
   const $ = cheerio.load(html);
   const pub = cleanText($("[data-testid='publicationInfo']").first().text());
   const series = cleanText($("h3.Text__italic a, [aria-label^='Book'] a[href*='/series/']").first().text()) || undefined;
@@ -240,7 +240,9 @@ export function extractGoodreadsExtras(html: string): { publicationLine?: string
     genres.push(cleanText($(el).text()));
   });
   const formatsLine = cleanText($("[data-testid='pagesFormat']").first().text()) || undefined;
-  return { publicationLine: pub || undefined, expected: /expected publication/i.test(pub), series, genres: genres.slice(0, 6), formatsLine };
+  // Full blurb (the meta description is truncated by Goodreads and must not be used for length checks).
+  const description = cleanText($("[data-testid='description'] .Formatted").first().text()) || undefined;
+  return { publicationLine: pub || undefined, expected: /expected publication/i.test(pub), series, genres: genres.slice(0, 6), formatsLine, description };
 }
 
 /** Links on a site that likely lead to contact/about/press pages (multilingual). */

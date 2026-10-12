@@ -1,0 +1,457 @@
+[
+  {
+    "authorName": "Sarah Honey",
+    "bookTitle": "The Royal Rogue",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL42706720W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/219344534",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Lucius Montegrot",
+    "bookTitle": "The Union Impossible",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44045054W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "Devil May Hunt",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43938961W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/239344718",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "Devil May Breathe",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43938931W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/230448335",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Lucian Cross",
+    "bookTitle": "The Matter Destructor",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45844535W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Kaitlyn Swanson",
+    "bookTitle": "Queen of the Crimson Throne",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45919208W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Sonam Zangmo",
+    "bookTitle": "The Resonant Heir — Book I",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL46092389W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "The Devil's Embrace",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43938922W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/234804678",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Valerie Hunter",
+    "bookTitle": "The Girl Who Bit Me",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45977350W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/247053738",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"fantasy\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Nora Sakavic",
+    "bookTitle": "The Golden Raven",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43442771W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/253654290",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:spa publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Arianna Fraser",
+    "bookTitle": "Dark Angel",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL42697932W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Amy Aislin",
+    "bookTitle": "The Best Parts of Him",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44983634W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Gigi Styx",
+    "bookTitle": "Stalking Ginevra",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44348830W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/223513949",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "Broken Obsession",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43939201W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/230245832",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Arianna Fraser",
+    "bookTitle": "Lord of Pain",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45045634W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/250219938",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Meghan Quinn",
+    "bookTitle": "Just For The Cameras",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44871055W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Arianna Fraser",
+    "bookTitle": "The Highest Bidder",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL42663603W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/222768978",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Alex Newman",
+    "bookTitle": "MANGO",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL46092496W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:spa publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Arianna Fraser",
+    "bookTitle": "Finders, Keepers",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL42697767W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/227808320",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Arianna Fraser",
+    "bookTitle": "Lord of Vengeance",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45070893W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/247875748",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Natalie Caña",
+    "bookTitle": "How Maya Got Her Sazón Back",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44526655W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Chani Lynn Feener",
+    "bookTitle": "The Devil's Bargain",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43939317W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/237757636",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Sarah Honey",
+    "bookTitle": "Danny Hall Gets a Lawyer",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43683266W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/230214868",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Sarah Honey",
+    "bookTitle": "John Wilder Gets Schooled",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL43683278W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/237596689",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Lance Roddick",
+    "bookTitle": "Captured By Moonlight",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44660315W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Joanna Chambers",
+    "bookTitle": "Liberated",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44984193W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"romance\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Scott A. Stowell",
+    "bookTitle": "EverHaven",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL44344319W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=1 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Yallah Hobbi",
+    "bookTitle": "CAMPUS 404",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45946416W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/258431525",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:ger publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=1 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Antonio Fernando López Garrido",
+    "bookTitle": "EΦiRiON",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL46092862W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:ger publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Violet Broadbridge",
+    "bookTitle": "Corrupt My Blood",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45977207W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "S.E. Stitcher",
+    "bookTitle": "The Doomsday Butcher",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45428981W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/225578897",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  },
+  {
+    "authorName": "Violet Broadbridge",
+    "bookTitle": "Never Fall in Love Again",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45977187W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Youssef Boukachabine",
+    "bookTitle": "A Kinder Version of You",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL46092982W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/260942107",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Thomas Laband",
+    "bookTitle": "Killing Time In Auberry",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45034918W"
+    ],
+    "goodreadsUrl": null,
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": "openlibrary ratingsCount=0 (provider's own ratings, not used for filtering)"
+  },
+  {
+    "authorName": "Murray Bailey",
+    "bookTitle": "The Mark of Eternity",
+    "bookUrls": [
+      "https://openlibrary.org/works/OL45494710W"
+    ],
+    "goodreadsUrl": "https://www.goodreads.com/book/show/237914837",
+    "statusHint": "unclear",
+    "discoveryQuery": "subject:\"thriller\" first_publish_year:[2025 TO 2027] language:eng publisher:\"independently published\"",
+    "discoveryPlatform": "openlibrary",
+    "reviewCountObserved": null,
+    "notes": null
+  }
+]
