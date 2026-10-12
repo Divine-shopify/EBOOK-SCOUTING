@@ -1,0 +1,714 @@
+[
+ {
+  "name": "Alexandra Kuhrt",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "A Darkness So Deep",
+  "genre": "Fantasy",
+  "sourceUrl": "https://justanotherauthor.substack.com/p/i-am-self-publishing-my-novel",
+  "evidenceQuote": "A few more reasons why I ultimately decided to self-publish: I have the final say in everything.",
+  "evidenceDate": "2026-10-12",
+  "officialWebsite": "https://alexandrakuhrt.com/",
+  "notes": "Self-publishing debut; says layout she will do herself and must market the book.",
+  "discovery": {
+   "query": "substack \"I'm looking for an editor\" my novel self-publish 2026",
+   "market": "Global",
+   "channel": "web_search",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Tobie Carter",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "A Well-Seasoned Stuffing",
+  "genre": "Romance",
+  "sourceUrl": "https://tobiecarterwrites.substack.com/p/cover-reveal-c23",
+  "evidenceQuote": "The eBook preorder on the Zon is up",
+  "evidenceDate": "2026-07-17",
+  "officialWebsite": "https://tobiecarterwrites.substack.com/",
+  "notes": "Indie romance author; eBook preorder for fall 2026 holiday novella; audiobook news in Oct 2026.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "\"looking for a cover designer\" author newsletter 2026 (domains: substack/medium/beehiiv/ghost)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Camilla Isley",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romantic comedy",
+  "sourceUrl": "https://camillaisley.substack.com/p/the-past-is-waiting-in-her-office",
+  "evidenceQuote": "Pre-order now at your favorite retailer",
+  "evidenceDate": "2026-10-06",
+  "officialWebsite": "https://camillaisley.substack.com/",
+  "notes": "Indie romance author serialising next novel; pre-order live; cover reveal delayed (Sept 2026 post).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "T.H. Meyer",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fantasy",
+  "sourceUrl": "https://thmeyerwrites.substack.com/p/no-cats-no-teacups-and-definitely",
+  "evidenceQuote": "Also, here’s the very first cover reveal to ALL my subscribers.",
+  "evidenceDate": "2026-09-23",
+  "officialWebsite": "https://thmeyerwrites.substack.com/",
+  "notes": "Indie author cover reveal for upcoming book.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Laura R. Hepworth",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "An Inkling of Magic",
+  "genre": "Fantasy",
+  "sourceUrl": "https://laurarhepworth.substack.com/p/its-pre-order-day",
+  "evidenceQuote": "The ebook for An Inkling of Magic is now up for pre-order on Amazon",
+  "evidenceDate": "2026-08-25",
+  "officialWebsite": "https://laurarhepworth.substack.com/",
+  "notes": "Indie (KDP/IngramSpark) author; ebook pre-order; next book heading into editing.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sri Savita",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Holidays at Northfield Hall",
+  "genre": "Historical romance",
+  "sourceUrl": "https://srisavita.substack.com/p/august-holidays-at-northfield-hall",
+  "evidenceQuote": "Be sure to buy it now at the special pre-order price of $5",
+  "evidenceDate": "2026-08-29",
+  "officialWebsite": "https://www.sri-savita.com/",
+  "notes": "Indie anthology Holidays at Northfield Hall (Oct 9 release) featuring her novella Diwali with Her Duke.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Wallbanger Creative",
+  "authorType": "Author-Owned Business",
+  "language": "en",
+  "bookTitle": "Muses’ War: Fugue of Fire",
+  "genre": "Fantasy",
+  "sourceUrl": "https://wallbangercreative.substack.com/p/muses-war-fugue-of-fire-is-available",
+  "evidenceQuote": "the second book in the Muses’ War series, is now available for preorder",
+  "evidenceDate": "2026-05-06",
+  "officialWebsite": "https://wallbangercreative.com/",
+  "notes": "Author-owned imprint publishing the Muses’ War series.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Suzie Nicks",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "The Chosen One's Substitute",
+  "genre": "Fantasy",
+  "sourceUrl": "https://suzienicks.substack.com/p/how-i-am-self-publishing-my-debut",
+  "evidenceQuote": "How I am self-publishing my debut novel",
+  "evidenceDate": "2026-03-21",
+  "officialWebsite": "https://suzienicks.substack.com/",
+  "notes": "Debut self-published fantasy; ebook pre-order; drafting book 2; mentions narrator would cost ~$5k.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack \"I'm looking for an editor\" my novel self-publish 2026",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "L. J. Long",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Supernatural crime",
+  "sourceUrl": "https://ljlong.substack.com/p/journey-to-jubilee-vol-1-cover-reveal",
+  "evidenceQuote": "The full book officially releases on June 1, 2026",
+  "evidenceDate": "2026-02-18",
+  "officialWebsite": "https://ljlongstory.com/",
+  "notes": "Serialised supernatural crime drama; ebook pre-order via books2read; designer Bookfly hired.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "\"looking for a cover designer\" author newsletter 2026 (domains: substack/medium/beehiiv/ghost)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Corrie Liotta",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Poetry / illustrated",
+  "sourceUrl": "https://corrieliotta.substack.com/p/i-wrote-a-book-it-has-a-cover-and",
+  "evidenceQuote": "you can preorder a copy right now",
+  "evidenceDate": "2026-03-21",
+  "officialWebsite": "https://corrieliotta.substack.com/",
+  "notes": "Illustrator-author; debut book pre-order.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "\"looking for a cover designer\" author newsletter 2026 (domains: substack/medium/beehiiv/ghost)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Zoe Allison",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "The Christmas Competition",
+  "genre": "Romance",
+  "sourceUrl": "https://zoeallison.substack.com/p/cover-reveal",
+  "evidenceQuote": "It’s cover reveal day for The Christmas Competition",
+  "evidenceDate": "2026-04-14",
+  "officialWebsite": "https://zoeallison.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Kate Kenzie",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "A Witch’s Guide to Practical Magic",
+  "genre": "Cosy romantasy",
+  "sourceUrl": "https://kakenzie101.substack.com/p/book-cover-for-a-witchs-guide-to",
+  "evidenceQuote": "It’s COVER REVEAL Day!",
+  "evidenceDate": "2026-03-17",
+  "officialWebsite": "https://kakenzie101.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Andy Futuro",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Sci-fi",
+  "sourceUrl": "https://andyfuturo.substack.com/p/library-available-for-preorder-on",
+  "evidenceQuote": "Pre-order now!",
+  "evidenceDate": "2026-08-28",
+  "officialWebsite": "https://andyfuturo.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "K.M. Carroll",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Heart's Invincible",
+  "genre": "Fantasy",
+  "sourceUrl": "https://kmcarroll.substack.com/p/the-aftermath-hearts-invincible-cover",
+  "evidenceQuote": "Preorder here! Release date October 16th!",
+  "evidenceDate": "2026-09-04",
+  "officialWebsite": "https://kmcarroll.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "NC Barton",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romance",
+  "sourceUrl": "https://nicolebartonwrites.substack.com/p/pumpkins-potions-and-postscripts",
+  "evidenceQuote": "It’s on a preorder sale for .99 cents.",
+  "evidenceDate": "2026-08-21",
+  "officialWebsite": "https://nicolebartonwrites.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Betty Corrello",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romance",
+  "sourceUrl": "https://hellocorrello.substack.com/p/its-a-cover-and-its-a-reveal-its",
+  "evidenceQuote": "mark your calendars for a SURPRISE RELEASE in August!",
+  "evidenceDate": "2026-06-17",
+  "officialWebsite": "https://hellocorrello.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Thomas Tarasios",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Saga of the Jewels",
+  "genre": "Fantasy",
+  "sourceUrl": "https://sagaofthejewels.substack.com/p/saga-of-the-jewels-book-3-light-and",
+  "evidenceQuote": "Preorder link",
+  "evidenceDate": "2026-06-12",
+  "officialWebsite": "https://sagaofthejewels.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Christine Cowan",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Love, Witches, and Wahala",
+  "genre": "Romance",
+  "sourceUrl": "https://theswoonsquad.substack.com/p/shes-been-cursed-for-ten-lifetimes",
+  "evidenceQuote": "You can now preorder Love, Witches, and Wahala!",
+  "evidenceDate": "2026-03-03",
+  "officialWebsite": "https://christinecowanauthor.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sam Whitfield",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "American Inferno",
+  "genre": "Thriller",
+  "sourceUrl": "https://americaninstinct.substack.com/p/final-draft-complete-american-inferno",
+  "evidenceQuote": "The final draft of American Inferno is finished.",
+  "evidenceDate": "2026-02-13",
+  "officialWebsite": "https://americaninstinct.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Miguel S.",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Quietus",
+  "genre": "Fiction",
+  "sourceUrl": "https://fictiondealer.substack.com/p/my-debut-novel-quietus-cover-reveal",
+  "evidenceQuote": "Quietus e-book is now available for pre-order; this is a limited pre-order price!",
+  "evidenceDate": "2025-10-30",
+  "officialWebsite": "https://fictiondealer.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Ellie Palmer",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Married With Benefits",
+  "genre": "Romance",
+  "sourceUrl": "https://elliepalmerwrites.substack.com/p/the-one-where-married-with-benefits",
+  "evidenceQuote": "PREORDER NOW!!! Monday (with the help of so many lovely and generous readers and friends), I revealed the cover of my next romance",
+  "evidenceDate": "2025-10-29",
+  "officialWebsite": "https://elliepalmerwrites.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Victoria Lavine",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romance",
+  "sourceUrl": "https://victorialavinewrites.substack.com/p/early-cover-title-reveal",
+  "evidenceQuote": "The official release date is July 21st, 2026 , but you can preorder it now!",
+  "evidenceDate": "2025-10-23",
+  "officialWebsite": "https://victorialavinewrites.substack.com/",
+  "notes": "",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "DL White",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romance",
+  "sourceUrl": "https://authordlwhite.substack.com/p/unexpected-a-reimagined-holiday-novella",
+  "evidenceQuote": "this is a separate second edition",
+  "evidenceDate": "2026-10-07",
+  "officialWebsite": "https://www.booksbydlwhite.com/",
+  "notes": "Indie Black fiction author re-releasing a reimagined holiday novella as a second edition (Payhip/BookFunnel direct sales).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Joanna Phoenix",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fiction",
+  "sourceUrl": "https://www.creativeinspiredalive.com/p/month-1-of-joyfully-self-publishing",
+  "evidenceQuote": "My debut novel will be released in August 2027!",
+  "evidenceDate": "2026-09-11",
+  "officialWebsite": "https://www.creativeinspiredalive.com/",
+  "notes": "Documenting month-by-month self-publishing of debut novel due Aug 2027.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Steffy Smith",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "A Society of Scandal",
+  "genre": "Historical romance",
+  "sourceUrl": "https://steffysmith.substack.com/p/a-new-series-release-free-book-opportunity",
+  "evidenceQuote": "is up for pre-order or ARC opportunity",
+  "evidenceDate": "2026-08-18",
+  "officialWebsite": "https://steffysmith.substack.com/",
+  "notes": "Indie historical romance; new series release, pre-order and ARC sign-up.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Asia Monet",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romance",
+  "sourceUrl": "https://authorasiamonet.substack.com/p/convincing-you-to-read-my-upcoming",
+  "evidenceQuote": "I hope I’ve convinced you to read this duet when it releases in September.",
+  "evidenceDate": "2026-07-23",
+  "officialWebsite": "https://authorasiamonet.substack.com/",
+  "notes": "KDP/Kindle Unlimited romance author; upcoming duet.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Diane Vallere",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Mystery",
+  "sourceUrl": "https://uncertainorbits.substack.com/p/closed-doors-and-open-windows",
+  "evidenceQuote": "In the end, I decided to self-publish, but I wanted my path to come without regrets.",
+  "evidenceDate": "2026-06-07",
+  "officialWebsite": "https://uncertainorbits.substack.com/",
+  "notes": "Established indie mystery author reflecting on self-publishing path; newsletter Uncertain Orbits.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "BamBoncher",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fantasy anthology",
+  "sourceUrl": "https://bamboncher.substack.com/p/brave-knights-and-heroic-courage",
+  "evidenceQuote": "The book is out for pre-order now and releases on June 2, 2026.",
+  "evidenceDate": "2026-05-14",
+  "officialWebsite": "https://bamboncher.substack.com/",
+  "notes": "Contributor to Brave Knights anthology (Kindle pre-order).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Charles Hackney",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fantasy anthology",
+  "sourceUrl": "https://charleshackney.substack.com/p/brave-knights-and-heroic-courage",
+  "evidenceQuote": "This anthology is available for pre-order in Kindle format.",
+  "evidenceDate": "2026-05-12",
+  "officialWebsite": "https://charleshackney.substack.com/",
+  "notes": "Contributor to Brave Knights anthology (Kindle pre-order).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Rachel D. Adams",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Dragon Tasker",
+  "genre": "Fantasy",
+  "sourceUrl": "https://racheldadams.substack.com/p/stuff-your-e-reader",
+  "evidenceQuote": "the release date of my final book in the original Dragon Tasker Series is slotted for release March 21st",
+  "evidenceDate": "2026-02-23",
+  "officialWebsite": "https://racheldadams.com/",
+  "notes": "Indie (KDP/KU/BookFunnel) fantasy author; final Dragon Tasker book released Mar 2026.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Kayla Hicks",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "The Backup Superhero",
+  "genre": "Superhero fiction",
+  "sourceUrl": "https://kaylahicks.substack.com/p/marketing-a-book-series-as-an-indie",
+  "evidenceQuote": "I have completed the first draft of the next installment of The Backup Superhero series.",
+  "evidenceDate": "2026-01-02",
+  "officialWebsite": "https://kayla-hicks.com/",
+  "notes": "Indie series author; next installment first draft complete (needs editing).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Emer Rohan",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "who has been living in the UK since 2009",
+  "language": "en",
+  "bookTitle": "Everything She Thought She Knew",
+  "genre": "Psychological fiction",
+  "sourceUrl": "https://byemerrohan.substack.com/p/self-publishing-6-edits",
+  "evidenceQuote": "That was the idea for the first novel I wrote, which will be my second to publish, coming out in February 2027.",
+  "evidenceDate": "2026-09-18",
+  "officialWebsite": "https://emerrohan.com/",
+  "additionalUrls": [
+   "https://byemerrohan.substack.com/p/how-between-you-and-me-came-to-be"
+  ],
+  "notes": "Irish-born self-published author (Between You and Me, Feb 2026) documenting self-publishing of book two due 5 Feb 2027; series of posts on editing, covers, launch.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "substack \"I'm looking for an editor\" my novel self-publish 2026",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Richard Paolinelli",
+  "businessName": "Tuscany Bay Books",
+  "authorType": "Independent Publisher",
+  "language": "en",
+  "genre": "Science fiction / space opera",
+  "sourceUrl": "https://tuscanybaybooks.substack.com/p/new-starquest-release",
+  "evidenceQuote": "The e-book is available for pre-order, with a July 21st release date",
+  "evidenceDate": "2026-07-11",
+  "officialWebsite": "https://tuscanybaybooks.substack.com/",
+  "notes": "Author-run indie imprint; steady 2026 release schedule with Amazon e-book pre-orders and direct epub store.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Derek James Kritzberg",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Bellageist: Chains of a Demigod",
+  "genre": "Fantasy",
+  "sourceUrl": "https://dejakr.substack.com/p/chained-demigod-call-for-beta-readers",
+  "evidenceQuote": "I’m also seeking a cover artist!",
+  "evidenceDate": "2026-05-15",
+  "officialWebsite": "https://dejakr.substack.com/",
+  "notes": "EXPLICIT: seeking a cover artist; taking Book One into full editing for ebook and paperback release; calling for beta readers.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Matthew Vaughn",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fiction",
+  "sourceUrl": "https://authormatthewvaughn.substack.com/p/other-re-release",
+  "evidenceQuote": "By the time you read this, you should be able to grab my newest re-release.",
+  "evidenceDate": "2026-07-20",
+  "officialWebsite": "https://authormatthewvaughn.substack.com/",
+  "notes": "Indie author re-releasing backlist; new novella coming soon.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Emily Lupita",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Artist Travel Memoir",
+  "genre": "Memoir",
+  "sourceUrl": "https://emilylupitawriter.substack.com/p/creativity-desk-launching-the-midlife",
+  "evidenceQuote": "is coming soon!",
+  "evidenceDate": "2026-08-28",
+  "officialWebsite": "https://www.emilylupitawriter.com/",
+  "notes": "Self-published illustrated memoir and children’s books; new book coming soon.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Allison Ink",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Harvested: Fall of Nature",
+  "genre": "Fantasy",
+  "sourceUrl": "https://allisonink.substack.com/p/the-real-cost-of-publishing-a-book",
+  "evidenceQuote": "After recently self-publishing my debut novel, Harvested: Fall of Nature",
+  "evidenceDate": "2026-07-22",
+  "officialWebsite": "https://allisonink.com/",
+  "notes": "Recently self-published debut (KDP); post on real cost of publishing.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Amy Ullrich",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "Heroes of Wessex",
+  "genre": "Historical YA adventure",
+  "sourceUrl": "https://amyullrich.substack.com/p/how-the-prayers-of-jane-austen-show-469",
+  "evidenceQuote": "Special Kickstarter event coming soon!",
+  "evidenceDate": "2026-04-23",
+  "officialWebsite": "https://amyullrich.com/",
+  "notes": "Indie author; Kickstarter for Heroes of Wessex trilogy.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "Substack recommendations crawl from self-publishing author newsletters (no search engine)",
+   "market": "Global",
+   "provider": "claude-websearch",
+   "date": "2026-10-12"
+  }
+ }
+]

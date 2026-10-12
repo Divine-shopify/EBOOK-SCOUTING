@@ -43,7 +43,7 @@ export const SERVICE_TERMS: ServiceTerm[] = [
 
 const REQUEST_VERB =
   String.raw`(?:i'?m|i am|we'?re|we are|i'?ve been|still|currently|now|also|desperately|actively)?\s*(?:looking for|searching for|in search of|seeking|in need of|need(?:ing)?|want(?:ing)? to (?:hire|find|commission)|hiring|recruiting|on the hunt for|could use|trying to find|recommend(?:ations?)? for|recs? for|suggestions for|anyone know (?:a|an|of)|can anyone recommend|who do you (?:use|recommend) for)`;
-const LOCAL_REQUEST = String.raw`(?:suche|wir suchen|ich suche|gesucht|cherche|je cherche|nous cherchons|recherche|busco|buscamos|se busca|cerco|cerchiamo|op zoek naar|zoek(?:t|en)?|söker|vi söker|leter etter|søger|etsin)`;
+const LOCAL_REQUEST = String.raw`(?:suche|wir suchen|ich suche|gesucht|cherche|je cherche|nous cherchons|recherche|recherchons|nous recherchons|busco|buscamos|se busca|cerco|cerchiamo|op zoek naar|zoek(?:t|en)?|söker|vi söker|leter etter|søger|etsin)`;
 
 /** First-person requests for a service: the strongest buying signal. */
 export const EXPLICIT_REQUEST = new RegExp(
