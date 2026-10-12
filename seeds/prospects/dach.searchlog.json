@@ -336,5 +336,18 @@
   "rejected": 0,
   "rejectionReasons": "Others: no current stage wording or no site",
   "nextDirection": "Explicit service requests need social/forum sources not covered here"
+ },
+ {
+  "query": "Re-check of wording-rejected authors after German lexicon update (Juna Fargus, Heidi Metzmeier, Kerstin Imrek, Katharina Mosel, Ryu Mori, Kristin Weber, Teresa Arzberg)",
+  "market": "DACH",
+  "language": "de",
+  "sourceType": "site_scan",
+  "provider": "direct-fetch",
+  "date": "2026-10-12",
+  "resultsReviewed": 7,
+  "candidatesAdded": 4,
+  "rejected": 3,
+  "rejectionReasons": "Katharina Mosel (quote not found in agent fetch; bare 'erscheint'); Kristin Weber (no stage wording); Teresa Arzberg ('erscheint mit neuem Glow up' not matched)",
+  "nextDirection": "Explicit service requests need forum/social sources"
  }
 ]

@@ -33,9 +33,9 @@
   "provider": "claude-websearch",
   "date": "2026-10-12",
   "resultsReviewed": 10,
-  "candidatesAdded": 0,
-  "rejected": 10,
-  "rejectionReasons": "Kirsten Weiss newsletter verified but quote lacks lexicon stage/request wording (dropped after dry-run Excluded); rest were FantasticFiction/RisingShadow aggregators",
+  "candidatesAdded": 1,
+  "rejected": 9,
+  "rejectionReasons": "Kirsten Weiss re-added on 2026-10-12 after the lexicon update (Oct 2026 Substack pre-order post); the rest were FantasticFiction/RisingShadow aggregators",
   "nextDirection": "Fetch author 'coming soon' pages rather than newsletters"
  },
  {
@@ -111,9 +111,9 @@
   "provider": "claude-websearch",
   "date": "2026-10-12",
   "resultsReviewed": 9,
-  "candidatesAdded": 0,
-  "rejected": 9,
-  "rejectionReasons": "Lori Soard 2026/2027 post verified but wording ('heavy edits') not in lexicon -> Excluded in dry-run and dropped; Sarah E. Burr post 15 months old; cozy-mystery.com 2018-2019 roundups",
+  "candidatesAdded": 1,
+  "rejected": 8,
+  "rejectionReasons": "Lori Soard re-added after the lexicon update ('heavy edits' now recognised); Sarah E. Burr post 15 months old; cozy-mystery.com roundups from 2018-2019",
   "nextDirection": "Bookfrolic monthly cozy calendars used as name source"
  },
  {
@@ -189,7 +189,7 @@
   "provider": "claude-websearch",
   "date": "2026-10-12",
   "resultsReviewed": 9,
-  "candidatesAdded": 17,
+  "candidatesAdded": 18,
   "rejected": 0,
   "rejectionReasons": "Upwork/Goodreads/beta-reader providers ignored",
   "nextDirection": "Surfaced Columbus Book Festival Indie Author Alley and Arapahoe Indie Author Project -> crawled"
@@ -228,8 +228,8 @@
   "provider": "agent-fetcher",
   "date": "2026-10-12",
   "resultsReviewed": 85,
-  "candidatesAdded": 5,
-  "rejected": 80,
+  "candidatesAdded": 6,
+  "rejected": 79,
   "rejectionReasons": "No stage wording or no 2026 mention on fetched pages; 2 sites blocked (robots/403); E.A. Hendryx skipped as she is also a cover designer (provider profile) (candidatesAdded here overlaps the web-search entry that surfaced this directory)",
   "nextDirection": "Older Indie Author Alley lists"
  },

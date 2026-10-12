@@ -925,5 +925,106 @@
    "market": "Germany",
    "date": "2026-10-12"
   }
+ },
+ {
+  "name": "Juna Fargus",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://junafargus.com/solester/",
+  "evidenceQuote": "Band 3 der Tenebra-Reihe Solester – Die Schattenseiten der Magie Nichts ist, wie es scheint. Voraussichtliche Veröffentlichung im April 2027.",
+  "officialWebsite": "https://junafargus.com/",
+  "country": "Germany",
+  "region": "Nordrhein-Westfalen",
+  "city": "Leichlingen",
+  "locationQuote": "42799 Leichlingen (Rheinland) Deutschland",
+  "bookTitle": "Solester – Die Schattenseiten der Magie",
+  "genre": "Fantasy",
+  "additionalUrls": [
+   "https://junafargus.com/impressum/",
+   "https://junafargus.com/"
+  ],
+  "notes": "Homepage lists 29.01.2027 release of Marie & Rudy Band 1 and 15.04.2027 Solester Band 3.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Heidi Metzmeier",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://heidimetzmeier.de/",
+  "evidenceQuote": "wie weit Menschen gehen, um die Demokratie zu retten. E-Book vorbestellen*",
+  "officialWebsite": "https://heidimetzmeier.de/",
+  "bookTitle": "Zwischen Macht und Masken",
+  "genre": "Polit-Roman / Reisebuch",
+  "additionalUrls": [
+   "https://heidimetzmeier.de/impressum/"
+  ],
+  "notes": "Self-publisher ('Autorin im Eigenverlag'); e-book pre-order, Selfpublisher-Verband lists 14 Nov 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Kerstin Imrek",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [],
+  "sourceUrl": "https://kerstinimrek-autorin.de/",
+  "evidenceQuote": "GHOSTWRITER - Er schreibt dein Schicksal: OUT NOW! EUPHORIA - Wir waren perfekt: Release Februar 2027",
+  "officialWebsite": "https://kerstinimrek-autorin.de/",
+  "country": "Germany",
+  "region": "Baden-Württemberg",
+  "city": "Rudersberg",
+  "locationQuote": "73635 Rudersberg",
+  "bookTitle": "EUPHORIA - Wir waren perfekt",
+  "genre": "Dystopie / Urban Fantasy",
+  "additionalUrls": [
+   "https://kerstinimrek-autorin.de/impressum/"
+  ],
+  "notes": "Next novel EUPHORIA due February 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Ryu Mori",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://www.ryumori.de/romane/",
+  "evidenceQuote": "Erscheint 2027 Idol Ein Tokyo Noir über Fassade, Yakuza-Vergangenheit und den Preis des Scheinwerferlichts. Erscheint 2028 Press",
+  "officialWebsite": "https://www.ryumori.de/",
+  "bookTitle": "Idol",
+  "genre": "Gesellschaftsroman / Noir",
+  "additionalUrls": [
+   "https://www.ryumori.de/impressum/"
+  ],
+  "notes": "Imprint KOYO; Idol 2027, Press 2028. Impressum address (Oppenheim) appears to be a shared address service.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Buchkatalog nach Genre (selfpublisher-verband.de/genre/...), kommende Erscheinungstermine",
+   "provider": "direct-fetch",
+   "market": "Germany",
+   "date": "2026-10-12"
+  }
  }
 ]

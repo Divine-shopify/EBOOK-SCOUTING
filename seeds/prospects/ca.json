@@ -159,7 +159,7 @@
   "platforms": []
  },
  {
-  "name": "Matthew Williams",
+  "name": "Matt Williams",
   "authorType": "Self-Published Author",
   "genre": "Science fiction",
   "platforms": [
@@ -198,7 +198,7 @@
    "itch.io"
   ],
   "sourceUrl": "https://buttondown.com/adeniverville/archive/having-a-writing-identity-crisis/",
-  "evidenceQuote": "As for We Go Together , I would like to edit and re-release it.",
+  "evidenceQuote": "I would like to edit and re-release it. However, I’m not sure if now is the time to do it.",
   "evidenceDate": "2026-06-01",
   "officialWebsite": "https://adeniverville.com/",
   "additionalUrls": [
@@ -290,5 +290,79 @@
   "country": "Canada",
   "platforms": [],
   "additionalUrls": []
+ },
+ {
+  "name": "Kim McDougall",
+  "authorType": "Self-Published Author",
+  "region": "Quebec",
+  "locationQuote": "from my little house on the edge of the woods in Quebec, Canada",
+  "bookTitle": "Rivers of Resonance",
+  "genre": "Paranormal / urban fantasy",
+  "sourceUrl": "https://kimmcdougall.com/entries/the-knack-series/cover-reveal-pre-order-info",
+  "evidenceQuote": "Cover reveal and pre-order information for Rivers of Resonance, Book 3 of The Knack Series by Kim McDougall",
+  "evidenceDate": "2026-10-08",
+  "officialWebsite": "https://kimmcdougall.com/",
+  "additionalUrls": [
+   "https://www.csffa.ca/awards-information/eligibility-lists/"
+  ],
+  "notes": "Québec-based indie (English-language) author; Knack Series book 3 cover reveal + pre-order Oct 2026, release Jan 2027. Note: also offers author services, agent may flag as provider.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site crawl: csffa.ca Aurora Awards current eligibility lists (self-published / author-imprint entries), reached via Canadian SFF author directory crawl",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": []
+ },
+ {
+  "name": "Tracy Cooper-Posey",
+  "businessName": "Stories Rule Press",
+  "authorType": "Author-Owned Business",
+  "genre": "Romance; science fiction (as Cameron Cooper)",
+  "sourceUrl": "https://storiesrulepress.com/",
+  "evidenceQuote": "Our Latest Releases: Pre-Order Now! The Summer Garden: Season One The Summer Garden series by Mark Posey Pre-Order Now! Rogue Star Book 1, Hammer Down series by Cameron Cooper",
+  "officialWebsite": "https://storiesrulepress.com/",
+  "additionalUrls": [
+   "https://www.csffa.ca/awards-information/eligibility-lists/"
+  ],
+  "notes": "Author-owned press (prices in CAD; Aurora-eligible title The Grail and Glory); multiple pre-orders live incl. new Cameron Cooper SF series.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site crawl: csffa.ca Aurora Awards current eligibility lists (self-published / author-imprint entries), reached via Canadian SFF author directory crawl",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": []
+ },
+ {
+  "name": "D.M. De Alwis",
+  "authorType": "Self-Published Author",
+  "locationQuote": "As a Canadian author drawing on her Sri Lankan heritage",
+  "bookTitle": "The Eyes of Ess-Vaha (The Pink Eye Yaksha)",
+  "genre": "Prehistoric fantasy; children's novella",
+  "sourceUrl": "https://www.dmdealwis.com/the-pink-eye-yaksha/",
+  "evidenceQuote": "The Pink Eye Yaksha Cover reveal and background story behind the upcoming children's KidLit novella, The Eyes of Ess-Vaha",
+  "evidenceDate": "2026-05-09",
+  "officialWebsite": "https://www.dmdealwis.com/",
+  "additionalUrls": [
+   "https://www.dmdealwis.com/about/"
+  ],
+  "notes": "Canadian author with own imprint (site has Imprint section); cover reveal May 2026 for illustrated KidLit novella (released June 2026); York Region writers community.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site crawl: csffa.ca Aurora Awards current eligibility lists (self-published / author-imprint entries), reached via Canadian SFF author directory crawl",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada",
+  "platforms": []
  }
 ]

@@ -102,5 +102,183 @@
   "bookTitle": "BOYS WHO CRAVE",
   "genre": "Dark romance / why-choose romance",
   "evidenceDate": "2026-05-27"
+ },
+ {
+  "name": "Nathalie M.L. Römer",
+  "authorType": "Author-Owned Business",
+  "country": "Sweden",
+  "language": "en",
+  "sourceUrl": "https://www.nathaliemlromer.com/",
+  "evidenceQuote": "CHRISTMAS FIRESIDE Coming on 31 October 2026 for your KU library.",
+  "officialWebsite": "https://www.nathaliemlromer.com/",
+  "additionalUrls": [
+   "https://www.nathaliemlromer.com/who-is-nathalie/",
+   "https://www.nathaliemlromer.com/upcoming-releases/"
+  ],
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "notes": "Dutch-born indie author running her own micro-imprint Emerentsia Publications (Frövi, Sweden); KU pre-order live for 31 Oct 2026; imprint plans its own bookstore site in 2027.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Sweden",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Nathalie M.L. Römer is an author based in Frövi, Sweden.",
+  "city": "Frövi",
+  "bookTitle": "CHRISTMAS FIRESIDE",
+  "genre": "Fantasy / romance / suspense",
+  "contactPage": "https://www.nathaliemlromer.com/contact-us-2/"
+ },
+ {
+  "name": "Talle Fey",
+  "authorType": "Self-Published Author",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://www.tallefey.com/",
+  "evidenceQuote": "An Autistic author who sprinkles magic into romance stories Preorder Burning Sinners Now!",
+  "officialWebsite": "https://www.tallefey.com/",
+  "additionalUrls": [
+   "https://www.tallefey.com/about",
+   "https://spicysteamybookevent.nl/en/authors-2026/"
+  ],
+  "platforms": [],
+  "notes": "Self-described indie author who self-publishes; pre-order live for Burning Sinners; 'soon to be published series Scars and Secrets'. Residence not stated on site (Spicy & Steamy NL 2026 attendee) - country unverified.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "bookTitle": "Burning Sinners",
+  "genre": "Fantasy romance (Arcadia Sinners)",
+  "contactPage": "https://www.tallefey.com/contact"
+ },
+ {
+  "name": "J.N.M Verboekend",
+  "authorType": "Author-Owned Business",
+  "country": "Netherlands",
+  "language": "nl",
+  "sourceUrl": "https://www.booksofmouse.com/",
+  "evidenceQuote": "Pre-order the next installement of the End of Days series now!",
+  "officialWebsite": "https://www.booksofmouse.com/",
+  "additionalUrls": [
+   "https://www.booksofmouse.com/over-ons"
+  ],
+  "platforms": [],
+  "notes": "Judith Verboekend publishes her own books via her imprint Books of Mouse ('De Nederlandse fantasyschrijfster Judith Verboekend(1987) groeide op in Montfoort'); next End of Days book 'The Path of the doomed' release 31-10-2026. Site also offers editing/translation services - review.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "genre": "Dark fantasy / romantasy"
+ },
+ {
+  "name": "T.E. Forest",
+  "authorType": "Independent Author",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://teforest.nl/",
+  "evidenceQuote": "Her debut and the first book in the Radforth Duology (The Third Wish) will be published Fall 2026.",
+  "officialWebsite": "https://teforest.nl/",
+  "additionalUrls": [],
+  "platforms": [],
+  "notes": "Debut (Radforth Duology book 1) due Fall 2026; location quote is a birthplace (Dutch countryside); sold via Dutch/Belgian bookshops, publishing route not stated.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "was born in the Dutch countryside",
+  "bookTitle": "The Third Wish",
+  "genre": "Queer suspense fantasy"
+ },
+ {
+  "name": "Claire Timmers",
+  "authorType": "Independent Author",
+  "country": "Netherlands",
+  "language": "nl",
+  "sourceUrl": "https://clairetimmers.com/",
+  "evidenceQuote": "Tussen ons is verkrijgbaar als paperback en e-book, onder andere via bol.com. Het luisterboek verschijnt binnenkort",
+  "officialWebsite": "https://clairetimmers.com/",
+  "additionalUrls": [
+   "https://spicysteamybookevent.nl/en/authors-2026/",
+   "https://clairetimmers.com/biografie/",
+   "https://clairetimmers.com/vervolg/"
+  ],
+  "platforms": [],
+  "notes": "Debut 'Tussen ons' (Aug 2026) out as paperback/e-book; audiobook forthcoming and sequel in progress. Biografie page: 'Ik ben Claire en woon met mijn vriend en twee kinderen in Peize, Drenthe.'",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "Claire is a Dutch author who writes New Adult romantic suspense",
+  "bookTitle": "Tussen ons",
+  "genre": "New Adult romantic suspense"
+ },
+ {
+  "name": "Layla Heart",
+  "authorType": "Author-Owned Business",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://www.easilydistractedmedia.com/",
+  "evidenceQuote": "Will you be at Spicy & Steamy Book Event on the 26th of Sep in Utrecht? You can pre-order your paperbacks now!",
+  "officialWebsite": "https://www.easilydistractedmedia.com/",
+  "additionalUrls": [
+   "https://spicysteamybookevent.nl/en/authors-2026/",
+   "https://www.easilydistractedmedia.com/wip-and-updates/ai-new-covers-paperbacks-and-spicy-steamy-book-event-2026/"
+  ],
+  "platforms": [
+   "Smashwords",
+   "Ream"
+  ],
+  "notes": "Writes as Emmy/Emily Engberts, Layla Heart, Skylar Heart, Rosa Swann via own imprint Easily Distracted Media. 1 Oct 2026 post: re-covered series, a cover company caused print delays, final Her Vicious Pack collection releases next year.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "locationQuote": "a queer and neurodiverse author from the Netherlands",
+  "genre": "Omegaverse / paranormal romance"
+ },
+ {
+  "name": "Dahlia Amy",
+  "authorType": "Self-Published Author",
+  "country": "Netherlands",
+  "language": "en",
+  "sourceUrl": "https://dahliaamywriting.com/about-my-books/",
+  "evidenceQuote": "Preorder now Parnormal Dark Romance Against All Odds Odds can be manipulated, but fate ultimately decides.",
+  "officialWebsite": "https://dahliaamywriting.com/",
+  "additionalUrls": [
+   "https://dahliaamywriting.com/about-the-author/"
+  ],
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "notes": "Pre-order live for 'Against All Odds' (KU). Spicy & Steamy NL 2026 attendee; about page says English is her second language with Dutch expressions - residence not stated, country unverified.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "blog tour 2026 \"lives in the Netherlands\" author new release",
+   "provider": "claude-websearch",
+   "market": "Netherlands",
+   "date": "2026-10-12"
+  },
+  "bookTitle": "Against All Odds",
+  "genre": "Dark sci-fi / paranormal romance"
  }
 ]

@@ -1172,5 +1172,88 @@
    "market": "United States",
    "date": "2026-10-12"
   }
+ },
+ {
+  "name": "Kirsten Weiss",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Winter of the Witch",
+  "genre": "Cozy mystery / paranormal mystery",
+  "platforms": [
+   "Amazon",
+   "Apple Books",
+   "Barnes & Noble",
+   "Google Play",
+   "Kobo"
+  ],
+  "sourceUrl": "https://kirstenweiss.substack.com/p/classic-mystery-book-club-with-kirsten",
+  "evidenceQuote": "Or Pre-order WINTER OF THE WITCH : https://www.kirstenweiss.com/mystery-school-2/winter-of-the-witch Ellie and the Secret Staircase Serial",
+  "evidenceDate": "2026-10-02",
+  "officialWebsite": "https://www.kirstenweiss.com/",
+  "contactPage": "https://www.kirstenweiss.com/contact",
+  "additionalUrls": [
+   "https://www.kirstenweiss.com/teasers",
+   "https://kirstenweiss.substack.com/p/welcome-2026"
+  ],
+  "notes": "Indie cozy mystery author. Oct 2026 Substack: Winter of the Witch (Mystery School #4) on pre-order; teasers page says it is coming October 31, 2026. Her Jan 2026 newsletter set out the 2026 release schedule and said she 'will be hiring a voice actress' for a Mystery School book. Location not stated on fetched pages.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "cozy mystery author \"coming in 2026\" \"book 4\" indie author website news",
+   "provider": "claude-websearch",
+   "market": "United States",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Lori Soard",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "region": "Indiana",
+  "locationQuote": "I grew up on the far east side of Indianapolis",
+  "language": "en",
+  "bookTitle": "Murder on Mulberry Lane",
+  "genre": "Cozy mystery / Christian romance",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://lorisoard.com/?p=1779",
+  "evidenceQuote": "First, my Mildred Wiggins cozy mystery series launches this summer. The first book is in heavy edits at the moment.",
+  "evidenceDate": "2026-03-13",
+  "officialWebsite": "https://lorisoard.com/",
+  "additionalUrls": [
+   "https://lorisoard.com/lori/"
+  ],
+  "notes": "March 2026 '2026/2027 Upcoming Books' post: new 10-book Mildred Wiggins cozy series (first book in heavy edits), multi-author novellas releasing 2026-2027. Bio says she grew up in Indianapolis; current town not stated.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "\"cover reveal\" \"coming 2026\" cozy mystery author blog indie",
+   "provider": "claude-websearch",
+   "market": "United States",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "J.D. Blackrose",
+  "businessName": "SlipperyWords",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Angel Flash",
+  "genre": "Humorous / urban fantasy, horror",
+  "platforms": [],
+  "sourceUrl": "https://slipperywords.com/",
+  "evidenceQuote": "Coastal Magic Con & the Release of Angel Flash February 25, 2026 Angel Flash Cover Reveal January 15, 2026",
+  "officialWebsite": "https://slipperywords.com/",
+  "additionalUrls": [
+   "https://slipperywords.com/my-new-horror-novella-is-coming-along-im-excited-to-share-this-ghost-story-with-you/",
+   "https://www.columbusbookfestival.org/2026-columbus-book-festival/indie-author-alley/"
+  ],
+  "notes": "Urban fantasy author (Columbus Book Festival 2026 Indie Author Alley). Angel Flash cover reveal Jan 2026 (released Feb 2026, so this evidence is weak); Sept 28, 2026 post says a horror novella is in progress, to be published by Falstaff Dread. Location not stated. Discovered via Columbus Book Festival Indie Author Alley list.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "\"work in progress\" author website 2026 \"first draft\" \"beta readers\" \"editor\" indie fantasy author Ohio",
+   "provider": "claude-websearch",
+   "market": "United States",
+   "date": "2026-10-12"
+  }
  }
 ]

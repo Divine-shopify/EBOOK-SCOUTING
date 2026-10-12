@@ -191,7 +191,7 @@
   "resultsReviewed": 10,
   "candidatesAdded": 0,
   "rejected": 4,
-  "rejectionReasons": "Nimisa coop authors (Joost Uitdehaag checked: Dutch-language stage wording not matched by agent -> Excluded); Mirjam Schippers on blog hiatus; schrijvenonline thread from 2017.",
+  "rejectionReasons": "Nimisa coop authors (Joost Uitdehaag re-checked after lexicon update: still no matched wording -> Excluded); Mirjam Schippers on blog hiatus; schrijvenonline thread from 2017.",
   "nextDirection": "English-language Dutch indie authors."
  },
  {
@@ -293,9 +293,9 @@
   "provider": "claude-websearch",
   "date": "2026-10-12",
   "resultsReviewed": 9,
-  "candidatesAdded": 4,
-  "rejected": 55,
-  "rejectionReasons": "Spicy & Steamy Book Event (Utrecht) 2026/2025/2024 author lists: ~60 author sites scanned with the agent's own fetcher; most lack 2026 production-stage wording the agent recognises (Dutch 'verschijnt', 'Preorder <title> now', 'Coming on <date>' not matched), are already released, are Belgium/US-based, or sites failed to load. Kept: Stephanie Storm, D.E. Haggerty, Rachel Elisabeth, Clarissa Wild.",
+  "candidatesAdded": 11,
+  "rejected": 50,
+  "rejectionReasons": "Spicy & Steamy Book Event (Utrecht) 2026/2025/2024 author lists: ~60 author sites scanned with the agent's own fetcher; most lack 2026 production-stage wording the agent recognises (Dutch 'verschijnt', 'Preorder <title> now', 'Coming on <date>' not matched), are already released, are Belgium/US-based, or sites failed to load. Kept (after lexicon update, re-checked by direct fetch): Stephanie Storm, D.E. Haggerty, Rachel Elisabeth, Clarissa Wild, Nathalie M.L. Römer, Talle Fey, J.N.M Verboekend, T.E. Forest, Claire Timmers, Layla Heart, Dahlia Amy. Still rejected: Marit Prins (only nav 'Pre-order'/'This is a pre-order'), Jade Vening ('in het voorjaar van 2027 verschijnt' not matched), Jane Cooke (nav-only 'Coming Soon').",
   "nextDirection": "Other NL events (MH Books Event, Romance Festival BE standhouders list fetched: names only, no sites)."
  },
  {
