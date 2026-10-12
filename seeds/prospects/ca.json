@@ -30,6 +30,7 @@
  {
   "name": "Douglas Smith",
   "authorType": "Independent Author",
+  "locationQuote": "I'm a multi-award-winning Canadian author of speculative fiction",
   "genre": "Speculative fiction; writing craft",
   "sourceUrl": "http://www.smithwriter.com/blogs/douglas_smith",
   "evidenceQuote": "my new writing craft book, Brick by Brick: How to Build a Story, is available for pre-order now on all major ebook retail platforms",
@@ -364,5 +365,95 @@
   "language": "en",
   "country": "Canada",
   "platforms": []
+ },
+ {
+  "name": "Claudie Arseneault",
+  "businessName": "Kraken Collective",
+  "authorType": "Self-Published Author",
+  "region": "Quebec",
+  "city": "Quebec City",
+  "locationQuote": "writer hailing from the mostly-francophone Quebec City",
+  "bookTitle": "Common Bonds 3",
+  "genre": "Fantasy; aro/ace anthology",
+  "platforms": [
+   "itch.io"
+  ],
+  "sourceUrl": "https://buttondown.com/ClaudieArseneault/archive/common-bonds-3-is-coming/",
+  "evidenceQuote": "our next Common Bonds anthology. First, we have had our cover reveal over at LGBTQReads!",
+  "evidenceDate": "2026-05-14",
+  "officialWebsite": "https://claudiearseneault.com/",
+  "additionalUrls": [
+   "https://claudiearseneault.com/about/",
+   "https://itch.io/b/3524/hidden-gems-all-canadian-bundle"
+  ],
+  "notes": "Francophone Québec City indie author (English-language fiction, self-publishing); co-runs self-published Common Bonds anthology (cover reveal May 2026); new novel in progress.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "\"Canadian indie authors\" book bundle 2026 BookFunnel all-Canadian",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Tao Wong",
+  "businessName": "Starlit Publishing",
+  "authorType": "Author-Owned Business",
+  "region": "Ontario",
+  "city": "Toronto",
+  "locationQuote": "He lives in Toronto, Canada.",
+  "bookTitle": "The First War",
+  "genre": "LitRPG / progression fantasy",
+  "platforms": [
+   "Kindle Unlimited",
+   "Shopify"
+  ],
+  "sourceUrl": "https://starlitpublishing.com/",
+  "evidenceQuote": "Coming Soon [PRE-ORDER] The First War - Signed Hardcover edition",
+  "officialWebsite": "https://starlitpublishing.com/",
+  "additionalUrls": [
+   "https://events.humanitix.com/author-readings-fantasy1"
+  ],
+  "notes": "Toronto LitRPG author whose own imprint Starlit Publishing sells direct (Shopify) and on KU; pre-orders and re-releases live; also publishes other authors.",
+  "discovery": {
+   "channel": "web_search",
+   "query": "site crawl: Canada Fiction Fest 2026 event pages (events.humanitix.com/host/canada-fiction-fest), reached via \"Canada Fiction Fest\" 2026 indie authors",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
+ },
+ {
+  "name": "Lee Burton",
+  "authorType": "Self-Published Author",
+  "region": "Newfoundland and Labrador",
+  "city": "St. John's",
+  "locationQuote": "Burton lives in St. John’s, Newfoundland",
+  "bookTitle": "The Lion: Speaker Origins, Book One",
+  "genre": "Fantasy",
+  "platforms": [
+   "itch.io"
+  ],
+  "sourceUrl": "https://leeburton.ca/speaker-series",
+  "evidenceQuote": "Abomination. AVAILABLE IN EBOOK Print version coming soon. SPEAKER SHORTS",
+  "officialWebsite": "https://leeburton.ca/",
+  "additionalUrls": [
+   "https://leeburton.ca/about",
+   "https://itch.io/b/3524/hidden-gems-all-canadian-bundle"
+  ],
+  "notes": "Indie fantasy author in the 2026 Hidden Gems All-Canadian bundle; Speaker series title out in ebook with print edition 'coming soon' (page undated).",
+  "discovery": {
+   "channel": "web_search",
+   "query": "\"Canadian indie authors\" book bundle 2026 BookFunnel all-Canadian",
+   "provider": "claude-websearch",
+   "market": "Canada",
+   "date": "2026-10-12"
+  },
+  "language": "en",
+  "country": "Canada"
  }
 ]
