@@ -65,6 +65,7 @@ const THIRD_PARTY_SUBJECT = /\b(journal|magazine|company|agency|press|team|unive
 /** Applies grammatical checks to a candidate request match inside its sentence. */
 export function isOwnRequest(sentence: string, matchOffset: number): boolean {
   const before = sentence.slice(0, matchOffset);
+  if (/\b(you|your|you'?re|u)\b/i.test(before)) return false;
   const window = sentence.slice(Math.max(0, matchOffset - 40), matchOffset + 40);
   if (NOT_OWN_REQUEST.test(window)) return false;
   if (THIRD_PARTY_SUBJECT.test(before) && !/\b(i|i'm|we|we're)\b/i.test(before.slice(-25))) return false;
@@ -83,12 +84,22 @@ export const STAGE_TERMS: { re: RegExp; label: string; status: "Forthcoming" | "
   { re: /\b(first|debut) (book|novel|e-?book)\b.{0,60}\b(self-?publish|indie|kdp|kindle)/i, label: "Debut self-published book", status: "Unpublished" },
   { re: /\bself-?publish(ing)? (my|our) (first|debut|new|next)\b|\bplanning to self-?publish\b|\bgoing to self-?publish\b|\bdecided to self-?publish\b/i, label: "Planning to self-publish", status: "Unpublished" },
   { re: /\b(relaunch|re-?launch|re-?release|new covers? for (the|my) series|re-?covering|second edition)\b/i, label: "Relaunch / re-cover", status: "Relaunch" },
+  { re: /出版予定|発売予定|予約開始|近日発売|近日公開|출간 예정|출간예정|예약 판매|곧 출간/, label: "Upcoming release (Japanese/Korean)", status: "Forthcoming" },
   { re: /\b(neuerscheinung|erscheint (am|im)|vorbestellbar|à paraître|bientôt disponible|próximamente|en preventa|in uscita|binnenkort verkrijgbaar|kommer snart)\b/i, label: "Upcoming release (local language)", status: "Forthcoming" },
+];
+
+const CJK_REQUEST = /(表紙|カバー|イラストレーター|イラスト|校正|校閲|編集者|翻訳者?|ナレーター|표지|일러스트레이터|일러스트|교정|교열|편집자|번역가?|내레이터)[^。！？\n]{0,12}(募集|探しています|探してます|お願いしたい|依頼したい|구합니다|찾습니다|구해요|모집|의뢰하고)/g;
+const CJK_SERVICE: [RegExp, OpportunityCategory, string][] = [
+  [/表紙|カバー|イラスト|표지|일러스트/, "Cover Design", "eBook cover design"],
+  [/校正|校閲|교정|교열/, "Proofreading", "Proofreading"],
+  [/編集者|편집자/, "Editing", "Manuscript editing"],
+  [/翻訳|번역/, "Translation", "eBook translation"],
+  [/ナレーター|내레이터/, "Audiobook", "Audiobook production"],
 ];
 
 /** Text that ties a page to eBooks / digital publishing. */
 export const EBOOK_TERMS =
-  /\b(e-?books?|kindle( unlimited| edition)?|kdp|epub|kobo|apple books|google play books|draft2digital|smashwords|ingramspark|nook|self-?publish(ed|ing)?|indie (author|publishing)|digital edition|e-?book|ebook|livre numérique|libro electrónico|e-?boek|e-?bok)\b/i;
+  /\b(e-?books?|kindle( unlimited| edition)?|kdp|epub|kobo|apple books|google play books|draft2digital|smashwords|ingramspark|nook|self-?publish(ed|ing)?|indie (author|publishing)|digital edition|e-?book|ebook|livre numérique|libro electrónico|e-?boek|e-?bok)\b|電子書籍|Kindle出版|キンドル|전자책|이북/i;
 
 /** Retailer link hosts, used for distribution analysis of an author's site. */
 export const RETAILERS: Record<string, RegExp> = {
@@ -151,6 +162,14 @@ function sentenceAt(text: string, i: number): { sentence: string; start: number 
 }
 
 /** Scans verified text for explicit requests and production-stage wording. */
+/** Posts that mention a service need without being a buyer: job-hunting, anecdotes, journals, no budget, querying. */
+export const NOT_A_BUYER =
+  /\bjob (posting|listing|ad)s?\b|\bcraigslist\b|\bon sub(mission)?\b|\bspecial issue\b|\bjournal\b|\bfind command\b|\bpaid in (gratitude|exposure|hugs)\b|\bfor exposure\b|\bcan'?t afford\b|\bnever be able to afford\b|\bunpaid\b|\bvolunteer\b|\bfor free\b|\bfree of charge\b|\bin exchange for\b/i;
+/** "Need" phrasings count only with a request cue; "looking for / seeking" are requests on their own. */
+const WEAK_VERB = /^\W*(?:\w+'?\w*\s+){0,2}?(need|needing|could use)\b/i;
+const REQUEST_CUE = /\b(recommend|recommendations?|recs?|suggestions?|anyone|any(one)? know|dm me|reach out|portfolio|paid|budget|hire|hiring|rates?|quote|for my (book|novel|manuscript|series|picture book|debut|memoir|cookbook|story|wip|cover)|\?)/i;
+const HYPOTHETICAL = /\b(might|may|will|would|could|should|'ll|going to|gonna|eventually|someday|soon)\s+(\w+\s+){0,3}(need|start looking|look for|be looking|hire)/i;
+
 export function detectSignals(raw: string, opts: { wholeTextIsOnePost?: boolean } = {}): SignalHit[] {
   const hits: SignalHit[] = [];
   const text = raw.replace(/[\u2018\u2019\u02bc]/g, "'").replace(/[\u201c\u201d]/g, '"');
@@ -158,15 +177,29 @@ export function detectSignals(raw: string, opts: { wholeTextIsOnePost?: boolean 
   if (opts.wholeTextIsOnePost && TRADITIONAL_PITCH.test(text)) return [];
   // A post that reads as provider advertising yields no buyer signals at all.
   if (opts.wholeTextIsOnePost && PROVIDER_PROMO.test(text)) return [];
+  const notBuyer = opts.wholeTextIsOnePost && NOT_A_BUYER.test(text);
   const global = new RegExp(EXPLICIT_REQUEST.source, "gi");
   for (const m of text.matchAll(global)) {
+    if (notBuyer) break;
     const idx = m.index ?? 0;
     const { sentence, start } = sentenceAt(text, idx);
-    if (PROVIDER_PROMO.test(sentence)) continue;
+    if (PROVIDER_PROMO.test(sentence) || NOT_A_BUYER.test(sentence)) continue;
+    const window = text.slice(Math.max(0, idx - 50), idx + m[0].length);
+    if (HYPOTHETICAL.test(window)) {
+      // An anticipated need is a production-stage signal (inferred), not an explicit request.
+      hits.push({ kind: "stage", label: "Anticipated service need", status: "In Progress", snippet: snippetAround(text, idx, m[0].length) });
+      continue;
+    }
     if (!isOwnRequest(sentence, idx - start)) continue;
+    if (WEAK_VERB.test(m[0]) && !REQUEST_CUE.test(opts.wholeTextIsOnePost ? text : sentence)) continue;
     for (const s of servicesIn(m[0])) {
       hits.push({ kind: "explicit", label: `Explicit request: ${s.service}`, category: s.category, service: s.service, snippet: snippetAround(text, idx, m[0].length) });
     }
+  }
+  // Japanese / Korean requests (no word boundaries in CJK script).
+  for (const m of text.matchAll(CJK_REQUEST)) {
+    const svc = CJK_SERVICE.find(([re]) => re.test(m[0]));
+    if (svc) hits.push({ kind: "explicit", label: `Explicit request: ${svc[2]}`, category: svc[1], service: svc[2], snippet: snippetAround(text, m.index ?? 0, m[0].length) });
   }
   for (const st of STAGE_TERMS) {
     const m = st.re.exec(text);

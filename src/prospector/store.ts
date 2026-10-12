@@ -3,9 +3,22 @@ import { createRequire } from "node:module";
 import { readFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { nowIso, tx, type DB } from "../db/db.js";
+import { nowIso, type DB } from "../db/db.js";
 import type { ProspectCandidate } from "./candidate.js";
 import type { Decision, ProspectRecord, LeadStatus } from "./qualify.js";
+
+/** Write transaction that takes the lock up front, so concurrent writers wait (busy_timeout) instead of failing. */
+function tx<T>(db: DB, fn: () => T): T {
+  db.exec("BEGIN IMMEDIATE");
+  try {
+    const r = fn();
+    db.exec("COMMIT");
+    return r;
+  } catch (e) {
+    db.exec("ROLLBACK");
+    throw e;
+  }
+}
 
 const here = dirname(fileURLToPath(import.meta.url));
 const { DatabaseSync } = createRequire(import.meta.url)("node:sqlite") as { DatabaseSync: typeof DatabaseSyncT };
@@ -13,7 +26,7 @@ const { DatabaseSync } = createRequire(import.meta.url)("node:sqlite") as { Data
 export function openProspectDb(file = process.env.PROSPECT_DB_PATH ?? "data/prospector.db"): DB {
   if (file !== ":memory:") mkdirSync(dirname(resolve(file)), { recursive: true });
   const db = new DatabaseSync(file);
-  db.exec("PRAGMA journal_mode = WAL; PRAGMA busy_timeout = 5000;");
+  db.exec("PRAGMA journal_mode = WAL; PRAGMA busy_timeout = 30000;");
   db.exec(readFileSync(resolve(here, "schema.sql"), "utf8"));
   return db;
 }

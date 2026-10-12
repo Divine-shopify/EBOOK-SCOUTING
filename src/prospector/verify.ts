@@ -9,11 +9,11 @@ import { countryFromText, marketByName } from "./markets.js";
 
 /** Hosts the agent never fetches: bot-blocking or terms prohibit automated access. Evidence there stays unverified. */
 export const NO_FETCH_HOSTS =
-  /(^|\.)(amazon\.[a-z.]+|reddit\.com|kickstarter\.com|indiegogo\.com|facebook\.com|instagram\.com|tiktok\.com|x\.com|twitter\.com|linkedin\.com|kboards\.com|upwork\.com|fiverr\.com|threads\.net|youtube\.com|discord\.com)$/i;
+  /(^|\.)(amazon\.[a-z.]+|a\.co|amzn\.to|amzn\.eu|reddit\.com|kickstarter\.com|indiegogo\.com|facebook\.com|instagram\.com|tiktok\.com|x\.com|twitter\.com|linkedin\.com|kboards\.com|upwork\.com|fiverr\.com|threads\.net|youtube\.com|discord\.com)$/i;
 
 /** Shared hosting platforms: the domain does not identify one author. */
 export const SHARED_HOSTS =
-  /(^|\.)(bsky\.app|bsky\.social|mastodon\.[a-z]+|wordpress\.com|blogspot\.com|substack\.com|medium\.com|wixsite\.com|weebly\.com|carrd\.co|linktr\.ee|beacons\.ai|goodreads\.com|wattpad\.com|github\.io|squarespace\.com|tumblr\.com|ko-fi\.com|patreon\.com|campsite\.bio|bio\.link|allmylinks\.com|about\.me|google\.com|amazon\.[a-z.]+|books2read\.com|payhip\.com|gumroad\.com)$/i;
+  /(^|\.)(bsky\.app|bsky\.social|mastodon\.[a-z]+|wordpress\.com|blogspot\.com|substack\.com|medium\.com|wixsite\.com|weebly\.com|carrd\.co|linktr\.ee|beacons\.ai|goodreads\.com|wattpad\.com|github\.io|squarespace\.com|tumblr\.com|ko-fi\.com|patreon\.com|campsite\.bio|bio\.link|allmylinks\.com|about\.me|google\.com|amazon\.[a-z.]+|books2read\.com|payhip\.com|gumroad\.com|itch\.io|twitch\.tv|buymeacoffee\.com|linkin\.bio|lnk\.bio|solo\.to|hoo\.be|withkoji\.com|msha\.ke|stan\.store|bookbub\.com|bookfunnel\.com|storygraph\.com|tapas\.io|webtoons\.com|royalroad\.com|ao3\.org|archiveofourown\.org)$/i;
 
 export interface PageCheck {
   url: string;
@@ -110,7 +110,7 @@ export function websitesInText(text: string): string[] {
     if (!/^https?:/i.test(u)) u = `https://${u}`;
     const host = domainOf(u);
     if (!host || NO_FETCH_HOSTS.test(host) || SHARED_HOSTS.test(host) && !/\.(wordpress|blogspot|substack|wixsite|weebly|carrd)\./i.test(host)) continue;
-    if (/(^|\.)(bsky\.app|bsky\.social|linktr\.ee|instagram|tiktok|facebook|youtube|patreon|ko-fi|threads)/i.test(host)) continue;
+    if (/(^|\.)(bsky\.app|bsky\.social|linktr\.ee|instagram|tiktok|facebook|youtube|patreon|ko-fi|threads|twitch|itch\.io|buymeacoffee|a\.co|amzn|discord|spotify|apple\.com|google\.com)/i.test(host)) continue;
     if (/(gmail|googlemail|outlook|hotmail|yahoo|icloud|proton|aol|gmx|web\.de|email-provider|list-manage|mailerlite|mailchimp|kit\.com|convertkit|substack\.com$|accounts\.google)/i.test(host)) continue;
     out.push(u);
   }

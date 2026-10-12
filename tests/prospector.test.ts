@@ -140,3 +140,10 @@ describe("pipeline: dedup, resume and export", () => {
     expect(wb.worksheets.map((w) => w.name)).toEqual(["Qualified Prospects", "Needs Review", "Research Log", "Excluded & Duplicates", "Campaign Summary"]);
   });
 });
+
+describe("CJK lexicon", () => {
+  it("detects Japanese and Korean requests", () => {
+    expect(detectSignals("新作の表紙イラストレーターを募集しています")[0]?.category).toBe("Cover Design");
+    expect(detectSignals("전자책 표지 디자이너 구합니다").some((s) => s.category === "Cover Design")).toBe(true);
+  });
+});
