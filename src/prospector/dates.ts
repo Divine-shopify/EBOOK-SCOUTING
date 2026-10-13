@@ -71,9 +71,28 @@ export function datesIn(text: string, now = new Date()): Date[] {
 }
 
 /** "passed" when every date in the text is more than graceDays in the past; "current" when any is not; else null. */
-export function releaseTiming(text: string, now = new Date(), graceDays = 45): "passed" | "current" | null {
+export function releaseTiming(text: string, now = new Date(), graceDays = 30): "passed" | "current" | null {
   const ds = datesIn(text, now);
   if (!ds.length) return null;
   const cutoff = now.getTime() - graceDays * 86400_000;
   return ds.some((d) => d.getTime() >= cutoff) ? "current" : "passed";
+}
+
+/**
+ * Timing judged only from dates near the stage wording itself ("Pre-order now … releases Nov 10, 2026"), so an
+ * unrelated date elsewhere in the snippet (a workshop, a footer) does not decide whether the release is current.
+ */
+export function releaseTimingNear(text: string, terms: string[], now = new Date()): "passed" | "current" | null {
+  const verdicts: ("passed" | "current")[] = [];
+  const lower = text.toLowerCase();
+  for (const term of terms) {
+    let i = lower.indexOf(term.toLowerCase());
+    while (i >= 0) {
+      const t = releaseTiming(text.slice(Math.max(0, i - 80), i + term.length + 120), now);
+      if (t) verdicts.push(t);
+      i = lower.indexOf(term.toLowerCase(), i + 1);
+    }
+  }
+  if (!verdicts.length) return terms.length ? null : releaseTiming(text, now);
+  return verdicts.includes("current") ? "current" : "passed";
 }

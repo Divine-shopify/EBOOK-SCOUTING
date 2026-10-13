@@ -4,7 +4,7 @@ import { extractPage, contactPageCandidates, type PageInfo } from "../analysis/e
 import { SEED_ONLY, platformOf } from "../adapters/sources.js";
 import { domainOf, normalizeKey } from "../util/text.js";
 import type { ProspectCandidate } from "./candidate.js";
-import { BIG_PUBLISHER, detectSignals, EBOOK_TERMS, RETAILERS, AUTHOR_PROFILE, PROVIDER_PROFILE, type SignalHit } from "./lexicon.js";
+import { BIG_PUBLISHER, PROVIDER_SITE, detectSignals, EBOOK_TERMS, RETAILERS, AUTHOR_PROFILE, PROVIDER_PROFILE, type SignalHit } from "./lexicon.js";
 import { resolveMxRobust, type MxLookup } from "../email/verify.js";
 import { countryFromImpressum, countryFromMentionsLegales, countryFromText, marketByName } from "./markets.js";
 
@@ -352,6 +352,9 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher, mx
   // 6. eBook / publishing connection from own text.
   const ownJoined = ownTexts.map((t) => t.text).join("\n");
   // Only a publisher named as the author's publisher counts ("published by Penguin", "signed with Harlequin"), not a stray word.
+  // A site that sells editing/design/formatting/coaching services belongs to a provider, not a buyer.
+  const providerHits = new Set([...ownJoined.matchAll(PROVIDER_SITE)].map((m) => m[0].toLowerCase()));
+  if (providerHits.size >= 2) v.isServiceProvider = true;
   v.tradPublisher = new RegExp(String.raw`(?:published (?:by|with)|publisher|imprint|verlag|éditions|edizioni|editorial|signed with|deal with|available from)[^.]{0,40}?` + BIG_PUBLISHER.source, "i").exec(ownJoined)?.[0];
   v.indieSignals = /self-?publish|indie author|independent author|kindle unlimited|\bKU\b|\bkdp\b|books2read|draft2digital|bookfunnel|payhip|ingramspark|smashwords|my own imprint|selfpublish|autoédit|autopubli|self-publishing/i.test(ownJoined) || v.retailers.some((r) => /Books2Read|BookFunnel|Payhip|Gumroad|Shopify|Smashwords/.test(r));
   const ebookHit = EBOOK_TERMS.exec(ownJoined);

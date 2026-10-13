@@ -211,3 +211,15 @@ describe("site-scan precision guards", () => {
     expect(releaseTiming("Coming November 10 to all stores", now)).toBe("current");
   });
 });
+
+describe("final precision rules", () => {
+  it("judges timing by dates near the stage wording", async () => {
+    const { releaseTimingNear } = await import("../src/prospector/dates.js");
+    const now = new Date("2026-10-13T00:00:00Z");
+    expect(releaseTimingNear("Pique Dame erscheint am 10. März 2022 Blutroter Champagner. Aktuell: Schreibakademie 07.09.2026", ["erscheint am"], now)).toBe("passed");
+    expect(releaseTimingNear("Pre-order now! Releases November 20, 2026.", ["Pre-order now"], now)).toBe("current");
+  });
+  it("treats testimonials for an editor as provider promotion", () => {
+    expect(detectSignals("I'd definitely recommend Amie to other authors looking for a copy editor.", { wholeTextIsOnePost: true })).toEqual([]);
+  });
+});

@@ -1,10 +1,10 @@
 import type { ProspectCandidate } from "./candidate.js";
 import type { Verification } from "./verify.js";
-import { BIG_PUBLISHER, aboutOtherAuthor, categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.js";
+import { BIG_PUBLISHER, WEAK_TEASER, aboutOtherAuthor, categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.js";
 import { domainOf, normalizeKey } from "../util/text.js";
 import { SHARED_HOSTS } from "./verify.js";
 import { cleanDisplayName } from "./discovery.js";
-import { releaseTiming } from "./dates.js";
+import { releaseTimingNear } from "./dates.js";
 
 export const COLUMNS = [
   "Prospect Name", "First Name", "Author or Business Name", "Country", "State or Region", "City", "Preferred Language",
@@ -103,9 +103,15 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   const age = monthsSince(v.evidenceDate, today);
   // Explicit requests stay current for 12 months; production-stage posts (pre-order, cover reveal) for 6.
   const stageOnly = !v.signals.some((s) => s.kind === "explicit");
-  const timing = releaseTiming(v.quoteVerified && c.evidenceQuote ? c.evidenceQuote : v.signals.map((s) => s.snippet).join(" "), today);
+  const timingText = v.quoteVerified && c.evidenceQuote ? c.evidenceQuote : v.signals.map((s) => s.snippet).join(" ");
+  const stageTerms = v.signals.filter((s) => s.kind === "stage" && s.match).map((s) => s.match!);
+  const timing = releaseTimingNear(timingText, stageTerms, today);
+  // Undated teasers ("Coming soon", "Cover reveal" as a menu or tag) need first person, the author's name or a date.
+  const tokens = c.name.toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length >= 4);
+  const personal = /\b(i|i'm|i've|my|we|our|ich|mein|meine|je|mon|ma|mes|mi|yo|io)\b/i.test(timingText) || tokens.some((w) => timingText.toLowerCase().includes(w));
+  const onlyTeasers = stageTerms.length > 0 && stageTerms.every((m) => WEAK_TEASER.test(m.trim()));
   const fresh = stageOnly
-    ? timing === "passed" ? false : timing === "current" ? true : age != null ? age <= 6 : v.currentYearMentioned
+    ? timing === "passed" ? false : timing === "current" ? true : onlyTeasers && !c.apiText && !personal ? false : age != null ? age <= 6 : v.currentYearMentioned
     : age != null ? age <= 12 : v.currentYearMentioned || timing === "current";
   const ageNote = age != null ? `${Math.round(age)} months old` : v.currentYearMentioned ? "undated; author-owned text mentions the current/next year" : "undated";
 
