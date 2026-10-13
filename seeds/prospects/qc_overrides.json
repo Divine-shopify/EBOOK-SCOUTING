@@ -38,5 +38,35 @@
     "sourceUrl": "https://www.dmdealwis.com/the-pink-eye-yaksha/",
     "status": "Needs Review",
     "reason": "Cover reveal is for a book released June 2026; current production need not shown."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/kbdiaz.bsky.social/post/3m7zzyhpgq22r",
+    "status": "Excluded",
+    "reason": "Post lists tasks already done for a book (anecdote), not a request for a service."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/azurelionprod.bsky.social/post/3moyebdyuqs2v",
+    "status": "Excluded",
+    "reason": "Post defends not hiring an editor; no service need."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/coripalladium.bsky.social/post/3liddiqaymk2u",
+    "status": "Excluded",
+    "reason": "Post compares ESRB fees to editor costs; not a request."
+  },
+  {
+    "sourceUrl": "https://celinesaintcharle.com/books-in-english/",
+    "status": "Needs Review",
+    "reason": "\"(More titles coming soon.)\" does not show a specific production need."
+  },
+  {
+    "sourceUrl": "https://cassandragrafton.com/2026/04/29/audio-freebies/",
+    "status": "Needs Review",
+    "reason": "\"More writing news coming soon\" does not show a specific production need."
+  },
+  {
+    "sourceUrl": "https://sachablack.co.uk/2026/10/12/lessons-learned-from-ten-months-of-direct-sales-book-distribution-2/",
+    "status": "Excluded",
+    "reason": "Author runs an author-education business; the quote describes a tooling problem, not a service purchase need, and she is a likely competitor/provider."
   }
 ]
