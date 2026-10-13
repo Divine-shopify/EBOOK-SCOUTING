@@ -5,6 +5,7 @@ import { SEED_ONLY, platformOf } from "../adapters/sources.js";
 import { domainOf, normalizeKey } from "../util/text.js";
 import type { ProspectCandidate } from "./candidate.js";
 import { detectSignals, EBOOK_TERMS, RETAILERS, AUTHOR_PROFILE, PROVIDER_PROFILE, type SignalHit } from "./lexicon.js";
+import { resolveMxRobust, type MxLookup } from "../email/verify.js";
 import { countryFromImpressum, countryFromMentionsLegales, countryFromText, marketByName } from "./markets.js";
 
 /** Hosts the agent never fetches: bot-blocking or terms prohibit automated access. Evidence there stays unverified. */
@@ -31,6 +32,8 @@ export interface FoundContactEmail {
   email: string;
   pageUrl: string;
   attribution: string;
+  /** DNS MX check of the domain: says mail can be routed there, not that the mailbox exists. */
+  mx?: "mx_found" | "no_mx" | "unchecked";
 }
 
 export interface Verification {
@@ -48,6 +51,8 @@ export interface Verification {
   country?: { country: string; quote: string; url: string };
   bookTitleVerified: boolean;
   emails: FoundContactEmail[];
+  /** Addresses seen on the author's pages but not attributable to the author (agent, publisher, host, other person). */
+  emailsRejected: string[];
   contactPage?: string;
   officialWebsite?: string;
   retailers: string[];
@@ -183,7 +188,7 @@ const NOW_YEAR = () => new Date().getFullYear();
  * Re-fetches every page a candidate cites and records what the agent itself could confirm.
  * Nothing in the candidate is trusted: quotes, names, countries, emails and categories are all re-checked.
  */
-export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): Promise<Verification> {
+export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher, mxLookup: MxLookup | null = resolveMxRobust): Promise<Verification> {
   const v: Verification = {
     pages: [],
     sourceAccessible: false,
@@ -196,6 +201,7 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
     isServiceProvider: false,
     bookTitleVerified: false,
     emails: [],
+    emailsRejected: [],
     retailers: [],
     platformsMentioned: [],
     audit: [],
@@ -275,7 +281,7 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
       v.retailers.push(...retailersFromLinks(f.info));
       const siteDomain = domainOf(f.info.url) ?? "";
       if (named) {
-        for (const e of f.info.emails) v.emails.push({ email: e.email, pageUrl: f.info.url, attribution: attribution(e.email, siteDomain) });
+        for (const e of f.info.emails) addEmail(v, c, e.email, f.info.url, siteDomain);
         v.audit.push(...auditSite(f.info));
       }
       const contactUrls = c.contactPage ? [c.contactPage] : contactPageCandidates(f.info, siteDomain.replace(/^www\./, "")).filter((u) => /contact|kontakt|impressum|contacto|contatti|yhteys|kontakta/i.test(u)).slice(0, 1);
@@ -284,7 +290,7 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
         v.pages.push(cf.check);
         if (cf.info && named) {
           v.contactPage = cf.info.url;
-          for (const e of cf.info.emails) v.emails.push({ email: e.email, pageUrl: cf.info.url, attribution: attribution(e.email, siteDomain) });
+          for (const e of cf.info.emails) addEmail(v, c, e.email, cf.info.url, siteDomain);
           ownTexts.push({ url: cf.info.url, text: pageText(cf.info) });
           allTexts.push({ url: cf.info.url, text: pageText(cf.info) });
         }
@@ -384,6 +390,17 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
   // De-duplicate emails, keep first attribution.
   const seen = new Set<string>();
   v.emails = v.emails.filter((e) => plausibleEmail(e.email) && (seen.has(e.email) ? false : (seen.add(e.email), true)));
+  if (mxLookup) {
+    for (const e of v.emails.slice(0, 3)) {
+      try {
+        e.mx = (await mxLookup(e.email.split("@")[1])).length ? "mx_found" : "no_mx";
+      } catch (err) {
+        const code = (err as { code?: string }).code;
+        e.mx = code === "ENOTFOUND" || code === "ENODATA" ? "no_mx" : "unchecked";
+      }
+    }
+    v.emails = v.emails.filter((e) => e.mx !== "no_mx" || (v.emailsRejected.push(`${e.email} (domain has no MX records)`), false));
+  }
   return v;
 }
 
@@ -397,11 +414,31 @@ export function plausibleEmail(email: string): boolean {
   return !/@(wordpress\.com|wixpress\.com|sentry\.|squarespace\.com|example\.)|^(noreply|no-reply|donotreply)@/i.test(email);
 }
 
-function attribution(email: string, siteDomain: string): string {
-  const ed = email.split("@")[1] ?? "";
+const FREEMAIL = /^(gmail|googlemail|yahoo|ymail|outlook|hotmail|live|icloud|me|mac|proton|protonmail|pm|aol|gmx|web|posteo|mailbox|orange|free|laposte|sfr|wanadoo|libero|virgilio|t-online|freenet|bluewin|btinternet|sky|virginmedia|bigpond|optusnet|xtra|shaw|telus|rogers|sympatico|comcast|att|verizon|zoho|fastmail|hey)\./i;
+
+/** Name/brand tokens (≥4 letters) used to attribute an off-domain address to the author. */
+function identityTokens(c: ProspectCandidate, siteDomain: string): string[] {
+  const words = [c.name, c.businessName ?? "", siteDomain.split(".")[0]].flatMap((s) => normalizeKey(s).split(" "));
+  return [...new Set(words.filter((w) => w.length >= 4 && !["author", "books", "writer", "official", "press", "the"].includes(w)))];
+}
+
+/**
+ * Records an address only when it is attributable to the author: same domain as their site, or a mailbox whose
+ * address carries their name/brand. Agents', publishers', hosts' and other people's addresses are rejected.
+ */
+function addEmail(v: Verification, c: ProspectCandidate, email: string, pageUrl: string, siteDomain: string): void {
+  const [local, ed = ""] = email.split("@");
   const sd = siteDomain.replace(/^www\./, "");
-  if (ed === sd || ed.endsWith(`.${sd}`)) return "on author's own website, same domain";
-  return "on author's own website (third-party mail domain)";
+  if (ed === sd || ed.endsWith(`.${sd}`) || sd.endsWith(`.${ed}`)) {
+    v.emails.push({ email, pageUrl, attribution: "on author's own website, same domain" });
+    return;
+  }
+  const hay = `${local} ${ed}`.toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (identityTokens(c, sd).some((t) => hay.includes(t))) {
+    v.emails.push({ email, pageUrl, attribution: FREEMAIL.test(ed) ? "on author's own website (personal mailbox carrying the author's name)" : "on author's own website (author-named business domain)" });
+    return;
+  }
+  v.emailsRejected.push(`${email} (not attributable to the author)`);
 }
 
 /** A personal or pen name with at least two capitalised parts ("Jane Doe", "J. K. Smith"), or a CJK name. */

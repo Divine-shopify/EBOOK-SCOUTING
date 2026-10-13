@@ -1,6 +1,7 @@
 import type { Fetcher } from "../adapters/fetch/http.js";
 import type { DB } from "../db/db.js";
 import { verifyCandidate } from "./verify.js";
+import { resolveMxRobust, type MxLookup } from "../email/verify.js";
 import { qualify } from "./qualify.js";
 import { intakeKey, markError, pendingCandidates, saveDecision } from "./store.js";
 import { existsSync, readFileSync } from "node:fs";
@@ -48,7 +49,7 @@ export interface BatchResult {
 export async function processPending(
   db: DB,
   fetcher: Fetcher,
-  opts: { batch?: number; concurrency?: number; retryErrors?: boolean; onLog?: (s: string) => void } = {},
+  opts: { batch?: number; concurrency?: number; retryErrors?: boolean; onLog?: (s: string) => void; mxLookup?: MxLookup | null } = {},
 ): Promise<BatchResult> {
   const log = opts.onLog ?? (() => {});
   const rows = pendingCandidates(db, opts.batch ?? 50, opts.retryErrors);
@@ -59,7 +60,7 @@ export async function processPending(
     while (next < rows.length) {
       const row = rows[next++];
       try {
-        const v = await verifyCandidate(row.payload, fetcher);
+        const v = await verifyCandidate(row.payload, fetcher, opts.mxLookup === undefined ? resolveMxRobust : opts.mxLookup);
         const d = applyOverride(qualify(row.payload, v), overrides.get(intakeKey(row.payload.sourceUrl)));
         const saved = saveDecision(db, row.id, d, { candidateId: row.id, pages: v.pages, signals: v.signals, identity: v.identityBasis, ebook: v.ebookBasis, audit: v.audit });
         res.processed++;

@@ -192,7 +192,8 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   if (v.country) notes.push(`Location evidence: "${v.country.quote}" (${v.country.url}).`);
   else if (c.country) notes.push(`Claimed location "${c.country}" not confirmed on a fetched page.`);
   if (c.bookTitle && !v.bookTitleVerified) notes.push(`Claimed book title "${c.bookTitle}" not found on fetched pages; left blank.`);
-  if (email) notes.push(`Email publicly displayed ${email.attribution} (${email.pageUrl}); not deliverability-checked.`);
+  if (email) notes.push(`Email publicly displayed ${email.attribution} (${email.pageUrl}); ${email.mx === "mx_found" ? "domain has MX records, mailbox not verified" : "not deliverability-checked"}.`);
+  if (v.emailsRejected.length) notes.push(`Not recorded: ${v.emailsRejected.slice(0, 3).join("; ")}.`);
   if (v.audit.length) notes.push(`Site audit: ${v.audit.join("; ")}.`);
   if (stage.length && explicit.length) notes.push(`Also: ${stage.map((s) => s.label).join("; ")}.`);
   if (reasons.length) notes.push(`Review/exclusion reasons: ${reasons.join("; ")}.`);

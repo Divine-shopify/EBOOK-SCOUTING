@@ -77,7 +77,7 @@ describe("helpers", () => {
 const SITE = {
   "https://janedoebooks.com/": `<html lang="en"><body><h1>Jane Doe</h1><p>Jane Doe is a fantasy author who lives in Wellington, New Zealand.</p>
     <a href="https://www.amazon.com/dp/B0X">Kindle</a><a href="/contact">Contact</a><footer>© 2026 Jane Doe</footer></body></html>`,
-  "https://janedoebooks.com/contact": `<body><p>Business enquiries: <a href="mailto:jane@janedoebooks.com">jane@janedoebooks.com</a></p></body>`,
+  "https://janedoebooks.com/contact": `<body><p>Business enquiries: <a href="mailto:jane@janedoebooks.com">jane@janedoebooks.com</a></p><p>Rights: Sam Lee, sam@leeagency.co.uk</p></body>`,
   "https://janedoebooks.com/news": `<body><h2>News</h2><p>Book three is finished and I'm looking for a cover designer for the ebook release in 2027.</p></body>`,
 };
 
@@ -94,11 +94,12 @@ const cand = (over: Partial<ProspectCandidate> = {}): ProspectCandidate => ({
 
 describe("verification and qualification", () => {
   it("qualifies an author whose own site carries an explicit, verified request", async () => {
-    const v = await verifyCandidate(cand(), new FixtureFetcher(SITE));
+    const v = await verifyCandidate(cand(), new FixtureFetcher(SITE), null);
     expect(v.quoteVerified).toBe(true);
     expect(v.identityVerified).toBe(true);
     expect(v.country?.country).toBe("New Zealand");
     expect(v.emails.map((e) => e.email)).toEqual(["jane@janedoebooks.com"]);
+    expect(v.emailsRejected.join(" ")).toContain("sam@leeagency.co.uk");
     const d = qualify(cand(), v);
     expect(d.status).toBe("Ready");
     expect(d.intent).not.toBe("Low");
@@ -108,12 +109,12 @@ describe("verification and qualification", () => {
   });
   it("does not trust a quote that is not on the page", async () => {
     const c = cand({ evidenceQuote: "I urgently need an EPUB formatter and a translator" });
-    const d = qualify(c, await verifyCandidate(c, new FixtureFetcher({ ...SITE, "https://janedoebooks.com/news": "<body>Nothing here.</body>" })));
+    const d = qualify(c, await verifyCandidate(c, new FixtureFetcher({ ...SITE, "https://janedoebooks.com/news": "<body>Nothing here.</body>" }), null));
     expect(d.status).not.toBe("Ready");
   });
   it("keeps blocked sources out of Ready", async () => {
     const c = cand({ sourceUrl: "https://www.reddit.com/r/selfpublish/comments/x" });
-    const v = await verifyCandidate(c, new FixtureFetcher(SITE));
+    const v = await verifyCandidate(c, new FixtureFetcher(SITE), null);
     expect(v.sourceAccessible).toBe(false);
     expect(qualify(c, v).status).toBe("Needs Review");
   });
@@ -124,11 +125,11 @@ describe("pipeline: dedup, resume and export", () => {
     const dir = mkdtempSync(join(tmpdir(), "px-"));
     const db = openProspectDb(join(dir, "p.db"));
     ingest(db, [cand(), cand({ sourceUrl: "https://janedoebooks.com/" , evidenceQuote: undefined })], "seed_file");
-    const r = await processPending(db, new FixtureFetcher(SITE), { batch: 10, concurrency: 1 });
+    const r = await processPending(db, new FixtureFetcher(SITE), { batch: 10, concurrency: 1, mxLookup: null });
     expect(r.processed).toBe(2);
     expect(r.duplicates).toBe(1);
     // Resume: nothing left to do.
-    expect((await processPending(db, new FixtureFetcher(SITE), { batch: 10 })).processed).toBe(0);
+    expect((await processPending(db, new FixtureFetcher(SITE), { batch: 10, mxLookup: null })).processed).toBe(0);
     const file = join(dir, "out.xlsx");
     const stats = await exportWorkbook(db, file);
     expect(stats.ready).toBe(1);
