@@ -105,7 +105,20 @@ function serviceToCat(s: string): string {
 
 const sorted = (m: Record<string, number>) => Object.entries(m).sort((a, b) => b[1] - a[1]);
 
-export async function exportWorkbook(db: DB, file: string): Promise<CampaignStats> {
+/** Ranking score for choosing the strongest qualified prospects when more than the campaign target qualify. */
+export function prospectStrength(p: ProspectRecord): number {
+  const lv: Record<string, number> = { High: 2, Medium: 1, Low: 0 };
+  return (
+    lv[p["Buying Intent"]] * 100 +
+    lv[p["Research Confidence"]] * 40 +
+    (p["Evidence of Need"].startsWith("Explicit request") ? 30 : 0) +
+    (p.Country !== "Unverified" ? 20 : 0) +
+    (p["Public Professional Email"] ? 10 : p["Public Contact Page"] ? 5 : 0) +
+    (p["Official Website"] ? 5 : 0)
+  );
+}
+
+export async function exportWorkbook(db: DB, file: string, target = 200): Promise<CampaignStats> {
   const ps = allProspects(db);
   const order = { High: 0, Medium: 1, Low: 2 } as Record<string, number>;
   const byStrength = (a: ProspectRecord, b: ProspectRecord) =>
@@ -113,7 +126,9 @@ export async function exportWorkbook(db: DB, file: string): Promise<CampaignStat
   const wb = new ExcelJS.Workbook();
   wb.creator = "eBook Author Prospecting Agent";
   wb.created = new Date();
-  prospectSheet(wb, "Qualified Prospects", ps.filter((p) => p["Lead Status"] === "Ready").sort(byStrength));
+  const ready = ps.filter((p) => p["Lead Status"] === "Ready").sort((a, b) => prospectStrength(b) - prospectStrength(a) || a["Prospect Name"].localeCompare(b["Prospect Name"]));
+  prospectSheet(wb, "Qualified Prospects", ready.slice(0, target).sort(byStrength));
+  if (ready.length > target) prospectSheet(wb, "Qualified Reserve", ready.slice(target).sort(byStrength));
   prospectSheet(wb, "Needs Review", ps.filter((p) => p["Lead Status"] === "Needs Review").sort(byStrength));
 
   // Research log: every query, with outcomes attributed back from candidates.
@@ -156,8 +171,10 @@ export async function exportWorkbook(db: DB, file: string): Promise<CampaignStat
   sw.columns = [{ header: "Metric", key: "m", width: 52 }, { header: "Value", key: "v", width: 90 }];
   const rows: [string, string | number][] = [
     ["Workbook generated", new Date().toISOString()],
-    ["Qualified prospects (Lead Status = Ready)", s.ready],
-    ["Target", 200],
+    ["Qualified prospects (Lead Status = Ready), all", s.ready],
+    ["Target", target],
+    ["Qualified prospects on 'Qualified Prospects' sheet (strongest, capped at target)", Math.min(s.ready, target)],
+    ["Additional qualified prospects on 'Qualified Reserve' sheet", Math.max(0, s.ready - target)],
     ["Records needing review", s.review],
     ["Total candidates discovered", s.candidates],
     ["Candidates excluded", s.excluded],

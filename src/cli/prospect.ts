@@ -25,7 +25,7 @@ const USAGE = `Usage: npm run prospect -- <command> [options]
   verify [--batch N] [--all] [--concurrency N] [--retry-errors]
                                  Verify + qualify pending candidates (resumable)
   requalify                      Re-queue all candidates after a rule change (cached pages are reused)
-  export [--out FILE]            Write the Excel workbook (default Global_eBook_Author_Prospects_200.xlsx)
+  export [--out FILE] [--target N]  Write the Excel workbook; the N strongest qualified prospects go on the main sheet (default Global_eBook_Author_Prospects_200.xlsx)
   status                         Campaign counts`;
 
 function arg(name: string, def?: string): string | undefined {
@@ -135,7 +135,7 @@ async function main() {
     }
     case "export": {
       const out = arg("out", "Global_eBook_Author_Prospects_200.xlsx")!;
-      const s = await exportWorkbook(db, out);
+      const s = await exportWorkbook(db, out, Number(arg("target", "200")));
       console.log(`Wrote ${out}: ${s.ready} qualified, ${s.review} needs review`);
       break;
     }
