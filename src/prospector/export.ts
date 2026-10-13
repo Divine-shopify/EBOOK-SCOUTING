@@ -236,9 +236,10 @@ export async function exportWorkbook(db: DB, file: string, target = 1000): Promi
     ["Emails technically verified at mailbox level (SMTP/provider)", "0 — not performed"],
     ["Prospects with explicit service requests", main.filter((p) => p["Evidence of Need"].startsWith("Explicit request")).length],
     ["Prospects with inferred service opportunities", main.filter((p) => !p["Evidence of Need"].startsWith("Explicit request")).length],
+    ["Records downgraded by analyst QC (downgrade-only review of every automated 'Ready' record)", ps.filter((p) => /Analyst QC/.test(p.Notes)).length],
     ["Search / crawl log entries", s.searches],
     ["Market measure", MARKET_MEASURE],
-    ["Qualification rule", "Ready = identity confirmed on an agent-fetched page + eBook/book-production connection + service need found verbatim in agent-fetched text (first-person explicit request ≤24 months old — High intent if ≤12 months — or production-stage wording that is current: cited release still upcoming or within 45 days, dated posts ≤6 months) + intent High/Medium + confidence High/Medium. Low intent/confidence never qualifies."],
+    ["Qualification rule", "Ready = identity confirmed on an agent-fetched page + eBook/book-production connection + service need found verbatim in agent-fetched text (first-person explicit request ≤24 months old — High intent if ≤12 months — or production-stage wording that is current: release date near the wording still upcoming or ≤30 days past, dated posts ≤6 months; website evidence additionally requires visible self-publishing activity or a publishing business) + intent High/Medium + confidence High/Medium + not a service provider, bookshop, blog, event, academic/large publisher. Every automated Ready record was then read by an analyst QC pass that could only downgrade. Low intent/confidence never qualifies."],
     ["Email rule", "Only addresses displayed on the author's own fetched pages and attributable to the author are recorded; none guessed; MX check only, no mailbox verification."],
     ["Location rule", "Country only from author-referring location wording on a fetched page (or an Impressum / mentions légales address); otherwise 'Unverified'."],
   ];

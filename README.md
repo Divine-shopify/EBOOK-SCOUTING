@@ -227,3 +227,13 @@ The workbook has five sheets:
 All sheets have filters and a frozen header, URL columns are clickable, and formula injection is neutralised.
 
 Tests: `npx vitest run tests/prospector.test.ts` (offline fixtures).
+
+## Bulk directory scan and the 1,000-prospect run
+
+- **New commands:**
+  - `enqueue-sites` / `scan-sites --shard k/N`: bulk-scan author websites harvested from public directories (`seeds/sites/*.json`).
+  - `discover-blogs`: Substack and WordPress.com search.
+  - `set-batch`: sets the current research batch.
+- **Export:** `export` writes `Global_eBook_Author_Prospects_1000.xlsx` with 4 sheets: Qualified Prospects, Research Summary, Research Log and Needs Review. The Lead Status shown is "Ready" or "Review".
+- **Analyst QC:** `seeds/prospects/qc_overrides.json` holds downgrade-only analyst decisions, each with a reason. They are applied on every `verify` run.
+- **Results:** see `reports/prospecting_1000_report.md`. 418 prospects qualified after QC; the report explains why that is fewer than 1,000.

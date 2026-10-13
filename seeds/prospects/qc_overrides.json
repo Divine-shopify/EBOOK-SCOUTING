@@ -323,5 +323,1470 @@
     "sourceUrl": "https://teresaburrell.com/",
     "status": "Needs Review",
     "reason": "Evidence snippet is a series list without a current project."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/withneye.bsky.social/post/3lkerr657kc2z",
+    "status": "Needs Review",
+    "reason": "QC review: Cover designer request is 19 months old (2025-03-14); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/articulateautistic.bsky.social/post/3loudwjunls2e",
+    "status": "Needs Review",
+    "reason": "QC review: 17-month-old anecdote about a gig-site editor quote, not a current request."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/audreywrites.bsky.social/post/3lgo26tjwbk2d",
+    "status": "Needs Review",
+    "reason": "QC review: Translator request is 21 months old (2025-01-26); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/csrosbak.bsky.social/post/3lagufac7cx2l",
+    "status": "Needs Review",
+    "reason": "QC review: Developmental editor request is 23 months old (2024-11-08); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/aubreypurlow.bsky.social/post/3lo3h6sx3sk2o",
+    "status": "Needs Review",
+    "reason": "QC review: Line editor request is 17 months old (2025-05-01); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/superbugs.bsky.social/post/3m3aoz4ezyc2n",
+    "status": "Needs Review",
+    "reason": "QC review: Vague 12-month-old request for a 'potential book project'; entity type unclear."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/mikeelgan.bsky.social/post/3lqymkpmvtc2m",
+    "status": "Needs Review",
+    "reason": "QC review: Illustrator request is 16 months old (2025-06-07); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/mythicalmiracles.bsky.social/post/3lpamwuybnc2u",
+    "status": "Needs Review",
+    "reason": "QC review: Illustrator request is 17 months old (2025-05-15); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/nealhaddaway.bsky.social/post/3lgcurbj7xk2k",
+    "status": "Needs Review",
+    "reason": "QC review: Illustrator request is 21 months old (2025-01-22); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/aotu-trilogy.bsky.social/post/3lbuvkflmbs2j",
+    "status": "Needs Review",
+    "reason": "QC review: Illustrator request is 23 months old (2024-11-26); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/talesfrompurgatory.bsky.social/post/3l6nu23btjc2r",
+    "status": "Needs Review",
+    "reason": "QC review: Cover designer request is 24 months old (2024-10-16); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/elleralston.bsky.social/post/3lnhcl4sqok2s",
+    "status": "Needs Review",
+    "reason": "QC review: Cover commission inquiry is 18 months old (2025-04-23); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/ghostlyverse.bsky.social/post/3lns4usc5r22h",
+    "status": "Needs Review",
+    "reason": "QC review: Cover illustrator request is 18 months old (2025-04-27); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/liter8ure.bsky.social/post/3liivxa4qws22",
+    "status": "Needs Review",
+    "reason": "QC review: Audiobook narrator request is 20 months old (2025-02-19); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/metacosmchronicles.com/post/3lnxtjugdec2j",
+    "status": "Needs Review",
+    "reason": "QC review: Audiobook narrator request is 17 months old (2025-04-29); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/jjrussellwrites.bsky.social/post/3ljftuthxns2p",
+    "status": "Needs Review",
+    "reason": "QC review: 19-month-old conversational remark about replacing Meta ads, not a current request."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/shimaira.com/post/3m5ohqtbw3k2n",
+    "status": "Needs Review",
+    "reason": "QC review: 11-month-old venting about KDP keywords, not a current service request."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/smithwillowbook.bsky.social/post/3lqjadukk722e",
+    "status": "Needs Review",
+    "reason": "QC review: IngramSpark upload help request is 16 months old (2025-06-01); stale."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/evadpendell.bsky.social/post/3mlccvokhvs2w",
+    "status": "Needs Review",
+    "reason": "QC review: Preorder announced for 2026-05-10; book released ~5 months ago."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/caronpescatore.bsky.social/post/3lbffrvf5pc2y",
+    "status": "Needs Review",
+    "reason": "QC review: Book released 2024-11-29 (post 23 months old); stale."
+  },
+  {
+    "sourceUrl": "https://www.courtneyclarkmichaels.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Source page shows the preorder title released 2026-03-09, ~7 months ago."
+  },
+  {
+    "sourceUrl": "https://elusiveromance.com/pre-order-now-watch-your-six-bringer-of-chaos-3-a-space-opera-novel/",
+    "status": "Excluded",
+    "reason": "QC review: Post is a promo for Kayelle Allen's book (another author) on Pettersen's blog, released 2026-08-14."
+  },
+  {
+    "sourceUrl": "https://wallbangercreative.substack.com/p/muses-war-fugue-of-fire-is-available",
+    "status": "Needs Review",
+    "reason": "QC review: Preorder announced 5 months ago (2026-05-06); book likely released months ago."
+  },
+  {
+    "sourceUrl": "https://katekenzie.com/books/",
+    "status": "Excluded",
+    "reason": "QC review: Preorder links point to HarperCollins, indicating a Big-5 traditional release."
+  },
+  {
+    "sourceUrl": "https://allisonink.substack.com/p/the-real-cost-of-publishing-a-book",
+    "status": "Needs Review",
+    "reason": "QC review: Debut was already self-published before a 3-month-old post; no current project shown."
+  },
+  {
+    "sourceUrl": "https://buttondown.com/ClaudieArseneault/archive/common-bonds-3-is-coming/",
+    "status": "Needs Review",
+    "reason": "QC review: Anthology cover reveal is 5 months old (2026-05-14); likely already released."
+  },
+  {
+    "sourceUrl": "https://wordywomanworld.wordpress.com/about/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated About-page statement 'currently writing three books' is too weak to show a current project."
+  },
+  {
+    "sourceUrl": "https://www.akmulford.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic 'preorder' menu label with no specific title/date; author is traditionally published (HarperVoyager)."
+  },
+  {
+    "sourceUrl": "https://shannonlbuck.wordpress.com/2025/11/11/autumn-author-updates/",
+    "status": "Needs Review",
+    "reason": "QC review: Vague cover wish from 11 months ago; stale and not a concrete request."
+  },
+  {
+    "sourceUrl": "https://www.cassandradean.com/books-2/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only a generic 'Preorder and newest release' menu label with no current title or date."
+  },
+  {
+    "sourceUrl": "https://monkiebusiness.substack.com/p/measure-up",
+    "status": "Excluded",
+    "reason": "QC review: Anecdote from 12 months ago about a past illustrator search that led to a different project; no current request."
+  },
+  {
+    "sourceUrl": "https://winwithflynn.substack.com/p/33-the-editors-blogcast-f92",
+    "status": "Excluded",
+    "reason": "QC review: Anecdote about having looked for a developmental editor (blogcast episode), not a current request."
+  },
+  {
+    "sourceUrl": "https://www.anke-schlaeger.com/aktuelles/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is about a newsletter mention, not a current or upcoming book."
+  },
+  {
+    "sourceUrl": "https://www.buzzsprout.com/2396618/episodes/19857783-97-how-much-should-christian-authors-market-their-books?t=0",
+    "status": "Excluded",
+    "reason": "QC review: Source is a marketing-advice podcast episode for Christian authors, not the author's own project."
+  },
+  {
+    "sourceUrl": "https://authoraaronryan.com/books/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated 'soon to be re-released' note on a 1997 poetry book; too vague to confirm a current relaunch."
+  },
+  {
+    "sourceUrl": "https://www.brandyvallance.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a creativity blog post with no current book project."
+  },
+  {
+    "sourceUrl": "https://brucehennigan.com/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence concerns another author's book (Eileen Keir Copeland's Bowsinger)."
+  },
+  {
+    "sourceUrl": "https://chevronross.com/blog",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a review of another author's book (Emily Meyer's Quicksilver)."
+  },
+  {
+    "sourceUrl": "https://darlenenbocek.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Expanded second edition 'now available' is undated; cannot confirm it is a recent release."
+  },
+  {
+    "sourceUrl": "https://eagleviews.org/2026/09/30/when-the-pulpit-stops-listening/",
+    "status": "Excluded",
+    "reason": "QC review: Sermon text ('searching for an illustration'), not a service request."
+  },
+  {
+    "sourceUrl": "https://fotokalender-franken.de/",
+    "status": "Needs Review",
+    "reason": "QC review: Product is a photo calendar/photo book released May 2026; not a current eBook project."
+  },
+  {
+    "sourceUrl": "https://jlynchblog.com/2026/08/03/developmental-editing-cost/",
+    "status": "Excluded",
+    "reason": "QC review: Advice article about developmental editing costs, not a request for a service."
+  },
+  {
+    "sourceUrl": "https://jessicarpatch.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated preorder blog post on a site with a 2023 footer; recency unclear."
+  },
+  {
+    "sourceUrl": "https://kimberlyburkhardt.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated cover reveal blog snippet; recency unclear."
+  },
+  {
+    "sourceUrl": "https://erinmarieauthor.com/my-book/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated note that a book 'has been re-released' and is available; no evidence it is recent."
+  },
+  {
+    "sourceUrl": "https://jillwilliamson.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence only promotes an existing book; nothing upcoming or current."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/nicolanoble.bsky.social/post/3mgus7dpxm225",
+    "status": "Excluded",
+    "reason": "QC review: Post promotes a third-party illustrator's services; not the author's own request."
+  },
+  {
+    "sourceUrl": "https://outskirtspress.com/",
+    "status": "Excluded",
+    "reason": "QC review: Outskirts Press is a self-publishing services company, not an author."
+  },
+  {
+    "sourceUrl": "https://loridomingo.com/christian-encouragement-blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Devotional blog post about moving; no book project evidence."
+  },
+  {
+    "sourceUrl": "https://petticoatsandpistols.com/author/guest-blogger/",
+    "status": "Excluded",
+    "reason": "QC review: Group blog/guest-blogger page promoting other authors' books."
+  },
+  {
+    "sourceUrl": "https://patricia-meredith.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated preorder/release-day posts for Christmas titles; likely from a past year."
+  },
+  {
+    "sourceUrl": "https://www.tcpress.com/",
+    "status": "Excluded",
+    "reason": "QC review: Teachers College Press is a university/academic press."
+  },
+  {
+    "sourceUrl": "https://tala-alsted.de/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic advice post on why to pre-order e-books, not a specific current title."
+  },
+  {
+    "sourceUrl": "https://hm-hodgson.myshopify.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order form is for signing events, not a new book release."
+  },
+  {
+    "sourceUrl": "https://rynemilee.myshopify.com/products/altcon27-pre-orders?variant=54259660489072",
+    "status": "Needs Review",
+    "reason": "QC review: Convention pickup pre-order of signed copies, not a new book release."
+  },
+  {
+    "sourceUrl": "https://bsky.app/profile/sophiajanehayden.link/post/3mrglos5aas26",
+    "status": "Needs Review",
+    "reason": "QC review: Book released 1 Aug 2026 (~2.5 months ago), beyond the just-released window."
+  },
+  {
+    "sourceUrl": "https://emilyhussey.com.au/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated anthology box-set pre-order; recency unclear."
+  },
+  {
+    "sourceUrl": "https://mltompsett.com/blog-today/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order for a 30 June release, which has already passed; undated."
+  },
+  {
+    "sourceUrl": "https://www.nataliemurrayauthor.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic bio line; no specific current or upcoming title."
+  },
+  {
+    "sourceUrl": "https://nataliestarkoss.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a series menu description; nothing current or upcoming."
+  },
+  {
+    "sourceUrl": "https://www.gabi-schmid.de/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is the site offering formatting/self-publishing services (service provider), not her own book project."
+  },
+  {
+    "sourceUrl": "https://amberjakeman.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence concerns 2027 event appearances, not a book project."
+  },
+  {
+    "sourceUrl": "https://draft2digital.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Draft2Digital is a distribution/self-publishing platform, not an author."
+  },
+  {
+    "sourceUrl": "https://rebeccayarros.com/coming-soon",
+    "status": "Excluded",
+    "reason": "QC review: Rebecca Yarros is a household-name bestseller whose Fourth Wing books come from a major traditional publisher."
+  },
+  {
+    "sourceUrl": "https://www.jbreeauthor.com/blog",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is an old re-release post (May 28, with 2024 signing events); there is no current project."
+  },
+  {
+    "sourceUrl": "https://www.lauraboon.com/tips-from-a-book-publishing-industry-insider",
+    "status": "Excluded",
+    "reason": "QC review: This is an advice article on publishing, not the author's own current project."
+  },
+  {
+    "sourceUrl": "https://mghunt.com/shop",
+    "status": "Needs Review",
+    "reason": "QC review: This is a generic shop page about preordering for event pickups, with no specific current title."
+  },
+  {
+    "sourceUrl": "https://roxienoir.com/newsletter/",
+    "status": "Needs Review",
+    "reason": "QC review: The newsletter archive has only 2025 entries; there is no current project evidence."
+  },
+  {
+    "sourceUrl": "https://www.kaylagrosse.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is only menu labels (e.g. 'Pre-Order Campaign - Thin Ice'), with nothing dated or current."
+  },
+  {
+    "sourceUrl": "https://www.jdlbooks.com.au/about",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence lists signing events, not an upcoming book or service need."
+  },
+  {
+    "sourceUrl": "https://www.jeanienefrost.com/reading-order/",
+    "status": "Excluded",
+    "reason": "QC review: Jeaniene Frost is an NYT-bestselling traditionally published author (Night Huntress series, major-house releases)."
+  },
+  {
+    "sourceUrl": "https://www.ceciliareneauthor.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The only signal is a March 2026 cover reveal, about 7 months old."
+  },
+  {
+    "sourceUrl": "https://ascendantkingdoms.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The preorder is for another press's (Zombies Need Brains) anthology, not clearly the author's own upcoming book."
+  },
+  {
+    "sourceUrl": "https://nicholassansburysmith.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is site menu labels only ('Relaunch!' menu item), with nothing dated or current."
+  },
+  {
+    "sourceUrl": "https://jmfrey.net/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: This is an anecdotal blog passage about traditional publishing advances, not a current project."
+  },
+  {
+    "sourceUrl": "https://thegildedprose.com/collections/preorders",
+    "status": "Excluded",
+    "reason": "QC review: This is a bookshop's preorder collection of other authors' books, not an author or press."
+  },
+  {
+    "sourceUrl": "https://laurencteffeau.com/news/",
+    "status": "Needs Review",
+    "reason": "QC review: The release date was March 2026, about 7 months ago."
+  },
+  {
+    "sourceUrl": "https://harleyblackwell.com/",
+    "status": "Needs Review",
+    "reason": "QC review: This is a generic statement about preordering early ebook editions, with no specific upcoming title or date."
+  },
+  {
+    "sourceUrl": "https://joanneguidoccio.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence promotes a multi-author anthology (Murder on the Menu); it is unclear whether this author contributes to it."
+  },
+  {
+    "sourceUrl": "https://edieskye.com/book/catgirls-from-outer-space/",
+    "status": "Needs Review",
+    "reason": "QC review: A second edition of a Baen-published novel is described, but there is no evidence it is upcoming or recent."
+  },
+  {
+    "sourceUrl": "https://amyaislin.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is about preordering signed books for an event pickup, not a new book."
+  },
+  {
+    "sourceUrl": "https://www.sarahbranson.com/copy-of-books",
+    "status": "Needs Review",
+    "reason": "QC review: This is a book blurb only, with no upcoming, preorder or current-production signal."
+  },
+  {
+    "sourceUrl": "https://brendanovak.com/",
+    "status": "Excluded",
+    "reason": "QC review: Brenda Novak is an NYT bestseller with a traditional mass-market paperback release from a major house."
+  },
+  {
+    "sourceUrl": "https://www.kajeharper.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The posts are tagged 2025 and there is no clearly current project."
+  },
+  {
+    "sourceUrl": "https://thedarkcastlelords.net/new-release-winters-embrace/",
+    "status": "Excluded",
+    "reason": "QC review: Dark Castle Lords is a promotional/interview blog site; the evidence is only category tags."
+  },
+  {
+    "sourceUrl": "https://celiabreslin.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is a list of blog-tour/preorder post titles with no dates; currency is unclear."
+  },
+  {
+    "sourceUrl": "https://www.drethianis.com/book-inner-page",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is preorder forms for signing events, not a new book."
+  },
+  {
+    "sourceUrl": "https://authorliadavis.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is only a blog category list, with nothing current."
+  },
+  {
+    "sourceUrl": "https://debbiedelouise.com/",
+    "status": "Needs Review",
+    "reason": "QC review: The 'final edits on book #23' post is undated, its year is unclear, and the linked material is old."
+  },
+  {
+    "sourceUrl": "https://dfjonesauthor.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is from a February 2025 post, which is too old."
+  },
+  {
+    "sourceUrl": "https://www.slscottauthor.com/coming-soon",
+    "status": "Needs Review",
+    "reason": "QC review: The only item shown is 'NOW AVAILABLE', with no date; there is no clear upcoming title."
+  },
+  {
+    "sourceUrl": "https://clairedavon.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: The evidence is from an October 2021 blog post, which is too old."
+  },
+  {
+    "sourceUrl": "https://www.authorljshen.com/books/fallen-rook/",
+    "status": "Needs Review",
+    "reason": "QC review: L.J. Shen is an NYT-bestselling author whose Society of Villains series is released by a major traditional imprint (Bloom Books)."
+  },
+  {
+    "sourceUrl": "https://www.bernadettemarie.com/workshops-presentations-keynotes.html",
+    "status": "Excluded",
+    "reason": "QC review: This is a workshops/keynotes service page, not a book project."
+  },
+  {
+    "sourceUrl": "https://www.authorjamieleefry.com/",
+    "status": "Needs Review",
+    "reason": "QC review: This is a generic newsletter blurb with no specific upcoming title or service need."
+  },
+  {
+    "sourceUrl": "https://sharonmichaelsauthor.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a blog column excerpt with no current book project or service need."
+  },
+  {
+    "sourceUrl": "https://www.asliceoforange.net/",
+    "status": "Excluded",
+    "reason": "QC review: Group blog/featured-author site, not a single author or press."
+  },
+  {
+    "sourceUrl": "https://mirtainestruppauthor.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is an undated list of blog post titles; no dated current release shown."
+  },
+  {
+    "sourceUrl": "https://loriduffwrites.com/devils-hand-a-fischer-at-law-novel/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only an author bio and copyright line; no current project."
+  },
+  {
+    "sourceUrl": "https://www.thealanden.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated re-release post with no year; recency unclear."
+  },
+  {
+    "sourceUrl": "https://mistyurban.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is generic menu/button labels (Order Now/Preorder) with no specific current title."
+  },
+  {
+    "sourceUrl": "https://lillymanning.com/novella-chapter-one",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a fiction excerpt with no current project or service need."
+  },
+  {
+    "sourceUrl": "https://stephnuss.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Release date Oct 28 without year on an old-style giveaway post; likely not current."
+  },
+  {
+    "sourceUrl": "https://christynewrites.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence dates from 2021; books released years ago."
+  },
+  {
+    "sourceUrl": "https://thomas-white-author.com/blogs/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is blog post teasers about self-publishing, no current project."
+  },
+  {
+    "sourceUrl": "https://pagesandpaws.com/2026/08/15/a-throne-a-prophecy-and-a-twist-we-didnt-see-coming/",
+    "status": "Excluded",
+    "reason": "QC review: Book review blog reviewing another author's debut novel."
+  },
+  {
+    "sourceUrl": "https://maddiegudenkauf.com/thoughts-of-maddness",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is marketing-advice tags, not a current book project."
+  },
+  {
+    "sourceUrl": "https://www.novelkicks.co.uk/",
+    "status": "Excluded",
+    "reason": "QC review: Book blog (Novel Kicks) hosting another author's cover reveal."
+  },
+  {
+    "sourceUrl": "http://rvananderson.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: COVID novel already available; release appears years old."
+  },
+  {
+    "sourceUrl": "https://www.queeromanceink.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only a book blurb with no release timing or current need."
+  },
+  {
+    "sourceUrl": "https://charlesbesondy.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is generic newsletter signup text, no current project."
+  },
+  {
+    "sourceUrl": "https://www.escapewithdollycas.com/",
+    "status": "Excluded",
+    "reason": "QC review: Book tour/review blog (Great Escapes Book Tours) featuring other authors' books."
+  },
+  {
+    "sourceUrl": "http://www.susanspann.com/books/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a reply to a reader comment mentioning 2019; no current project."
+  },
+  {
+    "sourceUrl": "https://www.robertbryndza.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is reader comments; well-known author with established publishing, no own current need shown."
+  },
+  {
+    "sourceUrl": "https://cynthiaswansonauthor.com/inthenews-1",
+    "status": "Needs Review",
+    "reason": "QC review: Media/news page about a past self-published release; no current project."
+  },
+  {
+    "sourceUrl": "https://russellblake.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order post dated 2023; book released long ago."
+  },
+  {
+    "sourceUrl": "https://www.jamesrcallan.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Old (2013) interview with another author (Doug), not this author's project."
+  },
+  {
+    "sourceUrl": "https://eddollsbooks.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a series description only; no current release or need."
+  },
+  {
+    "sourceUrl": "https://www.annecoatesauthor.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Blog post reviewing another author's book (Malabar House series)."
+  },
+  {
+    "sourceUrl": "https://leegoldberg.com/my-blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated preorder post; author appears traditionally published (PW review, major-agency representation)."
+  },
+  {
+    "sourceUrl": "https://www.sanjida.co.uk/book-coaching/",
+    "status": "Excluded",
+    "reason": "QC review: Book coaching service page; author acting as a service provider."
+  },
+  {
+    "sourceUrl": "https://davidhealeyauthor.com/2025/08/12/david-healey-books-2/",
+    "status": "Needs Review",
+    "reason": "QC review: 2025 page listing old post titles; cover reveal not current."
+  },
+  {
+    "sourceUrl": "https://lornapeel.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a personal health update, no book project."
+  },
+  {
+    "sourceUrl": "https://wewoodwards.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a writing essay with no current project."
+  },
+  {
+    "sourceUrl": "https://andrewpyper.com/2025/05/cover-reveal-pre-order-announcement-for-exiles/",
+    "status": "Needs Review",
+    "reason": "QC review: May 2025 pre-order announcement; book released long ago and traditionally published."
+  },
+  {
+    "sourceUrl": "https://scottprattfiction.com/pages/best-legal-thriller-series",
+    "status": "Needs Review",
+    "reason": "QC review: Late author's final novel dated 2023; no current project."
+  },
+  {
+    "sourceUrl": "https://bradthor.com/",
+    "status": "Excluded",
+    "reason": "QC review: Household-name bestseller published by a major house (Simon & Schuster)."
+  },
+  {
+    "sourceUrl": "https://joannerock.com/pages/diary-of-a-novel",
+    "status": "Needs Review",
+    "reason": "QC review: Diary of a novel from 2005; not current."
+  },
+  {
+    "sourceUrl": "https://aimeaustin.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic 'Preorder Now' menu label with no specific title or date."
+  },
+  {
+    "sourceUrl": "https://hookofabook.wordpress.com/",
+    "status": "Excluded",
+    "reason": "QC review: Book blog promoting another author's book (Katherine Silva, Strange Wilds Press)."
+  },
+  {
+    "sourceUrl": "https://www.killernashville.com/breakout-workshops",
+    "status": "Excluded",
+    "reason": "QC review: Writers' conference (Killer Nashville) workshop page, not an author."
+  },
+  {
+    "sourceUrl": "https://jamesjcudney.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated release (Braxton Campus #8, Dec 20); likely years old."
+  },
+  {
+    "sourceUrl": "https://landiswade.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is an author bio about an existing book; no current release or need."
+  },
+  {
+    "sourceUrl": "https://anthonyryan.net/",
+    "status": "Needs Review",
+    "reason": "QC review: UK cover reveal for traditionally published bestselling author (Orbit/major house likely)."
+  },
+  {
+    "sourceUrl": "https://rachelemmashaw.wordpress.com/2021/07/06/cover-reveal-for-my-latest-adult-dark-fantasy-novel/",
+    "status": "Needs Review",
+    "reason": "QC review: Post dated July 2021; release long past."
+  },
+  {
+    "sourceUrl": "https://cblansdell.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Release was ~a month after a past May; book appears already released months ago."
+  },
+  {
+    "sourceUrl": "https://reboundcast.com/",
+    "status": "Excluded",
+    "reason": "QC review: Entity is a tech podcast site; the preorder mention is a co-host's book, not an author/press site."
+  },
+  {
+    "sourceUrl": "https://www.alankdell.co.uk/blog",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a cover reveal shared for another author's (Niranjan's) series."
+  },
+  {
+    "sourceUrl": "https://ilona-andrews.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a third-party GraphicAudio adaptation of an older title by bestselling, largely traditionally published authors."
+  },
+  {
+    "sourceUrl": "https://www.paternusbooks.com/news",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence refers to an audiobook release in 2025, now about a year old."
+  },
+  {
+    "sourceUrl": "https://www.ksvilloso.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated 'now available' post list; recency of the release cannot be determined."
+  },
+  {
+    "sourceUrl": "https://www.jamesldulin.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only generic menu labels (Get It Today / Preorder) with no current project details."
+  },
+  {
+    "sourceUrl": "https://kaie.space/news.html",
+    "status": "Needs Review",
+    "reason": "QC review: Coming-soon items are magazine/short-fiction placements, not clearly a book project."
+  },
+  {
+    "sourceUrl": "https://fantasy-faction.com/",
+    "status": "Excluded",
+    "reason": "QC review: Fantasy Faction is a review/community website, and the cover reveal is for another author's book."
+  },
+  {
+    "sourceUrl": "https://ctphipps.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only a tag cloud of category labels with nothing current."
+  },
+  {
+    "sourceUrl": "https://annakashinablog.wordpress.com/about-me/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a recent-posts sidebar with an undated, likely old cover reveal."
+  },
+  {
+    "sourceUrl": "https://thebrokenbinding.co.uk/collections",
+    "status": "Excluded",
+    "reason": "QC review: Broken Binding is a bookshop; evidence is a retail 'Coming Soon' collection."
+  },
+  {
+    "sourceUrl": "http://www.megancrewe.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Ruthless Magic pre-order post appears to date from its original 2016 launch."
+  },
+  {
+    "sourceUrl": "http://www.thecovercontessa.com/",
+    "status": "Excluded",
+    "reason": "QC review: The Cover Contessa is a book blog; evidence is a tag cloud of other authors."
+  },
+  {
+    "sourceUrl": "http://jolandaloves2read.blogspot.com/",
+    "status": "Excluded",
+    "reason": "QC review: Book blog promoting other authors' release (Penelope Ward and Vi Keeland)."
+  },
+  {
+    "sourceUrl": "https://bayoubookjunkie.wordpress.com/2026/10/11/release-blitz-from-a-to-us-by-amy-aislin-review-excerpt/",
+    "status": "Excluded",
+    "reason": "QC review: Book blog release blitz for another author's book (Amy Aislin)."
+  },
+  {
+    "sourceUrl": "https://jckang.dragonstonepress.us/",
+    "status": "Needs Review",
+    "reason": "QC review: Cover reveal post is dated only 'Nov 27' with no year; recency unclear."
+  },
+  {
+    "sourceUrl": "https://maggiekelleyromance.com/news-and-reviews/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence dates are from 2015; nothing current."
+  },
+  {
+    "sourceUrl": "https://www.travisbaldree.com/books",
+    "status": "Excluded",
+    "reason": "QC review: Travis Baldree is a household-name bestseller with books from Tor (Macmillan, Big-5)."
+  },
+  {
+    "sourceUrl": "http://guardbridgebooks.co.uk/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic undated submissions/freelancer recruitment notice, not a specific current book."
+  },
+  {
+    "sourceUrl": "https://telos.co.uk/moonrise/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a dispatch-delay notice, not a specific upcoming title."
+  },
+  {
+    "sourceUrl": "https://mybeautymybooks.com/",
+    "status": "Excluded",
+    "reason": "QC review: Book blog hosting blog tours for other authors' books."
+  },
+  {
+    "sourceUrl": "https://wfranew.wordpress.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence dated September 2021; release long past."
+  },
+  {
+    "sourceUrl": "https://mindcandymysteries.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic description of the author's publishing process, not a current project."
+  },
+  {
+    "sourceUrl": "https://www.karyngerrard.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only a category/tag list with nothing current."
+  },
+  {
+    "sourceUrl": "https://stevenmmoore.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic note about where ebooks are sold, with no current project."
+  },
+  {
+    "sourceUrl": "https://chicklitgoddess.com/",
+    "status": "Excluded",
+    "reason": "QC review: Chick Lit Goddess is a book blog featuring other authors' cover reveals."
+  },
+  {
+    "sourceUrl": "http://reilygarrett.blogspot.com/p/contests-and-giveaways.html",
+    "status": "Needs Review",
+    "reason": "QC review: Release giveaways dated 2017-2018; nothing current."
+  },
+  {
+    "sourceUrl": "https://www.michaelsheltonbooks.com/the-cremelino-prophecy",
+    "status": "Needs Review",
+    "reason": "QC review: Undated 2nd-edition re-release notice; year unclear."
+  },
+  {
+    "sourceUrl": "https://www.qamberdesignsmedia.com/picture-books",
+    "status": "Excluded",
+    "reason": "QC review: Najla Qamber Designs is a design/illustration service provider."
+  },
+  {
+    "sourceUrl": "https://christinaochs.com/book-reviews/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated recent-posts list on a book-reviews page; release timing of Sword of Destiny unclear."
+  },
+  {
+    "sourceUrl": "https://shannonathompson.com/novels/novels-2/november-rain/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is old pingbacks about a past book; nothing current."
+  },
+  {
+    "sourceUrl": "https://writerldrose.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Post appears to be from October 2025 (release Nov 14, 2025), about a year old."
+  },
+  {
+    "sourceUrl": "https://www.thomasmkane.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic description of drafting habits, not a specific current project."
+  },
+  {
+    "sourceUrl": "https://megancashmanbooks.wordpress.com/video-services-for-authors/",
+    "status": "Excluded",
+    "reason": "QC review: Page advertises the author's video/trailer services for other authors (service provider)."
+  },
+  {
+    "sourceUrl": "https://www.candaceblevins.com/safeword-series/safeword-rainbow/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence shows a 2013 release date; nothing current."
+  },
+  {
+    "sourceUrl": "http://seanmichaelwrites.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence dated November 2020; release long past."
+  },
+  {
+    "sourceUrl": "https://www.idalitawrightraso.com/news-and-events",
+    "status": "Needs Review",
+    "reason": "QC review: Context (contest ending Dec 31, 2024) indicates the Nov 27 release was in 2024."
+  },
+  {
+    "sourceUrl": "https://anna-wolfe.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a generic bio statement about self-publishing with no current project."
+  },
+  {
+    "sourceUrl": "https://www.truenortheditions.com/books-projects/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is an old catalogue entry (2007 photo book); nothing current."
+  },
+  {
+    "sourceUrl": "https://www.chloekempwisdomkeeper.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is an anecdote about choosing cover art for a past book."
+  },
+  {
+    "sourceUrl": "https://jchesterjohnson.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence lists past publications (2010, 2017); nothing current."
+  },
+  {
+    "sourceUrl": "https://www.divinerevelation.org/BookMaharishiAndMe.html",
+    "status": "Needs Review",
+    "reason": "QC review: Book is a 2018 Skyhorse Publishing title; not a current project."
+  },
+  {
+    "sourceUrl": "https://elizabethreedaden.com/news/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a podcast episode about re-releases with no clear current title or date."
+  },
+  {
+    "sourceUrl": "https://retirementtaxsaver.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is an advice blog post listing financial-planning websites."
+  },
+  {
+    "sourceUrl": "https://www.ruthhfinnegan.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated second-edition mention; no current project evident."
+  },
+  {
+    "sourceUrl": "https://www.elisabethflett.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated 'available now' book; recency cannot be determined."
+  },
+  {
+    "sourceUrl": "https://johndeancrimewriter.co.uk/online-crime-fiction-courses/",
+    "status": "Needs Review",
+    "reason": "QC review: Page is about online crime-fiction courses and lists existing books; nothing current."
+  },
+  {
+    "sourceUrl": "https://www.riverfaire.com/books",
+    "status": "Needs Review",
+    "reason": "QC review: Second edition dates from 2024; nothing current."
+  },
+  {
+    "sourceUrl": "https://bookshelffantasies.com/",
+    "status": "Excluded",
+    "reason": "QC review: Bookshelf Fantasies is a book blog; evidence is another author's (Carley Fortune) cover reveal."
+  },
+  {
+    "sourceUrl": "https://www.lauraperryauthor.com/wiccan-wellness",
+    "status": "Needs Review",
+    "reason": "QC review: Undated second-edition notice; recency unclear."
+  },
+  {
+    "sourceUrl": "https://bookmarkthat.co.uk/",
+    "status": "Excluded",
+    "reason": "QC review: Bookmark That is a book blog featuring other authors' cover reveals."
+  },
+  {
+    "sourceUrl": "https://brilliantauthor.com/articles/debut-author-website-refresh",
+    "status": "Excluded",
+    "reason": "QC review: Web designer's case study about another author's (DK Zier) website."
+  },
+  {
+    "sourceUrl": "https://jonfordauthor.com/songbird-books/",
+    "status": "Needs Review",
+    "reason": "QC review: Only provisional titles with no dates or production status."
+  },
+  {
+    "sourceUrl": "https://www.thecreativepenn.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: The Creative Penn blog post is an advice interview with a guest, not the author's own current project."
+  },
+  {
+    "sourceUrl": "https://martinjpdevaney.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Writing coach's craft guide with no dated release; no current launch or production evidence."
+  },
+  {
+    "sourceUrl": "https://www.boldauthors.com/courses/ultimate-timeline-guide-to-successfully-publish-your-book-what-to-do-when",
+    "status": "Excluded",
+    "reason": "QC review: Course/service page for authors, not an author's own book project."
+  },
+  {
+    "sourceUrl": "https://tarasparlingwrites.com/2021/03/31/new-radio-play-manic-monday-is-on-podcast-the-blog-is-on-its-knees/",
+    "status": "Needs Review",
+    "reason": "QC review: 2021 post with vague mention of ongoing editing/submitting; no concrete current project."
+  },
+  {
+    "sourceUrl": "https://kathleenjowitt.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is bio and an unrelated blog post; no current book project."
+  },
+  {
+    "sourceUrl": "https://www.joanlivingston.net/hilltown-books/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a tag cloud containing 'Pre-order'; nothing current identified."
+  },
+  {
+    "sourceUrl": "https://lydiaschoch.com/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a personal anecdote about a cold; no book project."
+  },
+  {
+    "sourceUrl": "https://www.jjtoner.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order post appears to date from Oct 2025 for an April launch, likely already released."
+  },
+  {
+    "sourceUrl": "https://barbtaub.com/review-guidelines/",
+    "status": "Excluded",
+    "reason": "QC review: Review guidelines page for a review/guest-post blog, not the author's own project."
+  },
+  {
+    "sourceUrl": "https://suerovens.com/2022/06/20/all-business-coming-soon-6-20-22/",
+    "status": "Excluded",
+    "reason": "QC review: Old 2022 post giving generic ISBN advice, no own current project."
+  },
+  {
+    "sourceUrl": "https://janelark.blog/about/",
+    "status": "Needs Review",
+    "reason": "QC review: About page bio only; no current release or production evidence."
+  },
+  {
+    "sourceUrl": "https://yenooi.com/all-works.html",
+    "status": "Needs Review",
+    "reason": "QC review: List of old publications (e.g. 2012); nothing current."
+  },
+  {
+    "sourceUrl": "https://storybundle.com/writing",
+    "status": "Excluded",
+    "reason": "QC review: StoryBundle is an ebook bundle service, not an author or press."
+  },
+  {
+    "sourceUrl": "https://tjbrearton.net/blog",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a reading list/personal anecdote; no current book project."
+  },
+  {
+    "sourceUrl": "https://www.juliarobertsauthor.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Bio mentioning a 2019 publishing deal; no current project evidence."
+  },
+  {
+    "sourceUrl": "https://greggdunnett.co.uk/letters/la-feria-del-libro-2025/",
+    "status": "Needs Review",
+    "reason": "QC review: Post about a 2025 book fair and a Spanish edition by a publisher; not clearly current."
+  },
+  {
+    "sourceUrl": "https://rhodabaxter.com/blog-2/",
+    "status": "Needs Review",
+    "reason": "QC review: Cover reveal is older; the book is already 'out now' with no date showing recent release."
+  },
+  {
+    "sourceUrl": "https://frankprem.com/book-formatting-layout-services/",
+    "status": "Excluded",
+    "reason": "QC review: Book formatting/layout services page; evidence is a service offering, not own project."
+  },
+  {
+    "sourceUrl": "https://beccanovelista.com/about-becca-novelista-2/",
+    "status": "Excluded",
+    "reason": "QC review: Editorial/coaching services page, service provider."
+  },
+  {
+    "sourceUrl": "https://tabbycow.com/2021/02/04/pre-order-our-newest-novel/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order post dated 2021; old."
+  },
+  {
+    "sourceUrl": "https://www.independentauthornetwork.com/book-of-the-year.html",
+    "status": "Excluded",
+    "reason": "QC review: Book-of-the-year awards program page, not an author's project."
+  },
+  {
+    "sourceUrl": "https://bookertalk.com/reviews/review-policy/",
+    "status": "Excluded",
+    "reason": "QC review: Review policy of a book review blog."
+  },
+  {
+    "sourceUrl": "https://jodipicoult.com/",
+    "status": "Excluded",
+    "reason": "QC review: Household-name #1 NYT bestselling author published by a major house."
+  },
+  {
+    "sourceUrl": "https://www.falmouth-bookseller.co.uk/preorders/",
+    "status": "Excluded",
+    "reason": "QC review: Bookshop pre-order page for other authors' books."
+  },
+  {
+    "sourceUrl": "https://cassavarepublic.biz/editorial-workshop/",
+    "status": "Excluded",
+    "reason": "QC review: Publisher's editorial workshop announcement for editors, not an own book project."
+  },
+  {
+    "sourceUrl": "https://anne-stormont.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Essay about the history of indie publishing; no current project."
+  },
+  {
+    "sourceUrl": "https://loutreleaven.com/blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated anecdote about working with a publisher's editor; no current release identified."
+  },
+  {
+    "sourceUrl": "https://www.besights.de/",
+    "status": "Needs Review",
+    "reason": "QC review: Release was 1 September (year unstated), now about six weeks or more past."
+  },
+  {
+    "sourceUrl": "https://maryannemohanraj.com/about/news-events/",
+    "status": "Needs Review",
+    "reason": "QC review: Coming 2027 title is an edited collection of Ursula K. Le Guin's blog, likely from a publisher; unclear own project."
+  },
+  {
+    "sourceUrl": "https://www.martinaandre.com/deutsch/aktuelles/",
+    "status": "Needs Review",
+    "reason": "QC review: Release date 14.7 (year unstated), about three months old if 2026."
+  },
+  {
+    "sourceUrl": "https://helmut-barz.de/fuer-autorinnen/buchproduktion/",
+    "status": "Excluded",
+    "reason": "QC review: Book production service page offering services to other authors."
+  },
+  {
+    "sourceUrl": "https://brigitta-winkelried.com/?page_id=925",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is the author pre-ordering someone else's book."
+  },
+  {
+    "sourceUrl": "https://laballade.de/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order deadline of 22 March with no year; likely past."
+  },
+  {
+    "sourceUrl": "https://www.david-safier.de/",
+    "status": "Excluded",
+    "reason": "QC review: Bestselling author with major-publisher books; evidence is only a site menu."
+  },
+  {
+    "sourceUrl": "https://marcus-huennebeck.de/krimi-hoerbuecher/",
+    "status": "Needs Review",
+    "reason": "QC review: Audiobook catalogue descriptions; nothing current or upcoming."
+  },
+  {
+    "sourceUrl": "https://thomasrothberghofer.wordpress.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Release date 24.7.24 is over two years old."
+  },
+  {
+    "sourceUrl": "https://www.melikospublishing.com/news-and-blog",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a screenplay adaptation in progress, not a book project."
+  },
+  {
+    "sourceUrl": "http://www.osinger-grafik.at/buchillustration-illustration-im-buch-illustriertes-buch-illustration-buch-illustriert.html",
+    "status": "Excluded",
+    "reason": "QC review: Illustrator offering illustration services."
+  },
+  {
+    "sourceUrl": "https://jennifershelby.blog/",
+    "status": "Needs Review",
+    "reason": "QC review: Nature/personal anecdote; no book project."
+  },
+  {
+    "sourceUrl": "https://selfpublishing.ca/book-coach/about/",
+    "status": "Excluded",
+    "reason": "QC review: Book coach/self-publishing service provider; guide edition undated."
+  },
+  {
+    "sourceUrl": "https://staceychomiak.com/books/",
+    "status": "Needs Review",
+    "reason": "QC review: Upcoming picture book is written by another author and published by OwlKids; she is the illustrator."
+  },
+  {
+    "sourceUrl": "https://pamwithers.com/books/the-parkour-club/",
+    "status": "Needs Review",
+    "reason": "QC review: Anecdote about researching an existing book's plot; no current project or request."
+  },
+  {
+    "sourceUrl": "http://www.sherrydramsey.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated re-release of an RPG backstory supplement; unclear timing and not a book launch."
+  },
+  {
+    "sourceUrl": "https://terryfallis.com/books/the-marionette/",
+    "status": "Excluded",
+    "reason": "QC review: Terry Fallis is traditionally published by McClelland & Stewart (Penguin Random House Canada)."
+  },
+  {
+    "sourceUrl": "https://www.anujavarghese.com/news-and-events/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a tag cloud and event listing; no own upcoming book identified."
+  },
+  {
+    "sourceUrl": "https://arielzorion.com/libros/",
+    "status": "Needs Review",
+    "reason": "QC review: Book release date 23 July 2020 is old."
+  },
+  {
+    "sourceUrl": "https://joseramontorres.com/",
+    "status": "Excluded",
+    "reason": "QC review: Translator advertising translation services to other authors."
+  },
+  {
+    "sourceUrl": "https://cdangeloauthor.com/newsletter/",
+    "status": "Needs Review",
+    "reason": "QC review: Generic newsletter signup page; no current project."
+  },
+  {
+    "sourceUrl": "https://www.assomelusine.fr/livres/livres-jeunesse/albums-et-romans",
+    "status": "Excluded",
+    "reason": "QC review: Association catalogue listing old titles (e.g. 2018)."
+  },
+  {
+    "sourceUrl": "https://www.lilianamarchesi.it/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is reader reviews; no current release or request."
+  },
+  {
+    "sourceUrl": "https://www.mauricehicks.com/",
+    "status": "Excluded",
+    "reason": "QC review: Private investigator website, not an author."
+  },
+  {
+    "sourceUrl": "https://fastcompanypress.com/how-it-works/",
+    "status": "Excluded",
+    "reason": "QC review: Hybrid publishing service provider describing its process."
+  },
+  {
+    "sourceUrl": "https://mafarrellbooks.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Generic site description; no current book project."
+  },
+  {
+    "sourceUrl": "https://www.creativenectarstudio.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Creative studio newsletter text; no book project evidence."
+  },
+  {
+    "sourceUrl": "https://woodywoodburn.com/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a reader comment, not the author's project."
+  },
+  {
+    "sourceUrl": "https://www.ballastbooks.com/",
+    "status": "Excluded",
+    "reason": "QC review: Hybrid publishing service provider; evidence is a client testimonial."
+  },
+  {
+    "sourceUrl": "https://artressbethanywhite.com/works/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence describes an anthology edited by others; no current project or service request."
+  },
+  {
+    "sourceUrl": "https://foxjambooks.com/about",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only an author bio with no upcoming/new book or request."
+  },
+  {
+    "sourceUrl": "https://www.forefrontbooks.com/partnerships/",
+    "status": "Excluded",
+    "reason": "QC review: Forefront Books is a hybrid publishing partnership offering services to authors, not an author/press with its own upcoming title."
+  },
+  {
+    "sourceUrl": "https://www.kimberlywheelockwrites.com/blog-1-1",
+    "status": "Needs Review",
+    "reason": "QC review: Undated anecdote about drafting a manuscript; no clear current production stage."
+  },
+  {
+    "sourceUrl": "https://avalanchepress.com/",
+    "status": "Excluded",
+    "reason": "QC review: Avalanche Press is a board wargame publisher; upcoming items are game editions, not books."
+  },
+  {
+    "sourceUrl": "https://www.singletosurrender.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is generic book description with no upcoming release or current project."
+  },
+  {
+    "sourceUrl": "https://www.mikekowis.com/articles/10-lessons/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is an advice article about lessons from writing a first book."
+  },
+  {
+    "sourceUrl": "https://altcurrentpress.com/2022/07/12/preorders-acquisitions/",
+    "status": "Needs Review",
+    "reason": "QC review: Source URL dated 2022 and evidence is only menu labels (Preorder Now/Coming Soon) without a current title."
+  },
+  {
+    "sourceUrl": "https://krhansenauthor.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is blog/reader reviews of an existing debut; nothing current."
+  },
+  {
+    "sourceUrl": "https://bitsykemper.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a writing advice blog post about manuscript readiness."
+  },
+  {
+    "sourceUrl": "https://www.vineleavespress.com/books.html",
+    "status": "Needs Review",
+    "reason": "QC review: Generic store description text; no specific upcoming title."
+  },
+  {
+    "sourceUrl": "https://www.susanldavis.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Inspirational blog text with no current book project."
+  },
+  {
+    "sourceUrl": "https://jamiipublishing.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a contributor bio; no current or upcoming title."
+  },
+  {
+    "sourceUrl": "https://publicationconsultants.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Publication Consultants appears to be an author-services/consultancy outfit; evidence is a catalogue listing with nothing clearly current."
+  },
+  {
+    "sourceUrl": "https://douglas-mcintyre.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Established Canadian trade publisher; evidence is catalogue listings with no upcoming/new release signal."
+  },
+  {
+    "sourceUrl": "https://bauhanpublishing.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Latest titles shown are 2023; nothing current."
+  },
+  {
+    "sourceUrl": "https://microcosmpublishing.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is an interview with another author on the publisher's blog, not the press's own project."
+  },
+  {
+    "sourceUrl": "https://colleenhoskins.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Book is already available; no date or current project signal."
+  },
+  {
+    "sourceUrl": "https://litwinbooks.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is only navigation/menu labels (Forthcoming, eBook available)."
+  },
+  {
+    "sourceUrl": "https://artepublicopress.com/",
+    "status": "Excluded",
+    "reason": "QC review: University-based press (University of Houston) and evidence is generic program description."
+  },
+  {
+    "sourceUrl": "https://willowlit.net/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence shows second editions and 2022 news; nothing clearly current."
+  },
+  {
+    "sourceUrl": "https://www.versobooks.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Verso is a large established trade publisher, not a small press prospect."
+  },
+  {
+    "sourceUrl": "https://chantelleatkins.com/blog-2/",
+    "status": "Needs Review",
+    "reason": "QC review: Book released 25 June, several months ago."
+  },
+  {
+    "sourceUrl": "https://jjbrownauthor.com/books/",
+    "status": "Needs Review",
+    "reason": "QC review: Second edition published 2025; no current project."
+  },
+  {
+    "sourceUrl": "https://singaporeunbound.org/opp/2026-gaudy-boy-poetry-book-prize",
+    "status": "Needs Review",
+    "reason": "QC review: Page is a poetry prize call for submissions, not a specific own upcoming title."
+  },
+  {
+    "sourceUrl": "https://rebeccabrynblog.wordpress.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order post dated October 2023; old."
+  },
+  {
+    "sourceUrl": "https://www.carrie-cross.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Island Idol preorder notice is old (site posts from 2021 show it already released)."
+  },
+  {
+    "sourceUrl": "http://sarafurlongburr.blogspot.com/",
+    "status": "Needs Review",
+    "reason": "QC review: 2014 thank-you to a cover designer; old and not a current request."
+  },
+  {
+    "sourceUrl": "https://newstarbooks.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence news items dated 2022; old."
+  },
+  {
+    "sourceUrl": "https://www.textpublishing.com.au/catalogue",
+    "status": "Needs Review",
+    "reason": "QC review: Text Publishing is a large established trade publisher; evidence is generic catalogue/menu labels."
+  },
+  {
+    "sourceUrl": "https://derekstirlingkerr.com/2023/10/17/judging-a-book-by-its-cover/",
+    "status": "Needs Review",
+    "reason": "QC review: 2023 musing about cover art; no current request."
+  },
+  {
+    "sourceUrl": "https://www.parallax.org/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a catalogue listing of an existing second edition; nothing clearly current."
+  },
+  {
+    "sourceUrl": "https://www.susanjricci.com/blog",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a writing-process blog post, not a current project."
+  },
+  {
+    "sourceUrl": "http://www.jamesmikelwilson.com/blog",
+    "status": "Needs Review",
+    "reason": "QC review: Anecdote about past marketing of an existing book; no current request."
+  },
+  {
+    "sourceUrl": "https://wendylyoung.wordpress.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Undated interview about a planned final book; no release date or clear current status."
+  },
+  {
+    "sourceUrl": "https://elikaleauthor.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Work-in-progress post references 2024; old."
+  },
+  {
+    "sourceUrl": "http://vickysavage.com/blog/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is an advice article about getting a manuscript edited."
+  },
+  {
+    "sourceUrl": "https://augurybooks.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a reflective note about a press's history; no upcoming title."
+  },
+  {
+    "sourceUrl": "https://scottwhitmorewriter.wordpress.com/",
+    "status": "Excluded",
+    "reason": "QC review: Evidence is a review of another author's book."
+  },
+  {
+    "sourceUrl": "https://lisaakramer.com/blog/dear-readers-writers-and-creators",
+    "status": "Needs Review",
+    "reason": "QC review: Relaunch already happened and is described as past; nothing current."
+  },
+  {
+    "sourceUrl": "https://www.drobertpease.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Pre-order text for Enslaved appears stale (site content from ~2014); no clear current release."
+  },
+  {
+    "sourceUrl": "https://robbskidmore.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Release post dated 11/29/2024; old."
+  },
+  {
+    "sourceUrl": "https://www.jeremyreimer.com/rockets-item.lsp?p=45.lsp",
+    "status": "Needs Review",
+    "reason": "QC review: Existing book listing with retailer links; nothing current."
+  },
+  {
+    "sourceUrl": "https://interactionmediapublishing.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is a tag cloud of generic labels."
+  },
+  {
+    "sourceUrl": "https://penlightpress.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence is template placeholder text with a generic Preorder Now link."
+  },
+  {
+    "sourceUrl": "https://www.rohmorgon.com/",
+    "status": "Needs Review",
+    "reason": "QC review: Evidence posts dated 2020 and earlier; old."
+  },
+  {
+    "sourceUrl": "https://www.arsilverberry.com/blog",
+    "status": "Needs Review",
+    "reason": "QC review: Treasure of Trenalon already released (it has since won an MWSA award); preorder text is stale."
+  },
+  {
+    "sourceUrl": "https://canadianscholars.ca/",
+    "status": "Excluded",
+    "reason": "QC review: Canadian Scholars/Women's Press is an academic/textbook publisher."
   }
 ]
