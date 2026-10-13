@@ -167,7 +167,7 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   // Lead status.
   let status: LeadStatus;
   // Bookshops, review blogs, events and media are not authors or publishing businesses.
-  const notAuthorEntity = /\b(bookstore|bookshop|book store|book shop|library|libraries|magazine|book reviews?|reviews|book club|podcast|festival|convention|bookcon|book fair|buchhandlung|librairie|librería|libreria)\b/i.test(c.name);
+  const notAuthorEntity = (BIG_PUBLISHER.test(c.name) && (!looksLikeNamedIdentity(c.name) || /press|publish|verlag|books|editions|gruyter/i.test(c.name))) || /\b(bookstore|bookshop|book store|book shop|library|libraries|magazine|book reviews?|reviews|book club|podcast|festival|convention|bookcon|book fair|buchhandlung|librairie|librería|libreria)\b/i.test(c.name);
   // A non-personal name (e.g. a blog or shop title) must be declared as a publishing business to qualify.
   const unclearEntity = !c.apiText && !looksLikeNamedIdentity(c.name) && !/Independent Publisher|Author-Owned Business/.test(c.authorType ?? "") && !c.businessName;
   if (unclearEntity) reasons.push("name is not a personal or pen name and is not declared as a publishing business; confirm the entity");
