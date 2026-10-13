@@ -1,0 +1,184 @@
+[
+ {
+  "source": "Crime Writers of Canada member directory 2026",
+  "directoryUrl": "https://members.crimewriterscanada.com/directory",
+  "method": "Wild Apricot LoadMembers JSON (POST) for member IDs, then 487 public profiles parsed for Website/Country fields",
+  "sitesFound": 232,
+  "notes": "487 members, 257 with website; country from profile"
+ },
+ {
+  "source": "Federation of BC Writers member directory 2026",
+  "directoryUrl": "https://bcwriters.ca/page-18151",
+  "method": "Wild Apricot LoadMembers JSON (POST formId 5257358); website column",
+  "sitesFound": 625,
+  "notes": "1892 members, 684 with website; mixed indie/trad; country not stated"
+ },
+ {
+  "source": "CANSCAIP member directory 2026",
+  "directoryUrl": "https://www.canscaip.org/Members",
+  "method": "Wild Apricot LoadMembers JSON (POST formId 1160952)",
+  "sitesFound": 313,
+  "notes": "395 members; children's/YA creators, mixed indie/trad"
+ },
+ {
+  "source": "Writers' Federation of New Brunswick member directory 2026",
+  "directoryUrl": "https://www.wfnb.ca/members",
+  "method": "Wild Apricot LoadMembers JSON (formId 5582313)",
+  "sitesFound": 98,
+  "notes": "243 members; WiSP directory (formId 6001543) had no websites"
+ },
+ {
+  "source": "Writers' Federation of Nova Scotia member profiles 2026",
+  "directoryUrl": "https://writers.ns.ca/membership/writers-council-profiles/",
+  "method": "328 member pages from wp-sitemap-posts-ex_team, external link extraction",
+  "sitesFound": 30,
+  "notes": "country Canada (NS federation)"
+ },
+ {
+  "source": "Writers' Union of Canada member directory 2026",
+  "directoryUrl": "https://writersunion.ca/member-directory",
+  "method": "A-Z paginated member-directory-search crawl -> member profile pages -> 'Website' link",
+  "sitesFound": 1273,
+  "notes": "national union (Canadian citizens/PR); trad-heavy but includes self-published members"
+ },
+ {
+  "source": "Writing NSW Find a Writer directory 2026",
+  "directoryUrl": "https://writingnsw.org.au/findawriter/",
+  "method": "WP REST directory_member (109) -> profile pages",
+  "sitesFound": 79,
+  "notes": "Australia"
+ },
+ {
+  "source": "Writers SA Our Authors directory 2026",
+  "directoryUrl": "https://writerssa.org.au/members/our-authors",
+  "method": "sf_paged listing (9 pages, 91 authors) -> profile pages",
+  "sitesFound": 54,
+  "notes": "Australia"
+ },
+ {
+  "source": "Read NZ Te Pou Muramura Writers Files 2026",
+  "directoryUrl": "https://www.read-nz.org/writers-files",
+  "method": "pagenum 1-34 listing (778 writers, deceased dropped) -> profile pages, only 'Website'-labelled links kept",
+  "sitesFound": 147,
+  "notes": "New Zealand; mostly trad but includes self-published"
+ },
+ {
+  "source": "SF Canada member biographies 2026",
+  "directoryUrl": "https://www.sfcanada.org/biographies/",
+  "method": "bio pages -> website-labelled links",
+  "sitesFound": 37,
+  "notes": "speculative fiction, many indie/small press"
+ },
+ {
+  "source": "SF Canada member blogs list 2026",
+  "directoryUrl": "https://www.sfcanada.org/sfc-blogs/",
+  "method": "direct external links with blog titles",
+  "sitesFound": 40,
+  "notes": ""
+ },
+ {
+  "source": "Ottawa Romance Writers ORW Authors page 2026",
+  "directoryUrl": "https://ottawaromancewriters.com/orw-authors/",
+  "method": "direct external links (logo grid, no names)",
+  "sitesFound": 22,
+  "notes": "romance, indie-heavy"
+ },
+ {
+  "source": "Toronto Romance Writers TRW Book List 2026",
+  "directoryUrl": "https://torontoromancewriters.com/trw-book-list",
+  "method": "author-owned hosts from book links (retailer/publisher links dropped)",
+  "sitesFound": 3,
+  "notes": "most links go to books2read/Amazon/publishers"
+ },
+ {
+  "source": "Goodreads Aussie Readers group author threads",
+  "directoryUrl": "https://www.goodreads.com/topic/show/917949-goodreads-aussie-authors-place-request-to-be-added-to-list-here",
+  "method": "comment links in topics 543826, 917949, 917700, 1115161",
+  "sitesFound": 19,
+  "notes": "low yield; names omitted (poster may be moderator)"
+ },
+ {
+  "source": "Canadian Authors Association member directory",
+  "directoryUrl": "https://canadianauthors.org/national/member-directory/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "Behind circle.so login - dead end"
+ },
+ {
+  "source": "Writers' Guild of Alberta membership directory",
+  "directoryUrl": "https://writersguild.ca/new-membership-directory/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "Directory removed (404)"
+ },
+ {
+  "source": "Australian Society of Authors Find a creator",
+  "directoryUrl": "https://www.asauthors.org.au/find-a-creator/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "JS-only, showed no results"
+ },
+ {
+  "source": "NZSA author search",
+  "directoryUrl": "https://authors.org.nz/author-search/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "JS search, not harvested"
+ },
+ {
+  "source": "AEQJ (Québec youth writers) Nos membres",
+  "directoryUrl": "https://aeqj.ca/members/",
+  "method": "Ultimate Member ajax",
+  "sitesFound": 0,
+  "notes": "nonce rejected; not harvested"
+ },
+ {
+  "source": "Communication-Jeunesse répertoire des créateurs",
+  "directoryUrl": "https://www.communication-jeunesse.qc.ca/createurs/",
+  "method": "WP REST app_creator (5394)",
+  "sitesFound": 0,
+  "notes": "profiles have no website field - dead end"
+ },
+ {
+  "source": "AustCrimeFiction author listing",
+  "directoryUrl": "https://austcrimefiction.org/authors",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "author pages do not link author websites"
+ },
+ {
+  "source": "Barwon Heads Indie Author Book Fair",
+  "directoryUrl": "https://www.indieauthorbookfair.com/meet-the-authors",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "Wix page, no author links in HTML"
+ },
+ {
+  "source": "Storylines NZ profiles / CKT Speakers Agency / Booked Out",
+  "directoryUrl": "https://www.storylines.org.nz/storylines-profiles/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "JS lists or tiny; skipped"
+ },
+ {
+  "source": "Singapore indie author communities",
+  "directoryUrl": "-",
+  "method": "web search",
+  "sitesFound": 0,
+  "notes": "no public directory found"
+ },
+ {
+  "source": "Sask/Manitoba/NL writers guilds, Writers Victoria, NT Writers, Romance Writers NZ, SpecFicNZ/SFFANZ, Australian Horror Writers Assoc, oiw.ca",
+  "directoryUrl": "-",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "timeouts/403 via proxy, hijacked domains (AHWA, oiw.ca) or no public directory"
+ },
+ {
+  "source": "Australia Reads author directory",
+  "directoryUrl": "https://australiareads.org.au/author-and-illustrator-directory",
+  "method": "skipped",
+  "sitesFound": 0,
+  "notes": "eligibility is trad-published only"
+ }
+]

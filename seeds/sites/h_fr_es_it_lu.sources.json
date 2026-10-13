@@ -1,0 +1,170 @@
+[
+ {
+  "source": "Librinova \"Nos auteurs\" (self-publishing platform author profiles) 2026",
+  "directoryUrl": "https://www.librinova.com/nos-auteurs",
+  "method": "Crawled 151 listing pages (3,002 author profiles) and each profile; took external website link, dropped platform footer link and press/media links.",
+  "sitesFound": 451,
+  "notes": "Librinova is a French self-publishing/hybrid platform; profiles are of self-published authors."
+ },
+ {
+  "source": "Escritores.org \"Libros\"",
+  "directoryUrl": "https://www.escritores.org/libros/",
+  "method": "Zoo author search (type=autor, vowels a/e/i/o/u, 100/page) + recent-book index; parsed \"Web / Blog\" field on each author biography page.",
+  "sitesFound": 1787,
+  "notes": "Spanish-language self-promotion catalogue dominated by autopublicados/small-press authors (Spain + Latin America); country not stated by directory so left blank."
+ },
+ {
+  "source": "Normandie Livre & Lecture annuaire (auteurs) 2026",
+  "directoryUrl": "https://www.normandielivre.fr/annuaire/?secteur=1",
+  "method": "Paged listing (secteur=1 Auteur, autrice), websiteUrl field from embedded JSON.",
+  "sitesFound": 151,
+  "notes": "Regional book agency directory; mixed indie/traditional, includes autoédités; some illustrators."
+ },
+ {
+  "source": "Auvergne-Rhône-Alpes Livre et Lecture annuaire des auteurs 2026",
+  "directoryUrl": "https://auvergnerhonealpes-livre-lecture.org/annuaires/auteurs",
+  "method": "Paged listing (56 pages, 671 authors) + detail pages; first non-boilerplate external link.",
+  "sitesFound": 370,
+  "notes": "Regional agency directory; mixed."
+ },
+ {
+  "source": "Occitanie Livre & Lecture annuaire (écrivains) 2026",
+  "directoryUrl": "https://www.occitanielivre.fr/annuaire?field_activites%5B48%5D=48",
+  "method": "Filtered activity=Ecrivain (834 entries), detail pages; first non-boilerplate external link.",
+  "sitesFound": 322,
+  "notes": "Regional agency directory; mixed, includes autoédités."
+ },
+ {
+  "source": "Agence régionale du Livre Provence",
+  "directoryUrl": "https://www.livre-provencealpescotedazur.fr/ressources/annuaire",
+  "method": "JSON endpoint annuaire.json?p=N, people with sector \"Auteur, autrice\" and websiteurl.",
+  "sitesFound": 0,
+  "notes": "Regional agency directory; mixed."
+ },
+ {
+  "source": "A*dS Autorinnen und Autoren der Schweiz / Autrices et auteurs de Suisse member directory 2026",
+  "directoryUrl": "https://www.a-d-s.ch/mitglieder/mitgliederverzeichnis/",
+  "method": "A-Z member list pages, website links.",
+  "sitesFound": 493,
+  "notes": "Swiss professional authors association (all language regions; majority German-speaking, language left blank). Country=Switzerland stated by directory."
+ },
+ {
+  "source": "La Charte",
+  "directoryUrl": "https://www.la-charte.fr/repertoire-des-chartistes/",
+  "method": "67 listing pages + member pages; first non-boilerplate external link.",
+  "sitesFound": 0,
+  "notes": "Children's authors/illustrators association, open to autoédités since 2022; mixed, many illustrators."
+ },
+ {
+  "source": "Goodreads",
+  "directoryUrl": "https://www.goodreads.com/shelf/show/auto-edition",
+  "method": "Shelves (auto-edition, autopublicado, autores-indies, self-publishing-italiano, emergenti-italiani, etc.) and lists (75073, 112911, 175371, 190128, 126081, 219436 ...) -> author pages -> \"Website\" field; robots.txt allows /shelf, /list, /author. Kept only authors with unknown birthplace or born in FR/BE/CH/LU/ES/IT.",
+  "sitesFound": 414,
+  "notes": "Language set from the shelf/list language; country from Goodreads \"Born\" field when it names a segment country."
+ },
+ {
+  "source": "Livraddict author pages",
+  "directoryUrl": "https://www.livraddict.com/",
+  "method": "not crawled",
+  "sitesFound": 0,
+  "notes": "robots.txt explicitly disallows ClaudeBot/anthropic-ai for the whole site; skipped to respect robots.txt."
+ },
+ {
+  "source": "Babelio author pages",
+  "directoryUrl": "https://www.babelio.com/",
+  "method": "not crawled",
+  "sitesFound": 0,
+  "notes": "robots.txt disallows anthropic-ai/ClaudeBot."
+ },
+ {
+  "source": "ilmiolibro.it (Italian self-publishing platform)",
+  "directoryUrl": "https://ilmiolibro.kataweb.it/",
+  "method": "not crawled",
+  "sitesFound": 0,
+  "notes": "robots.txt disallows anthropic-ai."
+ },
+ {
+  "source": "Objectif plumes (Belgian authors, FWB)",
+  "directoryUrl": "https://objectifplumes.be/",
+  "method": "fetch attempted",
+  "sitesFound": 0,
+  "notes": "WAF returns 'Requête non autorisée' for every page."
+ },
+ {
+  "source": "Prix des Auteurs Inconnus",
+  "directoryUrl": "https://www.prixdesauteursinconnus.com/",
+  "method": "homepage + submission pages inspected",
+  "sitesFound": 0,
+  "notes": "Submission pages list book titles only, no author website links."
+ },
+ {
+  "source": "L'Indé Panda (indie author magazine)",
+  "directoryUrl": "https://lindepanda.fr/",
+  "method": "fetch attempted",
+  "sitesFound": 0,
+  "notes": "Author pages behind WAF (406) and REST API restricted; only ~99 authors anyway."
+ },
+ {
+  "source": "Livre et lecture en Bretagne annuaire",
+  "directoryUrl": "https://www.livrelecturebretagne.fr/",
+  "method": "fetch attempted",
+  "sitesFound": 0,
+  "notes": "Connection reset by peer."
+ },
+ {
+  "source": "AR2L Hauts-de-France annuaire",
+  "directoryUrl": "https://www.ar2l-hdf.fr/annuaire-des-professionnels",
+  "method": "facet crawl attempted",
+  "sitesFound": 0,
+  "notes": "TYPO3 pagination requires per-page cHash; only first pages reachable (~38 profiles); abandoned."
+ },
+ {
+  "source": "Mobilis Pays de la Loire, Livre Lecture Bourgogne-Franche-Comté, ALCA Nouvelle-Aquitaine annuaires",
+  "directoryUrl": "https://www.mobilis-paysdelaloire.fr/annuaire",
+  "method": "inspected",
+  "sitesFound": 0,
+  "notes": "Listings rendered client-side (JS), no crawlable author links found."
+ },
+ {
+  "source": "Luxemburger Autorenlexikon",
+  "directoryUrl": "https://www.autorenlexikon.lu/",
+  "method": "inspected",
+  "sitesFound": 0,
+  "notes": "Author index only via JS typeahead returning names without IDs; not crawled."
+ },
+ {
+  "source": "Caligrama (Penguin self-publishing) author pages",
+  "directoryUrl": "https://www.caligramaeditorial.com/autores",
+  "method": "sampled 9 of 2,634 author pages",
+  "sitesFound": 0,
+  "notes": "Author pages carry no personal website links."
+ },
+ {
+  "source": "AutoresEditores.com profiles",
+  "directoryUrl": "https://www.autoreseditores.com/autores/",
+  "method": "sampled",
+  "sitesFound": 0,
+  "notes": "Profiles carry no personal website links; crawl-delay 5."
+ },
+ {
+  "source": "monbestseller.com",
+  "directoryUrl": "https://www.monbestseller.com/auteur/liste",
+  "method": "inspected",
+  "sitesFound": 0,
+  "notes": "Manuscript-sharing community (mostly unpublished), crawl-delay 10; skipped."
+ },
+ {
+  "source": "Halliennales salon (imaginaire)",
+  "directoryUrl": "https://www.halliennales.com/",
+  "method": "inspected",
+  "sitesFound": 0,
+  "notes": "Guest lists dominated by traditional publishers; skipped."
+ },
+ {
+  "source": "Italian indie blogs / Festival del Romance Italiano / Writer's Dream",
+  "directoryUrl": "https://indieshakeandco.wordpress.com/",
+  "method": "web search + fetch attempts",
+  "sitesFound": 0,
+  "notes": "No crawlable author lists with website links; several hosts unreachable from proxy. Italian coverage comes only from Goodreads Italian shelves/lists."
+ }
+]
