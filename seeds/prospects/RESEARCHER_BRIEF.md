@@ -59,3 +59,19 @@ Do not include emails yourself — the agent extracts publicly displayed ones.
 5. Do NOT run `ingest`, `verify`, `requalify` or `export`. Do not contact anyone, submit forms, or sign up for anything. No outreach text.
 
 Return a short summary: candidates written, how many check as Ready / Needs Review, searches run, main dead ends.
+
+## Wave-2 additions (learned from wave 1)
+- **Freshness:** production-stage evidence counts only if the release it cites is still upcoming (or released within the
+  last ~45 days) and, when the post is dated, the post is ≤ 6 months old. Pages whose only dates are past are rejected.
+  Prefer quotes that contain the future date ("erscheint am 06.11.2026", "Releasing Nov 2026", "Coming 2027").
+- **Skip authors already in the database:** `seeds/prospects/_already_known_names.txt`.
+- **Directories beat search:** event author lists (signings, book fairs, festivals), writer-association member lists,
+  award eligibility lists and release calendars give hundreds of author sites without spending WebSearch calls. You may
+  fetch those with WebFetch or the repo fetcher (`npx tsx -e` scripts are fine; keep scratch files in your own folder under the
+  session scratchpad, never in the repo).
+- WebSearch is capped per turn across all agents: use it sparingly for finding directories, not individual authors.
+- Wording the agent recognises now includes: pre-order/preorder (any form), cover reveal, coming soon, release date(s),
+  releasing <season/month> 2026/27, will be published 2027, forthcoming novel, heavy/final edits, re-release/new covers,
+  German (erscheint am/im, Veröffentlichung, vorbestellen, Neuerscheinung), French (sortie le/prévue, précommandes ouvertes,
+  à paraître, bientôt disponible, à venir en 2027), Spanish (preventa, próximamente), Italian (in uscita), Dutch (verschijnt),
+  Nordic (kommer ut, udkommer, ilmestyy), Japanese/Korean release and request phrases.
