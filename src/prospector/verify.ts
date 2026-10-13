@@ -383,8 +383,18 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
   if (!v.language && c.language) v.language = c.language;
   // De-duplicate emails, keep first attribution.
   const seen = new Set<string>();
-  v.emails = v.emails.filter((e) => (seen.has(e.email) ? false : (seen.add(e.email), true)));
+  v.emails = v.emails.filter((e) => plausibleEmail(e.email) && (seen.has(e.email) ? false : (seen.add(e.email), true)));
   return v;
+}
+
+const COMMON_TLDS = new Set("com net org edu gov co io me info biz eu uk de fr nl be lu ch at it es pt ie se no dk fi is au nz ca us jp kr sg ae in za mx br ar pl cz gr hu ro tr il online email ink art blog page site website xyz books author club life live world studio media design agency press pub store shop space tech app dev cafe today news fun moe".split(" "));
+
+/** Rejects text-extraction artefacts ("blog@wordpress.com.subscribe", "raise@work.this") and platform addresses. */
+export function plausibleEmail(email: string): boolean {
+  const m = /^[^@\s]+@([a-z0-9-]+\.)+([a-z]{2,24})$/i.exec(email);
+  if (!m) return false;
+  if (!COMMON_TLDS.has(m[2].toLowerCase())) return false;
+  return !/@(wordpress\.com|wixpress\.com|sentry\.|squarespace\.com|example\.)|^(noreply|no-reply|donotreply)@/i.test(email);
 }
 
 function attribution(email: string, siteDomain: string): string {

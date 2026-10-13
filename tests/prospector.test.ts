@@ -183,3 +183,13 @@ describe("release timing", () => {
     expect(releaseTiming("Coming soon!", now)).toBeNull();
   });
 });
+
+describe("email plausibility", () => {
+  it("drops extraction artefacts and platform addresses", async () => {
+    const { plausibleEmail } = await import("../src/prospector/verify.js");
+    expect(plausibleEmail("blog@wordpress.com.subscribe")).toBe(false);
+    expect(plausibleEmail("raise@work.this")).toBe(false);
+    expect(plausibleEmail("jane@janedoebooks.co.uk")).toBe(true);
+    expect(plausibleEmail("authorlilymayne@gmail.com")).toBe(true);
+  });
+});
