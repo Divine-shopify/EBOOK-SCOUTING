@@ -58,14 +58,21 @@ function escapeRe(s: string): string {
  * Finds a country stated in text via location phrasing ("based in", "lives in", "from", "Dublin, Ireland").
  * Bare mentions (e.g. a book set in Paris) are ignored.
  */
-export function countryFromText(text: string): { country: string; quote: string } | null {
+export function countryFromText(text: string, name?: string): { country: string; quote: string } | null {
+  // The location phrase must be about the author (first person, "author/writer", or their name nearby), not a character
+  // in a book blurb ("his son living in New York").
+  const nameTokens = (name ?? "").toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length >= 3);
+  const aboutAuthor = (idx: number) => {
+    const w = text.slice(Math.max(0, idx - 160), idx).toLowerCase();
+    return /\b(i|i'm|i am|my|we|author|writer|novelist|poet|autor|autorin|auteur|autrice|escritora?|scrittrice|scrittore)\b/.test(w) || nameTokens.some((t) => w.includes(t));
+  };
   const lead = String.raw`(?:based (?:in|out of)|lives? (?:in|on)|living (?:in|on)|resides? in|residing in|hails? from|is from|i'?m from|author from|writer from|grew up in .{0,40}? now lives in|calls? .{0,30}? home|lebt (?:in|mit .{0,40}? in)|wohnt in|vit (?:à|en|au)|vive en|vive a|woont in|bor i|asuu)`;
   for (const m of MARKETS) {
     for (const p of m.places) {
       if (p.length < 3) continue;
       const re = new RegExp(String.raw`${lead}\s+(?:the\s+)?(?:[A-Z][\p{L}'.-]+(?:\s[A-Z][\p{L}'.-]+)?,\s+)?${escapeRe(p)}\b`, "iu");
       const hit = re.exec(text);
-      if (hit) return { country: m.country, quote: text.slice(Math.max(0, hit.index - 40), hit.index + hit[0].length + 20).replace(/\s+/g, " ").trim() };
+      if (hit && aboutAuthor(hit.index)) return { country: m.country, quote: text.slice(Math.max(0, hit.index - 40), hit.index + hit[0].length + 20).replace(/\s+/g, " ").trim() };
     }
   }
   return null;

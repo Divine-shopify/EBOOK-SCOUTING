@@ -4,7 +4,13 @@
   "authorType": "Self-Published Author",
   "language": "en",
   "businessName": "Little Hollow Books",
+  "country": "United States",
+  "region": "California",
+  "locationQuote": "Avi Penhollow is a writer, publisher, and teacher based in Southern California",
   "genre": "Children's picture book",
+  "additionalUrls": [
+   "https://www.avipenhollow.com/about"
+  ],
   "sourceUrl": "https://www.avipenhollow.com/p/were-looking-for-an-illustrator-but",
   "evidenceQuote": "We're Looking for an Illustrator. But That's Not Really What This Is About.",
   "evidenceDate": "2026-06-07",
@@ -14,7 +20,7 @@
    "channel": "web_crawl",
    "query": "substack post search \"looking for an illustrator\"",
    "provider": "claude-websearch",
-   "market": "Global",
+   "market": "United States",
    "date": "2026-10-13"
   }
  },
@@ -22,7 +28,13 @@
   "name": "Fiona Koefoed-Jespersen",
   "authorType": "Independent Author",
   "language": "en",
+  "country": "Denmark",
+  "city": "Copenhagen",
+  "locationQuote": "born in the UK but currently living in Copenhagen, Denmark",
   "genre": "Spirituality / reflection cards",
+  "additionalUrls": [
+   "https://soulcarearchetypes.substack.com/about"
+  ],
   "sourceUrl": "https://soulcarearchetypes.substack.com/p/in-search-of-an-illustrator",
   "evidenceQuote": "That is why I am looking for an illustrator to work with over the coming months to bring this idea to life.",
   "evidenceDate": "2026-01-02",
@@ -32,7 +44,7 @@
    "channel": "web_crawl",
    "query": "substack post search \"looking for an illustrator\"",
    "provider": "claude-websearch",
-   "market": "Global",
+   "market": "Denmark",
    "date": "2026-10-13"
   }
  },
@@ -139,14 +151,14 @@
    "https://kathyraabeauthor.wordpress.com/"
   ],
   "sourceUrl": "https://kathyraabeauthor.wordpress.com/2026/05/19/terrific-tuesday-13/",
-  "evidenceQuote": "My preference is someone local. I also want to check within the SCBWI. I also want someone who draws their own illustrations.",
+  "evidenceQuote": "Couldn't believe I had people from all over contact me because \"I'm looking for an illustrator.\"",
   "evidenceDate": "2026-05-19",
   "officialWebsite": "https://kathyraabeauthor.wordpress.com/",
   "discovery": {
    "channel": "web_crawl",
    "query": "wordpress.com read/search \"looking for an illustrator\"",
    "provider": "claude-websearch",
-   "market": "Global",
+   "market": "United States",
    "date": "2026-10-13"
   }
  },
@@ -154,30 +166,13 @@
   "name": "MM Hurley",
   "authorType": "Self-Published Author",
   "language": "en",
-  "sourceUrl": "http://mmhurley.com/2026/09/28/thoughts-and-updates-september-edition/",
-  "evidenceQuote": "Edits: I need to hire an editor. I have two more chapters to finish (GOD I NEED TIME), and then I need an editor.",
-  "evidenceDate": "2026-09-28",
+  "sourceUrl": "http://mmhurley.com/2026/08/18/thoughts-and-updates-august-edition/",
+  "evidenceQuote": "I will print a clean copy and then begin self-edits while actively searching for a developmental editor.",
+  "evidenceDate": "2026-08-18",
   "officialWebsite": "http://mmhurley.com/",
   "discovery": {
    "channel": "web_crawl",
-   "query": "wordpress.com read/search \"I need an editor\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "C.B. Dixon",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "bookTitle": "Mortal Soul Ascension",
-  "sourceUrl": "http://cbdixon.com/2026/09/25/sample-edit-completed/",
-  "evidenceQuote": "Just as I have been unsure about getting a cover artist, book designer, and all the things I know other people can do better. I know I need an editor.",
-  "evidenceDate": "2026-09-25",
-  "officialWebsite": "http://cbdixon.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "wordpress.com read/search \"I need an editor\"",
+   "query": "wordpress.com read/tags/self-publishing stream scan",
    "provider": "claude-websearch",
    "market": "Global",
    "date": "2026-10-13"
@@ -189,7 +184,7 @@
   "language": "en",
   "genre": "Memoir",
   "sourceUrl": "http://soulmosaic.blog/2026/06/30/tools-writing-why-story-and-about-structure/",
-  "evidenceQuote": "Of the posts I have written, certainly editing needs to happen. I need an editor to help me extract the most concentrated essence of the story.",
+  "evidenceQuote": "I am seeking financial support to complete my memoir, work with an editor, and make a visit to my home state for fact-checking.",
   "evidenceDate": "2026-06-30",
   "officialWebsite": "http://soulmosaic.blog/",
   "discovery": {
@@ -204,7 +199,13 @@
   "name": "Katy Campbell",
   "authorType": "Self-Published Author",
   "language": "en",
+  "country": "United States",
+  "region": "New Jersey",
+  "locationQuote": "As a homeschool graduate from New Jersey",
   "genre": "Fantasy",
+  "additionalUrls": [
+   "https://katysfables.com/about"
+  ],
   "sourceUrl": "https://katysfables.com/2026/09/02/fairies-arent-cute/",
   "evidenceQuote": "As I prepare to publish the final book in my Rosaline series, I will need to hire an editor, cover artist, and pay the various fees required by Ingram and other platforms.",
   "evidenceDate": "2026-09-02",
@@ -213,7 +214,7 @@
    "channel": "web_crawl",
    "query": "wordpress.com read/search \"hire an editor\" my book",
    "provider": "claude-websearch",
-   "market": "Global",
+   "market": "United States",
    "date": "2026-10-13"
   }
  },
@@ -256,7 +257,7 @@
   "language": "en",
   "businessName": "Risen Fiction",
   "sourceUrl": "https://risenfiction.substack.com/p/the-creatives-rest",
-  "evidenceQuote": "even spending time searching for an illustrator for upcoming projects. The new contemporary novel I've been working on for YEARS is ready to go to an editor",
+  "evidenceQuote": "I'm learning to create ads and my days have been filled with figuring out image ratios, color schemes, finding back ground graphics, and even spending time searching for an illustrator for upcoming projects.",
   "evidenceDate": "2025-10-27",
   "officialWebsite": "https://risenfiction.substack.com/",
   "discovery": {
@@ -285,23 +286,6 @@
   }
  },
  {
-  "name": "Krislyn Lyon",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "bookTitle": "Death By Guillotine, And Other High-End Services",
-  "sourceUrl": "https://krislynlyon.substack.com/p/i-found-a-typo-on-page-one-and-nobody",
-  "evidenceQuote": "I am human (and I really do need a proofreader). My book has typos.",
-  "evidenceDate": "2026-05-26",
-  "officialWebsite": "https://krislynlyon.substack.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "substack post search \"need a proofreader\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
   "name": "Canojo Koi",
   "authorType": "Self-Published Author",
   "language": "en",
@@ -313,105 +297,6 @@
   "discovery": {
    "channel": "web_crawl",
    "query": "wordpress.com read/search \"on the hunt for an editor\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "Aeon Wynter",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "sourceUrl": "https://aeonwynterwriter.com/2025/11/28/publishing-update-3/",
-  "evidenceQuote": "Simple enough, I really just need a cover artist which I think I've found, and an editor, though I'm debating doing that myself.",
-  "evidenceDate": "2025-11-28",
-  "officialWebsite": "https://aeonwynterwriter.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "wordpress.com read/search \"need a cover artist\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "Godelieve",
-  "authorType": "Independent Author",
-  "language": "en",
-  "sourceUrl": "http://thesurfoflife.blog/2026/01/28/looking-for-a-web-designer/",
-  "evidenceQuote": "Dear followers: I am looking for a web designer that can pimp my site: thesurfoflife.com.",
-  "evidenceDate": "2026-01-28",
-  "officialWebsite": "http://thesurfoflife.blog/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "wordpress.com read/search \"looking for a web designer\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "David Payne",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "bookTitle": "Worms",
-  "sourceUrl": "https://telinartho.wordpress.com/2026/04/10/world-events-and-writing/",
-  "evidenceQuote": "My next project is to get Worms out the door. I need a cover for this thing, and that's basically it.",
-  "evidenceDate": "2026-04-10",
-  "officialWebsite": "https://telinartho.wordpress.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "wordpress.com read/search \"I need a cover\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "Carlton Mellick III",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "genre": "Bizarro fiction",
-  "sourceUrl": "http://carltonmellick.com/2026/03/24/cm3-library-faqs/",
-  "evidenceQuote": "Do you commission cover art? Yes! I am always looking for new artists for my covers. Payment is $500-$1000 USD.",
-  "evidenceDate": "2026-03-24",
-  "officialWebsite": "http://carltonmellick.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "wordpress.com read/search \"looking for an artist\" book cover",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "Danielle Trujillo",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "sourceUrl": "https://danielletrujillo.substack.com/p/i-am-writing-a-book",
-  "evidenceQuote": "I am going through KDP, maybe Ingram, but definitely Barnes and Noble Press. Right now I am writing it . I do write in the mornings, except for some Tuesdays. I do need a cover designer and a proofreader.",
-  "evidenceDate": "2025-11-17",
-  "officialWebsite": "https://danielletrujillo.substack.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "substack post search \"need a cover designer\"",
-   "provider": "claude-websearch",
-   "market": "Global",
-   "date": "2026-10-13"
-  }
- },
- {
-  "name": "Sean Äaberg",
-  "authorType": "Self-Published Author",
-  "language": "en",
-  "genre": "Dark fantasy (Dungeon Degenerates)",
-  "sourceUrl": "https://seanaaberg.substack.com/p/editor",
-  "evidenceQuote": "As I'm moving forward with more writing, I need an editor. The editor needs to be detail oriented, but not forget the broader picture",
-  "evidenceDate": "2026-05-10",
-  "officialWebsite": "https://seanaaberg.substack.com/",
-  "discovery": {
-   "channel": "web_crawl",
-   "query": "substack post search \"I need an editor\"",
    "provider": "claude-websearch",
    "market": "Global",
    "date": "2026-10-13"
@@ -436,17 +321,298 @@
   }
  },
  {
-  "name": "Mitchell Slepian",
+  "name": "Ron Copeland",
   "authorType": "Independent Author",
   "language": "en",
-  "genre": "Graphic novel",
-  "sourceUrl": "https://mitchellslepian.substack.com/p/what-do-people-want-to-read",
-  "evidenceQuote": "Some of you know, for many years, I have been working on a graphic novel. It is taking too long. I need an illustrator.",
-  "evidenceDate": "2026-07-17",
-  "officialWebsite": "https://mitchellslepian.substack.com/",
+  "bookTitle": "Legacy Hub",
+  "genre": "Nonfiction guide",
+  "sourceUrl": "https://copelandr.substack.com/p/witnessing-a-life",
+  "evidenceQuote": "I am seeking an editor or community collaborator to help bring this work into one coherent, publication-ready guide while preserving its emotional and sacred voice.",
+  "evidenceDate": "2026-10-10",
+  "officialWebsite": "https://copelandr.substack.com/",
   "discovery": {
    "channel": "web_crawl",
-   "query": "substack post search \"need an illustrator\"",
+   "query": "substack post search \"seeking an editor\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Katelynsam",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fantasy",
+  "sourceUrl": "https://katelynsam.substack.com/p/dear-writing-diary-entry-39",
+  "evidenceQuote": "I have also started the process of seeking an editor by hosting sample chapter tryouts with a handful of potential editors I have found on Reedsy",
+  "evidenceDate": "2025-12-16",
+  "officialWebsite": "https://katelynsam.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"seeking an editor\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Rhiannon Futch",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "sourceUrl": "https://rhiannonfutchauthor.substack.com/p/leaving-things-behind",
+  "evidenceQuote": "I have been searching for a good narrator for months. I finally have the money to start paying for the narration so that I can switch to human narration.",
+  "evidenceDate": "2026-06-24",
+  "officialWebsite": "https://rhiannonfutchauthor.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"searching for a narrator\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Davina Bolinsky",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "The Adventurers Guide to Not Dying",
+  "genre": "Fantasy",
+  "sourceUrl": "https://dbolinsky.substack.com/p/the-adventurers-guide-to-not-dying",
+  "evidenceQuote": "I am also in search of a cover artist for this book.",
+  "evidenceDate": "2025-12-07",
+  "officialWebsite": "https://dbolinsky.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"in search of a cover artist\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "E.L. West",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "country": "United States",
+  "region": "Oregon",
+  "locationQuote": "West lives in Oregon with their husband",
+  "additionalUrls": [
+   "https://elwestauthor.substack.com/about"
+  ],
+  "sourceUrl": "https://elwestauthor.substack.com/p/in-the-beginning",
+  "evidenceQuote": "I am now in the Beta Reader phase and looking for an editor. My hope is to have it published in the next year.",
+  "evidenceDate": "2026-06-25",
+  "officialWebsite": "https://elwestauthor.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"looking for an editor\" novel",
+   "provider": "claude-websearch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Bett Bollhoefer",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "YA science fiction",
+  "additionalUrls": [
+   "https://bettboll.com/"
+  ],
+  "sourceUrl": "https://bettbollhoefer.substack.com/p/why-kids-need-yes-and-more-than-another",
+  "evidenceQuote": "I am now recruiting Beta Readers, selling pre-orders , and looking for an Editor who specializes in YA Scifi.",
+  "evidenceDate": "2026-05-11",
+  "officialWebsite": "https://bettbollhoefer.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"looking for an editor\" novel",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Lilliana Méndez-Soto",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "No Perfect Choice",
+  "sourceUrl": "https://lillianamendezsoto.substack.com/p/automatic-voice-over-has-arrived",
+  "evidenceQuote": "I am learning more about recording, and currently searching for a narrator for the Audiobook version of my novel, No Perfect Choice",
+  "evidenceDate": "2026-07-11",
+  "officialWebsite": "https://lillianamendezsoto.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"searching for a narrator\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Shannon L. Buck",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Fantasy",
+  "sourceUrl": "https://shannonlbuck.wordpress.com/2025/11/11/autumn-author-updates/",
+  "evidenceQuote": "And I am looking for book covers that are more professional looking for some of my books. They are costly, though.",
+  "evidenceDate": "2025-11-11",
+  "officialWebsite": "https://shannonlbuck.wordpress.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "wordpress.com read/search \"I am looking for a cover\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Vesper L. Rayne",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Romance",
+  "sourceUrl": "https://substack.com/@vesperlrayne/note/c-332672701",
+  "evidenceQuote": "I am looking for a cover artist who can do 1990s romance novel cover art",
+  "evidenceDate": "2026-09-08",
+  "officialWebsite": "https://vesperlrayne.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a cover artist\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Katherine.A.Rose",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "sourceUrl": "https://substack.com/@authorkatherinearose/note/c-342858771",
+  "evidenceQuote": "Looking for a artist to commission a book cover, character art and chapter art",
+  "evidenceDate": "2026-09-22",
+  "officialWebsite": "https://authorkatherinearose.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a cover artist\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "L.L. Schmid",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "bookTitle": "The Origin Series",
+  "genre": "Fantasy",
+  "sourceUrl": "https://substack.com/@llschmid/note/c-312969004",
+  "evidenceQuote": "Looking for a great cover artist to take my dream and make it come to life!",
+  "evidenceDate": "2026-08-12",
+  "officialWebsite": "https://llschmid.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a cover artist\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jolie",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Poetry / short stories",
+  "sourceUrl": "https://substack.com/@joliecannoli/note/c-198475453",
+  "evidenceQuote": "Looking for a cover artist! Please message me or drop your work below",
+  "evidenceDate": "2026-01-11",
+  "officialWebsite": "https://josel19.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a cover artist\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "JW Jones",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Dark fiction",
+  "sourceUrl": "https://substack.com/@jwjonesauthor/note/c-308861287",
+  "evidenceQuote": "Authors, I'm looking for an experienced developmental editor to strengthen my stories",
+  "evidenceDate": "2026-08-05",
+  "officialWebsite": "https://jwjonesauthor.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a developmental editor\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Boo Walker",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "sourceUrl": "https://substack.com/@boowalker/note/c-336874938",
+  "evidenceQuote": "Seeking a great copyeditor, a proofreader, and a cover designer for a non-fiction project (a craft book).",
+  "evidenceDate": "2026-09-14",
+  "officialWebsite": "https://boowalker.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a proofreader\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Ali Earthman",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Poetry",
+  "sourceUrl": "https://substack.com/@alisonewrites/note/c-239929431",
+  "evidenceQuote": "I'm moving forward with publishing my poetry collection and am looking for a book formatter/interior designer (especially someone experienced with poetry)",
+  "evidenceDate": "2026-04-08",
+  "officialWebsite": "https://alisonewrites.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a formatter\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Kelly Dern",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "genre": "Science fiction / horror",
+  "sourceUrl": "https://substack.com/@kellydernauthor/note/c-342507141",
+  "evidenceQuote": "I am looking for a line editor who specializes in horror, sci-fi or weird fiction. Please send me recommendations!",
+  "evidenceDate": "2026-09-21",
+  "officialWebsite": "https://kellydern.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack top/search notes \"looking for a line editor\"",
+   "provider": "claude-websearch",
+   "market": "Global",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "James Ross",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "The Magic World of Border Bob",
+  "genre": "Children's stories",
+  "sourceUrl": "https://jazzpunk101.substack.com/p/end-of-year-review",
+  "evidenceQuote": "The Border Bob books feature original artwork and I want to keep that going, so I'm looking for an illustrator",
+  "evidenceDate": "2025-12-31",
+  "officialWebsite": "https://jazzpunk101.substack.com/",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "substack post search \"looking for an illustrator\" (pages 5-10)",
    "provider": "claude-websearch",
    "market": "Global",
    "date": "2026-10-13"

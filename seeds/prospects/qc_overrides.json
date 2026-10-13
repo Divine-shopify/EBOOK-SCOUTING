@@ -68,5 +68,35 @@
     "sourceUrl": "https://sachablack.co.uk/2026/10/12/lessons-learned-from-ten-months-of-direct-sales-book-distribution-2/",
     "status": "Excluded",
     "reason": "Author runs an author-education business; the quote describes a tooling problem, not a service purchase need, and she is a likely competitor/provider."
+  },
+  {
+    "sourceUrl": "https://jaxcalder.com/collections/coming-soon",
+    "status": "Needs Review",
+    "reason": "Evidence is a store-menu \"Coming Soon\" collection label, not a dated project."
+  },
+  {
+    "sourceUrl": "https://kathyraabeauthor.wordpress.com/2026/05/19/terrific-tuesday-13/",
+    "status": "Excluded",
+    "reason": "Quote recounts others contacting her after a past request; no current need."
+  },
+  {
+    "sourceUrl": "http://soulmosaic.blog/2026/06/30/tools-writing-why-story-and-about-structure/",
+    "status": "Needs Review",
+    "reason": "Post is a fundraising appeal; editing need is conditional on funding."
+  },
+  {
+    "sourceUrl": "https://astrologywithember.substack.com/p/field-report-with-ember-996",
+    "status": "Needs Review",
+    "reason": "Single-word pen name; confirm identity before use."
+  },
+  {
+    "sourceUrl": "https://risenfiction.substack.com/p/the-creatives-rest",
+    "status": "Needs Review",
+    "reason": "Author is doing ad graphics herself; a purchase intent for a service is not shown."
+  },
+  {
+    "sourceUrl": "https://needlebound.substack.com/p/needlebound-volume-3-is-now-available",
+    "status": "Needs Review",
+    "reason": "Zine/print collective; eBook relevance and identity need confirmation."
   }
 ]

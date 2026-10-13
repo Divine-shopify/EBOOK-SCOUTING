@@ -374,7 +374,7 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher, mx
   }
   if (!v.country) {
     for (const t of ownTexts) {
-      const found = countryFromText(t.text) ?? countryFromImpressum(t.text) ?? countryFromMentionsLegales(t.text);
+      const found = countryFromText(t.text, c.name) ?? countryFromImpressum(t.text) ?? countryFromMentionsLegales(t.text);
       if (found) {
         v.country = { ...found, url: t.url };
         break;

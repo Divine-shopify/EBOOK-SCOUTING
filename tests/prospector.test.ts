@@ -56,8 +56,9 @@ describe("helpers", () => {
     expect(containsQuote("totally different text here", "I'm looking for an editor")).toBe(false);
   });
   it("only records countries stated with location phrasing", () => {
-    expect(countryFromText("Jane lives in Cork, Ireland with two cats.")?.country).toBe("Ireland");
+    expect(countryFromText("Jane lives in Cork, Ireland with two cats.", "Jane Doe")?.country).toBe("Ireland");
     expect(countryFromText("A thriller set in Paris during the war.")).toBeNull();
+    expect(countryFromText("Books: Sam is reluctant, but when she realizes his wealthy son living in New York is reluctant to help...")).toBeNull();
   });
   it("cleans display names and judges identifiability", () => {
     expect(cleanDisplayName("Jane Doe 📚 | Fantasy Author")).toBe("Jane Doe");
