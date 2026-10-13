@@ -1,0 +1,974 @@
+[
+ {
+  "name": "Claire Kent",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Virginia",
+  "locationQuote": "She lives in Virginia.",
+  "bookTitle": "Beasts",
+  "genre": "Romance",
+  "sourceUrl": "https://clairekent.com/books",
+  "evidenceQuote": "Books by Claire Kent Reading Order Coming Soon Beasts — December 4, 2026 By Series Kindled Series Escorted Series",
+  "officialWebsite": "https://clairekent.com/",
+  "additionalUrls": [
+   "https://clairekent.com/",
+   "https://clairekent.com/shop"
+  ],
+  "notes": "Indie romance author (multiple series incl. post-apocalyptic fairy tales); Books page lists Beasts coming December 4, 2026; homepage says she lives in Virginia.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jena Doyle",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "West Virginia",
+  "locationQuote": "Jena currently lives in West Virginia with her partner and their snuggly pup.",
+  "bookTitle": "RBMC: Helena, MT #4",
+  "genre": "Dark motorcycle club romance / paranormal romance",
+  "sourceUrl": "https://jenadoyle.com/",
+  "evidenceQuote": "RBMC: Helena, MT #4 Territorial alpha male vibes Grumpy FMC Enemies to Lovers Banter for daayyyss Read everywhere August 31, 2027 Preorder now",
+  "officialWebsite": "https://jenadoyle.com/",
+  "notes": "Indie dark romance author; homepage lists a November 7 anthology preorder and RBMC Helena MT #4 on preorder for August 31, 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Ella Hendricks",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Texas",
+  "locationQuote": "She holds a master’s degree in journalism and lives in Texas with her family.",
+  "genre": "Paranormal romance / romantasy",
+  "sourceUrl": "https://ellahendricks.com/",
+  "evidenceQuote": "Coming Soon This will end as it began... with fire. A new paranormal romance, publishing October 29!",
+  "officialWebsite": "https://ellahendricks.com/",
+  "additionalUrls": [
+   "https://ellahendricks.com/about-contact/",
+   "https://ellahendricks.com/books/"
+  ],
+  "notes": "Indie paranormal romance/omegaverse author; homepage announces a new paranormal romance publishing October 29 (2026).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Cambria Williams",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Utah",
+  "locationQuote": "Cambria has a Master of Fine Arts in Writing and lives in Utah",
+  "bookTitle": "Decorate the Heart",
+  "genre": "YA contemporary romance / fantasy",
+  "sourceUrl": "https://www.cambriawilliams.com/about",
+  "evidenceQuote": "DECORATE THE HEART will be released in November 2026, and WRECKSGIVING will be released in October 2027.",
+  "officialWebsite": "https://cambriawilliams.com/",
+  "additionalUrls": [
+   "https://www.cambriawilliams.com/books"
+  ],
+  "notes": "Utah fantasy and YA author (LTUE 2026 panelist); about page: Decorate the Heart releases November 2026 and Wrecksgiving October 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "ltue.net 2026 program book (LTUE symposium panelist bios with websites)",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "AC Arthur",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Maryland",
+  "city": "Baltimore",
+  "locationQuote": "Arthur was born and raised in Baltimore, Maryland where she currently lives with her husband, three children, and a blessedly active imagination",
+  "genre": "Romance",
+  "sourceUrl": "https://acarthur.com/",
+  "evidenceQuote": "news & updates → see what's coming soon → AC's Next Nov 27, 2026 Signed from AC’s Shop Amazon Read an Excerpt",
+  "officialWebsite": "https://acarthur.com/",
+  "additionalUrls": [
+   "https://acarthur.com/meet"
+  ],
+  "notes": "Hybrid romance author with own shop; homepage shows next release Nov 27, 2026 and notes Heart of Ruin moved from a trad release to her own release.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "coastalmagicconvention.com/featured-authors/ (Coastal Magic Convention author list)",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Dawn Anderson",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Florida",
+  "locationQuote": "She lives in central Florida with her husband, four daughters, and son",
+  "bookTitle": "Your Serve",
+  "genre": "Sports romance",
+  "sourceUrl": "https://www.dawnandersonbooks.com/",
+  "evidenceQuote": "ebook preorder Your Serve is coming February 2027! purchase now Running Risk is available now.",
+  "officialWebsite": "https://www.dawnandersonbooks.com/",
+  "additionalUrls": [
+   "https://www.dawnandersonbooks.com/about"
+  ],
+  "notes": "Romance author (Coastal Magic featured author); homepage: Your Serve ebook preorder, coming February 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "coastalmagicconvention.com/featured-authors/ (Coastal Magic Convention author list)",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Tonya Kappes",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Cozy mystery",
+  "sourceUrl": "https://tonyakappes.com/",
+  "evidenceQuote": "sneak a peak: Coming Soon → watch: Tonya on YouTube Newest Sep 27, 2026 Read Buy ★ ★ ★ ★ Next Oct 25, 2026 Read Buy Next Nov 22, 2026",
+  "officialWebsite": "https://tonyakappes.com/",
+  "notes": "Prolific indie cozy mystery author; homepage lists next releases Oct 25, 2026 and Nov 22, 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "coastalmagicconvention.com/featured-authors/ (Coastal Magic Convention author list)",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Karen MacInerney",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Texas",
+  "city": "Georgetown",
+  "locationQuote": "She lives in Georgetown, Texas, but escapes to Maine as often as possible",
+  "bookTitle": "Bad Seed",
+  "genre": "Cozy mystery",
+  "sourceUrl": "https://karenmacinerney.com/",
+  "evidenceQuote": "I’m thrilled to announce that Bad Seed , the newest Dewberry Farm mystery, will be released October 27—and it’s available for preorder now!",
+  "officialWebsite": "https://karenmacinerney.com/",
+  "additionalUrls": [
+   "https://karenmacinerney.com/about-karen/",
+   "https://karenmacinerney.com/books/a-killer-ending/"
+  ],
+  "notes": "Hybrid/indie cozy mystery author (Dewberry Farm, Gray Whale Inn); homepage: Bad Seed releases October 27 (2026), preorder open.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Craig Martelle",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Glory – Humanity’s Allies",
+  "genre": "Military science fiction",
+  "sourceUrl": "https://craigmartelle.com/",
+  "evidenceQuote": "Coming Soon Glory – Humanity’s Allies Glory Book 6 November 20, 2026 Coming Soon Deadhand’s Vengeance Broken Badge Book 3 June 4, 2027",
+  "officialWebsite": "https://craigmartelle.com/",
+  "notes": "Prolific indie sci-fi author/publisher; homepage lists Glory Book 6 coming Nov 20, 2026 and Broken Badge Book 3 June 4, 2027. Bio says he grew up in Iowa (current residence not stated).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "indieauthors.substack.com posts Oct 2025-Oct 2026 (Indie Authors newsletter: featured authors / new releases) -> linked author sites",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jacquelyn Benson",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Mountain of Songs",
+  "genre": "Historical fantasy adventure",
+  "sourceUrl": "https://jacquelynbenson.com/",
+  "evidenceQuote": "Raiders of the Arcana book 4 Mountain of Songs coming february 2027 PREORDER NOW Signed copies available",
+  "officialWebsite": "https://jacquelynbenson.com/",
+  "additionalUrls": [
+   "https://jacquelynbenson.com/books/"
+  ],
+  "notes": "Indie historical adventure/romance author running Kickstarter editions (late backer store); book 4 Mountain of Songs on preorder for February 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Gary Gerlacher",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Medical thriller",
+  "sourceUrl": "https://garygerlacher.com/",
+  "evidenceQuote": "Perorder Coming Soon “The people who did this are dead men walking.” RELEASING December 3rd, 2026 Preorder",
+  "officialWebsite": "https://garygerlacher.com/",
+  "notes": "Medical thriller author (ER physician); homepage: next thriller releasing December 3rd, 2026, preorder open.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jaime Castle",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Emberstone Academy of Magic",
+  "genre": "Fantasy",
+  "sourceUrl": "https://jaimecastle.com/",
+  "evidenceQuote": "Featured Book Coming in 2027 Emberstone Academy of Magic Preorder Now In Deluxe Hardcover!",
+  "officialWebsite": "https://jaimecastle.com/",
+  "additionalUrls": [
+   "https://jaimecastle.com/my-books/"
+  ],
+  "notes": "Indie fantasy author; homepage: Emberstone Academy of Magic coming in 2027 with deluxe hardcover preorder.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Harmon Cooper",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "LitRPG / progression fantasy",
+  "sourceUrl": "https://harmoncooper.com/",
+  "evidenceQuote": "The second book is up for preorder, and the third will be out in March 2027.",
+  "officialWebsite": "https://harmoncooper.com/",
+  "notes": "Indie LitRPG author with many series; homepage: book two on preorder, third out March 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jessica Peterson",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Nash",
+  "genre": "Contemporary western romance",
+  "sourceUrl": "https://jessicapeterson.com/coming-soon",
+  "evidenceQuote": "NASH is the third book in the Double U Ranch Series. Coming in 2027! Coming Soon!",
+  "officialWebsite": "https://jessicapeterson.com/",
+  "notes": "Romance author; Coming Soon page: Nash, Double U Ranch book 3, coming 2027 with ARC influencer sign-up.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "T.S. Kinley",
+  "authorType": "Author-Owned Business",
+  "language": "en",
+  "bookTitle": "A Plague on the House of Bruin",
+  "genre": "Dark fairy-tale romantasy",
+  "sourceUrl": "https://tskinleybooks.com/",
+  "evidenceQuote": "Coming Soon New Release A Plague on the House of Bruin Releasing January 13, 2027 Pre-Order on Amazon",
+  "officialWebsite": "https://tskinleybooks.com/",
+  "notes": "Indie dark fantasy romance pen name (writing team, own shop with special editions); next release January 13, 2027, preorder on Amazon.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jane Henry",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Wicked Auction",
+  "genre": "Dark romance",
+  "sourceUrl": "https://janehenryromance.com/coming-soon/",
+  "evidenceQuote": "Coming Soon Wicked Auction Available October 23, 2026 A captive who refuses to be owned.",
+  "officialWebsite": "https://janehenryromance.com/",
+  "notes": "Indie USA Today bestselling dark romance author with translations and own audio store; Coming Soon page: Wicked Auction available October 23, 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Ruby Dixon",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Villain Origin Story",
+  "genre": "Sci-fi / fantasy romance",
+  "sourceUrl": "https://rubydixon.com/",
+  "evidenceQuote": "AVAILABLE FOR PRE-ORDER Coming: December 1, 2026 Barbarian’s Choice — Special Edition Coming: January 19, 2027 Villain Origin Story",
+  "officialWebsite": "https://rubydixon.com/",
+  "notes": "Bestselling indie SFF romance author (Ice Planet Barbarians); homepage: pre-orders for Dec 1, 2026 special edition and Jan 19, 2027 release.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Candice Gilmer",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Crown",
+  "genre": "Sci-fi romance",
+  "sourceUrl": "https://candicegilmer.com/",
+  "evidenceQuote": "Pre-Order Releasing November 5, 2026 Crown Negotiations are difficult enough.",
+  "officialWebsite": "https://candicegilmer.com/",
+  "notes": "Indie sci-fi romance author (Intergalactic Dating Agency books) with own shop; Crown on pre-order for November 5, 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Caty Rogan",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Blessed by the Damned",
+  "genre": "Fantasy romance",
+  "sourceUrl": "https://catyrogan.com/",
+  "evidenceQuote": "Read on Kindle Unlimited Blessed by the Damned Preorder Now Coming June 1, 2027 to US/CAN",
+  "officialWebsite": "https://catyrogan.com/",
+  "notes": "Kindle Unlimited fantasy romance author; Blessed by the Damned on preorder for June 1, 2027 (US/CAN).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Rebecca Johnpee",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Dark romantasy",
+  "sourceUrl": "https://rebeccajohnpee.com/books",
+  "evidenceQuote": "What is the release date for the second book in the wicked trilogy? DECEMBER 1ST, 2026",
+  "officialWebsite": "https://rebeccajohnpee.com/",
+  "notes": "Romantasy author (The Wicked trilogy); books page FAQ gives Dec 1, 2026 release date for book two with preorders.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jacqueline White",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Souls In Ruin",
+  "genre": "Dark romantasy",
+  "sourceUrl": "https://www.jacquelinewhiteauthor.com/about-the-author",
+  "evidenceQuote": "My debut novel, Souls In Ruin , is being rereleased in Fall 2026",
+  "officialWebsite": "https://jacquelinewhiteauthor.com/",
+  "notes": "Romantasy author with own store; debut being re-released Fall 2026 and new book coming November 2026 in deluxe hardcover.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "A.H. Hadley",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Enhancing Lives",
+  "genre": "Fantasy",
+  "sourceUrl": "https://ahhadley.com/",
+  "evidenceQuote": "The target release date for the EARLY BIRD release is late Fall/early Winter 2026. Release date will be updated once we have a set date.",
+  "officialWebsite": "https://ahhadley.com/",
+  "notes": "Indie fantasy author selling direct; site offers early-bird ebook pre-order of Enhancing Lives (Sin’s City Book 2), target late Fall/early Winter 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Ariel Sullivan",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Connecticut",
+  "locationQuote": "Ariel Sullivan lives in Connecticut with her husband and two sons, as well as their two French bulldogs.",
+  "bookTitle": "Core",
+  "genre": "Dystopian romance",
+  "sourceUrl": "https://arielsullivan.com/",
+  "evidenceQuote": "FEBRUARY 23, 2027 CORE The next installment in the best-selling Conform series Pre-Order Now",
+  "officialWebsite": "https://arielsullivan.com/",
+  "additionalUrls": [
+   "https://arielsullivan.com/about",
+   "https://arielsullivan.com/books/core"
+  ],
+  "notes": "Dystopian romance author (Conform series); homepage: Core on pre-order for February 23, 2027. Publisher not stated on page.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Regina Walker",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Tennessee",
+  "locationQuote": "Regina Walker makes her home in Tennessee",
+  "bookTitle": "Wishes in Wyoming",
+  "genre": "Christian historical romance",
+  "sourceUrl": "https://reginawalkerauthor.com/",
+  "evidenceQuote": "Available for Preorder Now! Wishes in Wyoming: Mail-Order Brides of Misfortune Book 3 by Regina Walker Preorder Now or Learn More",
+  "officialWebsite": "https://reginawalkerauthor.com/",
+  "additionalUrls": [
+   "https://reginawalkerauthor.com/about"
+  ],
+  "notes": "Indie Christian historical romance author; homepage: Mail-Order Brides of Misfortune Book 3 on preorder, on sale November 1, 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Vannetta Chapman",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Texas",
+  "locationQuote": "Chapman currently writes and makes her home in the Texas Hill Country",
+  "genre": "Amish / Christian fiction",
+  "sourceUrl": "https://vannettachapman.com/coming-soon/",
+  "evidenceQuote": "Doesn’t this sound fun? 12 authors, 12 books, all releasing in 2027.",
+  "officialWebsite": "https://vannettachapman.com/",
+  "additionalUrls": [
+   "https://vannettachapman.com/about/",
+   "https://vannettachapman.com/book-list/"
+  ],
+  "notes": "Hybrid Christian fiction author; Coming Soon page announces a 12-author, 12-book collaboration releasing in 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Pepper Basham",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "North Carolina",
+  "city": "Asheville",
+  "locationQuote": "She resides in Asheville, North Carolina with her family",
+  "genre": "Christian historical romance",
+  "sourceUrl": "https://pepperdbasham.com/news-more/",
+  "evidenceQuote": "News and More Upcoming releases Regency #2 coming in October 2026 Upcoming News Pepper Sightings",
+  "officialWebsite": "https://pepperdbasham.com/",
+  "additionalUrls": [
+   "https://pepperdbasham.com/jane-by-the-book/"
+  ],
+  "notes": "Hybrid Christian romance author; News page: Regency #2 coming in October 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Teresa Wells",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Texas",
+  "locationQuote": "She lives with her husband of 45 years outside of Dallas, Texas",
+  "bookTitle": "When Hope Takes Root",
+  "genre": "Christian historical fiction",
+  "sourceUrl": "https://teresawells.com/news/",
+  "evidenceQuote": "The second book, Seeds of Hope, releases in July 2026, and the third book, When Hope Takes Root, releases in July of 2027.",
+  "officialWebsite": "https://teresawells.com/",
+  "additionalUrls": [
+   "https://teresawells.com/about-teresa.php",
+   "https://teresawells.com/book-seeds-of-hope.php"
+  ],
+  "notes": "Christian historical author (The Truitts of Texas series); News page: book three releases July 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Heidi McCahan",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "North Carolina",
+  "locationQuote": "She’s originally from Alaska, but currently lives in North Carolina with her handsome husband, three amazing boys, and the world’s greatest Goldendoodle.",
+  "genre": "Inspirational small-town romance",
+  "sourceUrl": "https://heidimccahan.com/",
+  "evidenceQuote": "Preorder your exclusive copy from Sunrise here . Available from Amazon and included in Kindle Unlimited in April 2027.",
+  "officialWebsite": "https://heidimccahan.com/",
+  "notes": "Inspirational romance author (Kindle Unlimited); final Welcome to Redemption, Alaska book on preorder, Amazon/KU April 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Heather Day Gilbert",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "West Virginia",
+  "locationQuote": "I was born and brought up in the southeastern area of wild and wonderful West Virginia , and that’s where I live now",
+  "genre": "Cozy mystery / suspense",
+  "sourceUrl": "https://heatherdaygilbert.com/blog/",
+  "evidenceQuote": "There will also be an audiobook that will go live around release date (January 26, 2027).",
+  "officialWebsite": "https://heatherdaygilbert.com/",
+  "additionalUrls": [
+   "https://heatherdaygilbert.com/about/"
+  ],
+  "notes": "Indie mystery author; blog post on upcoming mystery series with release date January 26, 2027 and audiobook.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "MaryLu Tyndall",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "California",
+  "locationQuote": "MaryLu currently lives in California with her husband, 6 kids, 4 grandkids, and various stray cats",
+  "bookTitle": "The Sanctuary",
+  "genre": "Christian historical romance",
+  "sourceUrl": "https://www.marylutyndall.com/coming-soon",
+  "evidenceQuote": "The Sanctuary Legend of the King's Ring 4 Releasing 2027!",
+  "officialWebsite": "https://marylutyndall.com/",
+  "additionalUrls": [
+   "https://marylutyndall.com/"
+  ],
+  "notes": "Indie Christian historical romance author (Patreon); Coming Soon page: Legend of the King's Ring 4 releasing 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Kenneth Bliss",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Christian LitRPG / sci-fi",
+  "sourceUrl": "https://kennethblissauthor.com/",
+  "evidenceQuote": "Coming soon - October 20, 2026 A Christian LitRPG fantasy novelette taking readers into a world of adventure, progression,",
+  "officialWebsite": "https://kennethblissauthor.com/",
+  "additionalUrls": [
+   "https://kennethblissauthor.com/books/"
+  ],
+  "notes": "Indie Christian speculative fiction author; homepage: Christian LitRPG novelette coming soon October 20, 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Beth K. Vogt",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Christian contemporary romance",
+  "sourceUrl": "https://bethvogt.com/",
+  "evidenceQuote": "Beth K. Vogt Releasing Fall 2026 Reach for the stars, they say. Book 2 in the Home to Chestnut, Colorado Series",
+  "officialWebsite": "https://bethvogt.com/",
+  "additionalUrls": [
+   "https://bethvogt.com/beths-books/"
+  ],
+  "notes": "Christian contemporary fiction author; homepage: Book 2 in the Home to Chestnut, Colorado series releasing Fall 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Janell York",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Missouri",
+  "locationQuote": "Janell lives in Missouri with her wonderful husband",
+  "bookTitle": "Letting Go of Perfect",
+  "genre": "Christian women's fiction",
+  "sourceUrl": "https://janellyork.com/about-janell/",
+  "evidenceQuote": "Her second novel in the Sisterhood Pie Pact Series, Letting Go of Perfect , releases in October 2026.",
+  "officialWebsite": "https://janellyork.com/",
+  "notes": "Christian women's fiction author; about page: second Sisterhood Pie Pact novel releases October 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Kiersti Giron",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "The Scent of Orange Blossoms",
+  "genre": "Christian historical fiction",
+  "sourceUrl": "https://kierstigiron.com/",
+  "evidenceQuote": "My upcoming novel The Scent of Orange Blossoms , set in the early 1900s California orange groves, is available for preorder now, coming January 2027!",
+  "officialWebsite": "https://kierstigiron.com/",
+  "notes": "Christian historical novelist; homepage: The Scent of Orange Blossoms available for preorder, coming January 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jill Ann Mai",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "At the River's Edge",
+  "genre": "Christian historical fiction",
+  "sourceUrl": "https://jillannmai.com/",
+  "evidenceQuote": "Check out the new trailer for America's 250th! At the River's Edge February 2027 Cover coming soon!",
+  "officialWebsite": "https://jillannmai.com/",
+  "additionalUrls": [
+   "https://jillannmai.com/books/a-hearts-charade"
+  ],
+  "notes": "Christian fiction author; homepage: At the River's Edge February 2027, cover coming soon.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Lauren Thell",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Edges & Other Hard Things",
+  "genre": "YA Christian fiction",
+  "sourceUrl": "https://laurenthell.com/",
+  "evidenceQuote": "YA Christian Fiction Novels Edges & Other Hard Things Releases October 28 – Preorders open now!",
+  "officialWebsite": "https://laurenthell.com/",
+  "notes": "YA Christian fiction author; homepage: Edges & Other Hard Things releases October 28 (2026), preorders open.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Aubrey Taylor",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "The Rubicon",
+  "genre": "Christian fiction",
+  "sourceUrl": "https://aubreytaylorbooks.com/books/",
+  "evidenceQuote": "The Rubicon is currently out of print. Look for the Second Edition in 2027!",
+  "officialWebsite": "https://aubreytaylorbooks.com/",
+  "notes": "Christian fiction author selling ebooks via own ATB Store; books page: out-of-print novel The Rubicon getting a Second Edition in 2027 (relaunch).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "fictionfinder.com (ACFW Fiction Finder) author index pages lookup/10-2600 -> 2,141 linked author sites scanned",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Aaron N. Hall",
+  "authorType": "Independent Author",
+  "country": "United States",
+  "language": "en",
+  "region": "Utah",
+  "locationQuote": "He lives in Utah",
+  "genre": "YA fantasy comedy",
+  "sourceUrl": "https://www.aaronnhall.com/",
+  "evidenceQuote": "COMING FEBRUARY 16, 2027! eBook PREORDER The Final Legend of Uh – Late 2027",
+  "officialWebsite": "https://www.aaronnhall.com/",
+  "additionalUrls": [
+   "https://www.aaronnhall.com/about/",
+   "https://www.aaronnhall.com/books/"
+  ],
+  "notes": "Full-time Utah author of YA fantasy comedy (The Legend of Uh series; LTUE panelist); homepage: next book coming February 16, 2027 with eBook preorder, final book late 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "ltue.net 2026 program book (LTUE symposium panelist bios with websites)",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Katie Reus",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "A Holly Jolly Hitman",
+  "genre": "Romantic suspense",
+  "sourceUrl": "https://katiereus.com/coming-soon/",
+  "evidenceQuote": "COMING SOON: Releasing December 8, 2026 ’Tis the season for more holiday shenanigans in the latest Holiday with a Hitman book",
+  "officialWebsite": "https://katiereus.com/",
+  "notes": "Indie NYT/USA Today bestselling romantic suspense/paranormal author (Coastal Magic featured author); Coming Soon page: A Holly Jolly Hitman releasing December 8, 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "coastalmagicconvention.com/featured-authors/ (Coastal Magic Convention author list)",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jeffery A. Smith",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "The Ravening in Ashlyn",
+  "genre": "Epic fantasy",
+  "sourceUrl": "https://jefferyasmith.com/",
+  "evidenceQuote": "Status: In development edit. Releasing in August 31, 2027 The Ravening in Ashlyn Shores of the Deluge - Book 4 Status: Rough draft complete.",
+  "officialWebsite": "https://jefferyasmith.com/",
+  "notes": "Self-published fantasy author (SPFBO 11 entrant, own book store); homepage lists book in development edit releasing August 31, 2027 and Book 4 rough draft complete; events include Rochester, NY.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "marklawrence.buzz SPFBO 11 phase-1 allocation table (300 self-published fantasy entrants) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Kim Deister",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Finding Zaide",
+  "genre": "Contemporary FF romance",
+  "sourceUrl": "https://kimdeister.com/",
+  "evidenceQuote": "Finding Zaide is coming soon! This one is a contemporary, FF romance, a novella",
+  "evidenceDate": "2026-09-24",
+  "officialWebsite": "https://kimdeister.com/",
+  "additionalUrls": [
+   "https://kimdeister.com/about-kim/"
+  ],
+  "notes": "Indie romance author (Kindle Unlimited, own book shop; Last Night re-released with new cover); 24 Sep 2026 post: Finding Zaide coming soon, cover reveal via Xpresso Book Tours.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "xpressobooktours.com sign-up posts Jun-Dec 2026 (release blitzes / cover reveals) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Megan Linski",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Fantasy / paranormal romance",
+  "sourceUrl": "https://meganlinski.com/",
+  "evidenceQuote": "ON PRE-ORDER Dylan faces her toughest challenge yet in Book Six of The Rhodi Saga series. Pre-Order Today",
+  "officialWebsite": "https://meganlinski.com/",
+  "notes": "USA Today bestselling indie fantasy author; homepage 'New releases and upcoming launches': Rhodi Saga Book Six on pre-order and another series finale coming soon.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "xpressobooktours.com sign-up posts Jun-Dec 2026 (release blitzes / cover reveals) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Paula Dombrowiak",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "Contemporary romance",
+  "sourceUrl": "https://www.pauladombrowiak.com/books",
+  "evidenceQuote": "A spin off Series releasing in 2027 with some of your favorite side characters. Stay tuned, details coming soon!",
+  "officialWebsite": "https://pauladombrowiak.com/",
+  "notes": "Indie contemporary romance author (Legacy and Beautiful Burn series; Santa Baby Daddy release blitz via Xpresso Book Tours); books page: spin-off series releasing in 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "xpressobooktours.com sign-up posts Jun-Dec 2026 (release blitzes / cover reveals) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Audrey Lynn",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Amethyst Peak",
+  "genre": "Romantasy",
+  "sourceUrl": "https://audreylynnwrites.com/",
+  "evidenceQuote": "Amethyst Peak Forced to choose between two realms, two sisters must make the ultimate sacrifice. Coming Soon Pre-Order Now",
+  "officialWebsite": "https://audreylynnwrites.com/",
+  "notes": "Indie romantasy author selling direct (own shop, wholesale); Book 3 Amethyst Peak coming soon on pre-order.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Amber Mays",
+  "authorType": "Independent Author",
+  "language": "en",
+  "genre": "FBI mystery",
+  "sourceUrl": "https://authorambermays.com/",
+  "evidenceQuote": "Suddenly, no one knows where the game ends and the real investigation begins. Pre-order On Amazon Now!",
+  "officialWebsite": "https://authorambermays.com/",
+  "notes": "Indie mystery author (Ivy Chance FBI Mystery series, free reader magnet); next Ivy Chance book on Amazon pre-order; site copyright 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Madeleine Eliot",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "Wings of Death",
+  "genre": "Spicy romantasy",
+  "sourceUrl": "https://madeleineeliotwrites.com/",
+  "evidenceQuote": "Available for Pre-Order Wings of Death (Chaosborn Book 3) Book 3 in Chaosborn Buy Now Learn More The final chapter in the Chaosborn Saga. Blurb coming soon!",
+  "officialWebsite": "https://madeleineeliotwrites.com/",
+  "additionalUrls": [
+   "https://madeleineeliotwrites.com/about"
+  ],
+  "notes": "Indie spicy romantasy author; Chaosborn Book 3 Wings of Death available for pre-order, blurb coming soon.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Rachel Rener",
+  "authorType": "Author-Owned Business",
+  "language": "en",
+  "genre": "Urban fantasy / romantasy",
+  "sourceUrl": "https://rachelrener.com/",
+  "evidenceQuote": "Preorder the Amethysts & Alchemy Deluxe Edition here ! Discounted ebook bundles have arrived!",
+  "officialWebsite": "https://rachelrener.com/",
+  "notes": "Indie fantasy author publishing through her own company Lightning Conjurer Books, LLC (own shop, ebook bundles, Patreon); deluxe edition preorders open.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Jack Lively",
+  "authorType": "Independent Author",
+  "language": "en",
+  "bookTitle": "The Zone",
+  "genre": "Action thriller",
+  "sourceUrl": "https://jacklively.com/",
+  "evidenceQuote": "PREORDER BOOK 09 · THE ZONE COMING Q4 2026 LIGHT Jack Lively Tom Keeler · 9 Books · 2020–2026",
+  "officialWebsite": "https://jacklively.com/",
+  "notes": "Indie thriller author (Tom Keeler series, 9 books 2020-2026); homepage: Book 09 The Zone on preorder, coming Q4 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "risingshadow.net upcoming-book-releases lists (romantasy, monster/alien romance, dark romance, fantasy etc.) -> author name -> domain check",
+   "provider": "direct-fetch",
+   "market": "United States",
+   "date": "2026-10-13"
+  }
+ }
+]
