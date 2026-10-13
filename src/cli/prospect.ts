@@ -46,7 +46,7 @@ async function main() {
   const cmd = process.argv[2];
   const e = env();
   const db = openProspectDb();
-  const fetcher = new Fetcher(db, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 20_000, retries: 2, hostDelayMs: { "absolutewrite.com": 20_000, "www.goodreads.com": 5_000 } });
+  const fetcher = new Fetcher(db, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 20_000, retries: 2, cacheBodyMax: 600_000, hostDelayMs: { "absolutewrite.com": 20_000, "www.goodreads.com": 5_000 } });
   const log = (s: string) => console.log(s);
 
   switch (cmd) {
@@ -184,7 +184,8 @@ async function main() {
     }
     case "scan-sites": {
       // Bulk scans favour throughput: short timeout, no retries (a failed site is just logged as rejected).
-      const scanFetcher = new Fetcher(db, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 12_000, retries: 0, maxBytes: 1_500_000, cacheBodyMax: 400_000 });
+      // No HTTP cache for bulk scans: tens of thousands of homepages would bloat the database; hits are re-fetched on verify.
+      const scanFetcher = new Fetcher(null, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 12_000, retries: 0, maxBytes: 1_500_000, cacheBodyMax: 400_000 });
       const shard = arg("shard")?.split("/").map(Number) as [number, number] | undefined;
       const r = await runSiteScan(db, scanFetcher, { concurrency: Number(arg("concurrency", "24")), limit: arg("limit") ? Number(arg("limit")) : undefined, batch: currentBatch(db), shard, onLog: log });
       console.log(`Scanned ${r.scanned} sites; ${r.candidates} new candidates queued for verification`);
