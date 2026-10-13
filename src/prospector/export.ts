@@ -5,6 +5,8 @@ import type { DB } from "../db/db.js";
 import { COLUMNS, type ProspectRecord } from "./qualify.js";
 import { allProspects } from "./store.js";
 import { siteScanLog } from "./sitescan.js";
+import { releaseTiming } from "./dates.js";
+import { looksLikeNamedIdentity } from "./verify.js";
 import { MARKETS, MARKET_MEASURE } from "./markets.js";
 
 const URL_COLS = new Set(["Public Contact Page", "Official Website", "Source URL"]);
@@ -111,7 +113,15 @@ const sorted = (m: Record<string, number>) => Object.entries(m).sort((a, b) => b
 /** Ranking score for choosing the strongest qualified prospects when more than the campaign target qualify. */
 export function prospectStrength(p: ProspectRecord): number {
   const lv: Record<string, number> = { High: 2, Medium: 1, Low: 0 };
-  return (
+  const ev = p["Evidence of Need"];
+  const tokens = p["Prospect Name"].toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length >= 4);
+  // Evidence quality: a dated upcoming release, the author speaking about their own project, and a personal/pen name
+  // (rather than a blog, shop or newsletter brand) are what the QC samples showed separate real prospects from noise.
+  const dated = releaseTiming(ev) === "current" ? 50 : 0;
+  const personal = /\b(i|i'm|i've|my|we|our|ich|mein|meine|je|mon|ma|mes|mi|yo|io)\b/i.test(ev) || tokens.some((w) => ev.toLowerCase().includes(w)) ? 30 : 0;
+  const brandName = !looksLikeNamedIdentity(p["Prospect Name"]) && !/Independent Publisher|Author-Owned Business/.test(p["Author Type"]) ? -60 : 0;
+  const bestseller = /new york times|usa today|bestselling|best-selling|publishers weekly|bestseller-?listen/i.test(ev) ? -40 : 0;
+  return dated + personal + brandName + bestseller + (
     lv[p["Buying Intent"]] * 100 +
     lv[p["Research Confidence"]] * 40 +
     (p["Evidence of Need"].startsWith("Explicit request") ? 80 : 0) +

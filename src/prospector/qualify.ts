@@ -169,7 +169,7 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   // Bookshops, review blogs, events and media are not authors or publishing businesses.
   const notAuthorEntity = (BIG_PUBLISHER.test(c.name) && (!looksLikeNamedIdentity(c.name) || /press|publish|verlag|books|editions|gruyter/i.test(c.name))) || /\b(bookstore|bookshop|book store|book shop|library|libraries|magazine|book reviews?|reviews|book club|podcast|festival|convention|bookcon|book fair|buchhandlung|librairie|librería|libreria)\b/i.test(c.name);
   // A non-personal name (e.g. a blog or shop title) must be declared as a publishing business to qualify.
-  const orgWords = /\b(store|shop|consulting|consultancy|society|institute|university|college|journal|magazine|media|group|solutions|agency|studio|centre|center|foundation|association|council|llc|inc|ltd|gmbh|corp|company)\b/i;
+  const orgWords = /\b(ramblings|musings|reads|bookish|blog|blogger|librarian|nook|cafe|corner|reviews?|store|shop|consulting|consultancy|society|institute|university|college|journal|magazine|media|group|solutions|agency|studio|centre|center|foundation|association|council|llc|inc|ltd|gmbh|corp|company)\b/i;
   const publishingName = /\b(press|books|publishing|publications|verlag|editions|éditions|edizioni|editorial|imprint)\b/i.test(c.name);
   const unclearEntity =
     !c.apiText &&
@@ -178,10 +178,15 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   if (notAuthorEntity) reasons.push("entity is a bookshop, review site, event or media outlet, not an author or publisher");
   const tradOnly = !!v.tradPublisher && !v.indieSignals && !explicit.length;
   if (tradOnly) reasons.push(`author's site names traditional publisher "${v.tradPublisher}" and shows no self-publishing activity`);
+  // Website evidence of an upcoming release only counts for authors who visibly self-publish (KU/KDP, D2D, direct sales,
+  // self-publishing wording) or for publishing businesses: traditionally published authors rarely buy these services.
+  const isBusiness = /Independent Publisher|Author-Owned Business/.test(c.authorType ?? "") || /\b(press|books|publishing|verlag|editions)\b/i.test(c.name);
+  const noIndieEvidence = !c.apiText && !explicit.length && stage.length > 0 && !v.indieSignals && !isBusiness;
+  if (noIndieEvidence) reasons.push("no self-publishing activity visible on the author's pages; likely traditionally published");
   if (v.isServiceProvider || notAuthorEntity) {
     status = "Excluded";
     reasons.push(notAuthorEntity ? "not an author or publishing business" : "profile describes a service provider, not an author/buyer");
-  } else if (!tradOnly && !unclearEntity && intent !== "Low" && confidence !== "Low" && v.identityVerified && v.ebookConnection) {
+  } else if (!tradOnly && !noIndieEvidence && !unclearEntity && intent !== "Low" && confidence !== "Low" && v.identityVerified && v.ebookConnection) {
     status = "Ready";
   } else if ((explicit.length || stage.length || (c.evidenceQuote && !v.sourceAccessible)) && !(age != null && age > 24)) {
     status = "Needs Review";
