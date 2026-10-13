@@ -119,18 +119,25 @@
   "notes": "raw candidates 15, 11 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
+  "source": "ALLi Self-Publishing Advice Centre blog (UK-based Alliance of Independent Authors)",
+  "directoryUrl": "https://selfpublishingadvice.org",
+  "method": "wp-json REST: 4407 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 478,
+  "notes": "raw candidates 883, 478 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
   "source": "Discovering Diamonds (UK historical fiction review blog, indie)",
   "directoryUrl": "https://discoveringdiamonds.blogspot.com",
   "method": "blogger feed: 1376 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 43,
-  "notes": "raw candidates 58, 43 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 40,
+  "notes": "raw candidates 58, 40 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Terry Tyler Book Reviews (UK, indie)",
   "directoryUrl": "https://terrytylerbookreviews.blogspot.com",
   "method": "blogger feed: 755 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 12,
-  "notes": "raw candidates 20, 12 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 11,
+  "notes": "raw candidates 20, 11 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Sapere Books (UK independent digital publisher) author pages",
@@ -143,8 +150,8 @@
   "source": "Joffe Books (UK independent publisher) author pages",
   "directoryUrl": "https://www.joffebooks.com/authors",
   "method": "author index -> author pages -> external links",
-  "sitesFound": 79,
-  "notes": "raw candidates 121, 79 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 78,
+  "notes": "raw candidates 121, 78 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Bloodhound Books (UK independent crime publisher) author pages",
@@ -248,8 +255,8 @@
   "source": "Crime Book Junkie (UK)",
   "directoryUrl": "https://crimebookjunkie.co.uk",
   "method": "wp-json REST: 1237 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 42,
-  "notes": "raw candidates 75, 42 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 41,
+  "notes": "raw candidates 75, 41 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "The Diverse Book Awards (UK)",
@@ -276,15 +283,15 @@
   "source": "Grace J Reviewerlady (UK)",
   "directoryUrl": "https://gracejreviewerlady.wordpress.com",
   "method": "wordpress.com API: 1645 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 242,
-  "notes": "raw candidates 341, 242 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 241,
+  "notes": "raw candidates 341, 241 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Jaffareadstoo (UK book blog)",
   "directoryUrl": "https://jaffareadstoo.blogspot.com",
   "method": "blogger feed: 4390 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 723,
-  "notes": "raw candidates 977, 723 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 713,
+  "notes": "raw candidates 977, 713 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Jen Med's Book Reviews (UK)",
@@ -304,8 +311,8 @@
   "source": "Linda's Book Bag (UK book blog, author features)",
   "directoryUrl": "https://lindasbookbag.com",
   "method": "wordpress.com API: 3615 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 813,
-  "notes": "raw candidates 1277, 813 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 807,
+  "notes": "raw candidates 1277, 807 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Liz Loves Books (UK)",
@@ -353,8 +360,8 @@
   "source": "Random Things Through My Letterbox (Anne Cater, UK)",
   "directoryUrl": "https://randomthingsthroughmyletterbox.blogspot.com",
   "method": "blogger feed: 2790 posts; external links minus socials/retailers; hosts on >6 posts dropped",
-  "sitesFound": 566,
-  "notes": "raw candidates 1034, 566 unique new after dedupe vs _known_hosts and earlier sources"
+  "sitesFound": 562,
+  "notes": "raw candidates 1034, 562 unique new after dedupe vs _known_hosts and earlier sources"
  },
  {
   "source": "Rubery Book Award (UK indie/self-published award)",
