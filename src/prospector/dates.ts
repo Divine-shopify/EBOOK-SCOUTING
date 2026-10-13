@@ -44,7 +44,7 @@ export function datesIn(text: string, now = new Date()): Date[] {
   }
   for (const m of t.matchAll(/\b(20\d\d)-(\d{2})-(\d{2})\b/g)) out.push(new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])));
   // 16 April 2026 / 16. April 2026 / April 16, 2026 / April 2026 / Sept 26
-  for (const m of t.matchAll(/\b(?:(\d{1,2})(?:st|nd|rd|th|er)?\.?\s+)?([A-Za-zÀ-ÿ]{3,10})\.?\s+(?:(\d{1,2})(?:st|nd|rd|th)?,?\s+)?(20\d\d|'?\d{2})\b/g)) {
+  for (const m of t.matchAll(/\b(?:(\d{1,2})(?:st|nd|rd|th|er)?\.?\s+)?([A-Za-zÀ-ÿ]{3,10})\.?,?\s+(?:(\d{1,2})(?:st|nd|rd|th)?,?\s+)?(20\d\d|'\d{2})\b/g)) {
     const mo = monthOf(m[2]);
     const year = m[4].startsWith("'") ? 2000 + Number(m[4].slice(1)) : m[4].length === 2 ? 2000 + Number(m[4]) : Number(m[4]);
     if (mo != null && year >= 2015 && year <= 2035) {
@@ -54,6 +54,12 @@ export function datesIn(text: string, now = new Date()): Date[] {
     }
     const season = SEASONS.find(([re]) => re.test(m[2]));
     if (season && /^20\d\d$/.test(m[4])) out.push(new Date(Date.UTC(Number(m[4]), season[1] - 1, season[2])));
+  }
+  // Month + day without a year ("launches Feb. 8", "Coming June 12"): taken as this year.
+  for (const m of t.matchAll(/\b([A-Za-zÀ-ÿ]{3,10})\.?\s+(\d{1,2})(?:st|nd|rd|th)?\b(?!,?\s*(?:20\d\d|'\d{2}|\d))/g)) {
+    const mo = monthOf(m[1]);
+    const d = Number(m[2]);
+    if (mo != null && d >= 1 && d <= 31 && m[1].length >= 3) out.push(new Date(Date.UTC(now.getUTCFullYear(), mo, d)));
   }
   // Bare future year ("Coming 2027"): end of that year.
   for (const m of t.matchAll(/\b(20\d\d)\b/g)) {

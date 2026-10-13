@@ -1,6 +1,6 @@
 import type { ProspectCandidate } from "./candidate.js";
 import type { Verification } from "./verify.js";
-import { categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.js";
+import { BIG_PUBLISHER, aboutOtherAuthor, categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.js";
 import { domainOf, normalizeKey } from "../util/text.js";
 import { SHARED_HOSTS } from "./verify.js";
 import { cleanDisplayName } from "./discovery.js";
@@ -129,6 +129,16 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
       cats = ["Editing", "Formatting"];
       services = ["Manuscript editing / proofreading", "eBook formatting"];
     }
+  }
+
+  // Evidence that concerns another author's book, or a title with a large traditional publisher, does not count.
+  const evidenceText = v.quoteVerified && c.evidenceQuote ? c.evidenceQuote : v.signals.map((x) => x.snippet).join(" ");
+  const otherAuthor = !c.apiText && stageOnly && aboutOtherAuthor(evidenceText, c.name);
+  const bigPublisher = BIG_PUBLISHER.exec(evidenceText)?.[0];
+  if (otherAuthor || bigPublisher) {
+    explicit.length = 0;
+    stage.length = 0;
+    reasons.push(otherAuthor ? "evidence appears to describe another author's book (review/interview/catalogue)" : `evidence concerns a title with traditional publisher "${bigPublisher}"`);
   }
 
   // Buying intent.

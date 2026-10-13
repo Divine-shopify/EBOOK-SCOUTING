@@ -1,11 +1,11 @@
 import type { Fetcher } from "../adapters/fetch/http.js";
-import { extractPage, type PageInfo } from "../analysis/extract.js";
+import { decodeEntities, extractPage, type PageInfo } from "../analysis/extract.js";
 import { nowIso, type DB } from "../db/db.js";
 import { domainOf } from "../util/text.js";
 import type { ProspectCandidate } from "./candidate.js";
 import { releaseTiming } from "./dates.js";
 import { cleanDisplayName } from "./discovery.js";
-import { detectSignals, type SignalHit } from "./lexicon.js";
+import { BIG_PUBLISHER, aboutOtherAuthor, detectSignals, type SignalHit } from "./lexicon.js";
 import { ingest, intakeKey, logSearch } from "./store.js";
 import { NO_FETCH_HOSTS, SHARED_HOSTS, looksLikeNamedIdentity, nameInText } from "./verify.js";
 
@@ -51,7 +51,8 @@ export function nameFromSite(info: PageInfo, html: string): string | null {
   const og = /<meta[^>]+property=["']og:site_name["'][^>]+content=["']([^"']{3,80})["']/i.exec(html)?.[1];
   for (const raw of [og, info.title].filter(Boolean) as string[]) {
     for (const part of raw.split(/\s[|–—·:\-]\s|\s[|–—·]\s?/)) {
-      const n = cleanDisplayName(part.replace(/\b(home|welcome|official( site| website)?|website|site|author|autorin|autor|auteure?|writer|books|bücher)\b/gi, " "));
+      if (/\b(writes|romance|books|media|press|publishing|blog|studio|official|personality)\b/i.test(part)) continue;
+      const n = cleanDisplayName(decodeEntities(part).replace(/\b(home|welcome|official( site| website)?|website|site|author|autorin|autor|auteure?|writer|books|bücher)\b/gi, " "));
       if (looksLikeNamedIdentity(n) && n.split(" ").length <= 4) return n;
     }
   }
@@ -86,7 +87,7 @@ export async function scanSite(e: SiteEntry, fetcher: Fetcher): Promise<ScanOutc
   const info = extractPage(r.body, r.finalUrl);
   if (info.text.length < 200) return { reason: "page text too short (JavaScript-only site?)" };
   const homeText = `${info.title} ${info.metaDescription} ${info.text}`;
-  const name = e.name?.trim() || nameFromSite(info, r.body);
+  const name = (e.name ? decodeEntities(e.name).trim() : "") || nameFromSite(info, r.body);
   if (!name) return { reason: "author name not determinable from site" };
   if (!nameInText(name, homeText) && !(e.businessName && nameInText(e.businessName, homeText))) return { reason: "listed name not found on site" };
 
@@ -111,6 +112,7 @@ export async function scanSite(e: SiteEntry, fetcher: Fetcher): Promise<ScanOutc
   for (const p of pages) {
     const year = YEAR_RE().test(p.text);
     for (const h of detectSignals(p.text)) {
+      if (aboutOtherAuthor(h.snippet, name) || BIG_PUBLISHER.test(h.snippet)) continue;
       const s = scoreHit(h, year);
       if (s > 0 && (!best || s > best.score)) best = { hit: h, url: p.url, score: s };
     }

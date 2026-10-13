@@ -195,3 +195,19 @@ describe("email plausibility", () => {
     expect(plausibleEmail("authorlilymayne@gmail.com")).toBe(true);
   });
 });
+
+describe("site-scan precision guards", () => {
+  it("flags evidence about other authors' books", async () => {
+    const { aboutOtherAuthor } = await import("../src/prospector/lexicon.js");
+    expect(aboutOtherAuthor("Her beautiful debut YA novel, Unbetrothed, launches Feb. 8. You can pre-order it on Amazon.", "Jill K Willis")).toBe(true);
+    expect(aboutOtherAuthor("My new thriller is available for pre-order now!", "Jane Doe")).toBe(false);
+    expect(aboutOtherAuthor("Jane Doe's next book releases November 10, 2026. Pre-order now!", "Jane Doe")).toBe(false);
+  });
+  it("parses comma-separated and year-less dates", async () => {
+    const { releaseTiming } = await import("../src/prospector/dates.js");
+    const now = new Date("2026-10-13T00:00:00Z");
+    expect(releaseTiming("THE AMISH RANCHER'S RETURN releases June, 30, 2026. Pre-order now!", now)).toBe("passed");
+    expect(releaseTiming("launches Feb. 8. You can pre-order it", now)).toBe("passed");
+    expect(releaseTiming("Coming November 10 to all stores", now)).toBe("current");
+  });
+});

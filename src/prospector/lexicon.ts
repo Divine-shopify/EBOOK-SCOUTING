@@ -174,7 +174,17 @@ function sentenceAt(text: string, i: number): { sentence: string; start: number 
 export const NOT_A_BUYER =
   /\bjob (posting|listing|ad)s?\b|\bcraigslist\b|\bon sub(mission)?\b|\bspecial issue\b|\bjournal\b|\bfind command\b|\bpaid in (gratitude|exposure|hugs)\b|\bfor exposure\b|\bcan'?t afford\b|\bnever be able to afford\b|\bunpaid\b|\bvolunteer\b|\bfor free\b|\bfree of charge\b|\bin exchange for\b|\b(outside|beyond) (the|my|our) budget\b|\bno budget\b|\bdon'?t have (a|the|any) budget\b|\bcan(not|'?t) pay\b|\bwaste (more )?money\b|\bgame ?jam\b|\bindie ?game|\bgamedev\b|\bvideo ?game|\bpodcast\b|\bguest\b|\bwebcomic\b|\b(sale|discount|affiliate|via=)\b/i;
 /** Books with a large traditional publisher: production services are the publisher's job. */
-export const BIG_PUBLISHER = /\b(penguin|random house|harper ?collins|harper ?north|harper ?voyager|hachette|macmillan|simon (&|and) schuster|bloomsbury|tor books|orbit books|headline|little,? brown|pan macmillan|faber|scholastic|avon books|bookouture|hq stories|transworld|gollancz|del rey|berkley|st\.? martin'?s)\b/i;
+export const BIG_PUBLISHER = /\b(penguin|random house|harper ?collins|harper ?north|harper ?voyager|hachette|macmillan|simon (&|and) schuster|bloomsbury|tor books|orbit books|headline|little,? brown|pan macmillan|faber|scholastic|avon books|bookouture|hq stories|transworld|gollancz|del rey|berkley|st\.? martin'?s|love inspired|harlequin|mills (&|and) boon|bethany house|revell|barbour|thomas nelson|zondervan|tyndale|kensington|montlake|thomas (&|and) mercer|lake union|47north|entangled|sourcebooks|poisoned pen|crooked lane|severn house|minotaur|baker publishing|waterbrook|multnomah|guideposts|hallmark publishing|boldwood|canelo|storm publishing|joffe books|hq digital|piatkus|orion|hodder|pan books|carina|droemer|knaur|lyx|blanvalet|heyne|fischer|piper|rowohlt|ullstein|carlsen|loewe|arena verlag|j'ai lu|hugo roman|michel lafon|albin michel|planeta|ediciones b|mondadori|newton compton|harlequin mondadori)\b/i;
+
+/** Evidence about someone else's book (review, interview, guest post, publisher catalogue). */
+export function aboutOtherAuthor(snippet: string, authorName: string): boolean {
+  const t = snippet.replace(/[‘’]/g, "'");
+  const firstPerson = /\b(i|i'm|i've|my|we|we're|our|me|ich|mein|meine|mon|ma|mes|je|mi|yo|io|mijn)\b/i.test(t);
+  const tokens = authorName.toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length >= 4);
+  const named = tokens.some((w) => t.toLowerCase().includes(w));
+  if (firstPerson || named) return false;
+  return /\b(she|he|her|his|their|interview(ed)?|review(ed|s)?|guest( post)?|debut novel by|new from|synopsis|reading list)\b/i.test(t) || /\bby [A-Z][a-z]+ [A-Z][a-z]+\b/.test(t);
+}
 /** "Need" phrasings count only with a request cue; "looking for / seeking" are requests on their own. */
 const WEAK_VERB = /^\W*(?:\w+'?\w*\s+){0,2}?(need|needing|could use|hiring|hire)\b/i;
 const REQUEST_CUE = /\b(?<!(i|we) (heartily |highly |strongly )?)(recommend|recommendations?|recs?|suggestions?|anyone|any(one)? know|dm me|reach out|portfolio|paid|budget|rates?|quote|for my (book|novel|manuscript|series|picture book|debut|memoir|cookbook|story|wip|cover)|\?)/i;
