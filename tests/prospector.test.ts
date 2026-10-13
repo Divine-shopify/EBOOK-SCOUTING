@@ -170,3 +170,16 @@ describe("French mentions légales location", () => {
     expect(countryFromMentionsLegales("Mentions légales — 1000 Bruxelles, Belgique")).toBeNull();
   });
 });
+
+describe("release timing", () => {
+  it("distinguishes passed and upcoming release dates", async () => {
+    const { releaseTiming } = await import("../src/prospector/dates.js");
+    const now = new Date("2026-10-13T00:00:00Z");
+    expect(releaseTiming("Das E-Book erscheint am 20. Februar 2026", now)).toBe("passed");
+    expect(releaseTiming("Book 2 Releasing Nov 2026", now)).toBe("current");
+    expect(releaseTiming("Sortie le 17/10/2026", now)).toBe("current");
+    expect(releaseTiming("Band III erscheint im Frühjahr 2027", now)).toBe("current");
+    expect(releaseTiming("The full book officially releases on June 1, 2026", now)).toBe("passed");
+    expect(releaseTiming("Coming soon!", now)).toBeNull();
+  });
+});

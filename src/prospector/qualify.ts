@@ -4,6 +4,7 @@ import { categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.j
 import { domainOf, normalizeKey } from "../util/text.js";
 import { SHARED_HOSTS } from "./verify.js";
 import { cleanDisplayName } from "./discovery.js";
+import { releaseTiming } from "./dates.js";
 
 export const COLUMNS = [
   "Prospect Name", "First Name", "Author or Business Name", "Country", "State or Region", "City", "Preferred Language",
@@ -100,7 +101,12 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   const explicit = v.signals.filter((s) => s.kind === "explicit");
   const stage = v.signals.filter((s) => s.kind === "stage");
   const age = monthsSince(v.evidenceDate, today);
-  const fresh = age != null ? age <= 12 : v.currentYearMentioned;
+  // Explicit requests stay current for 12 months; production-stage posts (pre-order, cover reveal) for 6.
+  const stageOnly = !v.signals.some((s) => s.kind === "explicit");
+  const timing = releaseTiming(v.quoteVerified && c.evidenceQuote ? c.evidenceQuote : v.signals.map((s) => s.snippet).join(" "), today);
+  const fresh = stageOnly
+    ? timing === "passed" ? false : timing === "current" ? true : age != null ? age <= 6 : v.currentYearMentioned
+    : age != null ? age <= 12 : v.currentYearMentioned || timing === "current";
   const ageNote = age != null ? `${Math.round(age)} months old` : v.currentYearMentioned ? "undated; author-owned text mentions the current/next year" : "undated";
 
   // Categories come only from verified text.
@@ -131,7 +137,8 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   else if (explicit.length && (age == null || age <= 24)) intent = "Medium";
   else if (stage.length && fresh) intent = "Medium";
   if (explicit.length && age != null && age > 24) reasons.push(`explicit request is ${Math.round(age)} months old (stale)`);
-  if (!explicit.length && stage.length && !fresh) reasons.push("production-stage wording without a current date");
+  if (!explicit.length && stage.length && timing === "passed") reasons.push("release date cited in the evidence has already passed");
+  else if (!explicit.length && stage.length && !fresh) reasons.push("production-stage wording without a current date");
   if (!explicit.length && !stage.length) reasons.push("no verified service-need wording in agent-fetched text");
 
   // Confidence.
