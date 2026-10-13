@@ -169,7 +169,11 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   // Bookshops, review blogs, events and media are not authors or publishing businesses.
   const notAuthorEntity = (BIG_PUBLISHER.test(c.name) && (!looksLikeNamedIdentity(c.name) || /press|publish|verlag|books|editions|gruyter/i.test(c.name))) || /\b(bookstore|bookshop|book store|book shop|library|libraries|magazine|book reviews?|reviews|book club|podcast|festival|convention|bookcon|book fair|buchhandlung|librairie|librería|libreria)\b/i.test(c.name);
   // A non-personal name (e.g. a blog or shop title) must be declared as a publishing business to qualify.
-  const unclearEntity = !c.apiText && !looksLikeNamedIdentity(c.name) && !/Independent Publisher|Author-Owned Business/.test(c.authorType ?? "") && !c.businessName;
+  const orgWords = /\b(store|shop|consulting|consultancy|society|institute|university|college|journal|magazine|media|group|solutions|agency|studio|centre|center|foundation|association|council|llc|inc|ltd|gmbh|corp|company)\b/i;
+  const publishingName = /\b(press|books|publishing|publications|verlag|editions|éditions|edizioni|editorial|imprint)\b/i.test(c.name);
+  const unclearEntity =
+    !c.apiText &&
+    ((orgWords.test(c.name) && !publishingName) || (!looksLikeNamedIdentity(c.name) && !/Independent Publisher|Author-Owned Business/.test(c.authorType ?? "") && !c.businessName));
   if (unclearEntity) reasons.push("name is not a personal or pen name and is not declared as a publishing business; confirm the entity");
   if (notAuthorEntity) reasons.push("entity is a bookshop, review site, event or media outlet, not an author or publisher");
   const tradOnly = !!v.tradPublisher && !v.indieSignals && !explicit.length;
