@@ -1,0 +1,364 @@
+[
+ {
+  "name": "Eric Donell",
+  "authorType": "Independent Author",
+  "language": "sv",
+  "country": "Sweden",
+  "sourceUrl": "https://ericdonell.se/",
+  "officialWebsite": "https://ericdonell.se/",
+  "evidenceQuote": "Snart är det jul på pensionat Lyckan. Granen ska kläs, borden dukas och ett hus fullt av främlingar ska känna sig hemma. Utkommer den 15 okt 2026.",
+  "genre": "Feelgood / roman",
+  "notes": "Swedish feelgood author; next novel (pensionat Lyckan) out 15 Oct 2026; site mentions e-bok on Storytel/BookBeat/Nextory.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Författarcentrum författarförmedling (forfattarformedling.se/sok/?category=...) names -> author domain lookup (Feelgood)",
+   "provider": "direct-fetch",
+   "market": "Sweden",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Sanna Norlin",
+  "authorType": "Independent Author",
+  "language": "sv",
+  "country": "Sweden",
+  "sourceUrl": "https://sannanorlin.se/bocker",
+  "officialWebsite": "https://sannanorlin.se/",
+  "evidenceQuote": "Sedan min författardebut 2021 har jag gett ut fem böcker och ytterligare tre kommer ut våren, sommaren och hösten 2026.",
+  "genre": "Children's (9-12)",
+  "notes": "Three more books coming out spring/summer/autumn 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Författarcentrum författarförmedling (forfattarformedling.se/sok/?category=...) names -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Sweden",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Kersti Vikström",
+  "authorType": "Independent Author",
+  "language": "sv",
+  "country": "Sweden",
+  "region": "Dalarna",
+  "city": "Älvdalen",
+  "sourceUrl": "https://kerstivikstrom.se/2026/05/01/den-utvalde-kommer-snart/",
+  "officialWebsite": "https://kerstivikstrom.se/",
+  "evidenceQuote": "DEN UTVALDE – kommer snart!",
+  "evidenceDate": "2026-05-01",
+  "bookTitle": "Den utvalde",
+  "genre": "Roman",
+  "notes": "Blog post 1 May 2026 announcing upcoming novel Den utvalde.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Författarcentrum författarförmedling (forfattarformedling.se/sok/?category=...) names -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Sweden",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Ryan Cahill",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "country": "Ireland",
+  "sourceUrl": "https://www.ryancahillauthor.com/",
+  "officialWebsite": "https://www.ryancahillauthor.com/",
+  "evidenceQuote": "The first book in The Bound and The Broken re-released in stunning hardcovers. Get yours now!",
+  "bookTitle": "The Bound and The Broken",
+  "genre": "Epic fantasy",
+  "platforms": [
+   "Amazon KDP",
+   "Books2Read"
+  ],
+  "notes": "Irish indie epic fantasy author (Octocon 2026 participant bio: born and raised in Ireland); series re-release in hardcover.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Octocon 2026 programme participants (prog.octocon.com/2026/conclarData.json)",
+   "provider": "direct-fetch",
+   "market": "Ireland",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "Anne-Friederike Heinrich",
+  "authorType": "Independent Author",
+  "language": "de",
+  "country": "Switzerland",
+  "city": "Zürich",
+  "sourceUrl": "https://www.kinderbuch-afheinrich.com/kinderbücherab8",
+  "officialWebsite": "https://www.kinderbuch-afheinrich.com/",
+  "evidenceQuote": "Band 2 erscheint im Februar 2027, Band 3 im Oktober 2027 im boox-Verlag.",
+  "bookTitle": "Fabu Federkiel",
+  "genre": "Kinderbuch",
+  "additionalUrls": [
+   "https://www.kinderbuch-afheinrich.com/übermich"
+  ],
+  "notes": "SPV member (Zürich). Fabu Federkiel trilogy, Band 2 Feb 2027 and Band 3 Oct 2027 (small press boox-Verlag).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis gefiltert nach Land (selfpublisher-verband.de/mitglieder/?sp-filter-pseudo-country=...)",
+   "provider": "direct-fetch",
+   "market": "Switzerland",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Brigitte Teufl-Heimhilcher",
+  "authorType": "Self-Published Author",
+  "language": "de",
+  "country": "Austria",
+  "city": "Wien",
+  "sourceUrl": "https://www.teufl-heimhilcher.at/",
+  "officialWebsite": "https://www.teufl-heimhilcher.at/",
+  "evidenceQuote": "Neuerscheinung Zwischen Kalbsbrust und Karriere",
+  "locationQuote": "1220 Wien",
+  "bookTitle": "Zwischen Kalbsbrust und Karriere",
+  "genre": "Wiener Gesellschaftsroman",
+  "additionalUrls": [
+   "https://www.teufl-heimhilcher.at/impressum"
+  ],
+  "notes": "SPV member, 1220 Wien; homepage features new release.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Selfpublisher-Verband Mitgliederverzeichnis gefiltert nach Land (selfpublisher-verband.de/mitglieder/?sp-filter-pseudo-country=...)",
+   "provider": "direct-fetch",
+   "market": "Austria",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Johan Vandevelde",
+  "authorType": "Independent Author",
+  "language": "nl",
+  "country": "Belgium",
+  "sourceUrl": "https://johanvandevelde.be/",
+  "officialWebsite": "https://johanvandevelde.be/",
+  "evidenceQuote": "Moon 4 titel en cover reveal! Het vierde Moon album is naar de drukker vertrokken! Tijd om de cover en de titel bekend te maken",
+  "evidenceDate": "2026-09-01",
+  "bookTitle": "Moon 4: Verloren voorwerpen",
+  "genre": "Strip / jeugd",
+  "notes": "Signs at Boektopia 2026 (Signeerboxen); Moon 4 cover reveal 1 Sep 2026.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Boektopia 2026 programma signeersessies (boekenbeurs.be/programma/antwerpen + kortrijk)",
+   "provider": "direct-fetch",
+   "market": "Belgium",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Victoria Durnak",
+  "authorType": "Independent Author",
+  "language": "no",
+  "country": "Norway",
+  "sourceUrl": "http://www.victoriadurnak.com/",
+  "officialWebsite": "http://www.victoriadurnak.com/",
+  "evidenceQuote": "Min syvende roman Hovedrollen kommer ut på Flamme Forlag i oktober.",
+  "locationQuote": "Jeg er født i Oslo (1989), oppvokst i Rælingen og bor i Lillestrøm.",
+  "bookTitle": "Hovedrollen",
+  "genre": "Roman",
+  "notes": "Seventh novel out in October with independent press Flamme Forlag.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Norsk Forfattersentrum Forfatterkatalogen (forfattersentrum.no sitemap) -> author websites",
+   "provider": "direct-fetch",
+   "market": "Norway",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Bear Wiseman",
+  "authorType": "Self-Published Author",
+  "language": "en",
+  "country": "Finland",
+  "sourceUrl": "https://www.bearwiseman.com/personal-musings/travel-blog-joulun-lauluja-kathy-criswell",
+  "officialWebsite": "https://www.bearwiseman.com/",
+  "evidenceQuote": "I had given her a final draft copy of my book.",
+  "genre": "Fantasy",
+  "notes": "Octocon 2026 participant: born in Canada, residing in Finland, publishing long-form fantasy.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Octocon 2026 programme participants (prog.octocon.com/2026/conclarData.json)",
+   "provider": "direct-fetch",
+   "market": "Finland",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Sini Helminen",
+  "authorType": "Independent Author",
+  "language": "fi",
+  "country": "Finland",
+  "sourceUrl": "https://sinihelminen.com/blog/",
+  "officialWebsite": "https://sinihelminen.com/",
+  "evidenceQuote": "Aika siis päästä ajan tasalle, sillä seuraava kirjani Anastettu avain ilmestyy jo ensi kuussa!",
+  "evidenceDate": "2026-09-16",
+  "bookTitle": "Anastettu avain",
+  "genre": "YA / fantasy",
+  "notes": "Blog post 16 Sep 2026: next book Anastettu avain out next month (small press Hertta Kustannus).",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Suomen Nuorisokirjailijat jäsenluettelo (nuorisokirjailijat.fi/jaumlsenluettelo.html) -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Finland",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Heidi Viherjuuri",
+  "authorType": "Independent Author",
+  "language": "fi",
+  "country": "Finland",
+  "sourceUrl": "https://heidiviherjuuri.com/kirjailijavierailut-2026/",
+  "officialWebsite": "https://heidiviherjuuri.com/",
+  "evidenceQuote": "10. Hilja-kirja eli Meidän kylän Hilja ilmestyy",
+  "bookTitle": "Meidän kylän Hilja",
+  "genre": "Children's",
+  "notes": "2026 events page lists October release of 10th Hilja book; other titles with small press Kustannus-Mäkelä.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Suomen Nuorisokirjailijat jäsenluettelo (nuorisokirjailijat.fi/jaumlsenluettelo.html) -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Finland",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Johanna Hulkko",
+  "authorType": "Independent Author",
+  "language": "fi",
+  "country": "Finland",
+  "city": "Nokia",
+  "sourceUrl": "https://johannahulkko.fi/",
+  "officialWebsite": "https://johannahulkko.fi/",
+  "evidenceQuote": "Pian ilmestyy myös uusi osa Harmaa hakkeri -sarjaan.",
+  "locationQuote": "Johanna Hulkko on Nokialla asuva kirjailija ja kirjoittamisen ohjaaja.",
+  "bookTitle": "Harmaa hakkeri",
+  "genre": "Children's / mystery",
+  "notes": "New Harmaa hakkeri instalment coming soon.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Suomen Nuorisokirjailijat jäsenluettelo (nuorisokirjailijat.fi/jaumlsenluettelo.html) -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Finland",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Heidi Troi",
+  "businessName": "Mira Frey / T.H. Campbell",
+  "authorType": "Independent Author",
+  "language": "de",
+  "country": "Italy",
+  "region": "Südtirol",
+  "city": "Brixen",
+  "sourceUrl": "https://heiditroi.me/termine/2026/10/20/buchstart-a-taste-of-cinnamon-love",
+  "officialWebsite": "https://heiditroi.me/",
+  "evidenceQuote": "Buch vorbestellen",
+  "locationQuote": "39042 Brixen Italy",
+  "bookTitle": "A Taste of Cinnamon Love",
+  "genre": "Small-town romance (as Mira Frey) / Südtirol crime",
+  "additionalUrls": [
+   "https://heiditroi.me/vita",
+   "https://heiditroi.me/ber-mich"
+  ],
+  "notes": "South Tyrol (Brixen) hybrid author, now self-publishing (pen names Mira Frey, T.H. Campbell); book launch 20 Oct 2026 in Brixen for Maplewood vol. 2, pre-order link on event page.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Mörderische Schwestern Autorinnenprofile (moerderische-schwestern.eu/autorenprofil-sitemap.xml) -> AT/CH/IT filter",
+   "provider": "direct-fetch",
+   "market": "Italy",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Katarina Bjärvall",
+  "authorType": "Independent Author",
+  "language": "sv",
+  "country": "Sweden",
+  "sourceUrl": "https://www.katarinabjarvall.se/",
+  "officialWebsite": "https://www.katarinabjarvall.se/",
+  "evidenceQuote": "Bland annat om det handlar min nästa bok, som kommer ut i januari 2027.",
+  "genre": "Non-fiction / journalism",
+  "notes": "Next book out January 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Författarcentrum författarförmedling (forfattarformedling.se/sok/?category=...) names -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Sweden",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Linnea Huhta",
+  "authorType": "Independent Author",
+  "language": "sv",
+  "country": "Sweden",
+  "sourceUrl": "https://www.linneahuhta.se/",
+  "officialWebsite": "https://www.linneahuhta.se/",
+  "evidenceQuote": "Ny antologi och ny litteratur kommer ut 2027 och realityserien \"Bandet\" under hösten 2026.",
+  "genre": "Fiction / anthology",
+  "notes": "New anthology and new literature coming out 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Författarcentrum författarförmedling (forfattarformedling.se/sok/?category=...) names -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Sweden",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Ewa Klingberg",
+  "authorType": "Self-Published Author",
+  "language": "sv",
+  "country": "Sweden",
+  "sourceUrl": "https://ewaklingberg.se/",
+  "officialWebsite": "https://ewaklingberg.se/",
+  "evidenceQuote": "HÄR KOMMER SNART NYA BÖCKER!",
+  "genre": "Fiction",
+  "notes": "Own web shop announcing new books coming soon.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Författarcentrum författarförmedling (forfattarformedling.se/sok/?category=...) names -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Sweden",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ },
+ {
+  "name": "Terhi Kangas",
+  "businessName": "Merkityskirjat Oy",
+  "authorType": "Author-Owned Business",
+  "language": "fi",
+  "country": "Finland",
+  "sourceUrl": "https://terhikangas.fi/tieni-kirjailijaksi/",
+  "officialWebsite": "https://terhikangas.fi/",
+  "evidenceQuote": "Jos kaikki etenee aikataulussa, saan tutkintotodistuksen kesällä 2027. Elämäkertateos, jota parhaillaan kirjoitan, ilmestyy toivottavasti pian sen jälkeen.",
+  "genre": "Biography / children's picture books",
+  "notes": "Co-founded own small press Merkityskirjat Oy (Lahti); currently writing a biography expected after summer 2027.",
+  "discovery": {
+   "channel": "directory_crawl",
+   "query": "Suomen Nuorisokirjailijat jäsenluettelo -> author domain lookup",
+   "provider": "direct-fetch",
+   "market": "Finland",
+   "date": "2026-10-13"
+  },
+  "platforms": []
+ }
+]

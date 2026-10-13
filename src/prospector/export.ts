@@ -58,6 +58,7 @@ export interface CampaignStats {
   pending: number;
   readyWithEmail: number;
   readyContactPageNoEmail: number;
+  readyEmailMx: number;
   conf: Record<string, number>;
   intent: Record<string, number>;
   countries: Record<string, number>;
@@ -85,6 +86,7 @@ export function campaignStats(db: DB): CampaignStats {
     errors: q("SELECT COUNT(*) n FROM px_candidates WHERE status = 'error'"),
     pending: q("SELECT COUNT(*) n FROM px_candidates WHERE status = 'pending'"),
     readyWithEmail: ready.filter((p) => p["Public Professional Email"]).length,
+    readyEmailMx: ready.filter((p) => p["Public Professional Email"] && /domain has MX records/.test(p.Notes)).length,
     readyContactPageNoEmail: ready.filter((p) => !p["Public Professional Email"] && p["Public Contact Page"]).length,
     conf: count(ready.map((p) => p["Research Confidence"])),
     intent: count(ready.map((p) => p["Buying Intent"])),
@@ -111,7 +113,7 @@ export function prospectStrength(p: ProspectRecord): number {
   return (
     lv[p["Buying Intent"]] * 100 +
     lv[p["Research Confidence"]] * 40 +
-    (p["Evidence of Need"].startsWith("Explicit request") ? 30 : 0) +
+    (p["Evidence of Need"].startsWith("Explicit request") ? 80 : 0) +
     (p.Country !== "Unverified" ? 20 : 0) +
     (p["Public Professional Email"] ? 10 : p["Public Contact Page"] ? 5 : 0) +
     (p["Official Website"] ? 5 : 0)
@@ -183,7 +185,8 @@ export async function exportWorkbook(db: DB, file: string, target = 200): Promis
     ["Candidates still pending", s.pending],
     ["Qualified with publicly displayed professional email", s.readyWithEmail],
     ["Qualified with public contact page but no listed email", s.readyContactPageNoEmail],
-    ["Emails technically deliverability-checked", 0],
+    ["Qualified emails whose domain passed a DNS MX check (mail can be routed; mailbox NOT verified)", s.readyEmailMx],
+    ["Emails mailbox-verified (SMTP or provider check)", 0],
     ["High confidence (qualified)", s.conf.High ?? 0],
     ["Medium confidence (qualified)", s.conf.Medium ?? 0],
     ["Low confidence (qualified)", s.conf.Low ?? 0],
@@ -198,9 +201,9 @@ export async function exportWorkbook(db: DB, file: string, target = 200): Promis
     ["Searches logged", s.searches],
     ["Market measure", MARKET_MEASURE],
     ["Target markets", MARKETS.map((m) => `${m.country}${m.gdpPerCapitaUsd2026 ? ` ($${m.gdpPerCapitaUsd2026.toLocaleString("en-US")})` : ""}`).join("; ")],
-    ["Qualification rule", "Ready = identity confirmed on an agent-fetched page + eBook/book-production connection + service need found verbatim in agent-fetched text (explicit request ≤30 months old, or production-stage wording dated within 12 months) + buying intent High/Medium + confidence High/Medium. Service providers are excluded."],
-    ["Email rule", "Only addresses displayed on the author's own fetched website/contact page are recorded. None are guessed. Displayed ≠ deliverability-verified; no deliverability check was run."],
-    ["Location rule", "Country is recorded only when location wording appears on a fetched page; otherwise 'Unverified'."],
+    ["Qualification rule", "Ready = identity confirmed on an agent-fetched page + eBook/book-production connection + service need found verbatim in agent-fetched text (first-person explicit request ≤24 months old — High intent if ≤12 months — or production-stage wording that is current: cited release date still upcoming or within 45 days, dated posts ≤6 months) + intent High/Medium + confidence High/Medium. Service providers, anecdotes, pitch/querying posts, big-publisher titles and unpaid requests are excluded. Analyst QC overrides (seeds/prospects/qc_overrides.json) can only downgrade."],
+    ["Email rule", "Only addresses displayed on the author's own fetched website/contact page and attributable to the author (same domain, or a mailbox carrying the author's name/brand) are recorded; agents', publishers', hosts' and other people's addresses are rejected. None are guessed. A DNS MX check was run on each domain; no mailbox-level verification was performed."],
+    ["Location rule", "Country is recorded only when author-referring location wording ('lives in…', 'based in…', a German Impressum or French mentions-légales address) appears on a fetched page; birthplaces and book-blurb places are ignored; otherwise 'Unverified'."],
   ];
   for (const [m, v] of rows) sw.addRow([m, v]).alignment = { vertical: "top", wrapText: true };
   styleHeader(sw, 2);
