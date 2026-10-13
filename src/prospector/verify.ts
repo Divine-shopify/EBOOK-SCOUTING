@@ -355,7 +355,9 @@ export async function verifyCandidate(c: ProspectCandidate, fetcher: Fetcher): P
   v.platformsMentioned = platformsInText(ownJoined + "\n" + (c.evidenceQuote && v.quoteVerified ? c.evidenceQuote : ""));
 
   // 7. Location: claimed quote must be on a fetched page; otherwise look for location phrasing on own pages.
-  if (c.locationQuote) {
+  // A birthplace or childhood home is not evidence of where the author is located now.
+  const birthplaceOnly = (q: string) => /\b(born|grew up|raised|originally from|geboren|né|née|nacido|nata|nato)\b/i.test(q) && !/\b(lives?|living|based|resides?|now|lebt|wohnt|vit|vive|woont)\b/i.test(q);
+  if (c.locationQuote && !birthplaceOnly(c.locationQuote)) {
     const hit = allTexts.find((t) => containsQuote(t.text, c.locationQuote!) || normalizeForMatch(t.text).includes(normalizeForMatch(c.locationQuote!)));
     if (hit) {
       const m = marketByName(c.country);

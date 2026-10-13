@@ -114,7 +114,7 @@
   "bookTitle": "Haverstock",
   "genre": "Comic mystery / time-travel humour",
   "sourceUrl": "https://www.keithapearson.co.uk/my-books/",
-  "evidenceQuote": "Coming Soon Haverstock Action Mystery",
+  "evidenceQuote": "Coming Soon Haverstock Action Mystery More Info Get Notified",
   "officialWebsite": "https://www.keithapearson.co.uk/",
   "additionalUrls": [
    "https://www.keithapearson.co.uk/keith-a-pearson-biography/"
@@ -139,7 +139,7 @@
   "bookTitle": "The Gods",
   "genre": "Technothriller",
   "sourceUrl": "https://stephensmall.co.uk/books",
-  "evidenceQuote": "Launching on 15 October 2026 Pre-order now",
+  "evidenceQuote": "and if there’s anyone at Freia he can really trust. Launching on 15 October 2026 Pre-order now",
   "officialWebsite": "https://stephensmall.co.uk/",
   "additionalUrls": [
    "https://stephensmall.co.uk/about",
@@ -917,6 +917,102 @@
   "discovery": {
    "channel": "web_crawl",
    "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Clare London",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "London",
+  "locationQuote": "in London, England, The United Kingdom",
+  "genre": "MM romance (also writes as Stella Shaw)",
+  "bookTitle": "Micah (audiobook)",
+  "sourceUrl": "http://www.clarelondon.com/audiobooks/",
+  "evidenceQuote": "Stella Shaw titles DANTE AUDIBLE US RICK AUDIBLE US MICAH AUDIBLE US – COMING SOON",
+  "officialWebsite": "http://www.clarelondon.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/1276146"
+  ],
+  "notes": "London-based MM romance author with indie pen name Stella Shaw; audiobook of Micah listed as coming soon on Audible US/UK (audiobook production in progress). Location via Goodreads.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Edmund Axton",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "locationQuote": "Edmund Axton is an author from the UK, creating dark speculative fiction.",
+  "genre": "Dark speculative fiction",
+  "sourceUrl": "http://edmundaxton.com/2026/07/20/writing-update-july-2026/",
+  "evidenceQuote": "When I began the novel I’m currently writing, I thought it would end up at about average length. It has already become clear that is not going to be the case.",
+  "evidenceDate": "2026-07-20",
+  "officialWebsite": "http://edmundaxton.com/",
+  "additionalUrls": [
+   "http://edmundaxton.com/about/"
+  ],
+  "notes": "UK dark speculative fiction author blogging under self-publishing tags; July 2026 update: long new novel draft in progress, editing to follow.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Kevan Christie",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "city": "Edinburgh",
+  "locationQuote": "Kevan Christie was born in Edinburgh, Scotland.",
+  "genre": "Crime / dark comedy",
+  "bookTitle": "To Be Frank (sequel)",
+  "sourceUrl": "https://www.kevanchristie.com/",
+  "evidenceQuote": "Coming Soon Join The Journey! Frank Savage's story is not over yet - neither is Kevan's! Join Kevan on the road for the sequel for To Be Frank.",
+  "officialWebsite": "https://www.kevanchristie.com/",
+  "additionalUrls": [
+   "https://www.kevanchristie.com/about"
+  ],
+  "notes": "Former Scottish journalist; debut To Be Frank promoted via Love Books Tours (2026); homepage announces the sequel in progress. Publishing route not stated on site.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://kellylacey.com/feed/ (Love Books Tours blog-tour listings 2025-2026) + author-domain lookup",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "J.S. Edge",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Devon",
+  "locationQuote": "Born and raised in northeast England, she now lives in the beautiful southwest, sharing her Devonshire home",
+  "genre": "Contemporary romance (Hometown Misfits)",
+  "bookTitle": "Dream Catcher (Hometown Misfits #3)",
+  "sourceUrl": "https://www.authorjsedge.com/",
+  "evidenceQuote": "Upcoming Releases Dream Catcher (Hometown Misfits #3) is currently in the planning stage. Expected Release Date: TBD",
+  "officialWebsite": "https://www.authorjsedge.com/",
+  "notes": "Indie romance author; site lists book 3 of Hometown Misfits as upcoming (planning stage, release date TBD). No current year shown on the page.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
    "provider": "claude-webfetch",
    "market": "United Kingdom/Ireland",
    "date": "2026-10-12"
