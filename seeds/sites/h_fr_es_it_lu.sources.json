@@ -3,28 +3,28 @@
   "source": "Librinova \"Nos auteurs\" (self-publishing platform author profiles) 2026",
   "directoryUrl": "https://www.librinova.com/nos-auteurs",
   "method": "Crawled 151 listing pages (3,002 author profiles) and each profile; took external website link, dropped platform footer link and press/media links.",
-  "sitesFound": 451,
+  "sitesFound": 449,
   "notes": "Librinova is a French self-publishing/hybrid platform; profiles are of self-published authors."
  },
  {
   "source": "Escritores.org \"Libros\"",
   "directoryUrl": "https://www.escritores.org/libros/",
   "method": "Zoo author search (type=autor, vowels a/e/i/o/u, 100/page) + recent-book index; parsed \"Web / Blog\" field on each author biography page.",
-  "sitesFound": 1787,
+  "sitesFound": 1786,
   "notes": "Spanish-language self-promotion catalogue dominated by autopublicados/small-press authors (Spain + Latin America); country not stated by directory so left blank."
  },
  {
   "source": "Normandie Livre & Lecture annuaire (auteurs) 2026",
   "directoryUrl": "https://www.normandielivre.fr/annuaire/?secteur=1",
   "method": "Paged listing (secteur=1 Auteur, autrice), websiteUrl field from embedded JSON.",
-  "sitesFound": 151,
+  "sitesFound": 150,
   "notes": "Regional book agency directory; mixed indie/traditional, includes autoédités; some illustrators."
  },
  {
   "source": "Auvergne-Rhône-Alpes Livre et Lecture annuaire des auteurs 2026",
   "directoryUrl": "https://auvergnerhonealpes-livre-lecture.org/annuaires/auteurs",
   "method": "Paged listing (56 pages, 671 authors) + detail pages; first non-boilerplate external link.",
-  "sitesFound": 370,
+  "sitesFound": 369,
   "notes": "Regional agency directory; mixed."
  },
  {
@@ -35,31 +35,24 @@
   "notes": "Regional agency directory; mixed, includes autoédités."
  },
  {
-  "source": "Agence régionale du Livre Provence",
+  "source": "Agence régionale du Livre Provence-Alpes-Côte d'Azur annuaire (auteurs) 2026",
   "directoryUrl": "https://www.livre-provencealpescotedazur.fr/ressources/annuaire",
   "method": "JSON endpoint annuaire.json?p=N, people with sector \"Auteur, autrice\" and websiteurl.",
-  "sitesFound": 0,
+  "sitesFound": 322,
   "notes": "Regional agency directory; mixed."
  },
  {
   "source": "A*dS Autorinnen und Autoren der Schweiz / Autrices et auteurs de Suisse member directory 2026",
   "directoryUrl": "https://www.a-d-s.ch/mitglieder/mitgliederverzeichnis/",
   "method": "A-Z member list pages, website links.",
-  "sitesFound": 493,
+  "sitesFound": 422,
   "notes": "Swiss professional authors association (all language regions; majority German-speaking, language left blank). Country=Switzerland stated by directory."
- },
- {
-  "source": "La Charte",
-  "directoryUrl": "https://www.la-charte.fr/repertoire-des-chartistes/",
-  "method": "67 listing pages + member pages; first non-boilerplate external link.",
-  "sitesFound": 0,
-  "notes": "Children's authors/illustrators association, open to autoédités since 2022; mixed, many illustrators."
  },
  {
   "source": "Goodreads",
   "directoryUrl": "https://www.goodreads.com/shelf/show/auto-edition",
   "method": "Shelves (auto-edition, autopublicado, autores-indies, self-publishing-italiano, emergenti-italiani, etc.) and lists (75073, 112911, 175371, 190128, 126081, 219436 ...) -> author pages -> \"Website\" field; robots.txt allows /shelf, /list, /author. Kept only authors with unknown birthplace or born in FR/BE/CH/LU/ES/IT.",
-  "sitesFound": 414,
+  "sitesFound": 392,
   "notes": "Language set from the shelf/list language; country from Goodreads \"Born\" field when it names a segment country."
  },
  {
@@ -166,5 +159,12 @@
   "method": "web search + fetch attempts",
   "sitesFound": 0,
   "notes": "No crawlable author lists with website links; several hosts unreachable from proxy. Italian coverage comes only from Goodreads Italian shelves/lists."
+ },
+ {
+  "source": "La Charte des auteurs et illustrateurs jeunesse — répertoire",
+  "directoryUrl": "https://www.la-charte.fr/repertoire-des-chartistes/",
+  "method": "67 listing pages crawled (1,204 member pages found); detail crawl interrupted by container restart",
+  "sitesFound": 0,
+  "notes": "Not re-run: slow/rate-limited host and traditional/illustrator-heavy. Member list could be resumed later."
  }
 ]

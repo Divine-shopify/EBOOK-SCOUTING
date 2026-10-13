@@ -1,0 +1,114 @@
+[
+ {
+  "source": "American Book Fest - Best Book Awards 2024-2025",
+  "directoryUrl": "https://www.americanbookfest.com/2025bbafullresults.html",
+  "method": "curl full results pages (2024bba, 2025bba, 2026bba) -> parse Winner/Finalist entries (title by author / publisher) -> domain resolution",
+  "sitesFound": 643,
+  "notes": "Names parsed from the published list; author/publisher site located by testing name-based domains (name.com, nameauthor.com, namebooks.com, etc.), keeping only live, non-parked pages that contain the name and an author/book signal (author/books in title/meta/host, or the award-listed book title on the page). Retailer/social hosts and _known_hosts excluded. Publishers (non-vanity, non-Big5/university) also resolved, tagged Independent Publisher."
+ },
+ {
+  "source": "American Book Fest - American Fiction Awards 2024-2026",
+  "directoryUrl": "https://www.americanbookfest.com/2026afafullresults.html",
+  "method": "curl full results pages -> parse -> domain resolution",
+  "sitesFound": 425,
+  "notes": "Names parsed from the published list; author/publisher site located by testing name-based domains (name.com, nameauthor.com, namebooks.com, etc.), keeping only live, non-parked pages that contain the name and an author/book signal (author/books in title/meta/host, or the award-listed book title on the page). Retailer/social hosts and _known_hosts excluded."
+ },
+ {
+  "source": "Eric Hoffer Award (winners, category finalists, grand prize short list, First Horizon, Montaigne, da Vinci Eye, Provocateur)",
+  "directoryUrl": "https://www.hofferaward.com/Eric-Hoffer-Award-category-finalists.html",
+  "method": "curl 7 result pages -> parse 'Title, / Author, Publisher' -> domain resolution",
+  "sitesFound": 422,
+  "notes": "Names parsed from the published list; author/publisher site located by testing name-based domains (name.com, nameauthor.com, namebooks.com, etc.), keeping only live, non-parked pages that contain the name and an author/book signal (author/books in title/meta/host, or the award-listed book title on the page). Retailer/social hosts and _known_hosts excluded. Covers the current (2025-26) award cycle shown on the site."
+ },
+ {
+  "source": "Feathered Quill Book Awards 2024-2026 winners",
+  "directoryUrl": "https://featheredquill.com/feathered-quill-book-awards-2025-winners/",
+  "method": "curl winners pages -> 'by Author' lines -> domain resolution",
+  "sitesFound": 80,
+  "notes": "Names parsed from the published list; author/publisher site located by testing name-based domains (name.com, nameauthor.com, namebooks.com, etc.), keeping only live, non-parked pages that contain the name and an author/book signal (author/books in title/meta/host, or the award-listed book title on the page). Retailer/social hosts and _known_hosts excluded."
+ },
+ {
+  "source": "Readers' Favorite Book Award Contest winners 2024-2026",
+  "directoryUrl": "https://readersfavorite.com/2026-award-contest-winners.htm",
+  "method": "curl winners pages (~2,450 books) -> fetch each book-review page for author name (robots allows) -> domain resolution",
+  "sitesFound": 706,
+  "notes": "Names parsed from the published list; author/publisher site located by testing name-based domains (name.com, nameauthor.com, namebooks.com, etc.), keeping only live, non-parked pages that contain the name and an author/book signal (author/books in title/meta/host, or the award-listed book title on the page). Retailer/social hosts and _known_hosts excluded. RF review pages do not link author websites themselves."
+ },
+ {
+  "source": "Independent Author Network author directory (Book of the Year entrants/finalists)",
+  "directoryUrl": "https://www.independentauthornetwork.com/author-directory.html",
+  "method": "curl author/fiction/non-fiction directories + members pages -> 3,232 author profile pages -> pick author-site link (name-matching host preferred; retailers/social excluded) -> DNS/HTTP liveness check",
+  "sitesFound": 1255,
+  "notes": "Direct links from profiles. 2,389 candidate links, 1,343 alive; many old profiles had dead domains. IAN runs the Book of the Year awards (2025 winners page has names only)."
+ },
+ {
+  "source": "The BookFest (Black Chateau) book pavilion / award pages",
+  "directoryUrl": "https://www.thebookfest.com/book-sitemap.xml",
+  "method": "book-sitemap.xml (358 book pages) -> 'Author's Website' button link -> liveness check",
+  "sitesFound": 125,
+  "notes": "Names not shown in a structured field; name omitted."
+ },
+ {
+  "source": "NewPages Guide to Publishers",
+  "directoryUrl": "https://www.newpages.com/publishers/",
+  "method": "single directory page, external links, Big-5/university/large presses filtered out, liveness check",
+  "sitesFound": 593,
+  "notes": "Small/independent presses, tagged authorType Independent Publisher."
+ },
+ {
+  "source": "Poets & Writers Small Presses database",
+  "directoryUrl": "https://www.pw.org/small_presses",
+  "method": "13 index pages + each press page (robots Crawl-delay 10 respected) -> Website link -> liveness check",
+  "sitesFound": 148,
+  "notes": "Tagged Independent Publisher."
+ },
+ {
+  "source": "IPPY Awards (ippyawards.com medalists 2024-2026)",
+  "directoryUrl": "https://ippyawards.com/blog/2025-medalists",
+  "method": "curl blocked by Cloudflare; WebFetch readable but names only, no links",
+  "sitesFound": 0,
+  "notes": "Dead end (not used): would need per-name resolution via summarized WebFetch; skipped for cost."
+ },
+ {
+  "source": "Independent Book Awards / Next Generation Indie Book Awards",
+  "directoryUrl": "https://www.indiebookawards.com/",
+  "method": "curl + WebFetch",
+  "sitesFound": 0,
+  "notes": "Dead end: mod_security 'Not Acceptable'/403 and winners.php 404 for non-browser clients."
+ },
+ {
+  "source": "Independent Press Award",
+  "directoryUrl": "https://www.independentpressaward.com/winners",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead end: Wix JS-rendered, no winner data in HTML."
+ },
+ {
+  "source": "Chanticleer International Book Awards / IndieReader / CIPA EVVY / Literary Titan",
+  "directoryUrl": "https://www.chantireviews.com/",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead end: 403 / 429 rate-limit for the proxy."
+ },
+ {
+  "source": "Page Turner Awards results",
+  "directoryUrl": "https://www.pageturnerawards.com/2025-award-winners",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead end: results pages render the same JS shell; no names."
+ },
+ {
+  "source": "IPNE / BAIPA / FAPA / MIPA publisher-association member pages",
+  "directoryUrl": "https://ipne.org/books-by-ipne-members/",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead end: few or no external member links in HTML (Wix/JS or members-only)."
+ },
+ {
+  "source": "American Book Fest category pages",
+  "directoryUrl": "https://www.americanbookfest.com/generalfiction/youngadult.html",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Only 1-2 links per page; full results pages used instead."
+ }
+]

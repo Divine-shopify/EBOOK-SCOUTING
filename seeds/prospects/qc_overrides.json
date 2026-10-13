@@ -103,5 +103,150 @@
     "sourceUrl": "https://www.bearwiseman.com/personal-musings/travel-blog-joulun-lauluja-kathy-criswell",
     "status": "Needs Review",
     "reason": "Quote is a past-tense draft milestone without a dated upcoming release."
+  },
+  {
+    "sourceUrl": "https://www.luneriellegoldenoak.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.romansbayaert.eu/les-news",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://jocolleen.com/pages/chouette-chaumiere-news",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://sandrinealibaud.wordpress.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.emiliegomez.fr/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://livbonnelli.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://didierbertrand.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://malonesilence.com/biomecaniques",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://manubreysse.com",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://michaess.fr/blogs/actualites",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://rosamentis.fr/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.benjaminfrand.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://sealeha.fr/livre-fantastique/lentre-mondes",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://alexclarkautrice.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://blandinepmartin.fr/academie-orphee/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://leshistoiresdesolene.fr/la-laisha-trilogie-de-fantasy-young-adult/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://lisebarrow.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.pierreetiennebram.com/98dot41pourcent",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.juliealtinoglu.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://carolinefehautrice.fr/mes-livres",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://wendyvendrick.fr/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://josephinecamonne.fr/roman/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.maloriacassis.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://morganedbj.fr/pages/les-livres",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.audreydropsit.com/en/livres",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.cyliniacarriere.fr/index.php?main_page=page&fond=livres/Wellington/fond%20secrets.jpg&id=81&lien=81",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.davidcatuhe.com/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.emmanuel-chastelliere.com/blog",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://gilles-milovaceri.com/serie-gabriel-gerfaut/",
+    "status": "Excluded",
+    "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
   }
 ]
