@@ -139,7 +139,7 @@ describe("pipeline: dedup, resume and export", () => {
     const ws = wb.getWorksheet("Qualified Prospects")!;
     expect((ws.getRow(1).values as string[]).slice(1)).toEqual([...COLUMNS]);
     expect(ws.rowCount).toBe(2);
-    expect(wb.worksheets.map((w) => w.name)).toEqual(["Qualified Prospects", "Needs Review", "Research Log", "Excluded & Duplicates", "Campaign Summary"]);
+    expect(wb.worksheets.map((w) => w.name)).toEqual(["Qualified Prospects", "Research Summary", "Research Log", "Needs Review"]);
   });
 });
 

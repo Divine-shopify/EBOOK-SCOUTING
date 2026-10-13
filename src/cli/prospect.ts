@@ -33,7 +33,7 @@ const USAGE = `Usage: npm run prospect -- <command> [options]
   scan-sites [--concurrency N] [--limit N]
                                  Scan queued sites for current publishing evidence; hits become candidates
   requalify                      Re-queue all candidates after a rule change (cached pages are reused)
-  export [--out FILE] [--target N]  Write the Excel workbook; the N strongest qualified prospects go on the main sheet (default Global_eBook_Author_Prospects_200.xlsx)
+  export [--out FILE] [--target N]  Write the Excel workbook; the N strongest qualified prospects go on the main sheet (default Global_eBook_Author_Prospects_1000.xlsx)
   status                         Campaign counts`;
 
 function arg(name: string, def?: string): string | undefined {
@@ -147,8 +147,8 @@ async function main() {
       break;
     }
     case "export": {
-      const out = arg("out", "Global_eBook_Author_Prospects_200.xlsx")!;
-      const s = await exportWorkbook(db, out, Number(arg("target", "200")));
+      const out = arg("out", "Global_eBook_Author_Prospects_1000.xlsx")!;
+      const s = await exportWorkbook(db, out, Number(arg("target", "1000")));
       console.log(`Wrote ${out}: ${s.ready} qualified, ${s.review} needs review`);
       break;
     }
@@ -183,7 +183,9 @@ async function main() {
       break;
     }
     case "scan-sites": {
-      const r = await runSiteScan(db, fetcher, { concurrency: Number(arg("concurrency", "8")), limit: arg("limit") ? Number(arg("limit")) : undefined, batch: currentBatch(db), onLog: log });
+      // Bulk scans favour throughput: short timeout, no retries (a failed site is just logged as rejected).
+      const scanFetcher = new Fetcher(db, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 12_000, retries: 0, maxBytes: 1_500_000 });
+      const r = await runSiteScan(db, scanFetcher, { concurrency: Number(arg("concurrency", "24")), limit: arg("limit") ? Number(arg("limit")) : undefined, batch: currentBatch(db), onLog: log });
       console.log(`Scanned ${r.scanned} sites; ${r.candidates} new candidates queued for verification`);
       break;
     }

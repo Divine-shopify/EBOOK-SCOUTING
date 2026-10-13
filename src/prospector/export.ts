@@ -120,8 +120,64 @@ export function prospectStrength(p: ProspectRecord): number {
   );
 }
 
-export async function exportWorkbook(db: DB, file: string, target = 200): Promise<CampaignStats> {
+/** Prospect-mix categories (campaign brief §3) with their target counts. */
+export const PROSPECT_MIX: [string, number][] = [
+  ["Independent and self-published authors", 200],
+  ["Amazon KDP and Kindle authors", 150],
+  ["Authors with upcoming books or active publishing projects", 100],
+  ["Authors seeking editing or proofreading", 100],
+  ["Authors seeking eBook formatting or conversion", 100],
+  ["Authors seeking cover design or book graphics", 75],
+  ["Authors seeking publishing or distribution assistance", 75],
+  ["Authors seeking book marketing or launch support", 75],
+  ["Authors needing author websites or direct-sales infrastructure", 50],
+  ["Independent publishers and author-owned publishing businesses", 75],
+];
+
+/** One primary prospect-mix category per record, derived from its verified evidence. */
+export function primaryCategory(p: ProspectRecord): string {
+  const explicit = p["Evidence of Need"].startsWith("Explicit request");
+  const svc = `${p["Opportunity Category"]} ${p["Service Opportunity"]}`;
+  if (explicit) {
+    if (/Editing|Proofreading|edit|proofread/i.test(svc)) return PROSPECT_MIX[3][0];
+    if (/Formatting|format|epub/i.test(svc)) return PROSPECT_MIX[4][0];
+    if (/Cover Design|cover|illustrat/i.test(svc)) return PROSPECT_MIX[5][0];
+    if (/Publishing Setup|Distribution|kdp|distribut|isbn/i.test(svc)) return PROSPECT_MIX[6][0];
+    if (/Marketing|Advertising|Listing|launch|ads|blurb|description/i.test(svc)) return PROSPECT_MIX[7][0];
+    if (/Author Website|Direct Sales|website|storefront/i.test(svc)) return PROSPECT_MIX[8][0];
+  }
+  if (/Independent Publisher|Author-Owned Business/.test(p["Author Type"])) return PROSPECT_MIX[9][0];
+  if (/Amazon KDP|Kindle/i.test(`${p["Publishing Platform"]} ${p["Evidence of Need"]}`)) return PROSPECT_MIX[1][0];
+  if (/Forthcoming|In Progress|Relaunch|Unpublished/.test(p["Book Status"])) return PROSPECT_MIX[2][0];
+  return PROSPECT_MIX[0][0];
+}
+
+/** Batch number of each prospect: the earliest batch among the candidates consolidated into it (default 1). */
+function prospectBatches(db: DB): Map<number, number> {
+  const rows = db.prepare("SELECT prospect_id, payload FROM px_candidates WHERE prospect_id IS NOT NULL").all() as { prospect_id: number; payload: string }[];
+  const m = new Map<number, number>();
+  for (const r of rows) {
+    const b = Number(JSON.parse(r.payload).discovery?.batch ?? 1);
+    m.set(r.prospect_id, Math.min(m.get(r.prospect_id) ?? b, b));
+  }
+  return m;
+}
+
+/** Status labels used in the workbook ("Needs Review" is stored internally, shown as "Review"). */
+function forWorkbook(p: ProspectRecord): ProspectRecord {
+  const notes = `${p.Notes}${p["Public Professional Email"] ? "" : " Contact: no public professional email found."} Primary prospect category: ${primaryCategory(p)}.`;
+  return { ...p, "Lead Status": p["Lead Status"] === "Needs Review" ? "Review" : p["Lead Status"], Notes: notes };
+}
+
+function tableRows(ws: ExcelJS.Worksheet, title: string, m: Record<string, number> | [string, number | string][]): void {
+  ws.addRow([]);
+  ws.addRow([title]).font = { bold: true };
+  for (const [k, v] of Array.isArray(m) ? m : sorted(m)) ws.addRow([k, v]);
+}
+
+export async function exportWorkbook(db: DB, file: string, target = 1000): Promise<CampaignStats> {
   const ps = allProspects(db);
+  const batches = prospectBatches(db);
   const order = { High: 0, Medium: 1, Low: 2 } as Record<string, number>;
   const byStrength = (a: ProspectRecord, b: ProspectRecord) =>
     order[a["Buying Intent"]] - order[b["Buying Intent"]] || order[a["Research Confidence"]] - order[b["Research Confidence"]] || a.Country.localeCompare(b.Country) || a["Prospect Name"].localeCompare(b["Prospect Name"]);
@@ -129,86 +185,85 @@ export async function exportWorkbook(db: DB, file: string, target = 200): Promis
   wb.creator = "eBook Author Prospecting Agent";
   wb.created = new Date();
   const ready = ps.filter((p) => p["Lead Status"] === "Ready").sort((a, b) => prospectStrength(b) - prospectStrength(a) || a["Prospect Name"].localeCompare(b["Prospect Name"]));
-  prospectSheet(wb, "Qualified Prospects", ready.slice(0, target).sort(byStrength));
-  if (ready.length > target) prospectSheet(wb, "Qualified Reserve", ready.slice(target).sort(byStrength));
-  prospectSheet(wb, "Needs Review", ps.filter((p) => p["Lead Status"] === "Needs Review").sort(byStrength));
+  const main = ready.slice(0, target);
+  const review = ps.filter((p) => p["Lead Status"] === "Needs Review");
+  const s = campaignStats(db);
 
-  // Research log: every query, with outcomes attributed back from candidates.
+  // Sheet 1: qualified prospects.
+  prospectSheet(wb, "Qualified Prospects", main.sort(byStrength).map(forWorkbook));
+
+  // Sheet 2: research summary.
+  const sw = wb.addWorksheet("Research Summary");
+  sw.columns = [{ header: "Metric", key: "m", width: 62 }, { header: "Value", key: "v", width: 70 }];
+  const emailMx = main.filter((p) => p["Public Professional Email"] && /domain has MX records/.test(p.Notes)).length;
+  const head: [string, string | number][] = [
+    ["Workbook generated", new Date().toISOString()],
+    ["Target (approximate)", target],
+    ["Total candidates discovered (queued for verification)", s.candidates],
+    ["Total unique qualified prospects (Lead Status = Ready)", main.length],
+    ["Additional qualified prospects beyond the target (not in workbook)", Math.max(0, ready.length - target)],
+    ["Records requiring review (Review sheet)", review.length],
+    ["Candidates rejected (excluded by the qualification rules or analyst QC)", s.excluded],
+    ["Duplicate candidates removed (consolidated into an existing record)", s.duplicates],
+    ["Invalid candidates removed (failed schema validation or processing errors)", s.errors],
+    ["Qualified prospects with a publicly displayed professional email", main.filter((p) => p["Public Professional Email"]).length],
+    ["Qualified prospects without a public professional email", main.filter((p) => !p["Public Professional Email"]).length],
+    ["  …of which have a public contact page", main.filter((p) => !p["Public Professional Email"] && p["Public Contact Page"]).length],
+    ["Emails whose domain passed a DNS MX check (mail routable; mailbox NOT verified)", emailMx],
+    ["Emails technically verified at mailbox level (SMTP/provider)", "0 — not performed"],
+    ["Prospects with explicit service requests", main.filter((p) => p["Evidence of Need"].startsWith("Explicit request")).length],
+    ["Prospects with inferred service opportunities", main.filter((p) => !p["Evidence of Need"].startsWith("Explicit request")).length],
+    ["Search / crawl log entries", s.searches],
+    ["Market measure", MARKET_MEASURE],
+    ["Qualification rule", "Ready = identity confirmed on an agent-fetched page + eBook/book-production connection + service need found verbatim in agent-fetched text (first-person explicit request ≤24 months old — High intent if ≤12 months — or production-stage wording that is current: cited release still upcoming or within 45 days, dated posts ≤6 months) + intent High/Medium + confidence High/Medium. Low intent/confidence never qualifies."],
+    ["Email rule", "Only addresses displayed on the author's own fetched pages and attributable to the author are recorded; none guessed; MX check only, no mailbox verification."],
+    ["Location rule", "Country only from author-referring location wording on a fetched page (or an Impressum / mentions légales address); otherwise 'Unverified'."],
+  ];
+  for (const [m, v] of head) sw.addRow([m, v]).alignment = { vertical: "top", wrapText: true };
+  const mix = count(main.map(primaryCategory));
+  sw.addRow([]);
+  sw.addRow(["Prospect mix (primary category)", "Qualified / target (shortfall)"]).font = { bold: true };
+  for (const [k, t] of PROSPECT_MIX) sw.addRow([k, `${mix[k] ?? 0} / ${t}${(mix[k] ?? 0) < t ? ` (short ${t - (mix[k] ?? 0)})` : ""}`]);
+  tableRows(sw, "Prospects by country", count(main.map((p) => p.Country)));
+  tableRows(sw, "Prospects by author type", count(main.map((p) => p["Author Type"])));
+  tableRows(sw, "Prospects by opportunity category", count(main.map((p) => p["Opportunity Category"])));
+  tableRows(sw, "Prospects by buying intent", count(main.map((p) => p["Buying Intent"])));
+  tableRows(sw, "Prospects by research confidence", count(main.map((p) => p["Research Confidence"])));
+  tableRows(sw, "Prospects by research batch", count(main.map((p) => `Batch ${batches.get(p._id) ?? 1}`)));
+  tableRows(sw, "Publishing platforms represented", count(main.flatMap((p) => (p["Publishing Platform"] ? p["Publishing Platform"].split(", ") : []))));
+  tableRows(sw, "Preferred language", count(main.map((p) => p["Preferred Language"] || "Unknown")));
+  tableRows(sw, "Target markets (IMF 2026 GDP per capita where captured)", MARKETS.map((m) => [m.country, m.gdpPerCapitaUsd2026 ? `$${m.gdpPerCapitaUsd2026.toLocaleString("en-US")}` : "top tier, value not captured"] as [string, string]));
+  sw.views = [{ state: "frozen", ySplit: 1 }];
+  sw.getRow(1).font = { bold: true, color: { argb: "FFFFFFFF" } };
+  sw.getRow(1).fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF1F3864" } };
+
+  // Sheet 3: research log, with outcomes attributed back from candidates.
   const log = db.prepare("SELECT * FROM px_search_log ORDER BY id").all() as any[];
-  const outcomes = db.prepare("SELECT payload, outcome FROM px_candidates WHERE status='processed'").all() as { payload: string; outcome: string }[];
-  const perQuery = new Map<string, { ready: number; rejected: number }>();
+  const outcomes = db.prepare("SELECT payload, outcome, status FROM px_candidates").all() as { payload: string; outcome: string | null; status: string }[];
+  const perQuery = new Map<string, { ready: number; rejected: number; dup: number; err: number }>();
   for (const o of outcomes) {
     const q = JSON.parse(o.payload).discovery?.query as string | undefined;
     if (!q) continue;
-    const e = perQuery.get(q) ?? { ready: 0, rejected: 0 };
+    const e = perQuery.get(q) ?? { ready: 0, rejected: 0, dup: 0, err: 0 };
     if (o.outcome === "Ready") e.ready++;
     else if (o.outcome === "Excluded") e.rejected++;
+    else if (o.outcome === "Duplicate") e.dup++;
+    if (o.status === "error") e.err++;
     perQuery.set(q, e);
   }
   const lw = wb.addWorksheet("Research Log");
-  const logCols = ["Search Query", "Country or Market", "Language", "Platform or Source Type", "Provider", "Date Searched", "Results Reviewed", "Candidates Added", "Qualified Prospects Discovered", "Rejected Results", "Reason for Rejection", "Next Search Direction", "Error"];
-  lw.columns = logCols.map((h) => ({ header: h, key: h, width: h.startsWith("Reason") || h.startsWith("Next") ? 50 : h === "Search Query" ? 40 : 16 }));
+  const logCols = ["Batch Number", "Date Researched", "Country or Market", "Search Query or Method", "Source Type", "Provider", "Results Reviewed", "Candidates Discovered", "Qualified Prospects Added", "Candidates Rejected", "Duplicates Removed", "Research Errors or Access Limitations", "Rejection Reasons", "Next Research Direction"];
+  lw.columns = logCols.map((h) => ({ header: h, key: h, width: /Reasons|Direction|Errors/.test(h) ? 48 : h.startsWith("Search") ? 42 : 15 }));
   for (const r of log) {
     const pq = perQuery.get(r.query);
-    lw.addRow([safe(r.query), r.market ?? "", r.language ?? "", r.source_type ?? "", r.provider, String(r.searched_at).slice(0, 10), r.results_reviewed, r.candidates_added, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), r.rejection_reasons ?? "", r.next_direction ?? "", r.error ?? ""]).alignment = { vertical: "top", wrapText: true };
+    lw.addRow([r.batch ?? 1, String(r.searched_at).slice(0, 10), r.market ?? "", safe(r.query), r.source_type ?? "", r.provider, r.results_reviewed, r.candidates_added, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.error ?? "", r.rejection_reasons ?? "", r.next_direction ?? ""]).alignment = { vertical: "top", wrapText: true };
   }
   styleHeader(lw, logCols.length);
 
-  // Excluded and duplicate candidates (audit trail; not counted as qualified).
-  const ex = wb.addWorksheet("Excluded & Duplicates");
-  const exCols = ["Candidate", "Source URL", "Discovery Channel", "Outcome", "Reason"];
-  ex.columns = exCols.map((h) => ({ header: h, key: h, width: h === "Reason" ? 90 : h === "Source URL" ? 50 : 22 }));
-  const exRows = db.prepare("SELECT channel, payload, outcome, outcome_reason, last_error, status FROM px_candidates WHERE outcome IN ('Excluded','Duplicate') OR status = 'error' ORDER BY id").all() as any[];
-  for (const r of exRows) {
-    const p = JSON.parse(r.payload);
-    const row = ex.addRow([safe(p.name), p.sourceUrl, r.channel, r.status === "error" ? "Error" : r.outcome, safe(r.outcome_reason ?? r.last_error ?? "")]);
-    row.getCell(2).value = { text: p.sourceUrl, hyperlink: p.sourceUrl };
-    row.alignment = { vertical: "top", wrapText: true };
-  }
-  styleHeader(ex, exCols.length);
-
-  // Campaign summary.
-  const s = campaignStats(db);
-  const sw = wb.addWorksheet("Campaign Summary");
-  sw.columns = [{ header: "Metric", key: "m", width: 52 }, { header: "Value", key: "v", width: 90 }];
-  const rows: [string, string | number][] = [
-    ["Workbook generated", new Date().toISOString()],
-    ["Qualified prospects (Lead Status = Ready), all", s.ready],
-    ["Target", target],
-    ["Qualified prospects on 'Qualified Prospects' sheet (strongest, capped at target)", Math.min(s.ready, target)],
-    ["Additional qualified prospects on 'Qualified Reserve' sheet", Math.max(0, s.ready - target)],
-    ["Records needing review", s.review],
-    ["Total candidates discovered", s.candidates],
-    ["Candidates excluded", s.excluded],
-    ["Duplicate candidates consolidated", s.duplicates],
-    ["Candidates with processing errors", s.errors],
-    ["Candidates still pending", s.pending],
-    ["Qualified with publicly displayed professional email", s.readyWithEmail],
-    ["Qualified with public contact page but no listed email", s.readyContactPageNoEmail],
-    ["Qualified emails whose domain passed a DNS MX check (mail can be routed; mailbox NOT verified)", s.readyEmailMx],
-    ["Emails mailbox-verified (SMTP or provider check)", 0],
-    ["High confidence (qualified)", s.conf.High ?? 0],
-    ["Medium confidence (qualified)", s.conf.Medium ?? 0],
-    ["Low confidence (qualified)", s.conf.Low ?? 0],
-    ["High buying intent (qualified)", s.intent.High ?? 0],
-    ["Medium buying intent (qualified)", s.intent.Medium ?? 0],
-    ["Explicit service requests (qualified)", s.explicit],
-    ["Inferred opportunities (qualified)", s.inferred],
-    ["Countries (qualified, verified location)", sorted(s.countries).map(([k, n]) => `${k}: ${n}`).join("; ")],
-    ["Publishing platforms represented", sorted(s.platforms).map(([k, n]) => `${k}: ${n}`).join("; ")],
-    ["Opportunity categories", sorted(s.categories).map(([k, n]) => `${k}: ${n}`).join("; ")],
-    ["Qualified prospects by discovery channel", sorted(s.channels).map(([k, n]) => `${k}: ${n}`).join("; ")],
-    ["Searches logged", s.searches],
-    ["Market measure", MARKET_MEASURE],
-    ["Target markets", MARKETS.map((m) => `${m.country}${m.gdpPerCapitaUsd2026 ? ` ($${m.gdpPerCapitaUsd2026.toLocaleString("en-US")})` : ""}`).join("; ")],
-    ["Qualification rule", "Ready = identity confirmed on an agent-fetched page + eBook/book-production connection + service need found verbatim in agent-fetched text (first-person explicit request ≤24 months old — High intent if ≤12 months — or production-stage wording that is current: cited release date still upcoming or within 45 days, dated posts ≤6 months) + intent High/Medium + confidence High/Medium. Service providers, anecdotes, pitch/querying posts, big-publisher titles and unpaid requests are excluded. Analyst QC overrides (seeds/prospects/qc_overrides.json) can only downgrade."],
-    ["Email rule", "Only addresses displayed on the author's own fetched website/contact page and attributable to the author (same domain, or a mailbox carrying the author's name/brand) are recorded; agents', publishers', hosts' and other people's addresses are rejected. None are guessed. A DNS MX check was run on each domain; no mailbox-level verification was performed."],
-    ["Location rule", "Country is recorded only when author-referring location wording ('lives in…', 'based in…', a German Impressum or French mentions-légales address) appears on a fetched page; birthplaces and book-blurb places are ignored; otherwise 'Unverified'."],
-  ];
-  for (const [m, v] of rows) sw.addRow([m, v]).alignment = { vertical: "top", wrapText: true };
-  styleHeader(sw, 2);
+  // Sheet 4: records needing review (not counted as qualified).
+  prospectSheet(wb, "Needs Review", review.sort(byStrength).map(forWorkbook));
 
   mkdirSync(dirname(file), { recursive: true });
   await wb.xlsx.writeFile(file);
-  return s;
+  return { ...s, ready: main.length };
 }
