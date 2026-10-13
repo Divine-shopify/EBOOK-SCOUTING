@@ -1,0 +1,555 @@
+[
+ {
+  "source": "RomCon (831 Stories) 2026 authors",
+  "directoryUrl": "https://831stories.com/pages/romance-bookstore-directory",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 16,
+  "notes": ""
+ },
+ {
+  "source": "Meet Me in Milwaukee 2026 signing",
+  "directoryUrl": "https://allthingsgeekygirl.com/?page_id=265",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 2,
+  "notes": ""
+ },
+ {
+  "source": "Anytime Author Promotions signings 2026 (Books & Chocolate in Hershey, Getting Witchy in Salem, BBID) attending authors",
+  "directoryUrl": "https://anytimeauthorpromotionsevents.com/bac-hershey-attending-authors-and-vendors/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 33,
+  "notes": ""
+ },
+ {
+  "source": "Coastal Magic Convention 2026 featured authors",
+  "directoryUrl": "https://coastalmagicconvention.com/featured-authors/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 57,
+  "notes": ""
+ },
+ {
+  "source": "Fall Fantasy Book Faire 2026 (Autry)",
+  "directoryUrl": "https://theautry.org/research-collections/james-r-parks-library-and-archives",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "A Bookish Affair: Poconos 2026 authors",
+  "directoryUrl": "https://www.abookishaffairpoconos.com/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 33,
+  "notes": ""
+ },
+ {
+  "source": "Indie Fusion BookCon 2026 authors/vendors",
+  "directoryUrl": "https://www.indiefusionbookcon.ca/attending-2026",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 17,
+  "notes": ""
+ },
+ {
+  "source": "Inked & Enchanted / Kink & Ink 2026 signings (Inked Book Events)",
+  "directoryUrl": "https://www.inkedbookevents.com/kinkandinkeventdetails",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "Romance, Eh? Book Signing 2026",
+  "directoryUrl": "https://www.romanceeh.com/2026-authors",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 55,
+  "notes": ""
+ },
+ {
+  "source": "Scandals & Swoons Festival 2026",
+  "directoryUrl": "https://www.swoonsfest.com/authors",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 4,
+  "notes": ""
+ },
+ {
+  "source": "LoveLitCon 2026 authors",
+  "directoryUrl": "https://lovelit.com/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 96,
+  "notes": ""
+ },
+ {
+  "source": "Lori Foster's Reader & Author Get-Together (RAGT) 2026 author list",
+  "directoryUrl": "https://readerauthorgettogether.com/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 109,
+  "notes": ""
+ },
+ {
+  "source": "Writers on the River romance signing 2026",
+  "directoryUrl": "https://writersontheriver.weebly.com/authors.html",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 58,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (calgaryrwa.com) 2026",
+  "directoryUrl": "https://calgaryrwa.com/meetings-and-upcoming-events/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 50,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (lararwa.com) 2026",
+  "directoryUrl": "https://www.lararwa.com/our-members/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (leranm.com) 2026",
+  "directoryUrl": "https://leranm.com/our-members/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 11,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (midwestfiction.com) 2026",
+  "directoryUrl": "https://www.midwestfiction.com/other-writer-sites",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 3,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (rosecityromancewriters.com) 2026",
+  "directoryUrl": "https://www.rosecityromancewriters.com/meetings-and-events/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 19,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (socorwa.com) 2026",
+  "directoryUrl": "https://socorwa.com/meetings/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 2,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (valleyofthesunwriters.com) 2026",
+  "directoryUrl": "https://valleyofthesunwriters.com/meet-our-rwa-members/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 8,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (chesapeakeromancewriters.com) 2026",
+  "directoryUrl": "https://www.chesapeakeromancewriters.com/resources.html",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (dallasarearomanceauthors.com) 2026",
+  "directoryUrl": "https://www.dallasarearomanceauthors.com/",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 15,
+  "notes": ""
+ },
+ {
+  "source": "RWA chapter member-author pages (northernlightswriters.org) 2026",
+  "directoryUrl": "https://www.northernlightswriters.org/p/member-news.html",
+  "method": "curl crawl of event/chapter site: homepage + author/attending/member pages (+ individual author subpages); external links extracted",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "Buy Direct From Authors newsletter (indie romance direct-sale roundups) 2024-2026",
+  "directoryUrl": "https://buydirectfromauthors.substack.com/",
+  "method": "Substack archive API, all posts; author store/site links",
+  "sitesFound": 69,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (fabulousandbrunette.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://fabulousandbrunette.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 33,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (awonderfulworldofwordsa.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://awonderfulworldofwordsa.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 98,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (straightfromlibrary.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://straightfromlibrary.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 16,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (dawnsreadingnook.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://dawnsreadingnook.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 174,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (guatemalapaula.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://guatemalapaula.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 148,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (its-raining-books.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://its-raining-books.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 51,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (sandrasbookclub.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://sandrasbookclub.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 130,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (stormynightsreviewingandbloggind.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://stormynightsreviewingandbloggind.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 198,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (ironcanuckreviews.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://ironcanuckreviews.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 46,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (jhthomas.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://jhthomas.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 2,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (alwaysreadingreview.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://alwaysreadingreview.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 65,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (magickofbooks.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://magickofbooks.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 48,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (saphsbooks.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://saphsbooks.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 146,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (elainepcantrell.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://elainepcantrell.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 3,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (victoriazumbrumsreviews.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://victoriazumbrumsreviews.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 102,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (searosetouk.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://searosetouk.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 12,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (dealsharingaunt.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://dealsharingaunt.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 28,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (teatimeandbooks76.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://teatimeandbooks76.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 19,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (books0623.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://books0623.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 33,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (booksinthehall.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://booksinthehall.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (ornerybookemporium.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://ornerybookemporium.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 72,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (thebookconnectionccm.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://thebookconnectionccm.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 12,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (galestanley.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://galestanley.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 10,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (celticladysreviews.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://celticladysreviews.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 101,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (thereadingaddict-elf.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://thereadingaddict-elf.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 3,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (wowfromthescarfprincess.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://wowfromthescarfprincess.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 6,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (candlelightreadinguk.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://candlelightreadinguk.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 40,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (nanasbookreviews.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://nanasbookreviews.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 1,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (lisabetsarai.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://lisabetsarai.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 17,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (amybooksy.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://amybooksy.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 25,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (tinadonahuebooks.blogspot.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://tinadonahuebooks.blogspot.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 6,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (authorcamilson.wordpress.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://authorcamilson.wordpress.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 5,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (thepenmuse.net; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://thepenmuse.net/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 28,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (ginaraemitchell.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://ginaraemitchell.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 107,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (longandshortreviews.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://longandshortreviews.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 16,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (thefaeriereview.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://thefaeriereview.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 11,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (fuonlyknew.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://fuonlyknew.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 29,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (karensiddall.wordpress.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://karensiddall.wordpress.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 81,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (lisahaselton.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://lisahaselton.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 68,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (aubreywynne.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://aubreywynne.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 30,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (christineyoungromancewriter.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://christineyoungromancewriter.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 2,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (sarandipitys.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://sarandipitys.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 80,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (authordebbailey.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://authordebbailey.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 2,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (fundinmental.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://fundinmental.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 55,
+  "notes": ""
+ },
+ {
+  "source": "Romance blog-tour host posts 2024-2026 (saratrimble.wordpress.com; Goddess Fish Promotions tour circuit)",
+  "directoryUrl": "https://saratrimble.wordpress.com/",
+  "method": "Blogger JSON feed / WordPress REST API, posts published 2024-01-01 onward, filtered to posts with romance keywords; kept links whose anchor text is \"Website\"/a URL",
+  "sitesFound": 74,
+  "notes": ""
+ },
+ {
+  "source": "Book Bonanza (bookbonanza.com)",
+  "directoryUrl": "https://bookbonanza.com/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: domain parked"
+ },
+ {
+  "source": "UtopiaCon",
+  "directoryUrl": "https://utopiacon.com/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: no author links in HTML (JS/none)"
+ },
+ {
+  "source": "Shameless Book Club/Con",
+  "directoryUrl": "https://shamelessbookclub.com/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: no author links found"
+ },
+ {
+  "source": "Fresh Fiction author directory",
+  "directoryUrl": "https://freshfiction.com/authors.php",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: author pages show no website links; very slow"
+ },
+ {
+  "source": "Romance Junkies authors",
+  "directoryUrl": "https://romancejunkies.com/authors/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: no author website links"
+ },
+ {
+  "source": "Goddess Fish Promotions organiser blog",
+  "directoryUrl": "https://goddessfishpromotions.blogspot.com/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: sign-up posts contain host blogs only; used as index of tour host blogs instead"
+ },
+ {
+  "source": "RWA chapters: rwanyc, cbcrwa, morwa, nhrwa, starrwa, washingtonromancewriters, ffprwa, mosaiccimrwa",
+  "directoryUrl": "https://rwa.org/chapters",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: no external author links found / unreachable"
+ },
+ {
+  "source": "Book Lovers Con",
+  "directoryUrl": "https://bookloverscon.com/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: 403"
+ },
+ {
+  "source": "Various guessed event domains (Readers Take Denver, Shameless Book Con, Wild & Windy, Authors in Paradise, etc.)",
+  "directoryUrl": "",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: DNS/502 - not reachable"
+ },
+ {
+  "source": "Bewitching Book Tours, Tasty Book Tours (Blogger)",
+  "directoryUrl": "https://bewitchingbooktours.blogspot.com/",
+  "method": "attempted",
+  "sitesFound": 0,
+  "notes": "dead end: 503"
+ }
+]
