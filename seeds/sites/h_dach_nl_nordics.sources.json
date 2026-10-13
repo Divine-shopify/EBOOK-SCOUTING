@@ -1,0 +1,198 @@
+[
+ {
+  "source": "Qindie Autorinnen directory 2026",
+  "directoryUrl": "https://qindie.de/autorinnen/",
+  "method": "page-sitemap -> 127 author profile pages; author's own site link picked per page (name/anchor match, sidebar links filtered)",
+  "sitesFound": 75,
+  "notes": "Indie quality label for German self-publishers"
+ },
+ {
+  "source": "Nornennetz Liste deutschsprachiger Fantastik-Autorinnen 2026",
+  "directoryUrl": "https://www.nornennetz.de/lexikon/liste-deutschsprachiger-fantastik-autorinnen",
+  "method": "single TablePress table parsed (name, website, subgenre)",
+  "sitesFound": 126,
+  "notes": "Female German-language fantastik authors, mixed indie/small press"
+ },
+ {
+  "source": "Phantastik-Autoren-Netzwerk (PAN) Mitglieder 2026",
+  "directoryUrl": "https://wir-erschaffen-welten.net/mitglieder/autorinnen/",
+  "method": "501 member profile pages fetched; website link per page",
+  "sitesFound": 262,
+  "notes": "PAN moved from phantastik-autoren-netzwerk.de (unreachable) to wir-erschaffen-welten.net"
+ },
+ {
+  "source": "DELIA Mitgliederverzeichnis (Liebesroman) 2026",
+  "directoryUrl": "https://www.delia-online.de/mitglieder/",
+  "method": "272 member pages fetched; website link per page",
+  "sitesFound": 211,
+  "notes": "German romance writers association; mix of indie and publisher-backed"
+ },
+ {
+  "source": "Das Syndikat Autorenverzeichnis (Krimi) 2026",
+  "directoryUrl": "https://www.das-syndikat.com/autoren.html",
+  "method": "861 author pages; 'Autorenhomepage' link",
+  "sitesFound": 554,
+  "notes": "German-language crime writers association; mixed indie/trad"
+ },
+ {
+  "source": "Mörderische Schwestern Autorinnenprofile 2026",
+  "directoryUrl": "https://www.moerderische-schwestern.eu/autorenprofil-sitemap.xml",
+  "method": "247 profile pages; website link per page",
+  "sitesFound": 167,
+  "notes": "Female crime writers network DE/AT/CH"
+ },
+ {
+  "source": "tolino media Autor:in des Monats spotlights",
+  "directoryUrl": "https://www.tolino-media.de/blog/",
+  "method": "post sitemap; 104 'Autor(in) des Monats' posts, author site link per post",
+  "sitesFound": 41,
+  "notes": "tolino media = self-publishing distributor; all spotlighted authors are self-publishers"
+ },
+ {
+  "source": "tolino media blog (Newcomerpreis lists, Bücherguides, author features)",
+  "directoryUrl": "https://www.tolino-media.de/blog/",
+  "method": "103 list/feature posts, all external links minus frequent/service hosts, manually pruned",
+  "sitesFound": 12,
+  "notes": "Noisy; service providers removed by hand"
+ },
+ {
+  "source": "Krimimessen Horsens udstillere 2026 (small presses / self-publishers)",
+  "directoryUrl": "https://krimimessen.dk/udstillere/",
+  "method": "exhibitor index parsed; large publishers removed",
+  "sitesFound": 25,
+  "notes": "Danish crime fair; 'Celle' stands are small/self-publishers"
+ },
+ {
+  "source": "Egenutgivare.nu author profiles (Swedish self-publishers)",
+  "directoryUrl": "https://egenutgivare.nu/",
+  "method": "74 posts fetched; external links per post, noise removed by hand",
+  "sitesFound": 13,
+  "notes": "Swedish self-publisher interview blog, mostly 2017-2018"
+ },
+ {
+  "source": "literaturport.de Autorenlexikon (Berlin-Brandenburg) 2026",
+  "directoryUrl": "https://www.literaturport.de/autorenlexikon/",
+  "method": "949 of 2236 lexikon pages fetched; only 'Autorenhomepage' links kept",
+  "sitesFound": 13,
+  "notes": "Stopped early: only ~1.5% of entries carry an author homepage; mostly literary authors"
+ },
+ {
+  "source": "Leipziger Autor:innenrunde (self-publishing conference) programme speakers 2016-2026",
+  "directoryUrl": "https://autorinnenrunde.de/programm-2026/",
+  "method": "594 programme session pages (2016-2026) fetched from page sitemaps; speaker links kept only when the domain matches the speaker name; agencies/media/publishers removed",
+  "sitesFound": 115,
+  "notes": "Self-publishing conference held around Leipziger Buchmesse; speakers are largely indie authors plus some service providers"
+ },
+ {
+  "source": "GND authority file (DNB) via lobid.org — writers with homepage, living, DACH/NL/Nordic area code",
+  "directoryUrl": "https://lobid.org/gnd/search?q=homepage:*",
+  "method": "lobid GND API: persons with homepage and occupation Schriftsteller(in)/Kinder-/Jugendbuchautor(in)/Autor(in); filtered to geographic area DE/AT/CH/LI/NL/BE/SE/NO/DK/FI/IS, no death date, born >=1955 or unknown, literary occupation required, publisher/university/media homepages dropped",
+  "sitesFound": 1740,
+  "notes": "Not an indie-only list: DNB registers self-published (BoD/epubli/tredition) authors alongside trad ones. Country = GND area code (TLD used to disambiguate). Lowest-priority bucket; deduped after all curated sources"
+ },
+ {
+  "source": "Selfpublisher-Verband book catalogue",
+  "directoryUrl": "https://www.selfpublisherverband.de/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: HTTP 503 / connection reset throughout the session (curl and WebFetch)"
+ },
+ {
+  "source": "LoveLetter Convention author list",
+  "directoryUrl": "https://www.loveletter-convention.de/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: connection reset/unreachable"
+ },
+ {
+  "source": "Skoutz award lists",
+  "directoryUrl": "https://www.skoutz.de/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: unreachable"
+ },
+ {
+  "source": "Selfpublishing-Buchpreis long/shortlists",
+  "directoryUrl": "https://selfpublishing-buchpreis.de/longlist-2025-26/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: titles link only to Autorenwelt shop, no author sites"
+ },
+ {
+  "source": "Seitenzauber Buchmesse / Buchmesse Saar / HomBuch / Kinder lesen Zürich exhibitor pages",
+  "directoryUrl": "https://seitenzauber-buchmesse.de/die-aussteller-2025/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: exhibitors shown as images/names without outbound links"
+ },
+ {
+  "source": "BuchBerlin",
+  "directoryUrl": "https://www.buchberlin.de/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: Wix site, no crawlable exhibitor list"
+ },
+ {
+  "source": "Leipziger Autor:innenrunde Referent:innen pages",
+  "directoryUrl": "https://autorinnenrunde.de/referent-innen-2026/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: speaker pages without links; see program pages source instead"
+ },
+ {
+  "source": "Vlaamse Auteursvereniging ledenlijst",
+  "directoryUrl": "https://auteursvereniging.be/ledenlijst/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: member list behind login"
+ },
+ {
+  "source": "auteurslezingen.be / schrijverscentrale.nl / schrijverslijst.be",
+  "directoryUrl": "https://www.auteurslezingen.be/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: unreachable / DNS failure"
+ },
+ {
+  "source": "Norsk Forfattersentrum forfatterkatalog",
+  "directoryUrl": "https://www.forfattersentrum.no/",
+  "method": "sampled",
+  "sitesFound": 0,
+  "notes": "DEAD END: 2100 author profiles but no external website links"
+ },
+ {
+  "source": "Författarcentrum / forfattarformedling.se",
+  "directoryUrl": "https://forfattarcentrum.se/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: no public author catalogue with links"
+ },
+ {
+  "source": "Rithöfundasamband Íslands félagatal",
+  "directoryUrl": "https://rsi.is/felagatal/",
+  "method": "checked",
+  "sitesFound": 0,
+  "notes": "DEAD END: names only, no websites"
+ },
+ {
+  "source": "Autorenwelt",
+  "directoryUrl": "https://www.autorenwelt.de/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: HTTP 403"
+ },
+ {
+  "source": "lobid-resources (BoD/epubli publisher filter)",
+  "directoryUrl": "https://lobid.org/resources/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: bot-challenge page"
+ },
+ {
+  "source": "IG Autorinnen Autoren (AT), Quo Vadis, A*dS Lexikon (JS app)",
+  "directoryUrl": "https://lexikon.a-d-s.ch/",
+  "method": "none",
+  "sitesFound": 0,
+  "notes": "DEAD END: unreachable or client-side app"
+ }
+]
