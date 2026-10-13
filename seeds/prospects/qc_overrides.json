@@ -248,5 +248,80 @@
     "sourceUrl": "https://gilles-milovaceri.com/serie-gabriel-gerfaut/",
     "status": "Excluded",
     "reason": "Excluded for compliance: discovered via a Livraddict crawl, and livraddict.com's robots.txt disallows AI agents (ClaudeBot/anthropic-ai)."
+  },
+  {
+    "sourceUrl": "https://www.apple.com/",
+    "status": "Excluded",
+    "reason": "Retail electronics store page, not an author."
+  },
+  {
+    "sourceUrl": "https://hoyne.com.au/",
+    "status": "Excluded",
+    "reason": "Design/consultancy business page; no publishing project."
+  },
+  {
+    "sourceUrl": "https://www.nobleedgeconsulting.com/blog",
+    "status": "Excluded",
+    "reason": "Consultancy site; no publishing project in the evidence."
+  },
+  {
+    "sourceUrl": "https://zakenwet.wordpress.com/2026/06/13/automating-academic-judgment-a-critical-analysis-of-artificial-intelligence-in-scientific-journal-peer-review/",
+    "status": "Excluded",
+    "reason": "Academic article text, not a service request."
+  },
+  {
+    "sourceUrl": "https://mephysociety.wordpress.com/2026/06/03/associate-or-senior-editor-nature-physics-shanghai-beijing-milan-or-pune/",
+    "status": "Excluded",
+    "reason": "Journal job advertisement, not an author request."
+  },
+  {
+    "sourceUrl": "https://bettinadeda.com/insights/insights-guide-business-book-publishing/",
+    "status": "Excluded",
+    "reason": "Advice article about self-publishing; no project of her own in the evidence."
+  },
+  {
+    "sourceUrl": "https://wilderbook.com/",
+    "status": "Needs Review",
+    "reason": "Evidence is a reader comment, not the author's own statement."
+  },
+  {
+    "sourceUrl": "https://drdeborahvinall.com/books/",
+    "status": "Needs Review",
+    "reason": "Evidence is an awards list; no current project shown."
+  },
+  {
+    "sourceUrl": "https://robinburcell.com/",
+    "status": "Needs Review",
+    "reason": "Traditionally published thriller author; no self-publishing activity shown."
+  },
+  {
+    "sourceUrl": "https://donbentleybooks.com/",
+    "status": "Needs Review",
+    "reason": "Traditionally published (Tom Clancy franchise); no self-publishing activity shown."
+  },
+  {
+    "sourceUrl": "https://www.harriet-evans.com/",
+    "status": "Needs Review",
+    "reason": "Hardback-first release suggests a traditional publisher; confirm before use."
+  },
+  {
+    "sourceUrl": "https://sandyfairfaxauthor.com/blog/",
+    "status": "Needs Review",
+    "reason": "Quoted plan dates from 2018; current project not shown."
+  },
+  {
+    "sourceUrl": "https://www.gailkittleson.com/blog-2/",
+    "status": "Needs Review",
+    "reason": "Evidence snippet shows no current project."
+  },
+  {
+    "sourceUrl": "https://danielperryfiction.wordpress.com/",
+    "status": "Needs Review",
+    "reason": "Evidence concerns a magazine story acceptance, not a book."
+  },
+  {
+    "sourceUrl": "https://teresaburrell.com/",
+    "status": "Needs Review",
+    "reason": "Evidence snippet is a series list without a current project."
   }
 ]
