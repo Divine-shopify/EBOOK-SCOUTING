@@ -153,15 +153,27 @@ export function primaryCategory(p: ProspectRecord): string {
   return PROSPECT_MIX[0][0];
 }
 
-/** Batch number of each prospect: the earliest batch among the candidates consolidated into it (default 1). */
-function prospectBatches(db: DB): Map<number, number> {
-  const rows = db.prepare("SELECT prospect_id, payload FROM px_candidates WHERE prospect_id IS NOT NULL").all() as { prospect_id: number; payload: string }[];
-  const m = new Map<number, number>();
-  for (const r of rows) {
-    const b = Number(JSON.parse(r.payload).discovery?.batch ?? 1);
-    m.set(r.prospect_id, Math.min(m.get(r.prospect_id) ?? b, b));
-  }
-  return m;
+/**
+ * Research batches (brief §16): qualified prospects in the order they were first discovered, 200 per batch.
+ * Returns each prospect's batch and the discovery timestamp that closes each batch (used to date log entries).
+ */
+function batchPlan(db: DB, main: (ProspectRecord & { _id: number })[], size = 200): { of: Map<number, number>; batchAt: (iso: string) => number } {
+  const rows = db.prepare("SELECT prospect_id, MIN(id) AS first_id, MIN(discovered_at) AS first_at FROM px_candidates WHERE prospect_id IS NOT NULL GROUP BY prospect_id").all() as { prospect_id: number; first_id: number; first_at: string }[];
+  const first = new Map(rows.map((r) => [r.prospect_id, r]));
+  const ordered = [...main].sort((x, y) => (first.get(x._id)?.first_id ?? 0) - (first.get(y._id)?.first_id ?? 0));
+  const of = new Map<number, number>();
+  const closes: string[] = [];
+  ordered.forEach((p, i) => {
+    const b = Math.floor(i / size) + 1;
+    of.set(p._id, b);
+    closes[b - 1] = first.get(p._id)?.first_at ?? closes[b - 1];
+  });
+  const last = Math.max(1, closes.length);
+  const batchAt = (iso: string) => {
+    const i = closes.findIndex((c) => c && iso <= c);
+    return i < 0 ? last : i + 1;
+  };
+  return { of, batchAt };
 }
 
 /** Status labels used in the workbook ("Needs Review" is stored internally, shown as "Review"). */
@@ -178,7 +190,6 @@ function tableRows(ws: ExcelJS.Worksheet, title: string, m: Record<string, numbe
 
 export async function exportWorkbook(db: DB, file: string, target = 1000): Promise<CampaignStats> {
   const ps = allProspects(db);
-  const batches = prospectBatches(db);
   const order = { High: 0, Medium: 1, Low: 2 } as Record<string, number>;
   const byStrength = (a: ProspectRecord, b: ProspectRecord) =>
     order[a["Buying Intent"]] - order[b["Buying Intent"]] || order[a["Research Confidence"]] - order[b["Research Confidence"]] || a.Country.localeCompare(b.Country) || a["Prospect Name"].localeCompare(b["Prospect Name"]);
@@ -187,6 +198,7 @@ export async function exportWorkbook(db: DB, file: string, target = 1000): Promi
   wb.created = new Date();
   const ready = ps.filter((p) => p["Lead Status"] === "Ready").sort((a, b) => prospectStrength(b) - prospectStrength(a) || a["Prospect Name"].localeCompare(b["Prospect Name"]));
   const main = ready.slice(0, target);
+  const plan = batchPlan(db, main);
   const review = ps.filter((p) => p["Lead Status"] === "Needs Review");
   const s = campaignStats(db);
 
@@ -230,7 +242,7 @@ export async function exportWorkbook(db: DB, file: string, target = 1000): Promi
   tableRows(sw, "Prospects by opportunity category", count(main.map((p) => p["Opportunity Category"])));
   tableRows(sw, "Prospects by buying intent", count(main.map((p) => p["Buying Intent"])));
   tableRows(sw, "Prospects by research confidence", count(main.map((p) => p["Research Confidence"])));
-  tableRows(sw, "Prospects by research batch", count(main.map((p) => `Batch ${batches.get(p._id) ?? 1}`)));
+  tableRows(sw, "Prospects by research batch", count(main.map((p) => `Batch ${plan.of.get(p._id) ?? 1}`)));
   tableRows(sw, "Publishing platforms represented", count(main.flatMap((p) => (p["Publishing Platform"] ? p["Publishing Platform"].split(", ") : []))));
   tableRows(sw, "Preferred language", count(main.map((p) => p["Preferred Language"] || "Unknown")));
   tableRows(sw, "Target markets (IMF 2026 GDP per capita where captured)", MARKETS.map((m) => [m.country, m.gdpPerCapitaUsd2026 ? `$${m.gdpPerCapitaUsd2026.toLocaleString("en-US")}` : "top tier, value not captured"] as [string, string]));
@@ -257,11 +269,11 @@ export async function exportWorkbook(db: DB, file: string, target = 1000): Promi
   lw.columns = logCols.map((h) => ({ header: h, key: h, width: /Reasons|Direction|Errors/.test(h) ? 48 : h.startsWith("Search") ? 42 : 15 }));
   for (const r of log) {
     const pq = perQuery.get(r.query);
-    lw.addRow([r.batch ?? 1, String(r.searched_at).slice(0, 10), r.market ?? "", safe(r.query), r.source_type ?? "", r.provider, r.results_reviewed, r.candidates_added, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.error ?? "", r.rejection_reasons ?? "", r.next_direction ?? ""]).alignment = { vertical: "top", wrapText: true };
+    lw.addRow([plan.batchAt(String(r.searched_at)), String(r.searched_at).slice(0, 10), r.market ?? "", safe(r.query), r.source_type ?? "", r.provider, r.results_reviewed, r.candidates_added, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.error ?? "", r.rejection_reasons ?? "", r.next_direction ?? ""]).alignment = { vertical: "top", wrapText: true };
   }
   for (const r of siteScanLog(db)) {
     const pq = perQuery.get(r.list);
-    lw.addRow([r.batch, r.date, "", safe(`Bulk site scan: ${r.list}`), "Author websites from public directory", "directory-crawl + site scan", r.reviewed, r.candidates, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.errors, r.reasons, r.candidates / Math.max(1, r.reviewed) < 0.03 ? "low-yield list; prefer release calendars and indie event lists" : "verify candidates; harvest similar lists"]).alignment = { vertical: "top", wrapText: true };
+    lw.addRow([plan.batchAt(r.date + "T23:59:59"), r.date, "", safe(`Bulk site scan: ${r.list}`), "Author websites from public directory", "directory-crawl + site scan", r.reviewed, r.candidates, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.errors, r.reasons, r.candidates / Math.max(1, r.reviewed) < 0.03 ? "low-yield list; prefer release calendars and indie event lists" : "verify candidates; harvest similar lists"]).alignment = { vertical: "top", wrapText: true };
   }
   styleHeader(lw, logCols.length);
 
