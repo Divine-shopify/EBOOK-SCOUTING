@@ -246,7 +246,7 @@ export function categoryLabel(cats: OpportunityCategory[]): OpportunityCategory 
 }
 
 /** Teaser wording that is often a menu or category label rather than a statement about a project. */
-export const WEAK_TEASER = /^(coming soon|cover reveals?|bientôt disponible|prochainement|próximamente|prossimamente|binnenkort|demnächst|kommer snart|bald|new release|neuerscheinung)$/i;
+export const WEAK_TEASER = /^(coming soon|cover reveals?|release dates?|pre-?orders|bientôt disponible|prochainement|próximamente|prossimamente|binnenkort|demnächst|kommer snart|bald|new release|neuerscheinung|second edition|re-?released?|re-?release)$/i;
 
 /** Pages that sell publishing services (editing, design, formatting, coaching): the site owner is a provider. */
 export const PROVIDER_SITE = /\b(editing services|editorial services|proofreading services|cover design services|formatting services|ghostwriting services|book coaching|author services|publishing services|services for (indie )?authors|hire me|my rates|request a quote|book a (free )?(consult(ation)?|call|discovery call)|sample edit|editing packages?)\b/gi;

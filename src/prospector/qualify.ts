@@ -2,7 +2,7 @@ import type { ProspectCandidate } from "./candidate.js";
 import type { Verification } from "./verify.js";
 import { BIG_PUBLISHER, WEAK_TEASER, aboutOtherAuthor, categoryLabel, servicesIn, type OpportunityCategory } from "./lexicon.js";
 import { domainOf, normalizeKey } from "../util/text.js";
-import { SHARED_HOSTS } from "./verify.js";
+import { SHARED_HOSTS, looksLikeNamedIdentity } from "./verify.js";
 import { cleanDisplayName } from "./discovery.js";
 import { releaseTimingNear } from "./dates.js";
 
@@ -168,13 +168,16 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
   let status: LeadStatus;
   // Bookshops, review blogs, events and media are not authors or publishing businesses.
   const notAuthorEntity = /\b(bookstore|bookshop|book store|book shop|library|libraries|magazine|book reviews?|reviews|book club|podcast|festival|convention|bookcon|book fair|buchhandlung|librairie|librería|libreria)\b/i.test(c.name);
+  // A non-personal name (e.g. a blog or shop title) must be declared as a publishing business to qualify.
+  const unclearEntity = !c.apiText && !looksLikeNamedIdentity(c.name) && !/Independent Publisher|Author-Owned Business/.test(c.authorType ?? "") && !c.businessName;
+  if (unclearEntity) reasons.push("name is not a personal or pen name and is not declared as a publishing business; confirm the entity");
   if (notAuthorEntity) reasons.push("entity is a bookshop, review site, event or media outlet, not an author or publisher");
   const tradOnly = !!v.tradPublisher && !v.indieSignals && !explicit.length;
   if (tradOnly) reasons.push(`author's site names traditional publisher "${v.tradPublisher}" and shows no self-publishing activity`);
   if (v.isServiceProvider || notAuthorEntity) {
     status = "Excluded";
     reasons.push(notAuthorEntity ? "not an author or publishing business" : "profile describes a service provider, not an author/buyer");
-  } else if (!tradOnly && intent !== "Low" && confidence !== "Low" && v.identityVerified && v.ebookConnection) {
+  } else if (!tradOnly && !unclearEntity && intent !== "Low" && confidence !== "Low" && v.identityVerified && v.ebookConnection) {
     status = "Ready";
   } else if ((explicit.length || stage.length || (c.evidenceQuote && !v.sourceAccessible)) && !(age != null && age > 24)) {
     status = "Needs Review";
