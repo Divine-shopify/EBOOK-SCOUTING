@@ -160,10 +160,12 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
 
   // Lead status.
   let status: LeadStatus;
+  const tradOnly = !!v.tradPublisher && !v.indieSignals && !explicit.length;
+  if (tradOnly) reasons.push(`author's site names traditional publisher "${v.tradPublisher}" and shows no self-publishing activity`);
   if (v.isServiceProvider) {
     status = "Excluded";
     reasons.push("profile describes a service provider, not an author/buyer");
-  } else if (intent !== "Low" && confidence !== "Low" && v.identityVerified && v.ebookConnection) {
+  } else if (!tradOnly && intent !== "Low" && confidence !== "Low" && v.identityVerified && v.ebookConnection) {
     status = "Ready";
   } else if ((explicit.length || stage.length || (c.evidenceQuote && !v.sourceAccessible)) && !(age != null && age > 24)) {
     status = "Needs Review";
@@ -192,7 +194,7 @@ export function qualify(raw: ProspectCandidate, v: Verification, today = new Dat
 
   const stageStatuses = stage.map((s) => s.status!).filter(Boolean);
   const bookStatus = bookStatusFor(stageStatuses, cats);
-  const authorType = c.authorType && AUTHOR_TYPES.includes(c.authorType) ? c.authorType : /self-?publish|indie author|\bkdp\b/i.test(`${c.apiProfileText ?? ""} ${v.ebookBasis}`) ? "Self-Published Author" : "Independent Author";
+  const authorType = tradOnly ? "Traditionally Published Author" : c.authorType && AUTHOR_TYPES.includes(c.authorType) ? c.authorType : /self-?publish|indie author|\bkdp\b/i.test(`${c.apiProfileText ?? ""} ${v.ebookBasis}`) ? "Self-Published Author" : "Independent Author";
   const platforms = [...new Set([...v.retailers, ...v.platformsMentioned])];
   const email = v.emails.find((e) => /same domain/.test(e.attribution)) ?? v.emails[0];
 

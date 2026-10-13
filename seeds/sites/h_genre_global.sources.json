@@ -1,0 +1,184 @@
+[
+ {
+  "source": "International Thriller Writers member directory 2026",
+  "directoryUrl": "https://thrillerwriters.org/members/",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 3927,
+  "notes": "Single-page member list; anchor = member name, href = website. Mixed indie/trad thriller authors."
+ },
+ {
+  "source": "Stop, You're Killing Me! (mystery author index)",
+  "directoryUrl": "https://www.stopyourekillingme.com/",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 1941,
+  "notes": "Crawled A-Z author indexes then 5,711 author pages; took 'Author Website' sidebar link. Mixed indie/trad mystery/cozy."
+ },
+ {
+  "source": "Mythical Books (fantasy/paranormal tour host, genre-filtered)",
+  "directoryUrl": "https://mythicalbooks.blogspot.com/feeds/posts/default",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 1933,
+  "notes": "Blogger feed, 15,856 posts; genre-filtered; indie fantasy/paranormal tours, romance overlap."
+ },
+ {
+  "source": "Horror Writers Association blog member features (Halloween Haunts, heritage months, interviews)",
+  "directoryUrl": "https://horror.org/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 730,
+  "notes": "WP REST API, 2,414 posts; links with anchor 'Website'/URL text; name from post title."
+ },
+ {
+  "source": "FanFiAddict (SPFBO/SPSFC judge) reviews/interviews",
+  "directoryUrl": "https://fanfiaddict.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 489,
+  "notes": "WP REST API, 6,099 posts; name-token host match. Indie-heavy SFF/horror."
+ },
+ {
+  "source": "Bewitching Book Tours (paranormal/urban fantasy tours, genre-filtered)",
+  "directoryUrl": "https://bewitchingbooktours.blogspot.com/feeds/posts/default",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 479,
+  "notes": "Blogger feed, 6,818 posts; genre-filtered; paranormal romance overlap."
+ },
+ {
+  "source": "Mystery Writers of America member directory 2026",
+  "directoryUrl": "https://mysterywriters.org/member-directory/",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 464,
+  "notes": "Connections-plugin directory, all 1,622 entries on one page; 'Website' field. Trad-leaning (approved publishers) but includes indie/small-press."
+ },
+ {
+  "source": "Escape With Dollycas (cozy mystery tour host / Great Escapes tours)",
+  "directoryUrl": "https://www.escapewithdollycas.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 358,
+  "notes": "WP REST API, 6,553 posts; author links where host contains author-name token from post title/anchor."
+ },
+ {
+  "source": "Fantasy Book Critic (SPFBO judge) interviews/reviews",
+  "directoryUrl": "https://fantasybookcritic.blogspot.com/feeds/posts/default",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 301,
+  "notes": "Blogger JSON feed, 3,960 posts; name-token host match. Mixed indie/trad SFF."
+ },
+ {
+  "source": "Fantasy-Faction (SPFBO judge) reviews/interviews",
+  "directoryUrl": "https://fantasy-faction.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 272,
+  "notes": "WP REST API, 3,731 posts; name-token host match."
+ },
+ {
+  "source": "Partners In Crime Virtual Book Tours (tour pages)",
+  "directoryUrl": "https://partnersincrimetours.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 226,
+  "notes": "WP REST API, 1,013 tour posts; author website anchor is domain text (redirect links resolved via anchor)."
+ },
+ {
+  "source": "Queen's Book Asylum (SPFBO judge) reviews/interviews",
+  "directoryUrl": "https://queensbookasylum.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 162,
+  "notes": "WP REST API, 1,470 posts; indie SFF."
+ },
+ {
+  "source": "Before We Go Blog (SPFBO judge blog) reviews/interviews",
+  "directoryUrl": "https://beforewegoblog.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 136,
+  "notes": "WP REST API, 3,091 posts; indie SFF."
+ },
+ {
+  "source": "Goddess Fish Promotions virtual book tours (genre-filtered)",
+  "directoryUrl": "https://goddessfishpromotions.blogspot.com/feeds/posts/default",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 76,
+  "notes": "Blogger feed, 6,283 posts; kept only posts mentioning fantasy/SF/mystery/horror/thriller terms; title-name host match."
+ },
+ {
+  "source": "LitRPG Reads author spotlights/reviews",
+  "directoryUrl": "https://litrpgreads.com/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 59,
+  "notes": "WP REST API, 1,312 posts; mostly links to RPG tools, few author sites."
+ },
+ {
+  "source": "Weatherwax Report (SPFBO judge) reviews/interviews",
+  "directoryUrl": "https://weatherwaxreport.blog/wp-json/wp/v2/posts",
+  "method": "curl/urllib + regex extraction; normalised to homepage; known hosts removed; cross-source dedupe in priority order",
+  "sitesFound": 13,
+  "notes": "WP REST API, 941 posts; few author links."
+ },
+ {
+  "source": "SPFBO entrant lists (marklawrence.buzz / mark---lawrence.blogspot.com)",
+  "directoryUrl": "https://www.marklawrence.buzz/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: Entrant/allocation posts link Amazon/Goodreads and judge blogs, not author sites; used SPFBO judge blogs instead."
+ },
+ {
+  "source": "SPSFC official site",
+  "directoryUrl": "https://www.spsfc.org/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: TLS failure; spsfc.org now an unrelated site."
+ },
+ {
+  "source": "cozy-mystery.com author pages",
+  "directoryUrl": "https://cozy-mystery.com/authors-a.html",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: Author pages carry only Amazon links, no websites."
+ },
+ {
+  "source": "ISFDB author webpages",
+  "directoryUrl": "https://www.isfdb.org/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: Cloudflare challenge + crawl-delay 1000; downloads page blocked."
+ },
+ {
+  "source": "Crime Writers' Association find-an-author",
+  "directoryUrl": "https://thecwa.co.uk/find-an-author/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: Results JS-rendered; skipped."
+ },
+ {
+  "source": "Crime Writers of Canada member directory",
+  "directoryUrl": "https://crimewriterscanada.com/index.php/en/page/page-content/member-directory",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: Wild Apricot JS widget; skipped."
+ },
+ {
+  "source": "Sisters in Crime find-an-author",
+  "directoryUrl": "https://www.sistersincrime.org/page/find-author",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: HTTP 403."
+ },
+ {
+  "source": "SF Canada members",
+  "directoryUrl": "https://www.sfcanada.org/members/",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: No member website links on public page."
+ },
+ {
+  "source": "Xpresso Book Tours",
+  "directoryUrl": "https://www.xpressobooktours.com/wp-json/wp/v2/posts",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: API ~1 page/min; stopped after 500 posts, 11 links, mostly blogs - excluded."
+ },
+ {
+  "source": "spfbo.com / greatescapesbooktours.com / rockstarbooktours.com / lonestarbooktours.com",
+  "directoryUrl": "",
+  "method": "probe",
+  "sitesFound": 0,
+  "notes": "DEAD END: Proxy 502 / TLS errors."
+ }
+]

@@ -1,0 +1,499 @@
+[
+ {
+  "source": "Scottish Book Trust - Live Literature author directory",
+  "directoryUrl": "https://www.scottishbooktrust.com/authors",
+  "method": "145 listing pages -> ~865 author profiles -> \"Author website\" links (other external links with web-like labels)",
+  "sitesFound": 532,
+  "notes": "Scotland-based authors; mix of trad and indie; country United Kingdom | raw candidates 535, 532 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Literature Wales - Writers of Wales Directory (user-generated profiles)",
+  "directoryUrl": "https://www.literaturewales.org/writers-of-wales/search/",
+  "method": "search pages -> profiles -> external links",
+  "sitesFound": 290,
+  "notes": "Welsh/Wales-based writers; country set to United Kingdom | raw candidates 298, 290 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Poetry Ireland - Writers in Schools directory (island of Ireland)",
+  "directoryUrl": "https://www.poetryireland.ie/education-engagement/directory-writers-schools",
+  "method": "sitemap -> writer profiles -> external links",
+  "sitesFound": 54,
+  "notes": "Irish/NI writers; country not set per entry | raw candidates 54, 54 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Crime Writers' Association (UK) - Find an Author directory",
+  "directoryUrl": "https://thecwa.co.uk/find-an-author/",
+  "method": "Yoast sitemap find_an_author (1,295 profiles) -> \"Website\" links; agencies/publishers dropped",
+  "sitesFound": 671,
+  "notes": "UK crime writers association; mix of trad and indie | raw candidates 700, 671 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Historical Writers' Association (UK) writer profiles",
+  "directoryUrl": "https://historicalwriters.org/members/",
+  "method": "WP sitemap writer post type -> profile -> external links",
+  "sitesFound": 164,
+  "notes": "raw candidates 211, 164 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Writing.ie profauth (Ireland writing portal; member author profiles / author guest posts)",
+  "directoryUrl": "https://www.writing.ie/wp-json/wp/v2/profauth",
+  "method": "WP REST 172 items; external links filtered",
+  "sitesFound": 102,
+  "notes": "Irish-focused site; country not set per entry | raw candidates 112, 102 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Writing.ie profemwr (Ireland writing portal; member author profiles / author guest posts)",
+  "directoryUrl": "https://www.writing.ie/wp-json/wp/v2/profemwr",
+  "method": "WP REST 258 items; external links filtered",
+  "sitesFound": 69,
+  "notes": "Irish-focused site; country not set per entry | raw candidates 78, 69 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Writing.ie tellyourownstory (Ireland writing portal; member author profiles / author guest posts)",
+  "directoryUrl": "https://www.writing.ie/wp-json/wp/v2/tellyourownstory",
+  "method": "WP REST 1143 items; external links filtered",
+  "sitesFound": 81,
+  "notes": "Irish-focused site; country not set per entry | raw candidates 106, 81 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Writing.ie membersblog (Ireland writing portal; member author profiles / author guest posts)",
+  "directoryUrl": "https://www.writing.ie/wp-json/wp/v2/membersblog",
+  "method": "WP REST 703 items; external links filtered",
+  "sitesFound": 39,
+  "notes": "Irish-focused site; country not set per entry | raw candidates 51, 39 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Writing.ie readers (Ireland writing portal; member author profiles / author guest posts)",
+  "directoryUrl": "https://www.writing.ie/wp-json/wp/v2/readers",
+  "method": "WP REST 2058 items; external links filtered",
+  "sitesFound": 41,
+  "notes": "Irish-focused site; country not set per entry | raw candidates 55, 41 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Rachel's Random Resources (UK blog tour organiser) tour pages",
+  "directoryUrl": "https://www.rachelsrandomresources.com/blog-tours",
+  "method": "Wix sitemap of 515 tour pages; external links minus socials/retailers/bloggers (hosts on >4 tours dropped)",
+  "sitesFound": 145,
+  "notes": "UK-based organiser; authors international, mostly UK | raw candidates 173, 145 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Love Books Tours / Love Books Group (Scottish blog tour organiser)",
+  "directoryUrl": "https://kellylacey.com/",
+  "method": "WordPress.com public API all posts; external links filtered",
+  "sitesFound": 68,
+  "notes": "raw candidates 75, 68 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "The Coffee Pot Book Club (UK historical fiction blog tour organiser)",
+  "directoryUrl": "https://thecoffeepotbookclub.blogspot.com/",
+  "method": "Blogger JSON feed of all posts; external links filtered",
+  "sitesFound": 116,
+  "notes": "Historical fiction, many indie; international authors | raw candidates 131, 116 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Brook Cottage Books blog tours (UK)",
+  "directoryUrl": "https://brookcottagebooks.blogspot.com",
+  "method": "blogger feed: 614 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 150,
+  "notes": "raw candidates 170, 150 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "damppebbles blog tours (UK)",
+  "directoryUrl": "https://damppebbles.com",
+  "method": "wordpress.com API: 1816 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 199,
+  "notes": "raw candidates 228, 199 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Rosie Amber's Book Review Team (UK, indie reviews)",
+  "directoryUrl": "https://rosieamber.wordpress.com",
+  "method": "wordpress.com API: 5834 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 197,
+  "notes": "raw candidates 227, 197 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Books Go Social (Irish indie author promotion)",
+  "directoryUrl": "https://booksgosocial.com",
+  "method": "wp-json REST: 138 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 11,
+  "notes": "raw candidates 15, 11 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Discovering Diamonds (UK historical fiction review blog, indie)",
+  "directoryUrl": "https://discoveringdiamonds.blogspot.com",
+  "method": "blogger feed: 1376 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 43,
+  "notes": "raw candidates 58, 43 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Terry Tyler Book Reviews (UK, indie)",
+  "directoryUrl": "https://terrytylerbookreviews.blogspot.com",
+  "method": "blogger feed: 755 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 12,
+  "notes": "raw candidates 20, 12 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Sapere Books (UK independent digital publisher) author pages",
+  "directoryUrl": "https://saperebooks.com/authors/",
+  "method": "author index -> author pages -> external links",
+  "sitesFound": 39,
+  "notes": "raw candidates 51, 39 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Joffe Books (UK independent publisher) author pages",
+  "directoryUrl": "https://www.joffebooks.com/authors",
+  "method": "author index -> author pages -> external links",
+  "sitesFound": 79,
+  "notes": "raw candidates 121, 79 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Bloodhound Books (UK independent crime publisher) author pages",
+  "directoryUrl": "https://bloodhoundbooks.com/authors/",
+  "method": "author index -> author pages -> external links",
+  "sitesFound": 41,
+  "notes": "raw candidates 54, 41 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Choc Lit (UK romance publisher) author pages",
+  "directoryUrl": "https://www.choc-lit.com/authors",
+  "method": "author index -> author pages -> external links",
+  "sitesFound": 30,
+  "notes": "raw candidates 42, 30 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Anne Bonny Book Reviews (UK)",
+  "directoryUrl": "https://annebonnybookreviews.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Being Anne (UK book blog)",
+  "directoryUrl": "https://beinganne.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "B for Bookreview (UK)",
+  "directoryUrl": "https://bforbookreview.wordpress.com",
+  "method": "wordpress.com API: 1400 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 148,
+  "notes": "raw candidates 224, 148 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Bookliterati (UK)",
+  "directoryUrl": "https://bookliterati.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Bookmarks and Pages",
+  "directoryUrl": "https://bookmarksandpages.wordpress.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "The Book Review Cafe (UK)",
+  "directoryUrl": "https://thebookreviewcafe.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Books Are My Cwtch (Wales)",
+  "directoryUrl": "https://booksaremycwtch.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "The Bookworm Blog (UK)",
+  "directoryUrl": "https://www.thebookwormblog.co.uk",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "By The Letter Book Reviews (UK)",
+  "directoryUrl": "https://bytheletterbookreviews.com",
+  "method": "wordpress.com API: 900 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 18,
+  "notes": "raw candidates 32, 18 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Chapter In My Life (UK book blog)",
+  "directoryUrl": "https://chapterinmylife.blogspot.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Cheryl M-M's Book Blog (UK)",
+  "directoryUrl": "https://cherylmmbookblog.wordpress.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Bookmark Your Spot",
+  "directoryUrl": "https://www.bookmarkyourspot.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Crime Book Junkie (UK)",
+  "directoryUrl": "https://crimebookjunkie.co.uk",
+  "method": "wp-json REST: 1237 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 42,
+  "notes": "raw candidates 75, 42 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "The Diverse Book Awards (UK)",
+  "directoryUrl": "https://thediversebookawards.co.uk",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Emma's Bookbag (UK)",
+  "directoryUrl": "https://emmasbookbag.wordpress.com",
+  "method": "wordpress.com API: 3 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Ginger Book Geek (UK)",
+  "directoryUrl": "https://gingerbookgeek.wordpress.com",
+  "method": "wordpress.com API: 3011 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 2,
+  "notes": "raw candidates 2, 2 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Grace J Reviewerlady (UK)",
+  "directoryUrl": "https://gracejreviewerlady.wordpress.com",
+  "method": "wordpress.com API: 1645 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 242,
+  "notes": "raw candidates 341, 242 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Jaffareadstoo (UK book blog)",
+  "directoryUrl": "https://jaffareadstoo.blogspot.com",
+  "method": "blogger feed: 4390 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 723,
+  "notes": "raw candidates 977, 723 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Jen Med's Book Reviews (UK)",
+  "directoryUrl": "https://jenmedsbookreviews.com",
+  "method": "wordpress.com API: 3992 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 198,
+  "notes": "raw candidates 401, 198 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Kraftireader (UK book blog tours)",
+  "directoryUrl": "https://kraftireader.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Linda's Book Bag (UK book blog, author features)",
+  "directoryUrl": "https://lindasbookbag.com",
+  "method": "wordpress.com API: 3615 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 813,
+  "notes": "raw candidates 1277, 813 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Liz Loves Books (UK)",
+  "directoryUrl": "https://lizlovesbooks.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Mumbling About (UK book blog)",
+  "directoryUrl": "https://mumblingabout.com",
+  "method": "wordpress.com API: 466 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 3,
+  "notes": "raw candidates 7, 3 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Nicki's Book Blog (UK)",
+  "directoryUrl": "https://nickisbookblog.wordpress.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Off-The-Shelf Books (UK)",
+  "directoryUrl": "https://offtheshelfbooks.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Page Turner Awards (UK-based, indie writers)",
+  "directoryUrl": "https://www.pageturnerawards.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Rae Reads (UK)",
+  "directoryUrl": "https://www.raereads.co.uk",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Random Things Through My Letterbox (Anne Cater, UK)",
+  "directoryUrl": "https://randomthingsthroughmyletterbox.blogspot.com",
+  "method": "blogger feed: 2790 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 566,
+  "notes": "raw candidates 1034, 566 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Rubery Book Award (UK indie/self-published award)",
+  "directoryUrl": "https://www.ruberybookaward.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Shaz's Book Blog (UK, indie)",
+  "directoryUrl": "https://shazsbookblog.wordpress.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Short Book and Scribes (UK)",
+  "directoryUrl": "https://shortbookandscribes.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Sally Cronin's Smorgasbord Blog Magazine - Cafe and Bookstore",
+  "directoryUrl": "https://smorgasbordblogmagazine.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Splashes Into Books (UK)",
+  "directoryUrl": "https://splashesintobooks.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Stacey Jayne",
+  "directoryUrl": "https://stacyjayne.blog",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Chris The Story Reading Ape's Blog (UK, indie author promo)",
+  "directoryUrl": "https://thestoryreadingapesblog.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Whispering Stories (UK book blog, indie)",
+  "directoryUrl": "https://whisperingstories.com",
+  "method": "wp-json REST: 10 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 2,
+  "notes": "raw candidates 5, 2 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "The Write Reads blog tours (UK, indie SFF)",
+  "directoryUrl": "https://thewritereads.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "Zooloo's Book Tours (UK)",
+  "directoryUrl": "https://zooloosbooktours.wordpress.com",
+  "method": "none: 0 posts; external links minus socials/retailers; hosts on >6 posts dropped",
+  "sitesFound": 0,
+  "notes": "raw candidates 0, 0 unique new after dedupe vs _known_hosts and earlier sources"
+ },
+ {
+  "source": "The Wishing Shelf Awards",
+  "directoryUrl": "https://www.thewishingshelf.com/",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "dead end: Squarespace 'website expired'"
+ },
+ {
+  "source": "Chill With A Book Awards",
+  "directoryUrl": "https://www.chillwithabook.com/",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "dead end: connection timeout / proxy 502"
+ },
+ {
+  "source": "The Selfies (BookBrunch self-publishing awards) shortlists",
+  "directoryUrl": "https://theselfies.co.uk/",
+  "method": "WP REST posts+pages",
+  "sitesFound": 0,
+  "notes": "dead end: shortlists name authors but link no author sites; selfiesbookawards.com is now a hijacked casino domain"
+ },
+ {
+  "source": "Troubador / Matador bookshop (UK self-publishing)",
+  "directoryUrl": "https://www.troubador.co.uk/bookshop/",
+  "method": "book pages",
+  "sitesFound": 0,
+  "notes": "dead end: book pages carry no author-website links"
+ },
+ {
+  "source": "Writing.ie guestblogs + resources",
+  "directoryUrl": "https://www.writing.ie/wp-json/wp/v2/guestblogs",
+  "method": "WP REST",
+  "sitesFound": 0,
+  "notes": "harvested (~1,000 candidates) but excluded: ~50% non-author links (festivals, agencies, tools)"
+ },
+ {
+  "source": "UK reader events (Indie Lit Con Manchester, Romance in the North Hull, Indie Love Wales, Heat & Heart, Book Boyfriend Bash UK)",
+  "directoryUrl": "https://downthetubes.net/indie-lit-con-returns-to-manchester/",
+  "method": "WebSearch + ticket pages",
+  "sitesFound": 0,
+  "notes": "dead end: no public author rosters with links found (lineups posted on social media / ticket pages only)"
+ },
+ {
+  "source": "Romantic Novelists' Association",
+  "directoryUrl": "https://romanticnovelistsassociation.org/",
+  "method": "curl / WP REST",
+  "sitesFound": 0,
+  "notes": "dead end: 502 Bad Gateway"
+ },
+ {
+  "source": "Children's Books Ireland / Irish Writers Centre",
+  "directoryUrl": "https://childrensbooksireland.ie/sitemap.xml",
+  "method": "sitemaps",
+  "sitesFound": 0,
+  "notes": "dead end: no public author directory"
+ },
+ {
+  "source": "Boldwood Books author pages",
+  "directoryUrl": "https://www.boldwoodbooks.com/authors/",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "skipped: author list JS-rendered"
+ },
+ {
+  "source": "Zooloo's Book Tours, The Write Reads, Smorgasbord Blog Magazine, Story Reading Ape, Being Anne, Wishing Shelf, Alithedragonslayer, Hair Past A Freckle, Romaniacs",
+  "directoryUrl": "https://zooloosbooktours.wordpress.com/",
+  "method": "WP REST / WP.com API",
+  "sitesFound": 0,
+  "notes": "dead end: unreachable (proxy 502 / connection reset) or API disabled"
+ }
+]
