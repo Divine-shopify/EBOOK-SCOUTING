@@ -1,0 +1,65 @@
+[
+ {
+  "source": "National Indie Excellence Awards winners & finalists 2022-2026",
+  "directoryUrl": "https://www.indieexcellence.com/20th-annual-winners",
+  "method": "curl of Wix winners/finalists pages (16th-20th annual); link + category/name context parsed; fiction categories dropped, children's and nonfiction kept",
+  "sitesFound": 925,
+  "notes": "Names parsed only on 2026 pages (older pages concatenate title/author/publisher in one anchor, so name omitted)."
+ },
+ {
+  "source": "National Indie Excellence Awards speakers listing 2026",
+  "directoryUrl": "https://www.indieexcellence.com/speakers-listing",
+  "method": "curl + parse of Website/URL fields",
+  "sitesFound": 51,
+  "notes": "Author-speakers / coaches / consultants."
+ },
+ {
+  "source": "Independent Press Award winners & distinguished favorites 2017-2026",
+  "directoryUrl": "https://www.independentpressaward.com/winners",
+  "method": "embedded JSON dataset from ipawinners.netlify.app iframe; free-text 'l' link field parsed for non-retailer domains; fiction main-categories dropped",
+  "sitesFound": 511,
+  "notes": "Some links are product pages on author/publisher sites; normalised to homepage."
+ },
+ {
+  "source": "Readers' Favorite award contest winners 2022-2026",
+  "directoryUrl": "https://readersfavorite.com/2026-award-contest-winners.htm",
+  "method": "winners pages per year -> genre headings; Children*/Non-Fiction*/Christian non-fiction slugs (1,704) -> review pages fetched (4 parallel), 'Website' author link + 'Contact Author - <name>'",
+  "sitesFound": 596,
+  "notes": "~50% of winners list an author website. robots.txt allows all."
+ },
+ {
+  "source": "SCBWI regional member directories 2026",
+  "directoryUrl": "https://www.scbwi.org/regions/newengland/school-visit-directory",
+  "method": "scbwi.org dynamic sitemap -> 180 regional pages matching PAL/published/school-visit/speaker/gallery/showcase -> external links; names from 'Learn more about X' or person-name anchors",
+  "sitesFound": 476,
+  "notes": "Mix of self-, hybrid- and traditionally published children's creators; country inferred from region (US/Canada/Australia/Japan/NZ). Footer/social/library links filtered."
+ },
+ {
+  "source": "Read NZ Te Pou Muramura Writers Files 2026",
+  "directoryUrl": "https://www.read-nz.org/writers-files",
+  "method": "paginated list (778 writers) -> profile pages; 'website' anchors; kept profiles mentioning children's/YA or nonfiction; web.archive.org wrappers unwrapped",
+  "sitesFound": 197,
+  "notes": "NZ writers, mixed indie/trad; some sites only survive in archive (may be dead)."
+ },
+ {
+  "source": "Moonbeam Children's Book Awards 2023-2026",
+  "directoryUrl": "https://moonbeamawards.com/blog/2025-medalists",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead end: names/publishers only, no website links."
+ },
+ {
+  "source": "IPPY / Next Generation Indie Book Awards / NYC Big Book Award / Nautilus / Feathered Quill / Purple Dragonfly",
+  "directoryUrl": "https://www.indiebookawards.com/winners.php",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead ends: lists link to Amazon only or carry no links."
+ },
+ {
+  "source": "CANSCAIP member directory / Mom's Choice honorees / Book Excellence / Nonfiction Book Awards / Reader Views / Literary Titan",
+  "directoryUrl": "https://canscaip.org/Members",
+  "method": "curl",
+  "sitesFound": 0,
+  "notes": "Dead ends: robots.txt disallows member loader (CANSCAIP), 403/429 blocks, or no public honoree directory."
+ }
+]
