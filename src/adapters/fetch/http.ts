@@ -37,6 +37,8 @@ export interface FetcherOptions {
   maxBytes?: number;
   timeoutMs?: number;
   retries?: number;
+  /** Largest body stored in the cache (bulk scans store less to keep the database small). */
+  cacheBodyMax?: number;
   /** Hosts with an explicit crawl delay override, in ms. */
   hostDelayMs?: Record<string, number>;
   onRequest?: (host: string) => void;
@@ -213,7 +215,7 @@ export class Fetcher {
               `INSERT INTO http_cache(url, status, final_url, content_type, body, fetched_at) VALUES (?,?,?,?,?,?)
                ON CONFLICT(url) DO UPDATE SET status=excluded.status, final_url=excluded.final_url, content_type=excluded.content_type, body=excluded.body, fetched_at=excluded.fetched_at`,
             )
-            .run(u.toString(), r.status, r.finalUrl, r.contentType, r.body.slice(0, 3_000_000), nowIso());
+            .run(u.toString(), r.status, r.finalUrl, r.contentType, r.body.slice(0, this.opts.cacheBodyMax ?? 3_000_000), nowIso());
         }
         return r;
       } catch (e) {

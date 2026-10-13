@@ -6,7 +6,7 @@ import type { ProspectCandidate } from "./candidate.js";
 import { releaseTiming } from "./dates.js";
 import { cleanDisplayName } from "./discovery.js";
 import { BIG_PUBLISHER, aboutOtherAuthor, detectSignals, type SignalHit } from "./lexicon.js";
-import { ingest, intakeKey, logSearch } from "./store.js";
+import { ingest, intakeKey } from "./store.js";
 import { NO_FETCH_HOSTS, SHARED_HOSTS, looksLikeNamedIdentity, nameInText } from "./verify.js";
 
 /**
@@ -163,12 +163,14 @@ export function enqueueSites(db: DB, entries: SiteEntry[], list: string): { adde
 export async function runSiteScan(
   db: DB,
   fetcher: Fetcher,
-  opts: { concurrency?: number; limit?: number; batch?: number; onLog?: (s: string) => void } = {},
+  opts: { concurrency?: number; limit?: number; batch?: number; shard?: [number, number]; onLog?: (s: string) => void } = {},
 ): Promise<{ scanned: number; candidates: number }> {
   const log = opts.onLog ?? (() => {});
-  const rows = db.prepare("SELECT id, list, payload FROM px_site_queue WHERE status = 'pending' ORDER BY id LIMIT ?").all(opts.limit ?? 100000) as { id: number; list: string; payload: string }[];
-  const perList = new Map<string, { reviewed: number; added: number; reasons: Record<string, number>; country?: string }>();
-  const upd = db.prepare("UPDATE px_site_queue SET status = ?, outcome = ?, scanned_at = ? WHERE id = ?");
+  // Shards (k of N) let several processes scan disjoint parts of the queue in parallel.
+  const [k, n] = opts.shard ?? [0, 1];
+  const rows = db.prepare("SELECT id, list, payload FROM px_site_queue WHERE status = 'pending' AND id % ? = ? ORDER BY id LIMIT ?").all(n, k, opts.limit ?? 100000) as { id: number; list: string; payload: string }[];
+  // Per-site outcomes are committed immediately; the research log aggregates them per list (see siteScanLog).
+  const upd = db.prepare("UPDATE px_site_queue SET status = ?, outcome = ?, scanned_at = ?, batch = ? WHERE id = ?");
   let next = 0;
   let scanned = 0;
   let candidates = 0;
@@ -176,43 +178,42 @@ export async function runSiteScan(
     while (next < rows.length) {
       const row = rows[next++];
       const e = JSON.parse(row.payload) as SiteEntry;
-      const stats = perList.get(row.list) ?? { reviewed: 0, added: 0, reasons: {}, country: e.country };
-      perList.set(row.list, stats);
       let out: ScanOutcome;
       try {
         out = await scanSite(e, fetcher);
       } catch (err) {
         out = { reason: `error: ${(err as Error).message.slice(0, 60)}` };
       }
-      stats.reviewed++;
       scanned++;
       if (out.candidate) {
         if (opts.batch) out.candidate.discovery = { ...out.candidate.discovery, batch: opts.batch };
         const ing = ingest(db, [out.candidate], "site_scan");
-        stats.added += ing.added;
         candidates += ing.added;
-      } else {
-        const key = out.reason.replace(/: .*/, "").replace(/HTTP \d+/, "HTTP error");
-        stats.reasons[key] = (stats.reasons[key] ?? 0) + 1;
       }
-      upd.run(out.candidate ? "candidate" : "rejected", out.reason, nowIso(), row.id);
+      upd.run(out.candidate ? "candidate" : "rejected", out.reason, nowIso(), opts.batch ?? null, row.id);
       if (scanned % 50 === 0) log(`scanned ${scanned}/${rows.length}, candidates ${candidates}`);
     }
   };
   await Promise.all(Array.from({ length: Math.max(1, opts.concurrency ?? 8) }, worker));
-  for (const [list, s] of perList) {
-    logSearch(db, {
-      query: list,
-      market: s.country ?? "Mixed",
-      provider: "directory-crawl + site scan",
-      sourceType: "Author websites from public directory",
-      resultsReviewed: s.reviewed,
-      candidatesAdded: s.added,
-      rejected: s.reviewed - s.added,
-      rejectionReasons: Object.entries(s.reasons).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k} (${n})`).join("; "),
-      nextDirection: s.added / Math.max(1, s.reviewed) < 0.03 ? "low yield list; prefer release calendars and event lists" : "verify candidates",
-      batch: opts.batch,
-    });
-  }
   return { scanned, candidates };
+}
+
+/** Research-log rows for bulk scans: one per directory list and batch, built from the per-site outcomes. */
+export function siteScanLog(db: DB): { list: string; batch: number; date: string; reviewed: number; candidates: number; rejected: number; reasons: string; errors: string }[] {
+  const rows = db.prepare("SELECT list, COALESCE(batch, 2) AS batch, status, outcome, scanned_at, payload FROM px_site_queue WHERE status != 'pending'").all() as any[];
+  const m = new Map<string, { list: string; batch: number; date: string; reviewed: number; candidates: number; reasons: Record<string, number>; errors: Record<string, number> }>();
+  for (const r of rows) {
+    const key = `${r.batch}|${r.list}`;
+    const e = m.get(key) ?? { list: r.list, batch: r.batch, date: String(r.scanned_at).slice(0, 10), reviewed: 0, candidates: 0, reasons: {}, errors: {} };
+    m.set(key, e);
+    e.reviewed++;
+    if (r.status === "candidate") e.candidates++;
+    else {
+      const k = String(r.outcome ?? "").replace(/: .*/, "").replace(/HTTP \d+/, "HTTP error");
+      const bucket: Record<string, number> = /HTTP|fetch failed|robots|too short|invalid URL|host not fetched/.test(k) ? e.errors : e.reasons;
+      bucket[k] = (bucket[k] ?? 0) + 1;
+    }
+  }
+  const fmt = (o: Record<string, number>) => Object.entries(o).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k} (${n})`).join("; ");
+  return [...m.values()].map((e) => ({ list: e.list, batch: e.batch, date: e.date, reviewed: e.reviewed, candidates: e.candidates, rejected: e.reviewed - e.candidates, reasons: fmt(e.reasons), errors: fmt(e.errors) }));
 }

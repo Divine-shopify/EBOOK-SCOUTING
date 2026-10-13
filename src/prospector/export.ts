@@ -4,6 +4,7 @@ import { dirname } from "node:path";
 import type { DB } from "../db/db.js";
 import { COLUMNS, type ProspectRecord } from "./qualify.js";
 import { allProspects } from "./store.js";
+import { siteScanLog } from "./sitescan.js";
 import { MARKETS, MARKET_MEASURE } from "./markets.js";
 
 const URL_COLS = new Set(["Public Contact Page", "Official Website", "Source URL"]);
@@ -257,6 +258,10 @@ export async function exportWorkbook(db: DB, file: string, target = 1000): Promi
   for (const r of log) {
     const pq = perQuery.get(r.query);
     lw.addRow([r.batch ?? 1, String(r.searched_at).slice(0, 10), r.market ?? "", safe(r.query), r.source_type ?? "", r.provider, r.results_reviewed, r.candidates_added, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.error ?? "", r.rejection_reasons ?? "", r.next_direction ?? ""]).alignment = { vertical: "top", wrapText: true };
+  }
+  for (const r of siteScanLog(db)) {
+    const pq = perQuery.get(r.list);
+    lw.addRow([r.batch, r.date, "", safe(`Bulk site scan: ${r.list}`), "Author websites from public directory", "directory-crawl + site scan", r.reviewed, r.candidates, pq?.ready ?? 0, r.rejected + (pq?.rejected ?? 0), pq?.dup ?? 0, r.errors, r.reasons, r.candidates / Math.max(1, r.reviewed) < 0.03 ? "low-yield list; prefer release calendars and indie event lists" : "verify candidates; harvest similar lists"]).alignment = { vertical: "top", wrapText: true };
   }
   styleHeader(lw, logCols.length);
 

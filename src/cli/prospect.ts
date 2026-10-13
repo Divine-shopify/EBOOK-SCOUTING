@@ -30,7 +30,7 @@ const USAGE = `Usage: npm run prospect -- <command> [options]
   set-batch N                    Attribute new research to batch N (research log + candidates)
   enqueue-sites FILE... --list NAME [--country C] [--language L]
                                  Queue author websites from a directory (JSON SiteEntry[] or name|url lines)
-  scan-sites [--concurrency N] [--limit N]
+  scan-sites [--concurrency N] [--limit N] [--shard k/N]
                                  Scan queued sites for current publishing evidence; hits become candidates
   requalify                      Re-queue all candidates after a rule change (cached pages are reused)
   export [--out FILE] [--target N]  Write the Excel workbook; the N strongest qualified prospects go on the main sheet (default Global_eBook_Author_Prospects_1000.xlsx)
@@ -184,8 +184,9 @@ async function main() {
     }
     case "scan-sites": {
       // Bulk scans favour throughput: short timeout, no retries (a failed site is just logged as rejected).
-      const scanFetcher = new Fetcher(db, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 12_000, retries: 0, maxBytes: 1_500_000 });
-      const r = await runSiteScan(db, scanFetcher, { concurrency: Number(arg("concurrency", "24")), limit: arg("limit") ? Number(arg("limit")) : undefined, batch: currentBatch(db), onLog: log });
+      const scanFetcher = new Fetcher(db, { userAgent: e.USER_AGENT, requestsPerSecondPerHost: 1, cacheTtlHours: 72, timeoutMs: 12_000, retries: 0, maxBytes: 1_500_000, cacheBodyMax: 400_000 });
+      const shard = arg("shard")?.split("/").map(Number) as [number, number] | undefined;
+      const r = await runSiteScan(db, scanFetcher, { concurrency: Number(arg("concurrency", "24")), limit: arg("limit") ? Number(arg("limit")) : undefined, batch: currentBatch(db), shard, onLog: log });
       console.log(`Scanned ${r.scanned} sites; ${r.candidates} new candidates queued for verification`);
       break;
     }

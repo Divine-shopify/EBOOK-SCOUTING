@@ -31,6 +31,8 @@ export function openProspectDb(file = process.env.PROSPECT_DB_PATH ?? "data/pros
   // Additive migrations for databases created before batch tracking existed.
   const cols = (db.prepare("PRAGMA table_info(px_search_log)").all() as { name: string }[]).map((c) => c.name);
   if (!cols.includes("batch")) db.exec("ALTER TABLE px_search_log ADD COLUMN batch INTEGER");
+  const qcols = (db.prepare("PRAGMA table_info(px_site_queue)").all() as { name: string }[]).map((c) => c.name);
+  if (!qcols.includes("batch")) db.exec("ALTER TABLE px_site_queue ADD COLUMN batch INTEGER");
   return db;
 }
 
