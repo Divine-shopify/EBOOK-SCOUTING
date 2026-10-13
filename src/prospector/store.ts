@@ -28,6 +28,9 @@ export function openProspectDb(file = process.env.PROSPECT_DB_PATH ?? "data/pros
   const db = new DatabaseSync(file);
   db.exec("PRAGMA journal_mode = WAL; PRAGMA busy_timeout = 30000;");
   db.exec(readFileSync(resolve(here, "schema.sql"), "utf8"));
+  // Additive migrations for databases created before batch tracking existed.
+  const cols = (db.prepare("PRAGMA table_info(px_search_log)").all() as { name: string }[]).map((c) => c.name);
+  if (!cols.includes("batch")) db.exec("ALTER TABLE px_search_log ADD COLUMN batch INTEGER");
   return db;
 }
 
@@ -126,12 +129,12 @@ export function markError(db: DB, candidateId: number, err: string): void {
 
 export function logSearch(
   db: DB,
-  e: { query: string; market?: string; language?: string; provider: string; sourceType?: string; resultsReviewed: number; candidatesAdded: number; rejected?: number; rejectionReasons?: string; nextDirection?: string; error?: string; searchedAt?: string },
+  e: { query: string; market?: string; language?: string; provider: string; sourceType?: string; resultsReviewed: number; candidatesAdded: number; rejected?: number; rejectionReasons?: string; nextDirection?: string; error?: string; searchedAt?: string; batch?: number },
 ): void {
   db.prepare(
-    `INSERT INTO px_search_log(query, market, language, provider, source_type, searched_at, results_reviewed, candidates_added, rejected, rejection_reasons, next_direction, error)
-     VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`,
-  ).run(e.query, e.market ?? null, e.language ?? null, e.provider, e.sourceType ?? null, e.searchedAt ?? nowIso(), e.resultsReviewed, e.candidatesAdded, e.rejected ?? 0, e.rejectionReasons ?? null, e.nextDirection ?? null, e.error ?? null);
+    `INSERT INTO px_search_log(query, market, language, provider, source_type, searched_at, results_reviewed, candidates_added, rejected, rejection_reasons, next_direction, error, batch)
+     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+  ).run(e.query, e.market ?? null, e.language ?? null, e.provider, e.sourceType ?? null, e.searchedAt ?? nowIso(), e.resultsReviewed, e.candidatesAdded, e.rejected ?? 0, e.rejectionReasons ?? null, e.nextDirection ?? null, e.error ?? null, e.batch ?? currentBatch(db));
 }
 
 export function allProspects(db: DB): (ProspectRecord & { _id: number })[] {
@@ -148,4 +151,14 @@ export function requeueAll(db: DB): number {
     db.exec("DELETE FROM px_prospects");
     return Number(db.prepare("UPDATE px_candidates SET status='pending', outcome=NULL, outcome_reason=NULL, prospect_id=NULL, attempts=0, last_error=NULL").run().changes);
   });
+}
+
+/** The research batch new work is attributed to (set with `prospect set-batch N`). */
+export function currentBatch(db: DB): number {
+  const r = db.prepare("SELECT value FROM px_meta WHERE key = 'batch'").get() as { value: string } | undefined;
+  return r ? Number(r.value) : 1;
+}
+
+export function setBatch(db: DB, n: number): void {
+  db.prepare("INSERT INTO px_meta(key, value) VALUES ('batch', ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value").run(String(n));
 }

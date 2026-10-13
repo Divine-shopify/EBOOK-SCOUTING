@@ -2,12 +2,13 @@ import { readFileSync } from "node:fs";
 import { env } from "../config.js";
 import { Fetcher } from "../adapters/fetch/http.js";
 import { buildSearchProviders } from "../adapters/search/providers.js";
-import { openProspectDb, ingest, logSearch, requeueAll } from "../prospector/store.js";
+import { openProspectDb, ingest, logSearch, requeueAll, setBatch, currentBatch } from "../prospector/store.js";
 import { parseCandidates, type ProspectCandidate } from "../prospector/candidate.js";
-import { runSocialDiscovery, webSearchDiscover, BlueskyDiscovery, fmtReasons } from "../prospector/discovery.js";
+import { runSocialDiscovery, runBlogDiscovery, webSearchDiscover, BlueskyDiscovery, fmtReasons } from "../prospector/discovery.js";
 import { processPending } from "../prospector/runner.js";
 import { exportWorkbook, campaignStats } from "../prospector/export.js";
 import { verifyCandidate } from "../prospector/verify.js";
+import { enqueueSites, runSiteScan, type SiteEntry } from "../prospector/sitescan.js";
 import { qualify } from "../prospector/qualify.js";
 
 const USAGE = `Usage: npm run prospect -- <command> [options]
@@ -15,6 +16,8 @@ const USAGE = `Usage: npm run prospect -- <command> [options]
   doctor                         Test every discovery/fetch integration and report which work
   discover-social [--pages N] [--max-queries N] [--no-mastodon] [--no-bluesky]
                                  Keyless discovery via Bluesky post search + Mastodon hashtag timelines
+  discover-blogs [--pages N] [--max-queries N]
+                                 Keyless discovery via Substack post search + WordPress.com Reader search
   discover-web --queries FILE [--limit N]
                                  Keyed web search (Brave/Tavily/SerpAPI from .env); FILE = JSON array of queries
   ingest FILE...                 Queue researcher/seed candidates (schema: src/prospector/candidate.ts)
@@ -24,6 +27,11 @@ const USAGE = `Usage: npm run prospect -- <command> [options]
   check-file FILE                Dry-run verification of every candidate in a seed file (nothing saved)
   verify [--batch N] [--all] [--concurrency N] [--retry-errors]
                                  Verify + qualify pending candidates (resumable)
+  set-batch N                    Attribute new research to batch N (research log + candidates)
+  enqueue-sites FILE... --list NAME [--country C] [--language L]
+                                 Queue author websites from a directory (JSON SiteEntry[] or name|url lines)
+  scan-sites [--concurrency N] [--limit N]
+                                 Scan queued sites for current publishing evidence; hits become candidates
   requalify                      Re-queue all candidates after a rule change (cached pages are reused)
   export [--out FILE] [--target N]  Write the Excel workbook; the N strongest qualified prospects go on the main sheet (default Global_eBook_Author_Prospects_200.xlsx)
   status                         Campaign counts`;
@@ -70,6 +78,11 @@ async function main() {
     }
     case "discover-social": {
       const r = await runSocialDiscovery(db, fetcher, { pages: Number(arg("pages", "2")), maxQueries: arg("max-queries") ? Number(arg("max-queries")) : undefined, mastodon: !flag("no-mastodon"), bluesky: !flag("no-bluesky"), onLog: log });
+      console.log(`Queries run: ${r.queries}; new candidates queued: ${r.added}`);
+      break;
+    }
+    case "discover-blogs": {
+      const r = await runBlogDiscovery(db, fetcher, { pages: Number(arg("pages", "3")), maxQueries: arg("max-queries") ? Number(arg("max-queries")) : undefined, onLog: log });
       console.log(`Queries run: ${r.queries}; new candidates queued: ${r.added}`);
       break;
     }
@@ -141,6 +154,37 @@ async function main() {
     }
     case "requalify": {
       console.log(`Re-queued ${requeueAll(db)} candidates; run verify --all next`);
+      break;
+    }
+    case "set-batch": {
+      setBatch(db, Number(process.argv[3]));
+      console.log(`Current research batch: ${currentBatch(db)}`);
+      break;
+    }
+    case "enqueue-sites": {
+      // JSON array of SiteEntry, or text lines "url", "name<TAB>url", "name|url[|country]".
+      const list = arg("list") ?? "unnamed list";
+      for (const f of process.argv.slice(3).filter((a, i, all) => !a.startsWith("--") && !all[i - 1]?.startsWith("--"))) {
+        const raw = readFileSync(f, "utf8");
+        let entries: SiteEntry[];
+        if (f.endsWith(".json")) entries = (JSON.parse(raw) as SiteEntry[]).map((e) => ({ ...e, source: e.source ?? list }));
+        else
+          entries = raw.split(/\r?\n/).flatMap((line) => {
+            const parts = line.split(/\t|\|/).map((x) => x.trim()).filter(Boolean);
+            const url = parts.find((x) => /^https?:\/\//i.test(x) && !/beventi\.co|selfpublisher-verband\.de\/autor/i.test(x));
+            if (!url) return [];
+            const name = parts.find((x) => !/^https?:/i.test(x) && /\p{L}{2,}\s+\p{L}/u.test(x));
+            const country = arg("country");
+            return [{ url, name, source: list, country, language: arg("language") } as SiteEntry];
+          });
+        const r = enqueueSites(db, entries, list);
+        console.log(`${f}: ${entries.length} entries, ${r.added} queued, ${r.skipped} already queued`);
+      }
+      break;
+    }
+    case "scan-sites": {
+      const r = await runSiteScan(db, fetcher, { concurrency: Number(arg("concurrency", "8")), limit: arg("limit") ? Number(arg("limit")) : undefined, batch: currentBatch(db), onLog: log });
+      console.log(`Scanned ${r.scanned} sites; ${r.candidates} new candidates queued for verification`);
       break;
     }
     case "status": {

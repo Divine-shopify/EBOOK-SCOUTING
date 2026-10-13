@@ -35,7 +35,7 @@ export const ProspectCandidateSchema = z.object({
   apiProfileText: z.string().optional(),
   notes: z.string().optional(),
   discovery: z
-    .object({ channel: z.string(), query: z.string().optional(), provider: z.string().optional(), market: z.string().optional(), date: z.string().optional() })
+    .object({ channel: z.string(), query: z.string().optional(), provider: z.string().optional(), market: z.string().optional(), date: z.string().optional(), batch: z.number().int().optional() })
     .default({ channel: "seed_file" }),
 });
 export type ProspectCandidate = z.infer<typeof ProspectCandidateSchema>;

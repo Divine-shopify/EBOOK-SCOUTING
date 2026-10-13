@@ -55,3 +55,15 @@ CREATE TABLE IF NOT EXISTS px_search_log (
 );
 
 CREATE TABLE IF NOT EXISTS px_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+
+-- Author websites from public directories, waiting for (or done with) a bulk site scan. Resumable per site.
+CREATE TABLE IF NOT EXISTS px_site_queue (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  url_key TEXT NOT NULL UNIQUE,             -- host; one scan per author site
+  list TEXT NOT NULL,                       -- directory/list name
+  payload TEXT NOT NULL,                    -- SiteEntry JSON
+  status TEXT NOT NULL DEFAULT 'pending',   -- pending | candidate | rejected
+  outcome TEXT,
+  queued_at TEXT NOT NULL,
+  scanned_at TEXT
+);

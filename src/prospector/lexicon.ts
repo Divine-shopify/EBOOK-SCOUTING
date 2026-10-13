@@ -135,6 +135,8 @@ export interface SignalHit {
   service?: string;
   status?: string;
   snippet: string;
+  /** The exact wording that matched (stage hits). */
+  match?: string;
 }
 
 function snippetAround(text: string, index: number, len: number, pad = 140): string {
@@ -211,7 +213,7 @@ export function detectSignals(raw: string, opts: { wholeTextIsOnePost?: boolean 
   }
   for (const st of STAGE_TERMS) {
     const m = st.re.exec(text);
-    if (m) hits.push({ kind: "stage", label: st.label, status: st.status, snippet: snippetAround(text, m.index, m[0].length) });
+    if (m) hits.push({ kind: "stage", label: st.label, status: st.status, snippet: snippetAround(text, m.index, m[0].length), match: m[0] });
   }
   return dedupeHits(hits);
 }

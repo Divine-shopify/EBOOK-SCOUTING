@@ -4,9 +4,9 @@ import { extractPage } from "../analysis/extract.js";
 import { domainOf, sleep } from "../util/text.js";
 import type { DB } from "../db/db.js";
 import type { ProspectCandidate } from "./candidate.js";
-import { EXPLICIT_REQUEST, PROVIDER_PROMO, PROVIDER_PROFILE, STAGE_TERMS, detectSignals } from "./lexicon.js";
+import { EXPLICIT_REQUEST, PROVIDER_PROMO, PROVIDER_PROFILE, STAGE_TERMS, detectSignals, type SignalHit } from "./lexicon.js";
 import { ingest, logSearch } from "./store.js";
-import { NO_FETCH_HOSTS } from "./verify.js";
+import { NO_FETCH_HOSTS, looksLikeNamedIdentity } from "./verify.js";
 
 /** Service-request phrases searched on social APIs, with the market/language they target. */
 export const SOCIAL_QUERIES: { q: string; language: string; market?: string }[] = [
@@ -344,7 +344,7 @@ export async function webSearchDiscover(provider: SearchProvider, fetcher: Fetch
   return { reviewed: results.length, candidates, rejected };
 }
 
-const fmtReasons = (r: Record<string, number>) => Object.entries(r).map(([k, n]) => `${k} (${n})`).join("; ");
+export const fmtReasons = (r: Record<string, number>) => Object.entries(r).map(([k, n]) => `${k} (${n})`).join("; ");
 
 /** Runs the keyless social discovery sweep and logs every query. */
 export async function runSocialDiscovery(
@@ -392,4 +392,112 @@ export async function runSocialDiscovery(
   return { queries, added };
 }
 
-export { fmtReasons };
+
+
+/** First explicit request in a blog post, judged as one author-owned post. */
+function explicitIn(text: string): SignalHit | undefined {
+  return detectSignals(text, { wholeTextIsOnePost: false }).find((s) => s.kind === "explicit" && !PROVIDER_PROMO.test(s.snippet));
+}
+
+/**
+ * Keyless blog-platform search: Substack post search and the WordPress.com Reader search API. Posts are scanned with
+ * the lexicon; a first-person request in a post written within `maxAgeMonths` becomes a candidate whose source is the
+ * post page itself (re-fetched and quote-checked by the verifier).
+ */
+export async function blogSearchDiscover(
+  fetcher: Fetcher,
+  q: string,
+  opts: { pages?: number; maxAgeMonths?: number; platform: "substack" | "wordpress" },
+): Promise<{ reviewed: number; candidates: ProspectCandidate[]; rejected: Record<string, number> }> {
+  const rejected: Record<string, number> = {};
+  const bump = (k: string) => (rejected[k] = (rejected[k] ?? 0) + 1);
+  const cutoff = Date.now() - (opts.maxAgeMonths ?? 12) * 30.44 * 86400_000;
+  const candidates: ProspectCandidate[] = [];
+  let reviewed = 0;
+  type Post = { url: string; date: string; author: string; site: string; html: string };
+  const posts: Post[] = [];
+  if (opts.platform === "substack") {
+    for (let page = 0; page < (opts.pages ?? 3); page++) {
+      const { status, data } = await fetcher.getJson<{ results?: any[]; more?: boolean }>(`https://substack.com/api/v1/post/search?includePlatformResults=true&page=${page}&query=${encodeURIComponent(q)}`);
+      if (status !== 200 || !data) throw new Error(`Substack search HTTP ${status}`);
+      for (const p of data.results ?? []) {
+        const url = String(p.canonical_url ?? "");
+        posts.push({ url, date: p.post_date, author: (p.publishedBylines ?? []).map((b: any) => b.name).filter(Boolean)[0] ?? "", site: url ? new URL(url).origin + "/" : "", html: p.body_html ?? p.truncated_body_text ?? p.description ?? "" });
+      }
+      if (!data.more) break;
+    }
+  } else {
+    let handle: string | undefined;
+    for (let page = 0; page < (opts.pages ?? 3); page++) {
+      const { status, data } = await fetcher.getJson<{ posts?: any[]; next_page?: string }>(
+        `https://public-api.wordpress.com/rest/v1.1/read/search?number=20&q=${encodeURIComponent(q)}${handle ? `&page_handle=${encodeURIComponent(handle)}` : ""}`,
+      );
+      if (status !== 200 || !data) throw new Error(`WordPress search HTTP ${status}`);
+      for (const p of data.posts ?? []) posts.push({ url: p.URL, date: p.date, author: p.author?.name ?? "", site: p.author?.URL || (p.URL ? new URL(p.URL).origin + "/" : ""), html: p.content ?? "" });
+      handle = data.next_page;
+      if (!handle || !(data.posts ?? []).length) break;
+    }
+  }
+  for (const p of posts) {
+    reviewed++;
+    if (!p.url || Date.parse(p.date) < cutoff) {
+      bump("older than cutoff");
+      continue;
+    }
+    const text = htmlToText(p.html);
+    const hit = explicitIn(text);
+    if (!hit) {
+      bump("no first-person service request");
+      continue;
+    }
+    const name = cleanDisplayName(p.author);
+    if (!looksLikeNamedIdentity(name)) {
+      bump("byline is not a full personal/pen name");
+      continue;
+    }
+    const sentence = hit.snippet.length > 300 ? hit.snippet.slice(0, 300) : hit.snippet;
+    candidates.push({
+      name,
+      platforms: [],
+      sourceUrl: p.url,
+      evidenceQuote: sentence,
+      evidenceDate: p.date,
+      additionalUrls: [],
+      officialWebsite: p.site || undefined,
+      discovery: { channel: opts.platform, query: q, provider: opts.platform === "substack" ? "substack-search-api" : "wordpress-reader-search-api", date: new Date().toISOString().slice(0, 10) },
+    });
+  }
+  return { reviewed, candidates, rejected };
+}
+
+export const BLOG_QUERIES = [
+  '"looking for an editor"', '"looking for a cover artist"', '"looking for a cover designer"', '"looking for an illustrator"', '"looking for a proofreader"',
+  '"looking for a narrator"', '"looking for a translator"', '"looking for a formatter"', '"need an editor" my book', '"need a cover" my book',
+  '"hire an editor" my book', '"hire an illustrator" my book', '"seeking an editor"', '"seeking an illustrator"', '"seeking a cover artist"',
+  '"searching for an editor"', '"searching for an illustrator"', '"on the hunt for" editor book', '"recommend an editor"', '"recommend a cover designer"',
+  '"help with book marketing"', '"help formatting my book"', '"kindle formatting" help', '"epub" help my book', '"author website" help',
+  '"audiobook narrator" my book', '"illustrator for my picture book"', '"cover designer for my"', '"editor for my novel"', '"developmental editor" looking',
+];
+
+export async function runBlogDiscovery(db: DB, fetcher: Fetcher, opts: { pages?: number; maxQueries?: number; onLog?: (s: string) => void } = {}): Promise<{ queries: number; added: number }> {
+  const log = opts.onLog ?? (() => {});
+  let queries = 0;
+  let added = 0;
+  for (const platform of ["substack", "wordpress"] as const) {
+    for (const q of BLOG_QUERIES.slice(0, opts.maxQueries ?? BLOG_QUERIES.length)) {
+      queries++;
+      const provider = platform === "substack" ? "substack-search-api" : "wordpress-reader-search-api";
+      try {
+        const r = await blogSearchDiscover(fetcher, q, { pages: opts.pages ?? 3, platform });
+        const ing = ingest(db, r.candidates, platform);
+        added += ing.added;
+        logSearch(db, { query: q, market: "Global", language: "en", provider, sourceType: "Public blog posts", resultsReviewed: r.reviewed, candidatesAdded: ing.added, rejected: r.reviewed - r.candidates.length, rejectionReasons: fmtReasons(r.rejected), nextDirection: ing.added ? "verify candidates" : "low yield phrasing" });
+        log(`${provider} ${q}: reviewed ${r.reviewed}, new ${ing.added}`);
+      } catch (e) {
+        logSearch(db, { query: q, provider, resultsReviewed: 0, candidatesAdded: 0, error: (e as Error).message });
+        log(`${provider} ${q}: ERROR ${(e as Error).message}`);
+      }
+    }
+  }
+  return { queries, added };
+}
