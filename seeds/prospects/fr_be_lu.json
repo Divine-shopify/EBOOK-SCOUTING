@@ -1,0 +1,627 @@
+[
+ {
+  "name": "Lunerielle Goldenoak",
+  "businessName": "EI Feuilleplume",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "city": "Uxem",
+  "locationQuote": "59229 UXEM",
+  "language": "fr",
+  "bookTitle": "Le crime du Mars-Express",
+  "genre": "Roman policier / cosy mystery",
+  "platforms": [
+   "Amazon KDP"
+  ],
+  "sourceUrl": "https://www.luneriellegoldenoak.com/",
+  "evidenceQuote": "est bientôt disponible ! Tu pourras le retrouver en version brochée et ebook. Sortie prévue 1er semestre 2027",
+  "officialWebsite": "https://www.luneriellegoldenoak.com/",
+  "additionalUrls": [
+   "https://www.luneriellegoldenoak.com/mentions-legales/"
+  ],
+  "notes": "Author site announces next novel in print and ebook, planned H1 2027; site published by her sole-trader business EI Feuilleplume (mentions légales).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Didier Bayaert",
+  "authorType": "Self-Published Author",
+  "country": "Belgium",
+  "region": "Hainaut",
+  "city": "Beloeil",
+  "locationQuote": "7970 Beloeil, Belgique",
+  "language": "fr",
+  "bookTitle": "Clara (tome 1, édition 2)",
+  "genre": "Roman",
+  "platforms": [
+   "BoD",
+   "Kobo",
+   "Amazon Kindle"
+  ],
+  "sourceUrl": "https://www.romansbayaert.eu/les-news",
+  "evidenceQuote": "Le tome 1, édition 2 est publié et sera bientôt disponible un peu partout.",
+  "evidenceDate": "2026-06-05",
+  "officialWebsite": "https://www.romansbayaert.eu/",
+  "additionalUrls": [
+   "https://www.romansbayaert.eu/mentions-l%C3%A9gales"
+  ],
+  "notes": "News log (2025-2026) tracks his self-published series through beta reading, correction and a second edition of tome 1; also a photo guide in progress.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "Belgium",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Jo Colleen",
+  "businessName": "Bookolleen",
+  "authorType": "Author-Owned Business",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Saint-Georges-d'Espéranche",
+  "locationQuote": "38790 Saint Georges d'Esperanche",
+  "language": "fr",
+  "bookTitle": "La chouette chaumière des souvenirs magiques",
+  "genre": "Cosy fantasy",
+  "platforms": [
+   "Shopify direct sales"
+  ],
+  "sourceUrl": "https://jocolleen.com/pages/chouette-chaumiere-news",
+  "evidenceQuote": "Sortie le 17/10/2026",
+  "officialWebsite": "https://jocolleen.com/",
+  "additionalUrls": [
+   "https://jocolleen.com/policies/legal-notice"
+  ],
+  "notes": "Pre-order page for her new self-published novel releasing 17/10/2026; sells direct via her own shop (Bookolleen).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sandrine Alibaud",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "locationQuote": "dans ma belle région du Poitou-Charentes",
+  "language": "fr",
+  "bookTitle": "Protocole Saros, tome 2 : Alter Ego",
+  "genre": "Science-fiction",
+  "platforms": [],
+  "sourceUrl": "https://sandrinealibaud.wordpress.com/",
+  "evidenceQuote": "Bienvenue dans mon univers en expansion Sortie le 4 Novembre ! PROTOCOLE SAROS, TOME 2 : ALTER EGO",
+  "officialWebsite": "https://sandrinealibaud.wordpress.com/",
+  "additionalUrls": [
+   "https://sandrinealibaud.wordpress.com/about/"
+  ],
+  "notes": "Self-published SF series; tome 2 listed on Livraddict (autoédité) for 4 Nov 2026.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Emilie Gomez",
+  "authorType": "Independent Author",
+  "country": "Belgium",
+  "locationQuote": "D’origine belge",
+  "language": "fr",
+  "bookTitle": "Les 7 dons de l'Océan",
+  "genre": "Fantastique / dystopie / romance",
+  "platforms": [],
+  "sourceUrl": "https://www.emiliegomez.fr/",
+  "evidenceQuote": "Bientôt disponible au format ebook ! Les 7 dons de l'Océan",
+  "officialWebsite": "https://www.emiliegomez.fr/",
+  "additionalUrls": [
+   "https://www.emiliegomez.fr/a-propos/"
+  ],
+  "notes": "Belgian author (Livraddict flag BE) touring Belgian salons in 2026; ebook of her duology announced as coming soon with ebook pre-order.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "Belgium",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Liv Bonnelli",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Fontaine",
+  "locationQuote": "38600 FONTAINE",
+  "language": "fr",
+  "bookTitle": "WitchCross 3 - Au commencement est l'origine",
+  "genre": "Fantastique / cosy crime / thriller",
+  "platforms": [
+   "Amazon Kindle"
+  ],
+  "sourceUrl": "https://livbonnelli.com/",
+  "evidenceQuote": "Écriture en cours - Sortie prévue Janvier 2027",
+  "officialWebsite": "https://livbonnelli.com/",
+  "additionalUrls": [
+   "https://livbonnelli.com/mentions-legales/"
+  ],
+  "notes": "Work-in-progress board lists several titles with 2026/2027 release targets (correction en cours, écriture en cours).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Didier Bertrand",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Rien ne les arrête",
+  "genre": "Polar / suspense humoristique",
+  "platforms": [],
+  "sourceUrl": "https://didierbertrand.com/",
+  "evidenceQuote": "Bientôt, plus rien ne pourra les arrêter. Sortie le jeudi 8 octobre 2026.",
+  "evidenceDate": "2026-10-08",
+  "officialWebsite": "https://didierbertrand.com/",
+  "additionalUrls": [
+   "https://didierbertrand.com/didier-bertrand-biographie"
+  ],
+  "notes": "Self-published novel (Livraddict: autoédité) launched 8 Oct 2026, i.e. in its launch window right now; not a future release.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Malone Silence",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Biomécaniques (titre provisoire)",
+  "genre": "Science-fiction / horreur",
+  "platforms": [
+   "Ulule",
+   "direct sales"
+  ],
+  "sourceUrl": "https://malonesilence.com/biomecaniques",
+  "evidenceQuote": "Titre provisoire. Coming soon",
+  "officialWebsite": "https://malonesilence.com/",
+  "additionalUrls": [
+   "https://malonesilence.com/mes-prochains-projets",
+   "https://malonesilence.com/evenements"
+  ],
+  "notes": "Crowdfunded indie trilogy finished May 2026; next project page 'Biomécaniques' marked coming soon; blog post 31 May 2026 on next writing projects.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Manu Breysse",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Le Tour de l'Univers (tome 3)",
+  "genre": "Science-fiction / steampunk",
+  "platforms": [],
+  "sourceUrl": "https://manubreysse.com",
+  "evidenceQuote": "Tome 3 de la trilogie \"Le Tour de l'Univers\" bientôt disponible !",
+  "officialWebsite": "https://manubreysse.com",
+  "additionalUrls": [
+   "https://manubreysse.com/auteur.html"
+  ],
+  "notes": "Homepage news block announces tome 3 coming soon; member of TaraSquE south-east authors group (Marseille steampunk setting).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Micha Ess",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "INÉVITABLES",
+  "genre": "Romance",
+  "platforms": [
+   "Shopify direct sales"
+  ],
+  "sourceUrl": "https://michaess.fr/blogs/actualites",
+  "evidenceQuote": "Cover Reveal d'INÉVITABLES 18 avril 2026",
+  "evidenceDate": "2026-04-18",
+  "officialWebsite": "https://michaess.fr/",
+  "additionalUrls": [
+   "https://michaess.fr/pages/a-propos-de-lauteure"
+  ],
+  "notes": "News feed: 'Mon nouveau bébé...IN PROGRESS' (28 Mar 2026) then cover reveal of the new romance INÉVITABLES (18 Apr 2026).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Rosa Mentis",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Le Maléfice des Cendres - Tome 2",
+  "genre": "Fantasy",
+  "platforms": [],
+  "sourceUrl": "https://rosamentis.fr/",
+  "evidenceQuote": "Prochainement Bientôt disponible Découvrez les romans",
+  "officialWebsite": "https://rosamentis.fr/",
+  "additionalUrls": [
+   "https://rosamentis.fr/romans/",
+   "https://rosamentis.fr/lautrice/"
+  ],
+  "notes": "Tome 1 available March 2026; tome 2 of the fantasy series marked 'Prochainement / Bientôt disponible'.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Benjamin Frand",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "LitRPG SF (cartes maudites)",
+  "genre": "LitRPG / SF",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "sourceUrl": "https://www.benjaminfrand.com/",
+  "evidenceQuote": "Sortie prévue fin octobre - 508 pages - disponible en format broché / numérique (e-book et abonnement kindle) sur amazon.fr !",
+  "officialWebsite": "https://www.benjaminfrand.com/",
+  "notes": "Homepage announces next 508-page LitRPG volume for end of October (page also lists Feb/Mar 2026 soundtrack release), print + Kindle.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Sealeha",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Clermont-Ferrand",
+  "locationQuote": "63100 Clermont-Ferrand",
+  "language": "fr",
+  "bookTitle": "L'Entre-Mondes",
+  "genre": "Urban fantasy",
+  "platforms": [],
+  "sourceUrl": "https://sealeha.fr/livre-fantastique/lentre-mondes",
+  "evidenceQuote": "Précommandes ouvertes Sortie le 16 octobre Lire le chapitre 1",
+  "officialWebsite": "https://sealeha.fr/",
+  "additionalUrls": [
+   "https://sealeha.fr/mentions-legales/",
+   "https://sealeha.fr/"
+  ],
+  "notes": "Pre-orders open for new urban fantasy novel releasing 16 October (homepage lists 2026-2027 salons).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Céline Saint-Charle",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "genre": "Historical / literary fiction",
+  "platforms": [
+   "Amazon"
+  ],
+  "sourceUrl": "https://celinesaintcharle.com/books-in-english/",
+  "evidenceQuote": "(More titles coming soon.)",
+  "officialWebsite": "https://celinesaintcharle.com/",
+  "additionalUrls": [
+   "https://celinesaintcharle.com/a-propos/"
+  ],
+  "notes": "French author publishing English translations of her books; page says 'Stay tuned for upcoming translations. Next release planned for 2026.' (translation pipeline).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Alex Clark",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "My roommate is a ghost",
+  "genre": "Romance sapphique",
+  "platforms": [
+   "direct sales"
+  ],
+  "sourceUrl": "https://alexclarkautrice.com/",
+  "evidenceQuote": "Précommande ouverte · Sortie le 15 octobre",
+  "officialWebsite": "https://alexclarkautrice.com/",
+  "notes": "Pre-order open for new romance releasing 15 October (site © 2026); sells signed copies direct.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Blandine P. Martin",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Académie Orphée, tome 3 – Requiem pour les étoiles",
+  "genre": "Romance / fantasy",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited",
+   "Kobo",
+   "Kobo Plus",
+   "Google Play Books",
+   "Apple Books",
+   "Nextory"
+  ],
+  "sourceUrl": "https://blandinepmartin.fr/academie-orphee/",
+  "evidenceQuote": "Tome 3 – Requiem pour les étoiles Sortie le 22 NOVEMBRE.",
+  "officialWebsite": "https://blandinepmartin.fr/",
+  "additionalUrls": [
+   "https://blandinepmartin.fr/christmas-heritage-et-plus-si-affinites/"
+  ],
+  "notes": "Wide indie author: pre-orders live on Kindle/Kobo/iBooks/Google Play for tome 3 (22 Nov); a Christmas romance also announced for 4 Dec in ebook and print. Site © 2026.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Solène Chartier",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "La Laïsha, tome 3",
+  "genre": "Fantasy young adult",
+  "platforms": [
+   "Amazon KDP",
+   "Kindle Unlimited"
+  ],
+  "sourceUrl": "https://leshistoiresdesolene.fr/la-laisha-trilogie-de-fantasy-young-adult/",
+  "evidenceQuote": "sera bientôt disponible sur l’ensemble de ces plateformes (mais pour l’instant, seulement sur Amazon et dans l’abonnement Kindle)",
+  "officialWebsite": "https://leshistoiresdesolene.fr/",
+  "notes": "Same page: 'Le tome 3 de La Laïsha est actuellement en correction. Il sortira d’ici la fin d’année 2026.' Ebook currently Amazon/KU-exclusive, going wide planned.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Lise Barrow",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "La Sorcière qui n'aime pas le noir",
+  "genre": "Roman jeunesse fantasy (illustré)",
+  "platforms": [
+   "Shopify direct sales"
+  ],
+  "sourceUrl": "https://lisebarrow.com/",
+  "evidenceQuote": "EN PRÉCOMMANDE — SORTIE LE 28 OCTOBRE 2026",
+  "officialWebsite": "https://lisebarrow.com/",
+  "additionalUrls": [
+   "https://lisebarrow.com/pages/fantasy-jeunesse"
+  ],
+  "notes": "Illustrated children's fantasy novel on pre-order on her own shop, release 28 Oct 2026.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Pierre-Etienne Bram",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "98,41%",
+  "genre": "Science-fiction",
+  "platforms": [
+   "Amazon KDP",
+   "BoD"
+  ],
+  "sourceUrl": "https://www.pierreetiennebram.com/98dot41pourcent",
+  "evidenceQuote": "Sur bod.fr/librairie au format broché Bientôt disponible",
+  "officialWebsite": "https://www.pierreetiennebram.com/",
+  "notes": "Novel published 16 July 2026; only Amazon live, every other channel (BoD, Fnac, Decitre, leslibraires, hardcover) still 'Bientôt disponible'; page asks Kobo readers to message him for the ebook (distribution gap).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Julie Altinoglu",
+  "authorType": "Independent Author",
+  "country": "France",
+  "language": "fr",
+  "genre": "Roman / drame psychologique",
+  "platforms": [],
+  "sourceUrl": "https://www.juliealtinoglu.com/",
+  "evidenceQuote": "Parution le 9 octobre 2026 !",
+  "evidenceDate": "2026-10-09",
+  "officialWebsite": "https://www.juliealtinoglu.com/",
+  "notes": "New novel released 9 Oct 2026 (launch week, not forthcoming); also lists 'Elle s'appelait Shéhérazade'.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Caroline Feh",
+  "businessName": "Caroline FEH Autoédition",
+  "authorType": "Author-Owned Business",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Tellement ELLE... même si lui - Naître homme, Être femme",
+  "genre": "Autobiographie / témoignage",
+  "platforms": [],
+  "sourceUrl": "https://carolinefehautrice.fr/mes-livres",
+  "evidenceQuote": "Sortie le 13 septembre 2026, c'est la nouvelle version actualisée, remaniée et enrichie",
+  "officialWebsite": "https://carolinefehautrice.fr/",
+  "notes": "Own imprint 'Caroline FEH Autoédition'; revised/expanded new edition (relaunch) released 13 Sep 2026 replacing an earlier title now unavailable.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Wendy Vendrick",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "L'Entrepageuse",
+  "genre": "Fantastique / romance",
+  "platforms": [
+   "direct sales"
+  ],
+  "sourceUrl": "https://wendyvendrick.fr/",
+  "evidenceQuote": "E-book à 3€ + goodies Sortie prévue : 15 septembre 2026",
+  "officialWebsite": "https://wendyvendrick.fr/",
+  "additionalUrls": [
+   "https://wendyvendrick.fr/roman/l-entrepageuse"
+  ],
+  "notes": "One-shot L'Entrepageuse (release 15 Sep 2026, i.e. recently released) sold as packs incl. ebook; trilogy L'Apprentie completed.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Joséphine Camonne",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Guiclan",
+  "locationQuote": "29410 Guiclan, France",
+  "language": "fr",
+  "bookTitle": "Sylfaë : Forêt fantastique, créatures magiques & trentenaire en panique",
+  "genre": "Cosy fantasy",
+  "platforms": [],
+  "sourceUrl": "https://josephinecamonne.fr/roman/",
+  "evidenceQuote": "Sortie le 30 septembre 2026.",
+  "evidenceDate": "2026-09-30",
+  "officialWebsite": "https://josephinecamonne.fr/",
+  "additionalUrls": [
+   "https://josephinecamonne.fr/mentions-legales/"
+  ],
+  "notes": "Debut cosy fantasy released 30 Sep 2026 (Livraddict: autoédité, ebook); recent launch rather than forthcoming.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing page 1 -> author page",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Maloria Cassis",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "genre": "Comédie romantique",
+  "platforms": [],
+  "sourceUrl": "https://www.maloriacassis.com/",
+  "evidenceQuote": "Sortie prévue le 06 déce",
+  "officialWebsite": "https://www.maloriacassis.com/",
+  "additionalUrls": [
+   "https://www.maloriacassis.com/mes-romans/"
+  ],
+  "notes": "Site's embedded Instagram feed: cover and title reveal of her next romantic comedy, release planned 6 December (year not shown in feed snippet).",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ },
+ {
+  "name": "Morgane DBJ",
+  "authorType": "Self-Published Author",
+  "country": "France",
+  "language": "fr",
+  "bookTitle": "Les Protecteurs : Octavia",
+  "genre": "Fantasy romance",
+  "platforms": [
+   "direct sales"
+  ],
+  "sourceUrl": "https://morganedbj.fr/pages/les-livres",
+  "evidenceQuote": "688 pages · Sortie le 24 septembre 2026",
+  "officialWebsite": "https://morganedbj.fr/",
+  "notes": "688-page self-published fantasy released 24 Sep 2026 (sold direct, shipped from France); a contemporary romance with a publisher announced for Nov 2026.",
+  "discovery": {
+   "channel": "web_directory",
+   "query": "livraddict.com editeur autoedite listing -> author name -> author site",
+   "provider": "claude-websearch",
+   "market": "France",
+   "date": "2026-10-12"
+  }
+ }
+]

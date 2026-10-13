@@ -162,3 +162,11 @@ describe("German Impressum location", () => {
     expect(countryFromImpressum("Impressum: Musterweg 1, 1010 Wien, Österreich")).toBeNull();
   });
 });
+
+describe("French mentions légales location", () => {
+  it("maps a five-digit postcode in mentions légales to France", async () => {
+    const { countryFromMentionsLegales } = await import("../src/prospector/markets.js");
+    expect(countryFromMentionsLegales("Mentions légales — Éditeur : Jo Colleen, 69003 Lyon")?.country).toBe("France");
+    expect(countryFromMentionsLegales("Mentions légales — 1000 Bruxelles, Belgique")).toBeNull();
+  });
+});

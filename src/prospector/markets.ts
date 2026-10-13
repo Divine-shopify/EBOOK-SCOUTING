@@ -77,3 +77,11 @@ export function countryFromImpressum(text: string): { country: string; quote: st
   const m = /\b(?:D-)?(\d{5})\s+([A-ZÄÖÜ][a-zäöüß]+(?:[ -][A-ZÄÖÜ]?[a-zäöüß]+)*)/.exec(text.slice(text.search(/\bimpressum\b/i)));
   return m ? { country: "Germany", quote: `Impressum address: ${m[1]} ${m[2]}` } : null;
 }
+
+/** French "mentions légales" addresses ("75011 Paris") imply France when no other country is named. */
+export function countryFromMentionsLegales(text: string): { country: string; quote: string } | null {
+  const at = text.search(/mentions l[ée]gales/i);
+  if (at < 0 || /\b(belgique|suisse|luxembourg|canada|québec)\b/i.test(text)) return null;
+  const m = /\b(\d{5})\s+([A-ZÉÈ][\p{L}'-]+(?:[ -][\p{L}'-]+)*)/u.exec(text.slice(at));
+  return m ? { country: "France", quote: `Mentions légales address: ${m[1]} ${m[2]}` } : null;
+}

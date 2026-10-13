@@ -367,5 +367,560 @@
    "date": "2026-10-12"
   },
   "language": "en"
+ },
+ {
+  "name": "Kim Dare",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "Wales",
+  "locationQuote": "from Wales (UK)",
+  "bookTitle": "Bayden's Alpha",
+  "genre": "Paranormal / BDSM romance",
+  "sourceUrl": "http://www.kimdare.com/coming-soon.html",
+  "evidenceQuote": "Bayden's Alpha (Werewolves & Dragons, Book 2) is still in the works and I'm tentatively hopefully for a 2026 or 2027 release date.",
+  "evidenceDate": "2026-01-01",
+  "officialWebsite": "http://www.kimdare.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/2839336"
+  ],
+  "notes": "Long-running indie romance author (~100 titles) returning after health break; Coming Soon page updated 1 Jan 2026; also notes print version coming soon for a series.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "J Rose",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "J Rose is an internationally bestselling dark romance author from the not-so-sunny United Kingdom.",
+  "genre": "Dark romance / romantic suspense",
+  "sourceUrl": "https://jroseauthor.com/",
+  "evidenceQuote": "Pick up one of her books today and join the Wilted Rose family. PRE-ORDER NOW",
+  "officialWebsite": "https://jroseauthor.com/",
+  "additionalUrls": [
+   "https://jroseauthor.com/about"
+  ],
+  "notes": "Indie dark-romance author (Wilted Rose universe); homepage features a PRE-ORDER NOW title; about page says she lives in the English countryside.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Ian Blaikie",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Birmingham",
+  "locationQuote": "Ian Blaikie is a British author whose work blends the everyday with the uncanny",
+  "bookTitle": "Cast No Shadow",
+  "genre": "Historical crime / time-slip fiction",
+  "sourceUrl": "https://sites.google.com/view/ian-blaikie-author/coming-soon",
+  "evidenceQuote": "Coming Soon... Cast No Shadow London 1966. When respected private investigator Eugene Valenti takes on a routine missing-persons case",
+  "officialWebsite": "https://sites.google.com/view/ian-blaikie-author/home",
+  "additionalUrls": [
+   "https://sites.google.com/view/ian-blaikie-author/news",
+   "https://sites.google.com/view/ian-blaikie-author/about-the-author",
+   "https://www.goodreads.com/author/show/61541493"
+  ],
+  "notes": "Indie debut author (The Turning, launched on Reedsy Discovery Jan 2026; audio via ElevenLabs/Eleven Reader); second novel Cast No Shadow coming soon. Goodreads lists Birmingham.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Cass Grafton",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "locationQuote": "a move from the north-east of England to the West Country",
+  "genre": "Feel-good romance / Austen-inspired fiction",
+  "bookTitle": "Mr Darcy’s Persuasion",
+  "sourceUrl": "https://cassandragrafton.com/2026/04/29/audio-freebies/",
+  "evidenceQuote": "More writing news coming soon, but in the meantime, do grab those free audio codes now!",
+  "evidenceDate": "2026-04-29",
+  "officialWebsite": "https://cassandragrafton.com/",
+  "additionalUrls": [
+   "https://cassandragrafton.com/about/"
+  ],
+  "notes": "Love Books Tours author (Polkerran Point series); Apr 2026 post: co-written Mr Darcy's Persuasion newly out in audio, giving away codes and asking listeners for reviews; more writing news coming soon. Discovered via Love Books Tours name -> Goodreads author page -> website.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://kellylacey.com/feed/ (Love Books Tours blog-tour listings 2025-2026) + author-domain lookup",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Kate Macdonald",
+  "businessName": "The Peachfield Press",
+  "authorType": "Author-Owned Business",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Malvern Hills, Worcestershire",
+  "locationQuote": "lives under the friendly shadow of the Malvern Hills in Worcestershire, in the United Kingdom",
+  "bookTitle": "Radical Magic",
+  "genre": "Historical fantasy",
+  "sourceUrl": "http://peachfieldpress.uk/2026/08/10/a-little-hint-of-radical-magic/",
+  "evidenceQuote": "Since the ebook of Radical Magic is now properly priced and available for preorder (and the paperback is too), do allow yourself to be attracted by this deleted scene.",
+  "evidenceDate": "2026-08-04",
+  "officialWebsite": "http://peachfieldpress.uk/",
+  "additionalUrls": [
+   "http://peachfieldpress.uk/about/"
+  ],
+  "notes": "Self-publishes under her own Peachfield Press imprint (sells direct via SumUp); Radical Magic ebook on preorder, also on NetGalley; post discusses newsletter marketing advice.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Dean F. Wilson",
+  "authorType": "Self-Published Author",
+  "country": "Ireland",
+  "region": "Leinster",
+  "city": "Dublin",
+  "locationQuote": "Dean F. Wilson was born in Dublin, Ireland in 1987 and started writing at eleven.",
+  "genre": "Fantasy / sci-fi / weird western",
+  "sourceUrl": "http://www.deanfwilson.com/",
+  "evidenceQuote": "Nox, the Coilhunter, rides again — a new bounty, and the dust of the Wild North never settles for long. Pre-order now",
+  "officialWebsite": "http://www.deanfwilson.com/",
+  "notes": "USA Today bestselling indie author across five series; homepage shows a Coilhunter title on pre-order and Infinite Hours (coming soon). Residence not stated beyond Dublin birth.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "M.J. Dyer",
+  "businessName": "Ineja Press",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Dartmoor, Devon",
+  "locationQuote": "M.J. Dyer is a psychological thriller writer, based in Devon, England.",
+  "bookTitle": "The New Wife",
+  "genre": "Psychological thriller",
+  "sourceUrl": "https://mjdyerbooks.com/",
+  "evidenceQuote": "The New Wife will release in September 2027.",
+  "officialWebsite": "https://mjdyerbooks.com/",
+  "additionalUrls": [
+   "https://mjdyerbooks.com/about/",
+   "https://mjdyerbooks.com/faqs/",
+   "https://mjdyerbooks.com/we-are-monsters-by-m-j-dyer/"
+  ],
+  "notes": "Debut July 2026 under Ineja Press (small/possibly author-owned imprint, unverified); further novels Nov 2026, early 2027, Sept 2027 (on preorder); FAQ says she puts out calls for ARC readers and uses NetGalley.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "C. W. Clayton",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "North of England",
+  "locationQuote": "C. W. Clayton is a fantasy and science fiction writer based in the north of England.",
+  "genre": "Fantasy / science fiction",
+  "bookTitle": "Highmoor",
+  "sourceUrl": "http://cwclaytonauthor.co.uk/2026/04/26/highmoor-series-update/",
+  "evidenceQuote": "In the meantime, I also need to cobble together some presentable cover art, write an engaging but spoiler-free blurb (this causes me undue pain and suffering), and attempt to drum up some hype before the eventual release date",
+  "evidenceDate": "2026-04-26",
+  "officialWebsite": "http://cwclaytonauthor.co.uk/",
+  "notes": "Self-published e-book fantasy series (Highmoor); first draft of 4th/final book finished, e-book targeted on Amazon by end of 2026; needs cover art, blurb, launch hype; also planning revised editions and paperbacks.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Lily Mayne",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "She currently lives in the UK with her husband and several fluffballs",
+  "genre": "Monster / MM romance",
+  "bookTitle": "Double Shot (Goliaths of Wrestling Book 5)",
+  "sourceUrl": "http://lily-mayne.com/2026/08/21/wip-sneak-peek-chapter-1-of-double-shot-goliaths-of-wrestling-book-5/",
+  "evidenceQuote": "I promise, as always, to share any news about its release date, etc, as soon as I have news to share!",
+  "evidenceDate": "2026-08-21",
+  "officialWebsite": "https://lily-mayne.com/",
+  "additionalUrls": [
+   "https://lily-mayne.com/about/"
+  ],
+  "notes": "Indie romance author; Aug 2026 post shares WIP chapter 1 of Goliaths of Wrestling book 5 (release date not yet set); further WIP chapters on Patreon.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "WordPress REST API recent-posts scan (posts since 2025-10-12) of UK/IE author sites gathered from ALLi, Love Books Tours, Selfies, Coffee Pot Book Club and Goodreads lists",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Sacha Black",
+  "businessName": "Rebel Author Press",
+  "authorType": "Author-Owned Business",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Cambridgeshire",
+  "locationQuote": "She lives in Cambridgeshire, England, with her wife and genius, giant of a son.",
+  "genre": "Fantasy (pen name) / writing craft",
+  "sourceUrl": "https://sachablack.co.uk/2026/10/12/lessons-learned-from-ten-months-of-direct-sales-book-distribution-2/",
+  "evidenceQuote": "This is a huge problem as there are a number of preorders live at any one time and thus a ton of customer communication needed.",
+  "evidenceDate": "2026-10-12",
+  "officialWebsite": "https://sachablack.co.uk/",
+  "additionalUrls": [
+   "https://sachablack.co.uk/about/"
+  ],
+  "notes": "ALLi-affiliated indie author running a direct-sales (Shopify) book business with warehouse and staff; Oct 2026 post: preorders live, commissioning a coder for Shopify, needs app integrations.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "WordPress REST API recent-posts scan (posts since 2025-10-12) of UK/IE author sites gathered from ALLi, Love Books Tours, Selfies, Coffee Pot Book Club and Goodreads lists",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Vawn Cassidy",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "London",
+  "locationQuote": "in London, The United Kingdom",
+  "genre": "MM paranormal romance",
+  "bookTitle": "The Guardians Series",
+  "sourceUrl": "https://www.vawncassidy.com/the-guardians-series",
+  "evidenceQuote": "I’m hoping to get them all done and released as soon as I can but I don’t have specific release dates. COMING SOON",
+  "officialWebsite": "https://www.vawncassidy.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/21646925"
+  ],
+  "notes": "MM pen name of British author Wendy Saunders; page says The Guardians Series is currently undergoing a re-edit and new covers, with remaining books to be re-released through the year (relaunch). Location via Goodreads.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "CF White",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "London",
+  "locationQuote": "to live in the east end of London",
+  "genre": "MM romance / romantic suspense",
+  "bookTitle": "Too Close to Home",
+  "sourceUrl": "https://www.cfwhiteauthor.com/welcome-to-hartswick-meet-whitton-black/",
+  "evidenceQuote": "TOO CLOSE TO HOME Whitton & Black #1 MM Romantic Suspense 25 September 2026 PREORDER NOW",
+  "evidenceDate": "2026-09-04",
+  "officialWebsite": "https://www.cfwhiteauthor.com/",
+  "additionalUrls": [
+   "https://www.cfwhiteauthor.com/bio/",
+   "https://www.cfwhiteauthor.com/coming-soon"
+  ],
+  "notes": "Indie MM author; new Whitton & Black trilogy launched Sept 2026 with books 2-3 to follow; site has audiobooks and a Coming Soon page; re-released earlier titles after rights reversion.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Liz Mackenzie",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Nottingham",
+  "locationQuote": "I live in Nottingham with my partner and two rescue cats",
+  "genre": "Children's / middle-grade fiction",
+  "bookTitle": "The Clocker",
+  "sourceUrl": "http://mywordshare.uk/2026/08/28/flaunt-it-friday-24/",
+  "evidenceQuote": "Having completed the first draft of my next children’s book, I felt a bit daunted at the thought of starting the editing process.",
+  "evidenceDate": "2026-08-28",
+  "officialWebsite": "http://mywordshare.uk/",
+  "additionalUrls": [
+   "http://mywordshare.uk/about/",
+   "http://mywordshare.uk/my-books/"
+  ],
+  "notes": "Debut middle-grade The Clocker published April 2026 via Troubador (assisted self-publishing; ebook on Amazon/Kobo/Apple/Google); first draft of next children's book done, now researching developmental editing.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Rick Rawes",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Leeds",
+  "locationQuote": "So, I’m currently a Leeds lad",
+  "genre": "Fantasy / queer speculative fiction",
+  "bookTitle": "Sinners & Saints",
+  "sourceUrl": "http://rickrawesauthor.co.uk/2026/01/16/sitting-by-the-campfire-a-january-update/",
+  "evidenceQuote": "Sinners & Saints, the fourth and penultimate story of the Heroes & Demons series, will soon be available to pre-order, with a release date of",
+  "evidenceDate": "2026-01-16",
+  "officialWebsite": "http://rickrawesauthor.co.uk/",
+  "additionalUrls": [
+   "http://rickrawesauthor.co.uk/about/"
+  ],
+  "notes": "Independent author; Jan 2026 update: two major releases in 2026, backlist returning in paperback with fresh new covers, plans to sell ebooks/paperbacks direct; says the social media and marketing side of independent publishing is daunting.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Niall Teasdale",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "in The United Kingdom",
+  "genre": "Urban fantasy / sci-fi",
+  "bookTitle": "Death's Handmaiden (book 9)",
+  "sourceUrl": "http://witchesandrayguns.com/2026/09/03/i-cant-see/",
+  "evidenceQuote": "I’m currently doing final edits on the 9th Death’s Handmaiden book. It should be out in a couple of weeks.",
+  "evidenceDate": "2026-09-03",
+  "officialWebsite": "http://witchesandrayguns.com/",
+  "additionalUrls": [
+   "https://www.goodreads.com/author/show/5370116",
+   "http://witchesandrayguns.com/about/"
+  ],
+  "notes": "Prolific indie author (blog Witches and Ray-Guns); 9th Death's Handmaiden book in final edits Sept 2026; Coming soon page for Hunter's Kiss. Goodreads: born near Hadrian's Wall, United Kingdom.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Sadie Hanson",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "Hertfordshire",
+  "locationQuote": "I’m a West Yorkshire lass originally. I now live in the Hertfordshire burbs",
+  "genre": "Contemporary fiction",
+  "sourceUrl": "http://sadiehanson.com/2026/08/31/and-on-and-on/",
+  "evidenceQuote": "And finally I finished the novel this week. April, May, June… One last push.",
+  "evidenceDate": "2026-08-31",
+  "officialWebsite": "http://sadiehanson.com/",
+  "additionalUrls": [
+   "http://sadiehanson.com/about/"
+  ],
+  "notes": "Aug 2026 blog: debut novel manuscript finished; same post says 'I’m already gearing up for self-publication' (likely needs editing, cover, formatting, ebook setup). Has also queried a few agents.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Leilanie Stewart",
+  "businessName": "Bindweed Anthologies",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "Northern Ireland",
+  "city": "Belfast",
+  "locationQuote": "Leilanie Stewart is an award-winning author and poet from Belfast, Northern Ireland.",
+  "genre": "Ghost / psychological horror; poetry",
+  "sourceUrl": "http://leilaniestewart.com/2026/07/21/how-it-feels-to-start-and-finish-your-novel/",
+  "evidenceQuote": "This summer I’m simultaneously writing a new novel – currently up to 28k words – while finishing final edits on my latest novel MS, both of which inspired my latest video.",
+  "evidenceDate": "2026-07-21",
+  "officialWebsite": "http://leilaniestewart.com/",
+  "additionalUrls": [
+   "http://leilaniestewart.com/about/"
+  ],
+  "notes": "Author of 6 novels, 3 story collections, 3 poetry books; runs Bindweed Anthologies with her husband; July 2026: final edits on next novel manuscript plus a new novel in progress. Publishing route of upcoming novel not stated.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Alex Beecroft",
+  "authorType": "Independent Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "city": "near Cambridge",
+  "locationQuote": "during the Troubles my family moved to England, and I grew up in the wild countryside of the English Peak District",
+  "genre": "MM historical romance / cozy mystery / cozy fantasy (also as Alex R. Oliver)",
+  "bookTitle": "The Dragon Groomer of Marad Zim",
+  "sourceUrl": "http://www.alexbeecroft.com/",
+  "evidenceQuote": "On the side of good news, I am now writing again. In March 2026 I finished and published",
+  "officialWebsite": "http://www.alexbeecroft.com/",
+  "additionalUrls": [
+   "https://alexbeecroft.com/2026/08/did-i-say-i-was-still-writing/"
+  ],
+  "notes": "Long-running author now publishing independently (cozy mystery March 2026); Aug 2026 post: progress on new cozy fantasy The Dragon Groomer of Marad Zim (likely as Alex R. Oliver); keeps a 'cover art graveyard' of redesigned covers.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Louise Turner",
+  "businessName": "Lairdside Press",
+  "authorType": "Author-Owned Business",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "city": "Glasgow",
+  "locationQuote": "Born in Glasgow, Louise Turner attended the University of Glasgow",
+  "genre": "Scottish historical fiction",
+  "bookTitle": "Underworld – Part 2",
+  "sourceUrl": "https://www.louiseturner.co.uk/2026/09/launch-day/",
+  "evidenceQuote": "Work is now continuing apace on Underworld – Part 2, with a release date in Spring 2027 anticipated.",
+  "evidenceDate": "2026-09-01",
+  "officialWebsite": "https://www.louiseturner.co.uk/",
+  "additionalUrls": [
+   "https://www.louiseturner.co.uk/about/",
+   "https://www.goodreads.com/author/show/7488362"
+  ],
+  "notes": "Formerly traditionally published; founded own Lairdside Press (2025); Underworld Part 1 out as Kindle e-book Sept 2026, Part 2 due Spring 2027; re-releasing Fire and Sword as two volumes with new cover art (relaunch).",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "RM Brown",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "Scotland",
+  "city": "Dundee",
+  "locationQuote": "A proud Dundonian, Rebecca is an English and Creative Writing alumna and co-founder of the charity Folklore Scotland.",
+  "genre": "Scottish folklore / sapphic fantasy",
+  "bookTitle": "Storran Duology #2",
+  "sourceUrl": "https://authorrmbrown.co.uk/",
+  "evidenceQuote": "Winner of the Frederick Forsyth People’s Book Prize 2025. BUY NOW COMING SOON COMING SOON",
+  "officialWebsite": "https://authorrmbrown.co.uk/",
+  "additionalUrls": [
+   "https://authorrmbrown.co.uk/bio/",
+   "https://authorrmbrown.co.uk/events/"
+  ],
+  "notes": "Song of the Stag (Storran Duology #1) originally published by Ringwood, later self-published and sold direct from own store; homepage flags upcoming titles as COMING SOON; FantasyCon Glasgow panels Oct 2026.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://www.goodreads.com/list/show/<indie / Kindle Unlimited / 2026-2027 release lists> -> author pages (born/location + website) filtered to UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "E.R. Craw",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "locationQuote": "I’m a disabled, queer, indie author from the UK.",
+  "genre": "Queer new adult romantasy",
+  "bookTitle": "The Severance of the Called",
+  "sourceUrl": "https://ercraw.wordpress.com/2026/04/26/lets-catch-up/",
+  "evidenceQuote": "You’ll be as pleased as I am to know that book three’s final draft is about 90% finished!",
+  "evidenceDate": "2026-04-26",
+  "officialWebsite": "https://ercraw.wordpress.com/",
+  "additionalUrls": [
+   "https://ercraw.wordpress.com/about/"
+  ],
+  "notes": "Indie romantasy author (The Called trilogy); moving from KDP to IngramSpark, planning giveaways/bundles; homepage: book three The Severance of the Called coming 26 Nov 2026, ARC sign-ups open; draws own covers.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Joy Mutter",
+  "authorType": "Self-Published Author",
+  "country": "United Kingdom",
+  "region": "England",
+  "locationQuote": "took the bold, some might say foolhardy decision to sell my house in Kent and move north",
+  "genre": "Thrillers / dark short stories",
+  "bookTitle": "The Vengeance Project",
+  "sourceUrl": "https://wordywomanworld.wordpress.com/about/",
+  "evidenceQuote": "I’m currently writing three books, all thrillers. It’s hard for me to believe that when they’re published, there’ll be more than twenty of my books on Amazon.",
+  "officialWebsite": "https://wordywomanworld.wordpress.com/",
+  "additionalUrls": [
+   "https://wordywomanworld.wordpress.com/2025/12/16/a-festive-look-at-my-three-2025-books/"
+  ],
+  "notes": "British indie author (25 books, 3 published in 2025); Dec 2025 post names The Vengeance Project as a 2026 release; former graphic designer.",
+  "discovery": {
+   "channel": "web_crawl",
+   "query": "https://public-api.wordpress.com/rest/v1.1/read/tags/<cover-reveal|pre-order|new-release|indie-author|self-publishing|...>/posts (WordPress.com Reader tag streams, Oct 2025-Oct 2026) filtered for UK/IE",
+   "provider": "claude-webfetch",
+   "market": "United Kingdom/Ireland",
+   "date": "2026-10-12"
+  },
+  "language": "en"
  }
 ]
