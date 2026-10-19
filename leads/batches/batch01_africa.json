@@ -1,0 +1,1373 @@
+{
+  "batch": "batch01_africa",
+  "leads": [
+    {
+      "Author Name": "Marilize Roos",
+      "Verified Public Email": [
+        "marilize.roos@marilizeroosromance.co.za"
+      ],
+      "Official Author Website": "https://marilizeroosromance.co.za",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/19815457.Marilize_Roos",
+        "https://www.amazon.com/stores/Marilize-Roos/author/B07W4S4TQV",
+        "https://www.facebook.com/MarilizeRoosRomance/",
+        "https://www.tiktok.com/@marilize.roos3"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Vrede op Aarde",
+        "In Die Hoogste Hemel"
+      ],
+      "Additional Discoverable Books and Series": "Krismis in die Kaap (Afrikaans Christmas series; In Die Hoogste Hemel is book 2); Club Angelus series (books 1-7+: Michael, Ariel, Gabriel, Lizzie, Odette, Christian, Barbara, Delmar); McClintock's ('n Ysprinses vir Silas); The Lords of Table Mountain; The Nef'Eal Brides; Boeie en Boetedoening. Goodreads shows 33 distinct works.",
+      "Book Genres": [
+        "Contemporary romance",
+        "Afrikaans romance",
+        "Christmas romance",
+        "Historical/Regency romance",
+        "Dark/BDSM romance"
+      ],
+      "Verified Book Descriptions or Synopses": "Vrede op Aarde: Eben Leibrandt moved his family from South Africa to Australia after job losses; his business thrives but he drifts from his wife and son, and when his ex-wife decides to return to Cape Town with their son he must decide what matters most (Goodreads blurb, Kindle, 2 Apr 2022). In Die Hoogste Hemel (Krismis in die Kaap Book 2): divorced Liesbet van Rooyen has sworn off handsome men; toy-company heir Nicolaas Kriel meets her, and when they are sent to the remote village of Dawidshoogte he realises she is the only woman he wants (Goodreads blurb, Kindle, 1 Dec 2023).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/59728379-vrede-op-aarde",
+        "https://www.goodreads.com/book/show/197804010-in-die-hoogste-hemel-krismis-in-die-kaap-book-2"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "https://www.amazon.com/stores/Marilize-Roos/author/B07W4S4TQV",
+      "Personalized Subject Line": "Christmas in the Cape: Vrede op Aarde and In Die Hoogste Hemel",
+      "Personalized Email Body": "Hi Marilize,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Vrede op Aarde and In Die Hoogste Hemel while researching your work. I was particularly interested in Eben Leibrandt weighing his thriving business in Australia against a family heading back to Cape Town, and in Liesbet and Nicolaas being sent to the remote village of Dawidshoogte in the Krismis in die Kaap series.\n\nThose details gave me an idea for how a Christmas preorder campaign could help present your books to more of the readers who may enjoy them. In Die Hoogste Hemel came out on 1 December, so a short run of festive countdown graphics and newsletter posts built around its Cape setting could give Afrikaans readers an early reason to revisit the series each holiday season.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Christmas preorder campaigns",
+      "Secondary Service Opportunity": [
+        "Book-focused website design",
+        "Customer retention"
+      ],
+      "Evidence-Based Service-Fit Explanation": "She runs an Afrikaans Christmas series (Krismis in die Kaap; book 2 released 1 Dec 2023) alongside long English series, which suits a seasonal preorder push. Her homepage hero section reads 'coming soon' and the About page (?page_id=63) rendered with no body text when fetched, suggesting the website is unfinished (secondary: website design). Long series (Club Angelus, 7+ books) also suit retention work.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Vrede op Aarde 4.25 avg / 48 ratings; In Die Hoogste Hemel 4.08 / 24 ratings; Michael (Club Angelus #1) 4.31 / 81 ratings.",
+      "Discoverability and Promotional Observations": "Website links to a MailerLite newsletter signup, Facebook reader group, Facebook author page, Amazon, Goodreads and TikTok. Homepage shows 'coming soon'; About page appears empty. No trailers observed.",
+      "Country": "South Africa",
+      "Region, State, or Province": "Western Cape",
+      "City": "Cape Town",
+      "Geographic Evidence and Relationship": "Current base: Goodreads author bio states 'She lives with her husband and son in Muizenberg, Cape Town' (https://www.goodreads.com/author/show/19815457.Marilize_Roos). Also a ROSA (Romance Writers South Africa) member.",
+      "Email Source URL": "https://marilizeroosromance.co.za",
+      "Author Identity Evidence URL": "https://marilizeroosromance.co.za",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/59728379-vrede-op-aarde",
+        "https://www.goodreads.com/book/show/197804010-in-die-hoogste-hemel-krismis-in-die-kaap-book-2",
+        "https://www.goodreads.com/author/show/19815457.Marilize_Roos"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://romancewriters.co.za/members/"
+      ],
+      "Evidence Type": "Official author website; Goodreads author and book pages; ROSA member listing",
+      "Email Attribution": "Author direct (mailto link on own website homepage; same address on ROSA member listing)",
+      "Publishing Status": "Likely independent/KDP — Goodreads lists publisher as 'Marilize Roos' (Vrede op Aarde) and 'Marilize Roos Romance' (In Die Hoogste Hemel), Kindle editions; no author statement about KDP seen",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 3, visual setting 4, series potential 5, identifiable audience 4; reader signals 3. Confidence: high on email/identity/location; medium on service fit. Note some of her catalogue is BDSM/dark romance; outreach deliberately uses the sweeter Afrikaans titles.",
+      "Other Notes": "Vrede op Aarde blurb does not mention Christmas; email does not claim it is a Christmas book."
+    },
+    {
+      "Author Name": "Elsabé Welman",
+      "Verified Public Email": [
+        "skryf@elsabewelman.co.za"
+      ],
+      "Official Author Website": "https://www.elsabewelman.co.za",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/17229817.Elsab_Welman",
+        "https://www.amazon.com/stores/author/B08DMRBV7W",
+        "https://www.facebook.com/elsabewelmanskrywer/",
+        "https://www.instagram.com/elsabewelman/"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Voorbarige Kersboom",
+        "Beklitsde Kersfees"
+      ],
+      "Additional Discoverable Books and Series": "Christmas novellas: Kersfees Kans (2024), Kerskous Omnibus (2025). Die Berg-broers series (Ryk Armgat bk 1, Filtervlinder bk 3); Spelbrekers sports romance (Afskop na Liefde / Kick-off to Love, 2025); Verdagte 504 (2026); Klippe kan Kraak; Ontfrommel; Klonte Sout; #vlugenterug; Sewe Keer Sondig; Forsaking Others; Gesluierd; Liefde, wyd soos die See; audiobooks.",
+      "Book Genres": [
+        "Afrikaans romance",
+        "Romantic suspense",
+        "Christmas novella"
+      ],
+      "Verified Book Descriptions or Synopses": "Voorbarige Kersboom: a Christmas novella (about 15,600 words) linking two worlds through Zinbali, a maroela tree; Pandra Loom, from a highly intelligent society, joins a Limpopo high school and meets Marnus Zietsman, then disappears and no one remembers her, leaving him a scar and an early Christmas-lit maroela tree (author site + Goodreads, Kindle, 4 Dec 2023). Beklitsde Kersfees: Fourie Lemmer, convicted of murder at seventeen and haunted by Christmas, meets charming private investigator Carmi Ras, who avoids anyone on the wrong side of the law; his 'Kersfees-fobies' and her family's line of work threaten their fragile connection (Goodreads, Kindle, 10 Dec 2022).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/200603797-voorbarige-kersboom",
+        "https://www.goodreads.com/book/show/64632199-beklitsde-kersfees",
+        "https://www.elsabewelman.co.za/p/1040676/voorbarige-kersboom-2023",
+        "https://www.elsabewelman.co.za/p/1028502/beklitsde-kersfees-2022"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "https://www.amazon.com/stores/author/B08DMRBV7W",
+      "Personalized Subject Line": "Kersfees-novelles: Voorbarige Kersboom en Beklitsde Kersfees",
+      "Personalized Email Body": "Hallo Elsabé,\n\nMy naam is Femi Emmanuel. Ek is 'n ontwerper en spesialis in boekdienste, en ek help skrywers om hul boeke professioneel aan te bied, te publiseer en te bemark.\n\nEk het op Voorbarige Kersboom en Beklitsde Kersfees afgekom terwyl ek u werk nagevors het. Ek was veral geïnteresseerd in die maroelaboom wat twee wêrelde verbind en voortydig met Kersliggies brand, en in Fourie Lemmer se Kersfees-fobies wanneer hy die privaat speurder Carmi Ras ontmoet.\n\nDaardie besonderhede het my 'n idee gegee oor hoe 'n Kersfees-voorbestellingsveldtog u boeke aan meer lesers kan voorstel wat dit sal geniet. Aangesien u Kersfees-novelles gewoonlik vroeg in Desember verskyn, kan 'n kort reeks feestelike aftelgrafika en nuusbriefplasings lesers betyds herinner aan die nuwe titel, en ook aan die Kerskous Omnibus.\n\nEk sal graag 'n gratis konsepvoorbeeld saamstel sodat u kan sien watter rigting ek in gedagte het.\n\nSal u bereid wees om daarna te kyk?\n\nHartlike groete,\nFemi Emmanuel",
+      "Primary Recommended Service": "Christmas preorder campaigns",
+      "Secondary Service Opportunity": [
+        "Book trailers",
+        "Email marketing"
+      ],
+      "Evidence-Based Service-Fit Explanation": "She releases an Afrikaans Christmas novella almost every December (Beklitsde Kersfees 10 Dec 2022, Voorbarige Kersboom 4 Dec 2023, Kersfees Kans 3 Dec 2024) plus a Kerskous Omnibus (2025) — a clear annual pattern a preorder campaign can be built around. She has a newsletter page and an audiobook page, so a festive teaser/trailer could reuse existing channels.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Beklitsde Kersfees 4.45 / 51 ratings; Voorbarige Kersboom 3.94 / 18; Ryk Armgat 4.52 / 90; books section average 4.5 across ~503 ratings.",
+      "Discoverability and Promotional Observations": "Bilingual Afrikaans/English site with newsletter (Nuusbrief), gallery, testimonials, events calendar, direct paperback ordering, audiobooks, Spotify author link, Facebook and Instagram. Also offers 'Skrywershulp' (writer help) services.",
+      "Country": "South Africa",
+      "Region, State, or Province": "Western Cape",
+      "City": "Riviersonderend",
+      "Geographic Evidence and Relationship": "Current base: website contact page lists 'Adres: Riviersonderend, Wes-Kaap/Western Cape. South Africa' and About page says she now lives in Riviersonderend in the Overberg (https://www.elsabewelman.co.za/about). Goodreads bio (older) says the Karoo.",
+      "Email Source URL": "https://www.elsabewelman.co.za/contact",
+      "Author Identity Evidence URL": "https://www.elsabewelman.co.za/about",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/200603797-voorbarige-kersboom",
+        "https://www.goodreads.com/book/show/64632199-beklitsde-kersfees",
+        "https://www.goodreads.com/author/show/17229817.Elsab_Welman"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://romancewriters.co.za/members/"
+      ],
+      "Evidence Type": "Official author website (contact, about, book pages); Goodreads author and book pages; ROSA member listing",
+      "Email Attribution": "Author direct (mailto on own website contact page; same address on ROSA member listing)",
+      "Publishing Status": "Likely independent/KDP — Kindle editions with no publisher listed on Goodreads; author sells paperbacks directly from her site; no explicit KDP statement seen",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 4, visual setting 4, series potential 4, identifiable audience 5; reader signals 3. Confidence: high. Email written in Afrikaans because the site is primarily Afrikaans. Contact page also shows a personal mobile number — deliberately not recorded.",
+      "Other Notes": "She offers writer-help services herself (Skrywershulp), so pitch is promotion-focused, not editing."
+    },
+    {
+      "Author Name": "Amanda Holly",
+      "Verified Public Email": [
+        "amanda@amandahollyauthor.com"
+      ],
+      "Official Author Website": "https://amandahollyauthor.com",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/20053245",
+        "https://www.facebook.com/AmandaHollyAuthor/",
+        "https://instagram.com/amandahollyauthor"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Broken Bastard",
+        "Broken Monster"
+      ],
+      "Additional Discoverable Books and Series": "The Broken Mafia Series (Broken Bastard bk 1, Broken Monster bk 2, Broken Savage bk 3 in progress); The Stolen Mafia Series (Stolen Vows); Hercules Private Security Series (Master for Life, Mistress Unchained); standalone Diamonds Are Not Forever.",
+      "Book Genres": [
+        "Mafia romance",
+        "Dark romance",
+        "Romantic suspense"
+      ],
+      "Verified Book Descriptions or Synopses": "Broken Bastard: Luca Sforza, illegitimate son of a Cosa Nostra Don ruled by his craving for whiskey, is drawn to Viviana Ajello, who has loved him since childhood and seduced him one night he doesn't remember, while his brother threatens her (author book page). Broken Monster: capo Lorenzo Russo, second in command and leader of the enforcers, takes Mia Ferraro when her father tries to auction her off, offering sanctuary in exchange for information; a standalone age-gap dark romance (author book page; Goodreads, Kindle, 27 Dec 2025).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/201125739-broken-bastard",
+        "https://www.goodreads.com/book/show/244944083-broken-monster",
+        "https://amzn.to/3u25K44",
+        "https://bit.ly/493dkNJ"
+      ],
+      "Amazon Book URL": "https://amzn.to/3u25K44",
+      "Amazon Author URL": "",
+      "Personalized Subject Line": "The Broken Mafia series: Luca, Lorenzo and Broken Savage",
+      "Personalized Email Body": "Hi Amanda,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Broken Bastard and Broken Monster while researching your work. I was particularly interested in Luca Sforza, the illegitimate son of a Cosa Nostra Don whose only mistress is whiskey, and in Lorenzo Russo, the capo who finally takes Mia Ferraro when her father tries to auction her off.\n\nThose details gave me an idea for how a 12-month book marketing roadmap could help present your books to more of the readers who may enjoy them. With Broken Savage underway as book 3, a month-by-month plan for newsletter teasers, series graphics and launch-week content could keep readers of Luca's and Lorenzo's stories engaged all the way to the next release.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "12-month book marketing roadmap",
+      "Secondary Service Opportunity": [
+        "Book promotion and marketing",
+        "Book trailers"
+      ],
+      "Evidence-Based Service-Fit Explanation": "Homepage announces Broken Monster (Dec 2025) and says she has started book 3, Broken Savage; she also regained rights to Stolen Vows and republished it under her own name. A multi-series catalogue with an upcoming release suits a structured roadmap; dark, cinematic mafia premises also suit trailers.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Broken Bastard 4.33 / 33 ratings; Broken Monster 4.20–4.24 / 20 ratings (19 reviews).",
+      "Discoverability and Promotional Observations": "Newsletter signup (subscribepage.io) prominently linked, Facebook and Instagram, trigger/content warnings page, Amazon buy links. No trailers observed.",
+      "Country": "South Africa",
+      "Region, State, or Province": "",
+      "City": "",
+      "Geographic Evidence and Relationship": "Current base: About page says 'I'm currently living in sunny South Africa' (https://amandahollyauthor.com/about-amanda/); Goodreads bio says 'Amanda lives in South Africa'. Co-founder of ROSA.",
+      "Email Source URL": "https://amandahollyauthor.com",
+      "Author Identity Evidence URL": "https://amandahollyauthor.com/about-amanda/",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/201125739-broken-bastard",
+        "https://www.goodreads.com/book/show/244944083-broken-monster",
+        "http://amandahollyauthor.com/broken-bastard-the-broken-mafia-series-book-1/",
+        "https://amandahollyauthor.com/broken-monster/"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://romancewriters.co.za/members/"
+      ],
+      "Evidence Type": "Official author website; Goodreads book pages; ROSA member listing",
+      "Email Attribution": "Author direct (mailto link in own website header; same address on ROSA member listing)",
+      "Publishing Status": "Likely independent/KDP — Kindle editions with no publisher on Goodreads; site says Stolen Vows rights reverted and it is being 'published under my own name'",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 4, visual setting 3, series potential 5, identifiable audience 5; reader signals 3. Confidence: high. Header link is written 'mailto://amanda@amandahollyauthor.com' — address text is literal in HTML.",
+      "Other Notes": ""
+    },
+    {
+      "Author Name": "Stephanie du Toit",
+      "Verified Public Email": [
+        "steph@stephaniedutoit.com"
+      ],
+      "Official Author Website": "https://stephaniedutoit.com",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/49466059",
+        "https://www.facebook.com/Stephaniedutoitskryf",
+        "https://www.instagram.com/stephaniedutoit_writes/"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Tweede Eerste Keer",
+        "'n Kêrel vir Kersfees"
+      ],
+      "Additional Discoverable Books and Series": "OESTYD: Liefde ge-oes tussen ruwe grond en ou seer (2025); Cold Fire: Alchemy of a Broken Curse (English).",
+      "Book Genres": [
+        "Afrikaans romance",
+        "Romantic suspense",
+        "Christmas novella"
+      ],
+      "Verified Book Descriptions or Synopses": "Tweede Eerste Keer: after a failed honeymoon Hanli Cronjé flees to Europe, meets Marco on the Eurostar and again in a Tuscan hotel where he is chef of a filmed cooking show; back in Cape Town her father, a well-known judge, presides over a case that makes her a target, and Marco is not who he seems — a romantic suspense set between the Cape winelands and Tuscany (Goodreads, Kindle, published 30 Sep 2026). 'n Kêrel vir Kersfees ('n Kamp Novella): Kara joins a family camping holiday feeling like the fifth wheel, meets local co-op worker Ben, and a hot-tub talk, waterfall hike and mountain rescue draw them together before he disappears (Goodreads, Kindle, 15 Dec 2025).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/260042607-tweede-eerste-keer",
+        "https://www.goodreads.com/book/show/245289966-n-k-rel-vir-kersfees",
+        "https://www.goodreads.com/book/show/241752871-oestyd",
+        "https://www.goodreads.com/book/show/217230489-cold-fire"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "",
+      "Personalized Subject Line": "Tweede Eerste Keer: from the Cape winelands to Tuscany",
+      "Personalized Email Body": "Hi Stephanie,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Tweede Eerste Keer and 'n Kêrel vir Kersfees while researching your work. I was particularly interested in Hanli meeting Marco, the chef of a cooking show filmed at a Tuscan hotel, before her judge father's case makes her a target back in Cape Town, and in Kara's camping holiday with its waterfall hike and mountain rescue.\n\nThose details gave me an idea for how book promotion and marketing could help present your books to more of the readers who may enjoy them. Tweede Eerste Keer has just been released, and its two settings, the Cape winelands and the hills of Tuscany, lend themselves to a short visual launch campaign that could also feature on your new website once it goes live.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Book promotion and marketing",
+      "Secondary Service Opportunity": [
+        "Book-focused website design",
+        "Christmas preorder campaigns"
+      ],
+      "Evidence-Based Service-Fit Explanation": "Tweede Eerste Keer was released 30 Sep 2026 (Goodreads publisher field: 'Stephanie du Toit'), so launch promotion is timely. Her website currently shows only a 'New website in progress' holding message with the email address, and her Christmas novella ('n Kêrel vir Kersfees, 15 Dec 2025) suggests a seasonal campaign opportunity.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): 'n Kêrel vir Kersfees 4.08 / 38 ratings; OESTYD 4.16 / 31; Tweede Eerste Keer 4.50–4.56 / 4 ratings (new).",
+      "Discoverability and Promotional Observations": "Website is a placeholder ('Our Website is currently in writing review stage as we are busy with a new website re-design'); Facebook and Instagram listed on ROSA. No newsletter signup observed.",
+      "Country": "Unknown / not publicly verified",
+      "Region, State, or Province": "",
+      "City": "",
+      "Geographic Evidence and Relationship": "No explicit current-residence statement found. Goodreads lists birthplace Claremont, South Africa (birthplace only, not used). Book settings are Cape Town/Franschhoek. ROSA member.",
+      "Email Source URL": "https://stephaniedutoit.com",
+      "Author Identity Evidence URL": "https://stephaniedutoit.com",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/260042607-tweede-eerste-keer",
+        "https://www.goodreads.com/book/show/245289966-n-k-rel-vir-kersfees",
+        "https://www.goodreads.com/author/show/49466059"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://romancewriters.co.za/members/"
+      ],
+      "Evidence Type": "Official author website (holding page); Goodreads book pages; ROSA member listing",
+      "Email Attribution": "Author direct (mailto on own website; same address on ROSA member listing)",
+      "Publishing Status": "Independent publisher, evidence available — Goodreads publisher field for Tweede Eerste Keer is 'Stephanie du Toit' (self-published Kindle edition)",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 4, visual setting 5, series potential 2, identifiable audience 4; reader signals 2. Confidence: high on email/books; location unknown. Website redesign already underway with someone, so website design is only secondary.",
+      "Other Notes": "Homepage holding text is in English; email written in English."
+    },
+    {
+      "Author Name": "Francine Beaton",
+      "Verified Public Email": [
+        "beatonfrancine@gmail.com"
+      ],
+      "Official Author Website": "https://www.francinebeaton.com",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/17694803",
+        "https://www.amazon.com/stores/Francine-Beaton/author/B07BJH92HR",
+        "https://www.facebook.com/FrancineBeatonAuthor",
+        "https://www.instagram.com/francinebeaton/"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Somerson Kersfees",
+        "Eye on the Ball"
+      ],
+      "Additional Discoverable Books and Series": "Playing for Glory rugby romance series (Eye on the Ball bk 1); Taste for Love series; Op die Kantlyn-reeks (Keuses van Gister bk 1, Kans vir Liefde bk 2); 'n Bietjie Hoop; The Widow's Choice; site says 50+ books in English and Afrikaans incl. festive holiday tales.",
+      "Book Genres": [
+        "Contemporary romance",
+        "Sports romance",
+        "Christmas/holiday romance",
+        "Afrikaans romance"
+      ],
+      "Verified Book Descriptions or Synopses": "Somerson Kersfees: Scottish firefighter Stuart Mackenzie, part of an international rescue team, arrives in Groenbosbaai on the Garden Route and meets Hayley Evans, a doctor who lost her husband to cancer and returns to join her family's medical practice (Goodreads, Kindle, 1 Feb 2024; publisher field 'Francine Beaton'). Eye on the Ball (Playing for Glory #1): pro rugby player Jakes du Plessis wants a Springbok spot in a World Cup year under a team celibacy pledge, until artist Angie Summers upends his plans (Goodreads, ebook, 2018).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/208172706-somerson-kersfees",
+        "https://www.goodreads.com/book/show/40974111-eye-on-the-ball"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "https://www.amazon.com/stores/Francine-Beaton/author/B07BJH92HR",
+      "Personalized Subject Line": "Somerson Kersfees, Eye on the Ball and your holiday romances",
+      "Personalized Email Body": "Hi Francine,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Somerson Kersfees and Eye on the Ball while researching your work. I was particularly interested in Stuart Mackenzie, the Scottish firefighter with an international rescue team who arrives in Groenbosbaai on the Garden Route, and in Jakes du Plessis chasing a Springbok place in a World Cup year while bound by his team's celibacy pledge.\n\nThose details gave me an idea for how a Christmas preorder campaign could help present your books to more of the readers who may enjoy them. Since festive holiday stories are a regular part of your catalogue, a seasonal campaign that contrasts a South African summer Christmas with your snowier northern-hemisphere settings could help both Afrikaans and English readers find the right holiday story before December.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Christmas preorder campaigns",
+      "Secondary Service Opportunity": [
+        "Customer retention",
+        "12-month book marketing roadmap"
+      ],
+      "Evidence-Based Service-Fit Explanation": "About page says she has published over 50 books including 'festive holiday tales' and that stories range 'from the South African Winelands to snowy towns in the northern hemisphere'; she has a dedicated PROMOS page. A large bilingual backlist with several series also suits retention work.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Somerson Kersfees 4.23 / 43 ratings; Eye on the Ball 4.23 / 52 ratings (36 reviews); 'n Bietjie Hoop 4.44 / 64.",
+      "Discoverability and Promotional Observations": "Wix site with English and Afrikaans book pages, promotions page, events page, media coverage page, contact page; Facebook and Instagram. Newsletter not confirmed.",
+      "Country": "Unknown / not publicly verified",
+      "Region, State, or Province": "",
+      "City": "",
+      "Geographic Evidence and Relationship": "Conflicting: Goodreads bio says she 'lives in Glasgow with her Scottish husband' (https://www.goodreads.com/author/show/17694803), while her website About page names her Vice-Chair and Pretoria group leader of ROSA (https://www.francinebeaton.com/about). Goodreads lists birthplace Pretoria. Current residence not reliably established.",
+      "Email Source URL": "https://www.francinebeaton.com/contact",
+      "Author Identity Evidence URL": "https://www.francinebeaton.com/about",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/208172706-somerson-kersfees",
+        "https://www.goodreads.com/book/show/40974111-eye-on-the-ball",
+        "https://www.goodreads.com/author/show/17694803"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://romancewriters.co.za/members/"
+      ],
+      "Evidence Type": "Official author website (about, contact); Goodreads author and book pages; ROSA member listing",
+      "Email Attribution": "Author direct (mailto on own website contact page; same address on ROSA member listing)",
+      "Publishing Status": "Likely independent/KDP — Goodreads publisher field for Somerson Kersfees is 'Francine Beaton' (Kindle); no explicit KDP statement seen",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 4, visual setting 4, series potential 5, identifiable audience 5; reader signals 3. Confidence: high on email/identity; location deliberately left unknown due to conflict.",
+      "Other Notes": "Site is bilingual with English first on the About page; email written in English."
+    },
+    {
+      "Author Name": "Meg Chronis",
+      "Verified Public Email": [
+        "meg@megchronis.com"
+      ],
+      "Official Author Website": "https://megchronis.com",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/21359170",
+        "https://www.facebook.com/megchronisauthor",
+        "https://www.instagram.com/megchronisauthor"
+      ],
+      "Selected Book Titles for Outreach": [
+        "The Seven Day Switch",
+        "Second Fiddle"
+      ],
+      "Additional Discoverable Books and Series": "The Stratton Sisters series (The Seven Day Switch bk 1); The Quartet series (Second Fiddle); free e-book reader magnet on site.",
+      "Book Genres": [
+        "Romantic comedy",
+        "Contemporary romance"
+      ],
+      "Verified Book Descriptions or Synopses": "The Seven Day Switch: London hotel concierge Becca Stratton returns to South Africa to impersonate her identical TV-celebrity twin and complete the twin's court-ordered community service at an African wildlife sanctuary, clashing with head vet Dr Sullivan Scott; winner of the ROSA Imbali Award (2024) (author page). Second Fiddle: wedding-planner intern Sophie James must save a glamorous safari wedding, rescues violinist Nate Holt from a baboon holding him captive in his game-lodge shower, and must confront the past that made her put down her violin (author page; Goodreads, Kindle, 17 Nov 2022).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/100436794-the-seven-day-switch",
+        "https://www.goodreads.com/book/show/63340693-second-fiddle",
+        "https://books2read.com/The-Seven-Day-Switch",
+        "https://mybook.to/Second_Fiddle"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "",
+      "Personalized Subject Line": "A twin switch, a shower-raiding baboon and your bushveld romcoms",
+      "Personalized Email Body": "Hi Meg,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across The Seven Day Switch and Second Fiddle while researching your work. I was particularly interested in Becca Stratton posing as her TV-celebrity twin to finish community service at an African wildlife sanctuary, and in Sophie James rescuing violinist Nate Holt from a baboon holding him captive in his game-lodge shower.\n\nThose details gave me an idea for how a book trailer could help present your books to more of the readers who may enjoy them. The wildlife sanctuary and safari-wedding settings, with their fish-out-of-water comedy, would translate naturally into a short, light-hearted video for social media that introduces the Stratton Sisters and Quartet stories in your own playful tone.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Book trailers",
+      "Secondary Service Opportunity": [
+        "Book promotion and marketing",
+        "Email marketing"
+      ],
+      "Evidence-Based Service-Fit Explanation": "Both books have highly visual, comic premises set in South African wildlife settings (sanctuary, game lodge, baboon) that suit a short trailer. The Seven Day Switch won the 2024 ROSA Imbali Award, which is a usable hook. She already has a newsletter and free e-book, so email marketing is only secondary.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): The Seven Day Switch 4.15 / 170 ratings; Second Fiddle 4.22–4.23 / 41 ratings (25 reviews). Site quotes NetGalley and bookstagram reviews.",
+      "Discoverability and Promotional Observations": "Newsletter opt-in and free e-book offer, Facebook, Twitter/X, Instagram, Pinterest; universal buy links (books2read, mybook.to); BookFunnel. Contact page appears to be form-based; no trailers observed.",
+      "Country": "South Africa",
+      "Region, State, or Province": "Gauteng",
+      "City": "Johannesburg",
+      "Geographic Evidence and Relationship": "Current base: website Bio page states 'I live in Johannesburg, South Africa' (https://megchronis.com/bio/).",
+      "Email Source URL": "https://romancewriters.co.za/members/",
+      "Author Identity Evidence URL": "https://megchronis.com/bio/",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/100436794-the-seven-day-switch",
+        "https://www.goodreads.com/book/show/63340693-second-fiddle",
+        "https://megchronis.com/the-seven-day-switch/",
+        "https://megchronis.com/second-fiddle/"
+      ],
+      "Other Relevant Platform Evidence URLs": [],
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website (bio, book pages); Goodreads",
+      "Email Attribution": "Author's own address listed in her entry on the Romance Writers Organisation of South Africa (ROSA) member page, alongside her Facebook/Instagram; address uses her own domain megchronis.com",
+      "Publishing Status": "Likely independent/KDP — Goodreads publisher field for Second Fiddle is 'Meg Chronis Books' (Kindle); no explicit KDP statement",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 5, visual setting 5, series potential 3, identifiable audience 4; reader signals 3. Confidence: medium-high. Email is not printed on her own site (contact appears form-based); source is ROSA member page.",
+      "Other Notes": ""
+    },
+    {
+      "Author Name": "Sumi Singh",
+      "Verified Public Email": [
+        "info@sumisingh.com"
+      ],
+      "Official Author Website": "https://sumisingh.com",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/22281706",
+        "https://www.facebook.com/SumiSinghAuthor/",
+        "https://www.instagram.com/suminthrasingh"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Sydney's Boxer",
+        "Fighting for Fame"
+      ],
+      "Additional Discoverable Books and Series": "Youngblood Series (Sydney's Boxer bk 1, 2021/2022; Fighting for Fame bk 2, 2025). Blog at sumisingh.com.",
+      "Book Genres": [
+        "Sports romance",
+        "Contemporary romance"
+      ],
+      "Verified Book Descriptions or Synopses": "Sydney's Boxer: Sydney inherits her late father's failing Youngblood Boxing Club and must save it while resisting cocky new boxer Dean, who promises to win titles (author books page; Goodreads, Kindle, 1 Mar 2022). Fighting for Fame: boxer Shaun, whose fists are his ticket out, falls for driven social media influencer Tasha as fame and ambition test their relationship (author books page; Goodreads, Kindle, 21 Jul 2025; publisher field 'Sumi Singh').",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/60560889-sydney-s-boxer",
+        "https://www.goodreads.com/book/show/238984829-fighting-for-fame",
+        "https://www.amazon.com/Sydneys-Boxer-Sports-Romance-Youngblood-ebook/dp/B09THF7GHJ/",
+        "https://www.amazon.com/Fighting-Fame-Youngblood-Sumi-Singh/dp/1037068734"
+      ],
+      "Amazon Book URL": "https://www.amazon.com/Sydneys-Boxer-Sports-Romance-Youngblood-ebook/dp/B09THF7GHJ/",
+      "Amazon Author URL": "",
+      "Personalized Subject Line": "The Youngblood Boxing Club: Sydney's Boxer and Fighting for Fame",
+      "Personalized Email Body": "Hi Sumi,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Sydney's Boxer and Fighting for Fame while researching your work. I was particularly interested in Sydney inheriting her late father's failing Youngblood Boxing Club, and in Shaun, whose fists are his ticket out, colliding with Tasha, a social media influencer building her empire one post at a time.\n\nThose details gave me an idea for how a book trailer could help present your books to more of the readers who may enjoy them. The boxing club, the training and the fight-night tension of the Youngblood Series lend themselves to a short, punchy video that introduces both standalone novels together and points readers straight to the series.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Book trailers",
+      "Secondary Service Opportunity": [
+        "Book promotion and marketing",
+        "12-month book marketing roadmap"
+      ],
+      "Evidence-Based Service-Fit Explanation": "Self-described indie author ('What an incredible journey it's been to finally say I'm an Indie Author!'). The boxing setting is strongly visual and suits a trailer; with only two series books (2022, 2025) a planned promotion cadence could help sustain visibility between releases.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Sydney's Boxer 3.78 / 37 ratings; Fighting for Fame 4.67 / 6 ratings.",
+      "Discoverability and Promotional Observations": "WordPress site with blog, newsletter signup (subscribepage.io), contact form, Facebook, Instagram, Twitter; Amazon links. No trailers observed.",
+      "Country": "Unknown / not publicly verified",
+      "Region, State, or Province": "",
+      "City": "",
+      "Geographic Evidence and Relationship": "No explicit current-residence statement found. Goodreads lists birthplace Kimberley, South Africa (birthplace only, not used). ROSA member.",
+      "Email Source URL": "https://romancewriters.co.za/members/",
+      "Author Identity Evidence URL": "https://sumisingh.com/about/",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/60560889-sydney-s-boxer",
+        "https://www.goodreads.com/book/show/238984829-fighting-for-fame",
+        "https://sumisingh.com/books-2/"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://sumisingh.com/about/"
+      ],
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website; Goodreads",
+      "Email Attribution": "Author's own-domain address listed in her ROSA member entry (mailto). Her own site also links this address but HTML-entity-encodes it, so ROSA is used as the literal source.",
+      "Publishing Status": "Independent publisher, evidence available — About page says she self-published Sydney's Boxer in 2021 and calls herself an indie author; Goodreads publisher field for Fighting for Fame is 'Sumi Singh'",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 3, visual setting 4, series potential 3, identifiable audience 4; reader signals 2. Confidence: medium-high. Site mailto is entity-encoded (not literal) — used ROSA page instead.",
+      "Other Notes": ""
+    },
+    {
+      "Author Name": "Caz Luan",
+      "Verified Public Email": [
+        "cazluanauthor@yahoo.com"
+      ],
+      "Official Author Website": "https://www.cazluan.com",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/39650517",
+        "https://www.amazon.com/stores/Caz-Luan/author/B0C77GXN3N",
+        "https://www.facebook.com/caz.luan",
+        "https://www.instagram.com/cazluanauthor/"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Sweet Torture",
+        "Sweet Surrender"
+      ],
+      "Additional Discoverable Books and Series": "Torture Games series (Sweet Torture bk 1, Sweet Misery bk 2, Sweet Secrets bk 3, Sweet Surrender bk 4); The Taste of Sin (Short & Spicy); anthologies.",
+      "Book Genres": [
+        "Dark romance",
+        "Romantic suspense"
+      ],
+      "Verified Book Descriptions or Synopses": "Sweet Torture (Torture Games #1): an erotic artist who keeps her lovers under her control meets CEO Griffin Maxwell, who has sworn off relationships, and agrees to a deal only if he gives up control (Goodreads, Kindle, 24 Jun 2025). Sweet Surrender (Torture Games #4): incorruptible ex-cop Claire Black saves the life of New York Bratva leader Vlad Antonov and becomes his bodyguard while he hunts the mole in his organisation (Goodreads, Kindle, 24 Sep 2026).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/224059775-sweet-torture",
+        "https://www.goodreads.com/book/show/244644402-sweet-surrender",
+        "https://books2read.com/Torture-Games-1"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "https://www.amazon.com/stores/Caz-Luan/author/B0C77GXN3N",
+      "Personalized Subject Line": "Torture Games: from Griffin Maxwell to Vlad Antonov",
+      "Personalized Email Body": "Hi Caz,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Sweet Torture and Sweet Surrender while researching your work. I was particularly interested in the artist who will only take Griffin Maxwell's deal if he surrenders control to her, and in Claire Black, the incorruptible ex-cop who ends up as bodyguard to Bratva leader Vlad Antonov.\n\nThose details gave me an idea for how customer retention work could help present your books to more of the readers who may enjoy them. With four books now out in the Torture Games series, a simple reader journey that guides people who finish Sweet Torture through Sweet Misery, Sweet Secrets and Sweet Surrender could help each new release reach readers already invested in the world.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Customer retention",
+      "Secondary Service Opportunity": [
+        "Email templates",
+        "12-month book marketing roadmap"
+      ],
+      "Evidence-Based Service-Fit Explanation": "A four-book series released Jun 2025 – Sep 2026 is a natural candidate for read-through/retention sequences. She already runs a newsletter (SendFox), ARC sign-up and direct SA paperback sales, so the opportunity is connecting those into a reader journey rather than starting from scratch.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Sweet Torture 4.06 / 62 ratings (42 reviews); Sweet Misery 4.61 / 18; Sweet Surrender 4.18 / 11; The Taste of Sin 2.94 / 115.",
+      "Discoverability and Promotional Observations": "Website with e-book and South African paperback shop pages, triggers page, events blog, anthologies, newsletter signup (SendFox), ARC reader signup form, FAQ; Facebook and Instagram.",
+      "Country": "Unknown / not publicly verified",
+      "Region, State, or Province": "",
+      "City": "",
+      "Geographic Evidence and Relationship": "Goodreads bio says she is 'currently traveling around with my ex-pat husband'; birthplace South Africa (not used). Sells South African paperbacks from her site and is a ROSA member, but no explicit current residence.",
+      "Email Source URL": "https://romancewriters.co.za/members/",
+      "Author Identity Evidence URL": "https://www.goodreads.com/author/show/39650517",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/224059775-sweet-torture",
+        "https://www.goodreads.com/book/show/244644402-sweet-surrender",
+        "https://www.goodreads.com/book/show/234651623-sweet-misery"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://www.cazluan.com"
+      ],
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website; Goodreads",
+      "Email Attribution": "Address listed in her ROSA member entry (mailto), alongside her Amazon author store, Facebook and Instagram links; her own site contact page appears form-based",
+      "Publishing Status": "Amazon-listed, KDP unverified — Kindle editions with no publisher listed on Goodreads; Amazon author store linked",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 4, visual setting 3, series potential 5, identifiable audience 4; reader signals 3. Confidence: medium (email from association listing; free-mail address).",
+      "Other Notes": "Dark romance with explicit content; outreach kept neutral."
+    },
+    {
+      "Author Name": "G.G. Fisher (Germaine Fisher)",
+      "Verified Public Email": [
+        "authorggfisher@gmail.com"
+      ],
+      "Official Author Website": "",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/20207392",
+        "https://www.amazon.com/author/g.g.fisher",
+        "https://www.instagram.com/g.g.fisherauthor"
+      ],
+      "Selected Book Titles for Outreach": [
+        "The Locket",
+        "Saving Hannah"
+      ],
+      "Additional Discoverable Books and Series": "Get Out (The Tiffany Parkes Story Book 1).",
+      "Book Genres": [
+        "Young adult",
+        "Christian fiction",
+        "Romance/Suspense"
+      ],
+      "Verified Book Descriptions or Synopses": "The Locket: after her grandmother dies, sixteen-year-old Allison McCarthy flees the UK foster-care system to Kleinmond, South Africa, as an exchange student, secretly searching for her biological father; diagnosed with a critical illness, she races against time with her late mother's locket as the key (Goodreads, Kindle, 6 Dec 2023). Saving Hannah: Nina and Hayden Stone face the decision whether to bring a life into the world as family secrets surface and Hayden falls into the grip of a seductress (Goodreads, paperback, 2013, New Voices Publishing Services).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/203343030-the-locket",
+        "https://www.goodreads.com/book/show/53166120-saving-hannah",
+        "https://www.goodreads.com/book/show/255021145-get-out"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "https://www.amazon.com/author/g.g.fisher",
+      "Personalized Subject Line": "The Locket, Saving Hannah and a home for your books",
+      "Personalized Email Body": "Hi Germaine,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across The Locket and Saving Hannah while researching your work. I was particularly interested in Allison McCarthy leaving the UK foster-care system for Kleinmond to search for her biological father, with her late mother's locket as the key, and in Nina and Hayden Stone facing the decision at the heart of Saving Hannah.\n\nThose details gave me an idea for how a book-focused website could help present your books to more of the readers who may enjoy them. A simple author site bringing The Locket, Saving Hannah and your Tiffany Parkes story together, with clear buy links and a short bio, would give readers who find you on Facebook or Instagram one place to explore all your books.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Primary Recommended Service": "Book-focused website design",
+      "Secondary Service Opportunity": [
+        "Email marketing",
+        "Book promotion and marketing"
+      ],
+      "Evidence-Based Service-Fit Explanation": "No author website is listed on her Goodreads profile or ROSA entry (ROSA lists only Amazon, Facebook, Instagram and email), and books span different publishers/years (2013 paperback via New Voices Publishing Services, 2023 Kindle, new Tiffany Parkes series), so a central site would consolidate them. Unsure whether a site exists elsewhere — none found in the sources reviewed.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): The Locket 4.20 / 15 ratings (14 reviews); Saving Hannah 4.20 / 5; Get Out 4.50 / 2.",
+      "Discoverability and Promotional Observations": "Amazon author page, Facebook and Instagram linked from ROSA. Participated in ROSA Romance Day at the 2026 Indie Authors Rise Up Festival (per search snippet, not fetched). No website or newsletter observed.",
+      "Country": "South Africa",
+      "Region, State, or Province": "Western Cape",
+      "City": "",
+      "Geographic Evidence and Relationship": "Current base: Goodreads bio 'I am a freelance writer residing in the Western Cape' (https://www.goodreads.com/author/show/20207392). Birthplace Cape Town (not used).",
+      "Email Source URL": "https://romancewriters.co.za/members/",
+      "Author Identity Evidence URL": "https://www.goodreads.com/author/show/20207392",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/203343030-the-locket",
+        "https://www.goodreads.com/book/show/53166120-saving-hannah"
+      ],
+      "Other Relevant Platform Evidence URLs": [],
+      "Evidence Type": "Professional association member listing (ROSA); Goodreads author and book pages",
+      "Email Attribution": "Address appears in her ROSA member entry (as the email link, though the link is malformed as 'http://authorggfisher@gmail.com'), next to her Amazon author page and Instagram 'g.g.fisherauthor'",
+      "Publishing Status": "Mixed publishing model — Saving Hannah lists New Voices Publishing Services (2013, a publishing-services firm); The Locket is a Kindle edition with no publisher listed",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 4, visual setting 3, series potential 3, identifiable audience 3; reader signals 2. Confidence: medium — email link on ROSA is malformed (http:// prefix) though the address text is literal; manually confirm before sending. First name Germaine taken from ROSA entry.",
+      "Other Notes": "Saving Hannah may be Christian fiction (Goodreads genres include Christian); not stated in email."
+    },
+    {
+      "Author Name": "Felicia Snyman (Felicia Snyman-du Toit)",
+      "Verified Public Email": [
+        "snymanfelicia@gmail.com"
+      ],
+      "Official Author Website": "https://www.feliciasnyman.co.za",
+      "Other Relevant Author Profile URLs": [
+        "https://www.goodreads.com/author/show/15198438",
+        "https://www.facebook.com/FeliciaSnymanSkrywer/",
+        "https://www.instagram.com/feliciasnyman/"
+      ],
+      "Selected Book Titles for Outreach": [
+        "Harte in harmonie",
+        "Liefde met 'n doelskop"
+      ],
+      "Additional Discoverable Books and Series": "Romanza titles: Hartklop in kakie (2024), In die hart van Lente (2024), Liefde met 'n uitklophou (2023), In sy hart, In sy glimlag, In sy stilte, In sy arms, Vir nou, altyd en daarna, Leila se leeuman, Bosveldliefde, Meer as ooit, 'n Duisend keer ja; other: Hartslag, #Kuberliefde; children's series (Die Wakker Akkers, Benru se Boomskok, Chloe en die Dino-baba).",
+      "Book Genres": [
+        "Afrikaans romance",
+        "Children's books"
+      ],
+      "Verified Book Descriptions or Synopses": "Harte in harmonie: after her father's death and a romantic disappointment, auditor Elara Hartwell is asked to write songs for singer Marko Roos, a self-described born wanderer; both must decide whether they can love again (Goodreads, paperback, 1 May 2026). Liefde met 'n doelskop: Alexa, daughter of a former Springbok, coaches Bryan's son's rugby team despite Bryan's open opposition; sparks fly after she comes to his son's rescue, until a rash choice drives them apart (Goodreads, paperback, 1 Oct 2025, LAPA).",
+      "Book URLs Across Relevant Platforms": [
+        "https://www.goodreads.com/book/show/244437354-harte-in-harmonie",
+        "https://www.goodreads.com/book/show/241726338-liefde-met-n-doelskop",
+        "https://www.goodreads.com/book/show/94167098-liefde-met-n-uitklophou"
+      ],
+      "Amazon Book URL": "",
+      "Amazon Author URL": "",
+      "Personalized Subject Line": "Harte in harmonie en Liefde met 'n doelskop",
+      "Personalized Email Body": "Hallo Felicia,\n\nMy naam is Femi Emmanuel. Ek is 'n ontwerper en spesialis in boekdienste, en ek help skrywers om hul boeke professioneel aan te bied, te publiseer en te bemark.\n\nEk het op Harte in harmonie en Liefde met 'n doelskop afgekom terwyl ek u werk nagevors het. Ek was veral geïnteresseerd in Elara Hartwell, die ouditeur wat liedjies vir die sanger Marko Roos moet skryf, en in Alexa, die dogter van 'n oud-Springbok wat Bryan se seun se rugbyspan afrig.\n\nDaardie besonderhede het my 'n idee gegee oor hoe e-posbemarking u boeke aan meer lesers kan voorstel wat dit sal geniet. Met nuwe Romanza-titels wat byna elke jaar verskyn, kan 'n eenvoudige nuusbrief op u webwerf lesers direk laat weet wanneer die volgende boek in die winkels is, sonder dat hulle net op sosiale media staatmaak.\n\nEk sal graag 'n gratis konsepvoorbeeld saamstel sodat u kan sien watter rigting ek in gedagte het.\n\nSal u bereid wees om daarna te kyk?\n\nHartlike groete,\nFemi Emmanuel",
+      "Primary Recommended Service": "Email marketing",
+      "Secondary Service Opportunity": [
+        "Book trailers",
+        "Book promotion and marketing"
+      ],
+      "Evidence-Based Service-Fit Explanation": "Her website (home and Boeke pages) lists 14 Romanza novels plus children's books and retailer links but no newsletter signup was observed; she publishes roughly one or more titles a year (2023, 2024 x2, 2025, 2026), so a direct reader list would support each release.",
+      "Reader and Review Signals": "Goodreads (as of 2026-10-19): Harte in harmonie 4.29 / 7 ratings; Liefde met 'n doelskop 4.43 / 7; Liefde met 'n uitklophou 4.31 / 16. Website notes a recent national award for her writing (Vaalweekblad, Sep 2026).",
+      "Discoverability and Promotional Observations": "Wix site with book pages, children's books, short stories, blog, media coverage (University of Pretoria, Vaalweekblad, Maroela Media) and retailer links (LAPA, Graffiti, Amazon, Exclusive Books, etc.); Facebook and Instagram. No newsletter observed.",
+      "Country": "South Africa",
+      "Region, State, or Province": "Gauteng",
+      "City": "",
+      "Geographic Evidence and Relationship": "Current base: website homepage states 'Hulle woon saam met hul kinders ... in Gauteng' (https://www.feliciasnyman.co.za).",
+      "Email Source URL": "https://romancewriters.co.za/members/",
+      "Author Identity Evidence URL": "https://www.feliciasnyman.co.za",
+      "Book Evidence Source URLs": [
+        "https://www.goodreads.com/book/show/244437354-harte-in-harmonie",
+        "https://www.goodreads.com/book/show/241726338-liefde-met-n-doelskop",
+        "https://www.feliciasnyman.co.za/boeke"
+      ],
+      "Other Relevant Platform Evidence URLs": [
+        "https://romancewriters.co.za/members/"
+      ],
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website; Goodreads book pages",
+      "Email Attribution": "Author's address listed (mailto) in her ROSA member entry under 'Felicia Snyman-du Toit', the name she uses on her own website; her site footer also shows info@feliciasnyman.co.za as plain HTML text, but WebFetch could not confirm it (Wix page truncated), so the ROSA-listed address is recorded",
+      "Publishing Status": "Traditional publisher — Romanza novels published by LAPA Uitgewers (Goodreads publisher 'LAPA'/'Romanza'; site links LAPA catalogue)",
+      "Research Date": "2026-10-19",
+      "Platforms Actually Reviewed": [
+        "Official website",
+        "Goodreads",
+        "ROSA member directory"
+      ],
+      "Confidence and Manual Verification Notes": "Opportunity scores (1–5): premise 3, visual setting 3, series potential 3, identifiable audience 4; reader signals 2. Confidence: medium-high. Traditionally published, so author-side budget is less certain; site occasionally returned HTTP 429 (rate limit) — retry if verification fails. Alternative address on her own site: info@feliciasnyman.co.za (present in raw HTML).",
+      "Other Notes": "Site is Afrikaans; email written in Afrikaans."
+    }
+  ],
+  "log": [
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "Western Cape",
+      "City": "Cape Town",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Marilize Roos",
+      "Email": "marilize.roos@marilizeroosromance.co.za",
+      "Source URL": "https://marilizeroosromance.co.za",
+      "Evidence Type": "Official author website; Goodreads author and book pages; ROSA member listing",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "Western Cape",
+      "City": "Riviersonderend",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Elsabé Welman",
+      "Email": "skryf@elsabewelman.co.za",
+      "Source URL": "https://www.elsabewelman.co.za/contact",
+      "Evidence Type": "Official author website (contact, about, book pages); Goodreads author and book pages; ROSA member listing",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Amanda Holly",
+      "Email": "amanda@amandahollyauthor.com",
+      "Source URL": "https://amandahollyauthor.com",
+      "Evidence Type": "Official author website; Goodreads book pages; ROSA member listing",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa (ROSA member)",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Stephanie du Toit",
+      "Email": "steph@stephaniedutoit.com",
+      "Source URL": "https://stephaniedutoit.com",
+      "Evidence Type": "Official author website (holding page); Goodreads book pages; ROSA member listing",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa (ROSA member)",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Francine Beaton",
+      "Email": "beatonfrancine@gmail.com",
+      "Source URL": "https://www.francinebeaton.com/contact",
+      "Evidence Type": "Official author website (about, contact); Goodreads author and book pages; ROSA member listing",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "Gauteng",
+      "City": "Johannesburg",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Meg Chronis",
+      "Email": "meg@megchronis.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website (bio, book pages); Goodreads",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa (ROSA member)",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Sumi Singh",
+      "Email": "info@sumisingh.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website; Goodreads",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa (ROSA member)",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Caz Luan",
+      "Email": "cazluanauthor@yahoo.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website; Goodreads",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "Western Cape",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "G.G. Fisher (Germaine Fisher)",
+      "Email": "authorggfisher@gmail.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "Professional association member listing (ROSA); Goodreads author and book pages",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "Gauteng",
+      "City": "",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory (romancewriters.co.za/members) / Smashwords profile",
+      "Candidate Name": "Felicia Snyman (Felicia Snyman-du Toit)",
+      "Email": "snymanfelicia@gmail.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "Professional association member listing (ROSA) with mailto; official author website; Goodreads book pages",
+      "Platform": "Official site / ROSA / Goodreads",
+      "Decision": "accepted",
+      "Rejection Reason": ""
+    },
+    {
+      "Country or Target Market": "Kenya",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Kenyan author independently published books official website contact email",
+      "Candidate Name": "Githara Kimani",
+      "Email": "kgithara@yahoo.com",
+      "Source URL": "https://www.smashwords.com/profile/view/kgithara2011",
+      "Evidence Type": "Smashwords profile",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "Address is literal only in the page meta description; visible body is Cloudflare-obfuscated and WebFetch could not confirm it; only one verifiable book (2015); profile stale"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Nigerian self-published author novel website contact email",
+      "Candidate Name": "Chikodi Anunobi",
+      "Email": "",
+      "Source URL": "https://www.chikodianunobi.com/?p=95",
+      "Evidence Type": "author website",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "Email only written as 'contact (at) ...' obfuscation, not literal; author lives in the USA"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Nigerian self-published author novel website contact email",
+      "Candidate Name": "Elizabeth Akinniyi",
+      "Email": "",
+      "Source URL": "https://booklife.com/profile/elizabeth-akinniyi-94906",
+      "Evidence Type": "BookLife profile",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "No email visible on fetched profile"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Nigerian self-published author novel website contact email",
+      "Candidate Name": "J.U. Scribe",
+      "Email": "",
+      "Source URL": "https://www.audible.in/author/JU-Scribe/B00HFKHZN8",
+      "Evidence Type": "Audible author page",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "US-based (Wisconsin); no public email found"
+    },
+    {
+      "Country or Target Market": "Kenya",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Kenyan author independently published books official website contact email",
+      "Candidate Name": "Kechi Kenyatta",
+      "Email": "",
+      "Source URL": "https://payhip.com/KechiKenyatta/contact",
+      "Evidence Type": "Payhip store",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "Contact page/form only; no email seen"
+    },
+    {
+      "Country or Target Market": "Kenya",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Kenyan author independently published books official website contact email",
+      "Candidate Name": "Kimanzi Constable",
+      "Email": "",
+      "Source URL": "https://kenya.wordcamp.org/2012/speaker/kimanzi-constable/",
+      "Evidence Type": "event page",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "US-based; no public email found"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "author site probe",
+      "Candidate Name": "Leye Adenle",
+      "Email": "leyeadenle@gmail.com",
+      "Source URL": "https://www.leyeadenle.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Email valid on site, but lives in London and is traditionally published with major-author endorsements (Lee Child, James Ellroy) — outside indie/Africa-based target"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Nerine Dorman author website contact",
+      "Candidate Name": "Nerine Dorman",
+      "Email": "",
+      "Source URL": "https://nerinedorman.wordpress.com",
+      "Evidence Type": "author blog",
+      "Platform": "Smashwords profile",
+      "Decision": "rejected",
+      "Rejection Reason": "Listed website returns HTTP 410 (gone); no email found"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "South African indie author romance series website newsletter",
+      "Candidate Name": "Maggie Tideswell",
+      "Email": "",
+      "Source URL": "https://booklife.com/profile/maggie-tideswell-27788",
+      "Evidence Type": "BookLife profile",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "No official website or email found"
+    },
+    {
+      "Country or Target Market": "Botswana",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Lauri Kubuitsile author website contact",
+      "Candidate Name": "Lauri Kubuitsile",
+      "Email": "",
+      "Source URL": "https://www.africanbookscollective.com/authors-editors/lauri-kubuitsile",
+      "Evidence Type": "publisher page",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "No personal site or email found; publisher contact only"
+    },
+    {
+      "Country or Target Market": "Ghana",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Nana Prah romance author Ghana website",
+      "Candidate Name": "Nana Prah",
+      "Email": "",
+      "Source URL": "https://nanaprah.blogspot.com",
+      "Evidence Type": "author blog",
+      "Platform": "Official blog",
+      "Decision": "rejected",
+      "Rejection Reason": "Blog fetched; no email address on page"
+    },
+    {
+      "Country or Target Market": "Mauritius",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Zee Monodee author Mauritius website",
+      "Candidate Name": "Zee Monodee",
+      "Email": "",
+      "Source URL": "https://zeemonodee.blogspot.com",
+      "Evidence Type": "author blog",
+      "Platform": "Goodreads/search",
+      "Decision": "rejected",
+      "Rejection Reason": "Blog/site unreachable or no email found"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Kiru Taye author website contact",
+      "Candidate Name": "Kiru Taye",
+      "Email": "",
+      "Source URL": "https://www.kirutaye.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "No email on fetched homepage; founder of Love Africa Press (publisher), unlikely buyer"
+    },
+    {
+      "Country or Target Market": "Zambia",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Dhasi Mwale author Zambia website",
+      "Candidate Name": "Dhasi (Rhodasi) Mwale",
+      "Email": "",
+      "Source URL": "https://www.loveafricapress.com",
+      "Evidence Type": "publisher store",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "No author website or email found"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Sinmisola Ogunyinka author website",
+      "Candidate Name": "Sinmisola Ogunyinka",
+      "Email": "",
+      "Source URL": "https://sinmisolao.wordpress.com",
+      "Evidence Type": "author blog",
+      "Platform": "Audible bio",
+      "Decision": "rejected",
+      "Rejection Reason": "Blog fetched; no email found"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Amaka Azie author website contact",
+      "Candidate Name": "Amaka Azie",
+      "Email": "",
+      "Source URL": "https://amakaazieauthor.com",
+      "Evidence Type": "author website",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "No email on site pages fetched; newsletter/socials only"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Ebele Chizea author website books",
+      "Candidate Name": "Ebele Chizea",
+      "Email": "",
+      "Source URL": "https://www.goodreads.com/author/show/17751300.Ebele_Chizea",
+      "Evidence Type": "Goodreads",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "US-based (Santa Monica); no website/email found; traditional (Three Rooms Press)"
+    },
+    {
+      "Country or Target Market": "Nigeria",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Nigerian author @gmail.com contact books Amazon Kindle novel",
+      "Candidate Name": "Myne Whitman",
+      "Email": "",
+      "Source URL": "https://www.mynewhitman.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Site fetched; no email address found"
+    },
+    {
+      "Country or Target Market": "Kenya",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "author based in Nairobi novels email",
+      "Candidate Name": "Alexander Nderitu",
+      "Email": "",
+      "Source URL": "https://alexandernderitu.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Site has invalid SSL certificate; could not verify any email"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "Ashling McCarthy author South Africa website books",
+      "Candidate Name": "Ashling McCarthy",
+      "Email": "info@ashlingmccarrthy.co.za",
+      "Source URL": "https://ashlingmccarthy.co.za/contact/",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Only email on site is misspelled ('mccarrthy' vs domain 'mccarthy'); address likely undeliverable, cannot record a verified working email"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "South African indie author self-published fantasy series",
+      "Candidate Name": "Tanya Meeson",
+      "Email": "",
+      "Source URL": "https://tanyameeson.substack.com/about",
+      "Evidence Type": "Substack",
+      "Platform": "Google search",
+      "Decision": "rejected",
+      "Rejection Reason": "No email found on Substack about page; no author site"
+    },
+    {
+      "Country or Target Market": "Ghana",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "author official website lives in Accra novels contact",
+      "Candidate Name": "Benjamin Kwakye",
+      "Email": "",
+      "Source URL": "https://benjaminkwakye.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Site returned 503 / SSL error; email could not be verified; location unconfirmed"
+    },
+    {
+      "Country or Target Market": "Ghana",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "author official website lives in Accra novels contact",
+      "Candidate Name": "Boakyewaa Glover",
+      "Email": "",
+      "Source URL": "https://boakyewaa.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "No email found on homepage/contact"
+    },
+    {
+      "Country or Target Market": "Zambia",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "author official website based in Lusaka books novel",
+      "Candidate Name": "Charles Mwewa",
+      "Email": "",
+      "Source URL": "https://charlesmwewa.com",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "No email found; Canada-based per other sources"
+    },
+    {
+      "Country or Target Market": "Uganda",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "author official website lives in Kampala books contact",
+      "Candidate Name": "Nyana Kakoma",
+      "Email": "",
+      "Source URL": "https://somanystories.ug",
+      "Evidence Type": "publisher site",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Publisher/platform founder; no author email found"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Dorothy Ewels",
+      "Email": "",
+      "Source URL": "https://www.dorothyewels.co.za",
+      "Evidence Type": "author website",
+      "Platform": "Official website",
+      "Decision": "rejected",
+      "Rejection Reason": "Website account suspended (only hosting 'webmaster@' address shown); no author email on ROSA entry"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Annerle Barnard",
+      "Email": "annerlebarnard@gmail.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "Traditionally published prize-winning YA author (NB Publishers/LAPA); own site is contact-form only; no explicit current location; low buyer likelihood"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Analize Theron",
+      "Email": "analize.theron@gmail.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "Traditional (LAPA Romanza line); no website; Goodreads profile empty; location unverifiable"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Zinèt Oosthuizen",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "ROSA entry's email and Instagram belong to Francine Beaton (listing error); no own email found"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Bernadine Lightfoot",
+      "Email": "berntowrite@gmail.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "Same address also listed for 'Mik Hunter' entry, attribution ambiguous; few reader signals"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Mik Hunter",
+      "Email": "berntowrite@gmail.com",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "Shared address with Bernadine Lightfoot; no books verified"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "Afrikaans",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Tosca de Villiers",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed; traditional (LAPA Romanza)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Tanya Wilde",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Peter Barker",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Naomi Mackay",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Simi Ramdutt",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Arini Vlotman",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Denise Riddle",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Nicole Ann Nielsen",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Jo-Anne Duffett",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    },
+    {
+      "Country or Target Market": "South Africa",
+      "Geographic Division": "",
+      "City": "",
+      "Language": "English",
+      "Search Query": "ROSA member directory",
+      "Candidate Name": "Tlalane Manciya",
+      "Email": "",
+      "Source URL": "https://romancewriters.co.za/members/",
+      "Evidence Type": "association listing",
+      "Platform": "ROSA",
+      "Decision": "rejected",
+      "Rejection Reason": "No email listed on ROSA entry; not pursued further (web search budget exhausted)"
+    }
+  ]
+}
