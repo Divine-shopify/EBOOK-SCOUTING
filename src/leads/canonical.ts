@@ -140,14 +140,17 @@ export function dedupKeys(l: Partial<Lead>): string[] {
   const nameParts = splitList(l["Author Name"]).flatMap((n) => n.split(/\s*\((?:aka|pen name|writing as)\s*|\)\s*/i)).map(normalizeKey).filter((n) => n.length > 2);
   for (const n of nameParts) keys.add(`name:${n}`);
   for (const e of splitList(l["Verified Public Email"])) keys.add(`email:${e.toLowerCase()}`);
-  const urls = [l["Official Author Website"], l["Amazon Author URL"], ...splitList(l["Other Relevant Author Profile URLs"])].flatMap((u) => splitList(u));
-  for (const u of urls) {
+  // Only the official website's domain identifies one author; other profile URLs (often on shared
+  // collective or platform sites) are compared as full URLs.
+  const site = splitList(l["Official Author Website"]);
+  for (const u of site) {
     const d = domainOf(u);
     if (d && !SHARED_HOSTS.test(d)) keys.add(`domain:${d}`);
-    else {
-      const n = normalizeUrl(u);
-      if (n && n.includes("/")) keys.add(`profile:${n}`);
-    }
+  }
+  const urls = [...site, l["Amazon Author URL"], ...splitList(l["Other Relevant Author Profile URLs"])].flatMap((u) => splitList(u));
+  for (const u of urls) {
+    const n = normalizeUrl(u);
+    if (n && n.includes("/")) keys.add(`profile:${n}`);
     const aid = amazonAuthorId(u);
     if (aid) keys.add(`amazon_author:${aid}`);
   }

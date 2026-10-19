@@ -69,3 +69,11 @@ describe("canonical leads", () => {
     expect(back[LEAD_COLUMNS.indexOf("Personalized Email Body")]).toBe(row["Personalized Email Body"]);
   });
 });
+
+describe("shared platforms", () => {
+  it("does not merge different authors who share a collective's domain in their profile links", () => {
+    const a = normalizeLead({ ...base, "Other Relevant Author Profile URLs": ["https://romanceclassbooks.com/authors/a"] });
+    const b = normalizeLead({ ...base, "Author Name": "Ann Roe", "Verified Public Email": ["ann@annroe.com"], "Official Author Website": "https://annroe.com", "Other Relevant Author Profile URLs": ["https://romanceclassbooks.com/authors/b"], "Amazon Book URL": "", "Selected Book Titles for Outreach": ["The Salt Road", "Ember Tide"] });
+    expect(mergeLeads([], [a, b]).added).toHaveLength(2);
+  });
+});
