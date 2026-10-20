@@ -1,6 +1,6 @@
 # Lead research spec (for research agents)
 
-You research real authors and return **verified** leads for Femi Emmanuel, a designer and book-services specialist.
+You research real authors and return **verified** leads for Roland Jacobs, a designer and book-services specialist.
 Accuracy beats volume. A lead you cannot verify is logged as rejected, never padded.
 
 ## Acceptance rules (all mandatory)
@@ -34,18 +34,18 @@ Confirmed KDP · Likely independent/KDP · Amazon-listed, KDP unverified · Trad
 
 ## Outreach email
 
-Write in the author's language when their site is not in English (sign-off name stays "Femi Emmanuel"); otherwise English.
+Write in the author's language when their site is not in English (sign-off name stays "Roland Jacobs"); otherwise English.
 Subject: short, specific to the books, not generic (never "Book Marketing Services", "Promote Your Book", etc.).
 Body model (adapt; 110–190 words; no placeholders left; mention each selected title by its exact title):
 
 > Hi [first name],
-> My name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.
+> My name is Roland Jacobs. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.
 > I came across [BOOK 1] and [BOOK 2] while researching your work. I was particularly interested in [verified element from book 1] and [verified element from book 2].
 > Those details gave me an idea for how [service] could help present your books to more of the readers who may enjoy them. [1–2 sentences on the concept, verified facts only.]
 > I'd be happy to put together a complimentary concept sample so you can see the direction I have in mind. (only if fitting; never claim a sample already exists)
 > Would you be open to taking a look?
 > Warm regards,
-> Femi Emmanuel
+> Roland Jacobs
 
 No promises of sales/reach, no "guarantee", no invented awards/reviews/numbers, no list of many services.
 
@@ -70,7 +70,7 @@ Write `leads/batches/<your batch name>.json`:
       "Amazon Book URL": "",
       "Amazon Author URL": "",
       "Personalized Subject Line": "...",
-      "Personalized Email Body": "Hi Jane,\n\nMy name is Femi Emmanuel. ...\n\nWarm regards,\nFemi Emmanuel",
+      "Personalized Email Body": "Hi Jane,\n\nMy name is Roland Jacobs. ...\n\nWarm regards,\nRoland Jacobs",
       "Primary Recommended Service": "Book trailers",
       "Secondary Service Opportunity": ["Email marketing"],
       "Evidence-Based Service-Fit Explanation": "Why, citing what you saw.",

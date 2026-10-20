@@ -11,7 +11,7 @@ const base = {
   "Book Evidence Source URLs": ["https://www.goodreads.com/book/show/1"],
   "Amazon Book URL": "https://www.amazon.com/dp/B0CXYZ1234",
   "Personalized Subject Line": "An idea for The Salt Road and Ember Tide",
-  "Personalized Email Body": "Hi Jane,\n\nMy name is Femi Emmanuel. I came across The Salt Road and Ember Tide...\n\nWarm regards,\nFemi Emmanuel",
+  "Personalized Email Body": "Hi Jane,\n\nMy name is Roland Jacobs. I came across The Salt Road and Ember Tide...\n\nWarm regards,\nRoland Jacobs",
   "Primary Recommended Service": "Book trailers",
   "Evidence-Based Service-Fit Explanation": "x",
   Country: "Canada",
@@ -32,7 +32,7 @@ describe("canonical leads", () => {
   });
 
   it("rejects placeholders, unknown services, untitled bodies and single books without a reason", () => {
-    const l = normalizeLead({ ...base, "Primary Recommended Service": "Magic", "Personalized Email Body": "Hi [AUTHOR NAME], Femi Emmanuel", "Selected Book Titles for Outreach": ["The Salt Road"] });
+    const l = normalizeLead({ ...base, "Primary Recommended Service": "Magic", "Personalized Email Body": "Hi [AUTHOR NAME], Roland Jacobs", "Selected Book Titles for Outreach": ["The Salt Road"] });
     const p = validateLead(l).join("\n");
     expect(p).toMatch(/unknown service/);
     expect(p).toMatch(/placeholders/);

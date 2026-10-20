@@ -187,7 +187,7 @@ export function validateLead(l: Partial<Lead>): string[] {
   const loose = (s: string) => normalizeKey(s.replace(/\s*[:(].*$/, ""));
   for (const t of titles) if (!normalizeKey(body).includes(loose(t))) p.push(`email body does not mention selected title: ${t}`);
   if (/\[[A-Z][A-Z \-']+\]/.test(body + subject)) p.push("email still contains template placeholders");
-  if (!/Femi Emmanuel/.test(body)) p.push("email body is not signed by Femi Emmanuel");
+  if (!/Roland Jacobs/.test(body)) p.push("email body is not signed by Roland Jacobs");
   if (/^(book marketing services|promote your book|author services|book promotion opportunity|grow your book sales)$/i.test(subject.trim())) p.push("generic subject line");
   if (/guarantee/i.test(body)) p.push("email promises guaranteed results");
   return p;
