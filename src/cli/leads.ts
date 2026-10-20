@@ -87,6 +87,7 @@ async function merge(files: string[]) {
     optedOut.set(normalizeKey(r["Candidate Name"]), r["Rejection Reason"]);
     for (const e of L.splitList(r.Email)) optedOut.set(e.toLowerCase(), r["Rejection Reason"]);
   }
+  const existingKeys = new Set(existing.flatMap((r) => L.dedupKeys(r)));
   const incoming: L.Lead[] = [];
   const manual: { author: string; reason: string }[] = [];
   const today = new Date().toISOString().slice(0, 10);
@@ -101,7 +102,8 @@ async function merge(files: string[]) {
     }
     for (const raw of batch.leads ?? []) {
       const l = L.normalizeLead(raw);
-      if (!flag("--no-fetch") && !L.validateLead(l).length) {
+      const known = L.dedupKeys(l).some((k) => existingKeys.has(k));
+      if (!known && !flag("--no-fetch") && !L.validateLead(l).length) {
         const problem = await confirmEmails(fetcher, l);
         if (problem) {
           manual.push({ author: l["Author Name"], reason: problem });
