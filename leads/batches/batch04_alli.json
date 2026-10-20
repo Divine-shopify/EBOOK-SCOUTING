@@ -603,67 +603,6 @@
    "Other Notes": ""
   },
   {
-   "Author Name": "Julie Bozza",
-   "Verified Public Email": [
-    "info@juliebozza.com"
-   ],
-   "Official Author Website": "https://juliebozza.com/",
-   "Other Relevant Author Profile URLs": [
-    "https://www.allianceindependentauthors.org/members/julie-bozza/author-profile",
-    "https://www.goodreads.com/juliebozza",
-    "https://www.amazon.com/stores/Julie-Bozza/author/B009JPO878"
-   ],
-   "Selected Book Titles for Outreach": [
-    "Butterfly Hunter",
-    "The Apothecary's Garden"
-   ],
-   "Additional Discoverable Books and Series": "See ALLi profile and Goodreads for full list (https://www.allianceindependentauthors.org/members/julie-bozza/author-profile)",
-   "Book Genres": [
-    "LGBTQ+ fiction",
-    "Historical fiction"
-   ],
-   "Verified Book Descriptions or Synopses": "Descriptions not read on fetched pages beyond titles; ALLi profile blurbs read for Queer Weird West Tales (22 stories of queer characters encountering weirdness on the frontier) and A Death in Tombstone, A.T. (journalist Clara Brown and Kate Elder in 1880s Tombstone).",
-   "Book URLs Across Relevant Platforms": [
-    "https://www.goodreads.com/book/show/41572493-butterfly-hunter",
-    "https://www.goodreads.com/book/show/36182648-the-apothecary-s-garden"
-   ],
-   "Amazon Book URL": "",
-   "Amazon Author URL": "https://www.amazon.com/stores/Julie-Bozza/author/B009JPO878",
-   "Personalized Subject Line": "Queer Weird West Tales and a books-first site",
-   "Personalized Email Body": "Hi Julie,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Butterfly Hunter and The Apothecary's Garden while researching your work, alongside Queer Weird West Tales and A Death in Tombstone, A.T. on your ALLi profile. I was particularly interested in the frontier setting of those Weird West stories.\n\nThose details gave me an idea for how book-focused website design could help present your books to more of the readers who may enjoy them. The idea would be to bring your novels, anthologies and free stories together on a clear books-first site with a simple way for readers to stay in touch.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
-   "Primary Recommended Service": "Book-focused website design",
-   "Secondary Service Opportunity": [
-    "Email marketing"
-   ],
-   "Evidence-Based Service-Fit Explanation": "36 works across MM romance, historical and anthologies, and the homepage relies on a contact form and blog with no newsletter signup seen; a clearer books-first site plus list capture fits.",
-   "Reader and Review Signals": "Goodreads: 3.91 avg / 3,157 ratings / 36 distinct works (as of research date)",
-   "Discoverability and Promotional Observations": "Blog, Payhip store, Facebook; no newsletter observed on homepage.",
-   "Country": "Australia",
-   "Region, State, or Province": "",
-   "City": "",
-   "Geographic Evidence and Relationship": "Homepage: 'I live and write on country traditionally owned by the Murramarang people of the Yuin nation' (NSW South Coast); ALLi profile Location: Australia. State inferred not recorded.",
-   "Email Source URL": "https://juliebozza.com/",
-   "Author Identity Evidence URL": "https://juliebozza.com/",
-   "Book Evidence Source URLs": [
-    "https://www.goodreads.com/book/show/41572493-butterfly-hunter",
-    "https://www.goodreads.com/book/show/36182648-the-apothecary-s-garden"
-   ],
-   "Other Relevant Platform Evidence URLs": [
-    "https://www.allianceindependentauthors.org/members/julie-bozza/author-profile"
-   ],
-   "Evidence Type": "ALLi member profile; official author website; Goodreads/retailer pages",
-   "Email Attribution": "Author direct (on own website)",
-   "Publishing Status": "Mixed publishing model — some titles via small presses (German translation edition listed), others self-published per ALLi membership; details unverified",
-   "Research Date": "2026-10-20",
-   "Platforms Actually Reviewed": [
-    "ALLi author directory/profile",
-    "Official website",
-    "Goodreads"
-   ],
-   "Confidence and Manual Verification Notes": "Found via ALLi public author directory (location filter). Email verified verbatim in fetched HTML of Email Source URL (visible text or mailto). Confidence: medium-high.",
-   "Other Notes": "Selected-title blurbs not read; outreach email references ALLi-profile titles whose blurbs were read."
-  },
-  {
    "Author Name": "A.B. Patterson",
    "Verified Public Email": [
     "andrew@abpatterson.com.au"
@@ -1418,8 +1357,8 @@
    "Source URL": "https://juliebozza.com/",
    "Evidence Type": "author website",
    "Platform": "ALLi directory",
-   "Decision": "accepted",
-   "Rejection Reason": ""
+   "Decision": "rejected",
+   "Rejection Reason": "selected titles lack a read synopsis"
   },
   {
    "Country or Target Market": "Australia",
