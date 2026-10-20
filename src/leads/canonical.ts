@@ -272,6 +272,8 @@ export function normalizeLead(raw: Record<string, unknown>): Lead {
     const v = raw[c];
     out[c] = Array.isArray(v) ? v.map((x) => String(x).trim()).filter(Boolean).join(LIST_SEP) : String(v ?? "").trim();
   }
+  // The sender changed from Femi Emmanuel to Roland Jacobs; batches written before the change are rewritten on merge.
+  for (const c of ["Personalized Email Body", "Personalized Subject Line"] as LeadColumn[]) out[c] = out[c].replace(/Femi Emmanuel/g, "Roland Jacobs").replace(/^Femi$/m, "Roland Jacobs");
   out["Verified Public Email"] = splitList(out["Verified Public Email"]).map((e) => e.toLowerCase()).join(LIST_SEP);
   return out;
 }
