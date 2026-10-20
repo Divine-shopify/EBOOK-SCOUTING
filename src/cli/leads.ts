@@ -68,6 +68,12 @@ async function merge(files: string[]) {
   const log = readLog();
   const fetcher = new Fetcher(null, { userAgent: "AuthorScoutAI/0.1 (+research; public professional contacts only)", requestsPerSecondPerHost: 1, timeoutMs: 20_000, retries: 1 });
   const prior = new Set(L.readTable<Record<string, string>>(PRIOR, ["author"]).map((r) => normalizeKey(r.author)));
+  // Authors whose pages refuse solicitation stay excluded, whichever batch rediscovers them.
+  const optedOut = new Map<string, string>();
+  for (const r of log) if (r.Decision === "rejected" && /solicit|advertis|werbung|marketing (offers|emails)|vendor pitch|paid-service offers/i.test(r["Rejection Reason"])) {
+    optedOut.set(normalizeKey(r["Candidate Name"]), r["Rejection Reason"]);
+    for (const e of L.splitList(r.Email)) optedOut.set(e.toLowerCase(), r["Rejection Reason"]);
+  }
   const incoming: L.Lead[] = [];
   const manual: { author: string; reason: string }[] = [];
   const today = new Date().toISOString().slice(0, 10);
@@ -89,6 +95,11 @@ async function merge(files: string[]) {
           log.push({ ...Object.fromEntries(L.LOG_COLUMNS.map((c) => [c, ""])), "Research Date": today, "Country or Target Market": l.Country, City: l.City, "Candidate Name": l["Author Name"], Email: l["Verified Public Email"], "Source URL": l["Email Source URL"], "Evidence Type": "email re-check", Decision: "manual_verification", "Rejection Reason": problem, Batch: name } as L.LogRow);
           continue;
         }
+      }
+      const optOut = optedOut.get(normalizeKey(l["Author Name"])) ?? L.splitList(l["Verified Public Email"]).map((e) => optedOut.get(e)).find(Boolean);
+      if (optOut) {
+        manual.push({ author: l["Author Name"], reason: `previously rejected for a no-solicitation notice: ${optOut}` });
+        continue;
       }
       if (prior.has(normalizeKey(l["Author Name"]))) l["Other Notes"] = [l["Other Notes"], "Also appears in the initial AuthorScout run (exports/csv/all_researched_authors.csv)."].filter(Boolean).join(" ");
       incoming.push(l);
