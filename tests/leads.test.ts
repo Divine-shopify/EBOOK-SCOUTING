@@ -85,3 +85,12 @@ describe("shared listing pages", () => {
     expect(mergeLeads([], [a, b]).added).toHaveLength(2);
   });
 });
+
+describe("award listing pages", () => {
+  it("does not treat an awards page shared by finalists as one author", () => {
+    const u = ["https://blueridgeconference.com/2025-selah-award-finalists/"];
+    const a = normalizeLead({ ...base, "Other Relevant Author Profile URLs": u });
+    const b = normalizeLead({ ...base, "Author Name": "Ann Roe", "Verified Public Email": ["ann@annroe.com"], "Official Author Website": "https://annroe.com", "Other Relevant Author Profile URLs": u, "Amazon Book URL": "" });
+    expect(mergeLeads([], [a, b]).added).toHaveLength(2);
+  });
+});
