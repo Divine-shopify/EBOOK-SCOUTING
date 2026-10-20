@@ -1,50 +1,54 @@
 # Canonical author leads — QC and coverage report
 
-Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
+Generated 2026-10-20T10:25:40.354Z from `leads/canonical_leads.csv`.
 
 ## Totals
 
 | metric | value |
 | --- | --- |
-| Accepted leads (rows) | 154 |
-| Unique authors | 154 |
-| Unique dedup keys | 1160 |
-| Email-bearing rows | 154 |
+| Accepted leads (rows) | 223 |
+| Unique authors | 223 |
+| Unique dedup keys | 1618 |
+| Email-bearing rows | 223 |
 | Target | 1000 |
-| Remaining to target | 846 |
-| Candidates logged | 708 |
-| Log decisions | rejected: 551, accepted: 158, manual_verification: 5 |
+| Remaining to target | 777 |
+| Candidates logged | 995 |
+| Log decisions | rejected: 765, accepted: 232, manual_verification: 10 |
 | Validator | pass |
 
 ## Accepted leads by country
 
 | value | n |
 | --- | --- |
-| Unknown / not publicly verified | 36 |
-| United States | 11 |
+| Unknown / not publicly verified | 60 |
+| Canada | 14 |
+| United States | 13 |
+| Germany | 13 |
+| Austria | 11 |
 | Switzerland | 11 |
 | United Kingdom | 10 |
 | New Zealand | 9 |
-| Germany | 6 |
+| Australia | 7 |
 | South Africa | 6 |
 | India | 5 |
 | Finland | 5 |
-| Austria | 4 |
 | Spain | 4 |
 | France | 4 |
 | Philippines | 3 |
+| Brazil | 3 |
 | Denmark | 3 |
-| Canada | 2 |
 | Israel | 2 |
 | United Arab Emirates | 2 |
 | Taiwan | 2 |
 | Malaysia | 2 |
 | Singapore | 2 |
 | Ghana | 2 |
+| Argentina | 2 |
+| Norway | 2 |
+| Panama | 2 |
+| Mexico | 2 |
 | Japan | 1 |
 | Hong Kong | 1 |
-| Australia | 1 |
-| Brazil | 1 |
 | Portugal | 1 |
 | Belgium | 1 |
 | Netherlands | 1 |
@@ -60,119 +64,147 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Nigeria | 1 |
 | Senegal | 1 |
 | Rwanda | 1 |
-| Argentina | 1 |
 | Chile | 1 |
 | Costa Rica | 1 |
 | Ecuador | 1 |
+| Egypt | 1 |
+| Slovenia | 1 |
 
 ## Publishing models
 
 | value | n |
 | --- | --- |
-| Likely independent/KDP | 45 |
-| Mixed publishing model | 44 |
-| Independent publisher, evidence available | 39 |
-| Amazon-listed, KDP unverified | 10 |
-| Traditional publisher | 9 |
-| Publishing status unclear | 6 |
+| Likely independent/KDP | 65 |
+| Mixed publishing model | 59 |
+| Independent publisher, evidence available | 55 |
+| Amazon-listed, KDP unverified | 18 |
+| Traditional publisher | 16 |
+| Publishing status unclear | 9 |
 | Confirmed KDP | 1 |
 
 ## Primary recommended service
 
 | value | n |
 | --- | --- |
-| Book trailers | 50 |
-| Book promotion and marketing | 23 |
-| Book-focused website design | 23 |
-| Email marketing | 16 |
-| 12-month book marketing roadmap | 14 |
-| Christmas preorder campaigns | 14 |
-| Customer retention | 4 |
-| Reader-engagement automation | 2 |
+| Book trailers | 60 |
+| Book promotion and marketing | 36 |
+| Book-focused website design | 34 |
+| 12-month book marketing roadmap | 27 |
+| Email marketing | 23 |
+| Christmas preorder campaigns | 17 |
+| Customer retention | 7 |
+| Book sales marketing | 5 |
+| Reader-engagement automation | 4 |
 | Publishing-related assistance | 2 |
-| Book sales marketing | 2 |
+| Ads management | 2 |
+| Facebook Ads | 2 |
 | TikTok Shop | 1 |
-| Ads management | 1 |
 | Ebook formatting | 1 |
-| Facebook Ads | 1 |
+| AEO (Answer Engine Optimization) | 1 |
+| SEO optimization | 1 |
 
 ## Secondary services
 
 | value | n |
 | --- | --- |
-| Book trailers | 38 |
-| Book promotion and marketing | 37 |
-| 12-month book marketing roadmap | 35 |
-| Email marketing | 34 |
-| Customer retention | 20 |
-| Book-focused website design | 16 |
-| Christmas preorder campaigns | 8 |
+| Email marketing | 67 |
+| Book trailers | 53 |
+| 12-month book marketing roadmap | 46 |
+| Book promotion and marketing | 42 |
+| Customer retention | 30 |
+| Book-focused website design | 25 |
+| Christmas preorder campaigns | 14 |
+| Facebook Ads | 10 |
+| Reader-engagement automation | 8 |
 | Ads management | 7 |
-| Facebook Ads | 6 |
-| Ebook formatting | 3 |
-| Reader-engagement automation | 3 |
+| Ebook formatting | 5 |
 | Email templates | 2 |
 | TikTok Shop | 1 |
 | Interior layout | 1 |
 | YouTube automation | 1 |
 | Publishing-related assistance | 1 |
 | Cover design | 1 |
+| SEO optimization | 1 |
+| Marketing and sales workflow automation | 1 |
+| AEO (Answer Engine Optimization) | 1 |
+| Book sales marketing | 1 |
 
 ## Genres
 
 | value | n |
 | --- | --- |
-| contemporary romance | 21 |
-| fantasy | 12 |
+| contemporary romance | 25 |
+| fantasy | 20 |
+| literary fiction | 11 |
+| contemporary fiction | 11 |
+| science fiction | 10 |
 | romantic suspense | 10 |
-| historical fiction | 9 |
-| science fiction | 8 |
-| contemporary fiction | 8 |
-| literary fiction | 6 |
-| crime fiction | 5 |
+| historical fiction | 10 |
+| crime fiction | 8 |
+| dark fantasy | 8 |
+| romantasy | 8 |
+| thriller | 8 |
+| romance | 7 |
+| short stories | 7 |
+| memoir | 7 |
+| poetry | 7 |
+| young adult | 6 |
+| urban fantasy | 6 |
+| paranormal romance | 6 |
 | young adult fantasy | 5 |
-| urban fantasy | 5 |
-| dark fantasy | 5 |
-| romantasy | 5 |
-| short stories | 5 |
+| epic fantasy | 5 |
+| dark romance | 5 |
+| women's fiction | 5 |
 | afrikaans romance | 5 |
+| children's books | 5 |
+| horror | 5 |
 | new adult romance | 4 |
-| young adult | 4 |
-| romance | 4 |
-| epic fantasy | 4 |
-| dark romance | 4 |
-| thriller | 4 |
-| horror | 4 |
+| romantic comedy | 4 |
+| cosy mystery | 4 |
+| children's fiction | 4 |
+| mystery | 3 |
 | cozy mystery | 3 |
+| christian fiction | 3 |
+| speculative fiction | 3 |
 | sports romance | 3 |
+| fantasy romance | 3 |
 | psychological thriller | 3 |
-| women's fiction | 3 |
-| romantic comedy | 3 |
-| children's books | 3 |
-| children's fiction | 3 |
-| memoir | 3 |
+| christmas romance | 3 |
 | middle grade | 3 |
 | children's picture book | 3 |
+| krimi | 3 |
 | space fantasy | 2 |
-| christian fiction | 2 |
-| speculative fiction | 2 |
 | post-apocalyptic fantasy | 2 |
 | gay romance | 2 |
-| fantasy romance | 2 |
 | fantasía urbana | 2 |
 | comedia romántica | 2 |
+| romance contemporâneo | 2 |
+| fantasia | 2 |
 | fantasía juvenil | 2 |
 | romance contemporáneo | 2 |
 | crime thriller | 2 |
+| suspense | 2 |
 | political thriller | 2 |
-| christmas romance | 2 |
 | christmas novella | 2 |
-| cosy mystery | 2 |
+| mafia romance | 2 |
+| historical romance | 2 |
 | noir | 2 |
+| police procedural | 2 |
 | speculative short fiction | 2 |
 | paranormal mystery | 2 |
+| historical mystery | 2 |
 | children's poetry | 2 |
-| mystery | 1 |
+| short fiction | 2 |
+| travel memoir | 2 |
+| humour | 2 |
+| outdoor guidebooks | 2 |
+| lgbtq+ | 2 |
+| distopia | 2 |
+| comédia romântica | 2 |
+| jugendfantasy | 2 |
+| historischer roman | 2 |
+| kinderbuch | 2 |
+| lyrik | 2 |
 | detective thriller | 1 |
 | young adult post-apocalyptic science fiction | 1 |
 | young adult romance | 1 |
@@ -188,7 +220,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | gaslamp fantasy | 1 |
 | erotic romance | 1 |
 | historical fantasy | 1 |
-| paranormal romance | 1 |
 | billionaire romance | 1 |
 | high fantasy | 1 |
 | fantasía contemporánea | 1 |
@@ -199,8 +230,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | ciencia ficción | 1 |
 | romance new adult | 1 |
 | romance de natal | 1 |
-| romance contemporâneo | 1 |
-| fantasia | 1 |
 | ficção com viagem no tempo | 1 |
 | ficção feminina | 1 |
 | romance lgbt | 1 |
@@ -220,25 +249,21 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | satirical women's fiction | 1 |
 | indian wedding romance | 1 |
 | diaspora fiction | 1 |
-| suspense | 1 |
 | paranormal / family saga | 1 |
 | historical/regency romance | 1 |
 | dark/bdsm romance | 1 |
-| mafia romance | 1 |
 | christmas/holiday romance | 1 |
 | romance/suspense | 1 |
 | historical fantasy (belle époque) | 1 |
 | humorous fantasy | 1 |
 | psychological drama | 1 |
 | geopolitical thriller | 1 |
-| historical romance | 1 |
 | historical saga | 1 |
 | dark fantasy romance | 1 |
 | historical/scientific thriller | 1 |
 | mystery romance | 1 |
 | children's/ya fantasy adventure | 1 |
 | historical adventure | 1 |
-| police procedural | 1 |
 | espionage thriller | 1 |
 | middle-grade horror/suspense | 1 |
 | cozy/comic crime | 1 |
@@ -253,7 +278,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | children's illustrated folklore | 1 |
 | children's picture/chapter books | 1 |
 | children's fantasy adventure | 1 |
-| historical mystery | 1 |
 | sapphic paranormal romance | 1 |
 | fantasy horror | 1 |
 | small-town romance | 1 |
@@ -277,7 +301,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | christmas | 1 |
 | romance / historical women's fiction | 1 |
 | children's fiction (8+) | 1 |
-| poetry | 1 |
 | crime novel | 1 |
 | contemporary women's fiction | 1 |
 | historical family novel | 1 |
@@ -287,7 +310,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | horror anthology | 1 |
 | alternative history | 1 |
 | queer fiction | 1 |
-| short fiction | 1 |
 | werewolf fantasy | 1 |
 | children's / middle-grade fantasy | 1 |
 | velopunk | 1 |
@@ -310,7 +332,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | comics anthology | 1 |
 | literary fiction (expat) | 1 |
 | mafia/bratva romance | 1 |
-| travel memoir | 1 |
 | nonfiction / preparedness guide | 1 |
 | ya dark fantasy | 1 |
 | gothic horror | 1 |
@@ -349,29 +370,77 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | ciencia ficción humorística | 1 |
 | novela histórica de samuráis | 1 |
 | fantasía oscura | 1 |
+| metaphysical thriller | 1 |
+| christian suspense | 1 |
+| clean mystery | 1 |
+| business / technology nonfiction | 1 |
+| sci-fi | 1 |
+| romance - fantasy | 1 |
+| cozy/paranormal mystery | 1 |
+| muslim fiction | 1 |
+| fiction (ems drama) | 1 |
+| photography / environment | 1 |
+| bc coastal history | 1 |
+| western canadian history | 1 |
+| children's nonfiction / activity | 1 |
+| environmental nonfiction | 1 |
+| haiku / minimalist poetry | 1 |
+| picture books | 1 |
+| humorous fiction | 1 |
+| crime/vampire mystery | 1 |
+| ya fantasy | 1 |
+| romance erótico | 1 |
+| romance jovem | 1 |
+| romance lgbtq+ | 1 |
+| terror | 1 |
+| fantasia sombria | 1 |
+| fantasia urbana | 1 |
+| sapphic romance | 1 |
+| erotik | 1 |
+| satire/fantasy | 1 |
+| fantasy-krimi | 1 |
+| ratgeber | 1 |
+| jugendbuch | 1 |
+| dystopie | 1 |
+| roman | 1 |
+| erzählungen | 1 |
+| regency romance | 1 |
+| christian historical romance | 1 |
+| australian historical romance | 1 |
+| colonial historical fiction | 1 |
+| rural romance | 1 |
+| australian romance | 1 |
+| rockstar romance | 1 |
+| fairy-tale retelling | 1 |
+| christian devotional | 1 |
+| children's fiction (middle grade) | 1 |
+| fantasy adventure | 1 |
 
 ## Platforms actually reviewed (accepted leads)
 
 | value | n |
 | --- | --- |
-| Official website | 149 |
-| Goodreads | 110 |
+| Official website | 214 |
+| Goodreads | 139 |
+| Readers' Favorite | 18 |
+| Selfpublisher-Verband member directory and book pages | 14 |
 | Amazon.de (search results and product pages) | 11 |
 | ALLi author directory | 11 |
 | Selfpublisher-Verband profile | 11 |
+| Writers' Union of Canada directory | 11 |
 | ROSA member directory | 10 |
 | EPIC indie author directory | 7 |
-| Readers' Favorite | 7 |
 | Indie Books NZ | 7 |
 | BoD shop | 6 |
+| Smashwords | 5 |
 | Osuuskumma publisher pages | 5 |
-| Smashwords | 4 |
 | Books2Read | 4 |
 | Web search results | 4 |
 | Danish Wikipedia | 4 |
 | Google search results | 4 |
 | Kiwi Kids' Bookstore | 4 |
 | Goodreads (search) | 4 |
+| Goodreads (search results) | 4 |
 | escritores.org directory | 4 |
 | Amazon.es | 4 |
 | romanceclassbooks.com | 3 |
@@ -379,7 +448,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Amazon press site | 3 |
 | Goodreads (search, no results) | 3 |
 | Epigram Bookshop | 3 |
-| Goodreads (search results) | 3 |
 | AudiobooksNow | 2 |
 | Amazon (author link only, not fetched) | 2 |
 | Apple Books | 2 |
@@ -387,6 +455,8 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Amazon.in | 2 |
 | Mummyfique article | 2 |
 | Sing Lit Station | 2 |
+| Australasian Christian Writers | 2 |
+| escritores.org | 2 |
 | BuscaLibre (search result listing) | 1 |
 | Substack | 1 |
 | BookLife | 1 |
@@ -450,18 +520,43 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Primicias | 1 |
 | ITA Books | 1 |
 | Tinta Libre (link only) | 1 |
+| Now Or Never Publishing | 1 |
+| Official website (Mountain Vision Publishing) | 1 |
+| Heritage House | 1 |
+| Caitlin Press | 1 |
+| Radiant Press | 1 |
+| Apt. 9 Press | 1 |
+| Book*hug Press | 1 |
+| Audible | 1 |
+| Slovenia Times (search result only) | 1 |
+| Writers' Union of Iceland member list | 1 |
+| Official website (WordPress blog) | 1 |
+| CELA profile | 1 |
+| Goga publisher site | 1 |
+| Sisters in Crime Australia | 1 |
+| Audible (search result) | 1 |
+| books2read | 1 |
+| Amazon (links on site, not fetched) | 1 |
+| Panamá América (press) | 1 |
+| Goodreads (list pages) | 1 |
 
 ## Email attribution
 
 | value | n |
 | --- | --- |
-| Author direct (own website contact page) | 12 |
+| Author direct (own website contact page) | 15 |
+| Author direct (on own website) | 14 |
 | Author direct (Impressum of own website, plain text and mailto) | 5 |
 | Author direct (Impressum of own website, plain text) | 3 |
+| Author direct (visible text on own contact page) | 3 |
 | Author direct (on own website homepage) | 2 |
 | Author direct (site header on own website) | 2 |
 | Author direct (mailto on own website contact page; same address on ROSA member listing) | 2 |
+| Author direct (mailto link on own website homepage) | 2 |
 | Author direct (mailto on own website) | 2 |
+| Author direct (mailto on own contact page) | 2 |
+| Author direct (visible on own website contact page) | 2 |
+| Author direct (visible on own contact page) | 2 |
 | Author direct (on own website bio page: 'You can get in touch with me at: michaelpronko@gmail.com') | 1 |
 | Author direct (mailto link in header/footer of own website) | 1 |
 | Author direct (own website About page: 'Or email her at author@tarafrejas.com') | 1 |
@@ -523,7 +618,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Author direct (footer mailto on own website, subject 'Kontakt') | 1 |
 | Author direct (on own website contact page; a phone number is also listed there and is not recorded) | 1 |
 | Author direct (on own website under 'Kontakt – Skriv til:') | 1 |
-| Author direct (mailto link on own website homepage) | 1 |
 | Author direct (shown on own website About page footer: 'Get in touch') | 1 |
 | Author direct (own website contact page: 'Feel free to contact me directly by email') | 1 |
 | Author direct (own website contact page: 'please get in contact by emailing her at') | 1 |
@@ -588,6 +682,48 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Author direct (contact section of own website) | 1 |
 | Author direct (own website contact page and page footers) | 1 |
 | Author's own press address on his official website's Prensa page (the visible text reads 'Email: prensa@grmeneghetti.com.ar'; the link behind it is a Wix placeholder) | 1 |
+| Author direct (visible text on own website contact/about pages) | 1 |
+| Author direct (visible text and mailto in site footer) | 1 |
+| Author direct (mailto link on own contact page) | 1 |
+| Author direct (visible text on own website) | 1 |
+| Author direct (mailto on own homepage) | 1 |
+| Author direct (visible and mailto on own contact page) | 1 |
+| Author direct (mailto link on her own website, Write Minded Coach business address) | 1 |
+| Author direct (own domain, contact page) | 1 |
+| Author direct (mailto 'email Graeme' link on own press homepage) | 1 |
+| Author direct (info@ on own domain, contact page) | 1 |
+| Author direct (visible on own homepage) | 1 |
+| Author direct (visible 'Contact:' line on own publications page) | 1 |
+| Author direct (mailto link on own homepage; text shown obfuscated as songspinner(at)shaw(dot)ca) | 1 |
+| Author direct (mailto link on own homepage) | 1 |
+| Author direct (author bio on Audible author page: 'To contact me, please email here') | 1 |
+| Writers' Union of Iceland member directory entry under his full name | 1 |
+| Author direct (his own blog post 'Sa n-o săruţi pe Isabel – la oferta' asks readers to email him) | 1 |
+| Author's public professional profile (CELA participant page lists her e-mail) | 1 |
+| Author direct (visible text on own contact page: 'E-mail: li@limendi.com.br') | 1 |
+| Author direct (visible text on homepage and Sobre page) | 1 |
+| Author direct (own contact page, 'Fale direto comigo' for eventos, parcerias/publis; mailto + visible text). Editorial/rights questions go to agent Mia Roman — not used. | 1 |
+| Author direct (visible text 'E-mail: solainechioro@gmail.com' on own contact page) | 1 |
+| Author direct (active mailto link on own website; a second copy sits in an HTML comment) | 1 |
+| Author direct (visible mailto text on own website footer) | 1 |
+| Author direct (mailto:contato@ericnovello.com on own site; visible text is spaced 'contato @ ericnovello . com') | 1 |
+| Author direct (visible 'Contact:' text on own About page) | 1 |
+| Author direct (visible text + mailto on own contact page: 'Para falar sobre meus livros, novos projetos ou convites literários') | 1 |
+| Author direct (mailto in site footer/contact block on own website) | 1 |
+| Author website contact page: hello@ (general questions) and rachel@ (assistant, professional enquiries) | 1 |
+| Author direct (visible text and mailto on own contact page) | 1 |
+| Author direct ('simply email me at' on own contact page) | 1 |
+| Author direct (visible 'Email' field on own contact page) | 1 |
+| Author direct (Cloudflare-protected email on own contact page, decoded) | 1 |
+| Author direct (mailto and visible text on own about page) | 1 |
+| Author direct (on own website contact page and homepage: 'you can directly contact Mayra at ...') | 1 |
+| Author's own imprint inbox; site states 'Readers: You can contact the author by writing to the following e-mail address and it will be forwarded to him.' | 1 |
+| Author direct (homepage review-team note and contact page show the address; contact page displays it uppercase as SGS.AUTHOR@GMAIL.COM) | 1 |
+| Author direct (own contact page: 'Contáctame, escribiendo al ...') | 1 |
+| Author direct (own site contact page) | 1 |
+| Author direct (mailto link on own website) | 1 |
+| Author direct (FAQ page: 'Por favor envíame un correo ...'; also mailto in site header) | 1 |
+| Author direct (own contact page: 'Envíame un email a ...') | 1 |
 
 ## Rows with one selected book
 
@@ -604,6 +740,9 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Patrick McLaughlin | 1 |
 | Regina Schlager | 1 |
 | Brian Flores | 1 |
+| Lili K. Buckley | 1 |
+| James R. Van Laan | 1 |
+| Michaele Gruen | 1 |
 
 ## Research coverage (log)
 
@@ -611,14 +750,20 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 
 | value | n |
 | --- | --- |
+| United States | 52 |
+| Australia | 47 |
+| Mexico | 45 |
+| Brazil | 38 |
 | US/Canada/UK/Ireland/Australia/NZ/Caribbean | 37 |
-| Germany | 30 |
+| Germany | 37 |
+| Canada | 33 |
 | New Zealand | 28 |
 | South Africa | 26 |
+| Thailand | 25 |
 | Switzerland | 25 |
+| Spain | 25 |
 | Nigeria | 25 |
 | Italy | 25 |
-| Spain | 24 |
 | Argentina | 22 |
 | India | 22 |
 | United Kingdom | 22 |
@@ -628,44 +773,52 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | France | 18 |
 | Singapore | 17 |
 | Malaysia | 16 |
-| United States | 16 |
 | Sweden | 16 |
+| Panama | 16 |
+| Austria | 15 |
 | Denmark | 15 |
-| Thailand | 14 |
 | Chile | 13 |
-| Brazil | 11 |
-| Canada | 10 |
+| Germany/Austria | 12 |
 | Colombia | 10 |
 | Kenya | 10 |
 | Netherlands | 10 |
 | Croatia | 10 |
-| Austria | 8 |
-| Mexico | 8 |
-| Unknown / not publicly verified | 7 |
+| Guatemala | 10 |
+| Unknown / not publicly verified | 9 |
+| Norway | 8 |
+| Romania | 8 |
 | Pakistan | 7 |
 | Ghana | 7 |
 | Uganda | 7 |
 | Venezuela | 7 |
+| South Korea | 6 |
 | Sri Lanka | 6 |
+| Turkey | 6 |
 | Belgium | 6 |
-| Norway | 6 |
 | Ireland | 6 |
+| El Salvador | 6 |
 | Israel | 5 |
 | Poland | 5 |
+| Hungary | 5 |
+| Czechia | 5 |
+| Morocco | 5 |
+| Bolivia | 5 |
 | Taiwan | 4 |
-| Australia | 4 |
-| Turkey | 4 |
 | South Africa (ROSA member) | 4 |
-| Romania | 4 |
-| Hungary | 4 |
+| Iceland | 4 |
 | Cameroon | 4 |
+| Egypt | 4 |
+| Honduras | 4 |
 | Japan | 3 |
+| Unknown | 3 |
+| Vietnam | 3 |
 | Portugal | 3 |
 | Peru | 3 |
+| Slovakia | 3 |
 | Singapore (origin) | 3 |
+| Slovenia | 3 |
+| Bulgaria | 3 |
 | Hong Kong | 2 |
-| Unknown | 2 |
-| South Korea | 2 |
 | United Arab Emirates | 2 |
 | UAE | 2 |
 | Bangladesh | 2 |
@@ -675,23 +828,21 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Greece | 2 |
 | United States / Canada (unverified) | 2 |
 | Malta | 2 |
-| Slovakia | 2 |
 | Trinidad and Tobago | 2 |
 | Jamaica | 2 |
 | Rwanda | 2 |
 | Uruguay | 2 |
 | Costa Rica | 2 |
+| Mexico/US | 2 |
+| Paraguay | 2 |
 | Philippines (search) | 1 |
 | Philippines (community) | 1 |
 | South Korea / Taiwan | 1 |
-| Vietnam | 1 |
 | Jordan | 1 |
 | Mauritius | 1 |
-| Iceland | 1 |
 | Caribbean (not UK/IE) | 1 |
 | Luxembourg | 1 |
 | Cyprus | 1 |
-| Czechia | 1 |
 | Ukraine / Croatia | 1 |
 | Estonia | 1 |
 | Serbia / Slovenia | 1 |
@@ -702,29 +853,35 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Puerto Rico | 1 |
 | Ecuador | 1 |
 | Spain/Venezuela | 1 |
+| Qatar | 1 |
+| Ukraine | 1 |
+| Honduras/Guatemala | 1 |
 
 ### Languages used
 
 | value | n |
 | --- | --- |
-| English | 402 |
-| Spanish | 95 |
-| German | 62 |
+| English | 548 |
+| Spanish | 174 |
+| German | 89 |
+| Portuguese | 41 |
 | French | 34 |
 | Italian | 25 |
 | Finnish | 15 |
-| Portuguese | 14 |
 | Danish | 13 |
 | Dutch | 10 |
 | Swedish | 10 |
 | Afrikaans | 7 |
 | Polish | 5 |
+| Norwegian | 4 |
 | Croatian | 4 |
-| Norwegian | 3 |
 | Hungarian | 3 |
-| Slovak | 2 |
+| Slovak | 3 |
+| Turkish | 2 |
 | Malay | 2 |
-| Turkish | 1 |
+| Czech | 2 |
+| Romanian | 2 |
+| Icelandic | 2 |
 | Russian | 1 |
 | Serbian | 1 |
 | French/English | 1 |
@@ -733,15 +890,21 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 
 | value | n |
 | --- | --- |
-| Official website | 115 |
-| Google search | 109 |
-| Web search | 58 |
+| Official website | 123 |
+| Google search | 114 |
+| Web search | 64 |
+| escritores.org | 43 |
+| author website | 41 |
+| Readers' Favorite directory | 36 |
 | Direct fetch | 26 |
-| Goodreads | 24 |
+| Selfpublisher-Verband member directory | 26 |
+| Goodreads | 25 |
 | Goodreads list | 24 |
+| Writers' Union of Canada directory | 23 |
 | official website | 22 |
 | Directory browse | 19 |
 | Goodreads shelf mining | 18 |
+| Web | 18 |
 | romanceclassbooks.com author directory | 16 |
 | Wikipedia | 16 |
 | ROSA | 15 |
@@ -752,22 +915,29 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | EPIC indie author directory | 11 |
 | Selfpublisher-Verband directory / author website | 11 |
 | Selfpublisher-Verband directory | 11 |
+| milibrohispano.org | 11 |
 | Official site / ROSA / Goodreads | 10 |
 | Directory browse (Indie Books NZ / Kiwi Kids' Bookstore / Tamariki Book Festival) + author site | 10 |
+| (blank) | 9 |
 | Sessionize speaker list | 9 |
 | escritores.org directory | 9 |
+| Goodreads / author site | 9 |
 | Blog list | 7 |
 | Wikipedia; official website | 7 |
 | Google search / official website | 5 |
 | Amazon press release | 5 |
 | Article | 5 |
 | WebSearch | 5 |
-| (blank) | 4 |
+| Goodreads list 181951 | 5 |
 | AÉQJ directory | 4 |
 | escritores.org directory / official website | 4 |
+| Goodreads list 297341 | 4 |
+| Goodreads list 187479 | 4 |
 | CrimeReads article | 3 |
 | Memory-led probe | 3 |
 | Goodreads list / official website | 3 |
+| Goodreads shelf 'kpop' | 3 |
+| Writers' Union of Iceland | 3 |
 | #romanceclass webring | 2 |
 | rnovelaromantica.com autopublicados directory | 2 |
 | Goodreads group thread | 2 |
@@ -782,6 +952,14 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Masobe Books | 2 |
 | Google search / Goodreads | 2 |
 | Lecturalia / Goodreads | 2 |
+| Morocco World News | 2 |
+| Goodreads shelf 'bangkok-thrillers' | 2 |
+| Goodreads shelf | 2 |
+| Goodreads shelf 'pattaya' | 2 |
+| Goodreads shelf 'saigon' | 2 |
+| Goodreads shelf 'islamic-fiction' | 2 |
+| Risingshadow | 2 |
+| Goodreads list 185028 | 2 |
 | Search results (memory-led probe) | 1 |
 | romanceclassbooks.com directory / memory-led probe | 1 |
 | Web search / Triada Literaria list | 1 |
@@ -827,30 +1005,64 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Goodreads / WebFetch | 1 |
 | Goodreads list 'Chilean Fantasy and SciFi' | 1 |
 | Goodreads list 'Peruvian Fantasy, Horror and Sci-Fi' | 1 |
+| Goodreads autocomplete / author site | 1 |
+| Morocco World News article (Marrakech English Book Festival) | 1 |
+| Goodreads shelf 'marrakech' | 1 |
+| Goodreads shelf 'tangier' | 1 |
+| Web search / Bosphorus Review writers list | 1 |
+| Goodreads shelf 'chiang-mai' | 1 |
+| Korea Herald article | 1 |
+| Goodreads shelf 'halal-romance' | 1 |
+| Audible | 1 |
+| SlavCon guest list -> official website | 1 |
+| Goodreads blog | 1 |
+| CELA | 1 |
+| SoundCloud | 1 |
+| BingeBooks | 1 |
+| Book Arsenal | 1 |
+| SlavCon | 1 |
+| Goodreads lists 297341/71807 | 1 |
+| Goodreads lists (Mexican authors) | 1 |
+| Goodreads list 176987 | 1 |
+| Goodreads list 13865 | 1 |
+| Goodreads search | 1 |
+| Goodreads list 188098 | 1 |
+| Goodreads list 71807 | 1 |
+| Goodreads list 181903 | 1 |
+| Goodreads list 185022 | 1 |
+| pvangels.com article | 1 |
 
 ### Rejection reasons
 
 | value | n |
 | --- | --- |
+| No email on blog | 20 |
+| Site unreachable | 16 |
 | No email address in site HTML | 14 |
+| no email in HTML | 14 |
+| No email in HTML | 13 |
+| No email on site | 12 |
+| contact form only | 11 |
 | Contact form only | 9 |
 | No email listed on ROSA entry; not pursued further (web search budget exhausted) | 9 |
-| No email on site | 9 |
 | No email found | 7 |
-| No email in HTML | 6 |
 | No author website or email found | 5 |
+| No website or email found | 5 |
+| Impressum widerspricht unaufgeforderter Werbung | 5 |
 | Website unreachable | 4 |
 | no email found on home/contact/about pages | 4 |
+| No author website or public email found | 3 |
 | Contact form only; no email in HTML | 3 |
 | no author website/email found | 3 |
 | No website link found; no email | 3 |
-| contact form only | 3 |
+| no email on site | 3 |
 | No official website or email found | 3 |
 | No email in HTML (contact form only) | 3 |
-| No website or email found | 3 |
+| no email found | 3 |
+| No website found | 3 |
+| No email on site; location not stated | 3 |
 | Website unreachable (proxy 502) | 2 |
 | Website unreachable (connection reset) | 2 |
-| Site unreachable | 2 |
 | no email address found in HTML | 2 |
 | not pursued: deprioritised (books/publishing model not checked; quota reached) | 2 |
 | Blog removed (404) | 2 |
@@ -864,7 +1076,11 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Official site not reachable/identified | 2 |
 | Only placeholder template email (yhteydenotto@esimerkki.fi) on site | 2 |
 | No email found in site HTML | 2 |
-| No email on blog | 2 |
+| email Cloudflare-obfuscated; not verified within budget | 2 |
+| No website or email; location not stated | 2 |
+| No email on contact page | 2 |
+| JS-rendered Wix page, no email in HTML | 2 |
+| Site empty/unreachable | 2 |
 | Blog posts are datelined 'Canada' and describe Saskatoon/Vancouver travel; no in-market residence statement; only one bo | 1 |
 | Contact page limits the address to interviews, rights/permissions, media and book reactions; she runs her own publishing | 1 |
 | Email verified, but no residence statement found anywhere; she contributed to an anthology of 'Filipinos in Europe', sug | 1 |
@@ -876,7 +1092,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | Traditionally published; contact page lists only publisher/agent inboxes | 1 |
 | Traditionally published (Penguin SEA); no email in site HTML | 1 |
 | No reachable author website (domain unreachable, profile page blocked); no email found | 1 |
-| No author website or public email found | 1 |
 | Website shows photography content only; no email | 1 |
 | Site content is JavaScript-rendered; no email in HTML; largely traditionally published | 1 |
 | Website returns 403; no email verifiable | 1 |
@@ -983,7 +1198,6 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | no longer in market (says he is back in the UK); email appears only in a 2017 blog-comment reply, not as a contact addre | 1 |
 | domain belongs to an unrelated streetwear brand; identity mismatch | 1 |
 | contact form only; location not verified | 1 |
-| no email on site | 1 |
 | site unreachable; now traditionally published (Orbit) | 1 |
 | single short e-book; no author site/email | 1 |
 | traditionally published, US-based academic; no email | 1 |
@@ -1299,3 +1513,128 @@ Generated 2026-10-20T02:30:21.905Z from `leads/canonical_leads.csv`.
 | No email found on any of these sites | 1 |
 | Household-name bestseller (Wattpad→Netflix/Prime) living in the US; skipped per spec | 1 |
 | Already in canonical_leads.csv (duplicate) | 1 |
+| identity mismatch: site belongs to an art director, no link to the RF-winning author | 1 |
+| outside target market: resides in Vancouver (Canada, Nova Scotia native) | 1 |
+| identity mismatch: jeffnesbit.com redirects to a real-estate business | 1 |
+| only publisher/press inbox | 1 |
+| only publisher support inbox | 1 |
+| only publicist inbox | 1 |
+| only talent agency inbox | 1 |
+| only marketing assistant inbox | 1 |
+| bot-check page on refetch; cannot verify verbatim | 1 |
+| placeholder email only; contact form | 1 |
+| outside market (lives in France); no email | 1 |
+| outside market (lives in Jerusalem); no email | 1 |
+| no email found on fetched pages | 1 |
+| duplicate: already in existing lead files | 1 |
+| email not found on source page(s): adele@adeleroyce.com (https://adeleroyce.com/: HTTP 403) | 1 |
+| email not found on source page(s): josephinejordin@gmail.com (https://josephinejordin.com/about: fetch failed) | 1 |
+| Out of market: Meet the Author page says he lives in Porto, Portugal (spends free time in Marrakech) | 1 |
+| Current residence not stated on site; established best-selling author with own media company (low fit) | 1 |
+| Out of market: bio says he now lives in Paris | 1 |
+| No email on site (contact page has no address) | 1 |
+| No email on site; traditionally published bestseller | 1 |
+| Contact form only (Wix); location 'divide their time between Thailand and ...' | 1 |
+| No website or email found; location not stated | 1 |
+| Listed websites do not resolve | 1 |
+| Out of market: lives in Amsterdam; no email | 1 |
+| Current Thailand residence not verifiable (Nova Scotia writers' federation member); no email found | 1 |
+| Location not stated; no website/email | 1 |
+| No author email on site; location not stated | 1 |
+| Only one book; no website/location | 1 |
+| No website or location | 1 |
+| No website/email; location not stated | 1 |
+| Traditionally published (HBKU Press); no author site/email found | 1 |
+| only one verifiable book and email name differs from author name | 1 |
+| email not found literally in contact page HTML (link only); one book | 1 |
+| only an edited anthology; no authored book verifiable | 1 |
+| books forthcoming 2027; none verifiable yet | 1 |
+| agented, traditionally published (Sleeping Bear, Andrews McMeel); low service fit — deprioritised | 1 |
+| consulting site; no books shown to verify identity link | 1 |
+| published-works page 404; books unverified | 1 |
+| primarily an illustrator/designer offering similar services; poor fit | 1 |
+| co-author/ghostwriter of bestsellers; not a fit | 1 |
+| only agent/publisher emails; bestselling trad author | 1 |
+| Penguin Random House memoir, agented; deprioritised (not fully evaluated) | 1 |
+| established traditionally published author; deprioritised (not evaluated) | 1 |
+| contact form only; page states she does not reply to marketing or paid-service offers | 1 |
+| no email on site pages checked | 1 |
+| no email; lives in London (outside market) | 1 |
+| only literary agency inbox on Impressum; site otherwise unreadable | 1 |
+| no website or email found | 1 |
+| no personal website/email found; traditionally published | 1 |
+| only review blog summonfantasy.com; no email found | 1 |
+| Canadian writer (outside market); no email | 1 |
+| no verifiable books found | 1 |
+| books not verified; not pursued | 1 |
+| only festival office email | 1 |
+| no website/email found | 1 |
+| profiles carry no email/website; Červenák already logged | 1 |
+| email not found on source page(s): klara.smolikova@tiscali.cz (https://klarasmolikova.cz/kontakt: HTTP 404) | 1 |
+| Email only inside Wix JSON data (JS-rendered), not in HTML text/mailto | 1 |
+| Email only in meta/schema data; contact page has no visible email; only one book | 1 |
+| Site is a nursing/childbirth education business, not an author book site | 1 |
+| Domain belongs to a different Bruna Paiva (arts educator); identity mismatch | 1 |
+| No book verified on a book platform (novel 'em edição'; children's book has no platform link found) | 1 |
+| Site directs professional proposals to her agency (Increasy); personal email only for events — treated as no vendor pitc | 1 |
+| Author is herself a ghostwriter/editor/reviser service provider — poor fit | 1 |
+| Comics/illustrator; email is for illustration commissions, rights via agency | 1 |
+| Tor-published, agent-represented, mainly short fiction; low fit | 1 |
+| Mainly poetry/anthologies; is an editor/preparer herself; low fit | 1 |
+| Mostly anthologies/translations; low fit; not pursued | 1 |
+| Amazon author page unfetchable (503); cannot verify email | 1 |
+| No email on contact or author page | 1 |
+| No email on contact/about pages | 1 |
+| No official site found | 1 |
+| Impressum gibt deutsche (Service-?)Adresse an, Verbandsprofil Österreich – Standort widersprüchlich; zurückgestellt | 1 |
+| Email not found verbatim on re-fetch of site pages | 1 |
+| offers book marketing services herself (competitor) | 1 |
+| no verified book synopses gathered (no Verband book pages); not completed | 1 |
+| not completed in budget; Impressum location not checked | 1 |
+| email not visible in HTML on re-fetch | 1 |
+| email not found on own website; only one book | 1 |
+| email only in hidden site JSON (Squarespace social data), not visible | 1 |
+| email only in Linktree JSON data; no own-site email | 1 |
+| email only in hidden Squarespace JSON | 1 |
+| author email only in JSON-LD structured data; visible email is publisher inbox | 1 |
+| only malformed address in page source | 1 |
+| US phone listing; not Australia-verified; business directory | 1 |
+| only publisher PR inbox (Simon & Schuster); traditional | 1 |
+| only meta tag with non-matching domain | 1 |
+| no email in HTML (Wix) | 1 |
+| traditional (Allen & Unwin); no author site linked | 1 |
+| email not found on source page(s): phillip@phillipstrang.com (https://www.phillipstrang.com/contact: HTTP 404) | 1 |
+| email not found on source page(s): sandi@sandiwallace.com (https://www.sandiwallace.com/meet-sandi/: robots.txt disallow | 1 |
+| Only email on blog is publisher Editorial Tronos wholesale inbox; newer site verabolanosescritora.blog unreachable | 1 |
+| Only email on blog is publisher Pentian's general inbox | 1 |
+| Site unreachable; runs his own publishing house | 1 |
+| Address only inside Canva page JSON data (not visible text/mailto) — treated as hidden data | 1 |
+| Traditionally published literary author; email offered for paid manuscript reading/workshops; current residence not veri | 1 |
+| Traditionally published literary author; residence in target market not verified — not a services-buyer profile | 1 |
+| Site says she lives in the United States; no email on site | 1 |
+| Lives in Los Angeles (Goodreads bio); cookbook author; no author email on site | 1 |
+| Press says she lives in Los Angeles; no site/email checked | 1 |
+| Spain-based (Logroño), outside market | 1 |
+| Texas (UTRGV) context; no author email in HTML | 1 |
+| No residence in market stated; US-oriented; mostly music/inspirational | 1 |
+| Contact page shows only a placeholder 'usuario@dominio.com' | 1 |
+| Domain does not resolve | 1 |
+| Domain parked (redirects to lander) | 1 |
+| Site returns WordPress database error | 1 |
+| No email in HTML of homepage/contact pages | 1 |
+| No author website found (obvious domain unreachable) | 1 |
+| No website on Goodreads; obvious domain unreachable | 1 |
+| Link-in-bio page only; no email | 1 |
+| Obvious domain belongs to an unrelated Toronto coach; no author site found | 1 |
+| Blog unreachable | 1 |
+| Site unreachable; poet | 1 |
+| No email on page | 1 |
+| No email on blogs | 1 |
+| Bio says she lives in New York; no email | 1 |
+| Only email in HTML is the site builder's support address | 1 |
+| Email on blog (luistorressalas1949@…) does not clearly match the author name; not pursued | 1 |
+| No email on blog; co-founder of Malix Editores | 1 |
+| No email in HTML; traditionally published | 1 |
+| No author website listed; obvious domain is an unrelated portfolio | 1 |
+| No email in HTML; current residence not verified | 1 |
+| No email on Lulu page; no own website found | 1 |
