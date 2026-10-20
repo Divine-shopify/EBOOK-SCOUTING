@@ -12,12 +12,14 @@ import * as L from "../leads/canonical.js";
 import { Fetcher } from "../adapters/fetch/http.js";
 import { extractEmails } from "../analysis/extract.js";
 import { normalizeKey } from "../util/text.js";
+import { execFileSync } from "node:child_process";
 
 const DIR = "leads";
 const CANON = `${DIR}/canonical_leads.csv`;
 const LOG = `${DIR}/research_log.csv`;
 const BACKUPS = `${DIR}/backups`;
 const PRIOR = "exports/csv/all_researched_authors.csv";
+const USER_AGENT = "AuthorScoutAI/0.1 (+research; public professional contacts only)";
 
 const [cmd, ...args] = process.argv.slice(2);
 const flag = (f: string) => args.includes(f);
@@ -37,6 +39,14 @@ const stats = (rows: L.Lead[]) => ({
   withEmail: rows.filter((r) => L.splitList(r["Verified Public Email"]).length).length,
 });
 
+function curlGet(url: string): string | null {
+  try {
+    return execFileSync("curl", ["-sSL", "--max-time", "20", "--fail", "-A", USER_AGENT, url], { encoding: "utf8", maxBuffer: 5_000_000, stdio: ["ignore", "pipe", "ignore"] });
+  } catch {
+    return null;
+  }
+}
+
 /** Re-fetches the email source page and confirms every claimed address is published there. */
 async function confirmEmails(fetcher: Fetcher, l: L.Lead): Promise<string | null> {
   const emails = L.splitList(l["Verified Public Email"]);
@@ -46,12 +56,15 @@ async function confirmEmails(fetcher: Fetcher, l: L.Lead): Promise<string | null
   for (const url of pages) {
     try {
       const r = await fetcher.get(url);
-      if (r.status >= 400) {
+      let html = r.body;
+      // Some hosts reject Node's HTTP client outright; retry once with curl under the same user agent.
+      if (r.status >= 400) html = curlGet(url) ?? "";
+      if (!html) {
         errors.push(`${url}: HTTP ${r.status}`);
         continue;
       }
-      const body = r.body.toLowerCase();
-      for (const e of extractEmails(r.body)) found.add(e.email);
+      const body = html.toLowerCase();
+      for (const e of extractEmails(html)) found.add(e.email);
       for (const e of emails) if (body.includes(e)) found.add(e);
     } catch (err) {
       errors.push(`${url}: ${(err as Error).message}`);
@@ -66,7 +79,7 @@ async function merge(files: string[]) {
   const existing = readCanon();
   const before = stats(existing);
   const log = readLog();
-  const fetcher = new Fetcher(null, { userAgent: "AuthorScoutAI/0.1 (+research; public professional contacts only)", requestsPerSecondPerHost: 1, timeoutMs: 20_000, retries: 1 });
+  const fetcher = new Fetcher(null, { userAgent: USER_AGENT, requestsPerSecondPerHost: 1, timeoutMs: 20_000, retries: 1 });
   const prior = new Set(L.readTable<Record<string, string>>(PRIOR, ["author"]).map((r) => normalizeKey(r.author)));
   // Authors whose pages refuse solicitation stay excluded, whichever batch rediscovers them.
   const optedOut = new Map<string, string>();
