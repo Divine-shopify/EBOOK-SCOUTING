@@ -1,0 +1,942 @@
+{
+ "batch": "batch08a_sff",
+ "leads": [
+  {
+   "Author Name": "John B. Cheek",
+   "Verified Public Email": [
+    "authorjohnbcheek@gmail.com"
+   ],
+   "Official Author Website": "https://www.johnbcheek.com/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/20419655.John_B_Cheek"
+   ],
+   "Selected Book Titles for Outreach": [
+    "The Fire Within",
+    "Bragg For Hire"
+   ],
+   "Additional Discoverable Books and Series": "The Fire Within: Being an Account of the Battle for King's Road Pass (2025); Bragg For Hire (2020)",
+   "Book Genres": [
+    "Epic fantasy",
+    "Military science fiction"
+   ],
+   "Verified Book Descriptions or Synopses": "The Fire Within: Two armies fight for King's Road Pass, the gateway between the Orkhlands and the northern Human and Aelf realms; Bera, Lady Zara and Earic must survive the battle. Bragg For Hire: Military SF: Atticus Bragg takes a babysitting contract for a nobleman's first command, and it goes wrong when their drop ship is hit.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/234326681-the-fire-within",
+    "https://www.goodreads.com/book/show/54128368-bragg-for-hire"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "King's Road Pass and Atticus Bragg",
+   "Personalized Email Body": "Hi John,\n\nMy name is Roland Jacobs. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across The Fire Within and Bragg For Hire while researching your work. I was particularly interested in the defence of King's Road Pass told through a half-Orkh outcast, an Aelfin cavalry captain and a young nobleman, and in a former soldier hired to keep a young nobleman out of trouble, only for the drop ship to be shot down.\n\nThat made me think a book-focused website could help more of the right readers discover your work. I'd sketch a simple site structure where The Fire Within and Bragg For Hire each get a page built around their own setting, so fantasy and SF readers both land in the right place.\n\nI'd gladly put together a no-cost concept sample so you can judge the idea for yourself. Shall I send it over?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Book-focused website design",
+   "Secondary Service Opportunity": [
+    "Email marketing"
+   ],
+   "Evidence-Based Service-Fit Explanation": "He writes in two different genres (military SF and epic fantasy); a site that gives each book its own clear landing page would help readers of one find the other. No newsletter signup was observed on the contact page, so email marketing is secondary.",
+   "Reader and Review Signals": "Goodreads: The Fire Within 4.75 / 4 ratings; Bragg For Hire 4.36 / 113 (as of research date)",
+   "Discoverability and Promotional Observations": "Own website with contact page; SPFBO 11 entry.",
+   "Country": "Unknown / not publicly verified",
+   "Region, State, or Province": "",
+   "City": "",
+   "Geographic Evidence and Relationship": "No residence statement found on site or Goodreads.",
+   "Email Source URL": "https://johnbcheek.com/contact-us/",
+   "Author Identity Evidence URL": "https://www.johnbcheek.com/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/234326681-the-fire-within",
+    "https://www.goodreads.com/book/show/54128368-bragg-for-hire"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 (self-published contest) entrant; no external publisher found",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: The Fire Within — 2025-05-16 (source URL: https://www.goodreads.com/book/show/234326681-the-fire-within)."
+  },
+  {
+   "Author Name": "Ronit J",
+   "Verified Public Email": [
+    "ronit@ronitjauthor.com"
+   ],
+   "Official Author Website": "https://www.ronitjauthor.com/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/45585917.Ronit_J_"
+   ],
+   "Selected Book Titles for Outreach": [
+    "Island of the Dying Goddess",
+    "Help! My Dog Is The Chosen One!"
+   ],
+   "Additional Discoverable Books and Series": "Help! My Dog Is The Chosen One! (2023); Abandoned by the Gods (2024, newsletter freebie); Island of the Dying Goddess (2025)",
+   "Book Genres": [
+    "Dark fantasy",
+    "Humorous fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "Island of the Dying Goddess: Anawar, an immortal explorer, is stranded on Sawarrgh, a twisted island of mourning ruled by gods such as the mutilating war god Ghaph. Help! My Dog Is The Chosen One!: Kunal, an anxious work-from-home Mumbai renter, fosters a rescued street dog that turns out to be the Chosen One against an extra-dimensional dark lord.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/223663634-island-of-the-dying-goddess",
+    "https://www.goodreads.com/book/show/200223742-help-my-dog-is-the-chosen-one"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Sawarrgh's dying gods on screen",
+   "Personalized Email Body": "Hi Ronit,\n\nI'm Roland Jacobs, a designer and book services specialist who helps authors present, publish and promote their books professionally.\n\nWhile looking through this year's SPFBO entries, I found Island of the Dying Goddess and then Help! My Dog Is The Chosen One!. What stayed with me was an immortal explorer stranded on an island of grief where even gods have died, and, in Help! My Dog Is The Chosen One!, an anxious Mumbai man whose foster street dog turns out to be the only one who can stop a dark lord.\n\nIt got me thinking about how a short book trailer might bring your books in front of more readers who would enjoy them. A short trailer could open on the mourning air of Sawarrgh and the patched-together war god Ghaph, then cut to the lighter tone of Kunal and his dog for a companion spot.\n\nI could sketch a short complimentary concept so you can see whether it suits you. Would you be open to taking a look?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Book trailers",
+   "Secondary Service Opportunity": [
+    "12-month book marketing roadmap"
+   ],
+   "Evidence-Based Service-Fit Explanation": "He is an indie filmmaker per his bio, and both premises (a grief-twisted island of dying gods; a street dog as Chosen One) are highly visual, so a trailer suits him better than website or email work: his site already has a newsletter with a free book. A roadmap is secondary given three books with very different tones.",
+   "Reader and Review Signals": "Goodreads: Island of the Dying Goddess 3.9 / 15; Help! My Dog Is The Chosen One! 4.23 / 22 (as of research date)",
+   "Discoverability and Promotional Observations": "Newsletter with free copy of Abandoned by the Gods advertised in Goodreads bio.",
+   "Country": "India",
+   "Region, State, or Province": "Maharashtra",
+   "City": "Mumbai",
+   "Geographic Evidence and Relationship": "Goodreads author bio: 'a fantasy author and indie filmmaker based in Mumbai'.",
+   "Email Source URL": "https://ronitjauthor.com/contact/",
+   "Author Identity Evidence URL": "https://www.ronitjauthor.com/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/223663634-island-of-the-dying-goddess",
+    "https://www.goodreads.com/book/show/200223742-help-my-dog-is-the-chosen-one"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — Goodreads bio says he is 'self-publishing his debut book'",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: Island of the Dying Goddess — 2025-05-01 (source URL: https://www.goodreads.com/book/show/223663634-island-of-the-dying-goddess)."
+  },
+  {
+   "Author Name": "Steve Pannett",
+   "Verified Public Email": [
+    "hello@stevepannett.com"
+   ],
+   "Official Author Website": "https://stevepannett.com/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/31155488.Steve_Pannett"
+   ],
+   "Selected Book Titles for Outreach": [
+    "The Sins of Steel and Shadow",
+    "The Hunter's Lament"
+   ],
+   "Additional Discoverable Books and Series": "The Turned (The Sins of Steel and Shadow 2025; The Ruin of Rage and Reckonings, listed for 2026-10-28); The Hunter's Lament (2023)",
+   "Book Genres": [
+    "Dark fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "The Sins of Steel and Shadow: The Turned Book 1: centuries after the Years of Blood, humans and vampyrs share an uneasy peace, and Bail, a Turned reviled by both, is offered a chance at more. The Hunter's Lament: Bounty hunter Bitter Sweet has led his crew for three decades and is tired of it, but business is good after the Vol Empire conquers Pratia.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/221528148-the-sins-of-steel-and-shadow",
+    "https://www.goodreads.com/book/show/127368814-the-hunter-s-lament"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Bail Neren and the Turned sequel",
+   "Personalized Email Body": "Hi Steve,\n\nMy name is Roland Jacobs; I work as a designer and book services specialist, helping independent authors present and promote their books with care.\n\nI recently read the descriptions of The Sins of Steel and Shadow and The Hunter's Lament and wanted to get in touch. Two details caught my eye: Bail Neren, a Turned who is neither fully vampyr nor human, hated by both sides, and Bitter Sweet, a weary bounty hunter working in the aftermath of the Vol Empire's conquest.\n\nIt suggested a way focused book promotion could support the books you have out now. I'd outline a launch plan for The Ruin of Rage and Reckonings that reintroduces Bail to readers of book one and gives Bitter Sweet's readers a way in.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind. Would you like to see it?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Book promotion and marketing",
+   "Secondary Service Opportunity": [
+    "Email marketing"
+   ],
+   "Evidence-Based Service-Fit Explanation": "Book 2 of The Turned is listed on Goodreads for 2026-10-28, so a focused launch push that brings Book 1 readers back is timely. He is a graphic designer himself, so design-led services fit less well.",
+   "Reader and Review Signals": "Goodreads: The Sins of Steel and Shadow 4.08 / 24; The Hunter's Lament 4.18 / 39 (as of research date)",
+   "Discoverability and Promotional Observations": "Own site with about page and direct print sales for UK/US.",
+   "Country": "United Kingdom",
+   "Region, State, or Province": "England (Yorkshire)",
+   "City": "",
+   "Geographic Evidence and Relationship": "About page: 'I live in Yorkshire with my wife'.",
+   "Email Source URL": "https://stevepannett.com/about/",
+   "Author Identity Evidence URL": "https://stevepannett.com/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/221528148-the-sins-of-steel-and-shadow",
+    "https://www.goodreads.com/book/show/127368814-the-hunter-s-lament"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — About page notes he sells signed copies directly; SPFBO 11 entrant",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: The Sins of Steel and Shadow — 2025-04-08 (source URL: https://www.goodreads.com/book/show/221528148-the-sins-of-steel-and-shadow)."
+  },
+  {
+   "Author Name": "Robin Rakkeby",
+   "Verified Public Email": [
+    "robinrakkeby@gmail.com"
+   ],
+   "Official Author Website": "https://www.robinrakkeby.com/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/46518122.Robin_Rakkeby"
+   ],
+   "Selected Book Titles for Outreach": [
+    "Those We See in the Dark"
+   ],
+   "Additional Discoverable Books and Series": "Legend of Takaniim #1; contributor to Crowns: A Heartbooks Anthology",
+   "Book Genres": [
+    "Fantasy",
+    "Romantic fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "Those We See in the Dark: Legend of Takaniim #1: Anaís has trained to protect the Kingdom of Dúndíor; tasked with uncovering a legend, she must choose between duty and a secret, while Eoghan Kavanaugh faces a throne he was never meant to hold.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/240209231-those-we-see-in-the-dark"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Anaís, Eoghan and the Legend of Takaniim",
+   "Personalized Email Body": "Hi Robin,\n\nI'm Roland Jacobs. As a designer and book services specialist, I help authors present, publish and promote their work.\n\nI came across Those We See in the Dark while looking through the SPFBO entries. I was particularly interested in Anaís Dí Sona, a sworn protector of Dúndíor sent to uncover an ancient legend.\n\nThose details gave me an idea for how a 12-month book marketing roadmap could help present your books to more of the readers who may enjoy them. A 12-month roadmap could pace reader touchpoints from this first book through to the next Legend of Takaniim release.\n\nIf it's useful, I can prepare a free concept sample to show the direction. Would that be of interest?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "12-month book marketing roadmap",
+   "Secondary Service Opportunity": [
+    "Email marketing"
+   ],
+   "Evidence-Based Service-Fit Explanation": "A debut that opens a named series (Legend of Takaniim #1) benefits from a year-long plan that builds readership before book two.",
+   "Reader and Review Signals": "Goodreads: Those We See in the Dark 4.67 / 42 (as of research date)",
+   "Discoverability and Promotional Observations": "Own website with contact page.",
+   "Country": "Unknown / not publicly verified",
+   "Region, State, or Province": "",
+   "City": "",
+   "Geographic Evidence and Relationship": "No residence statement found.",
+   "Email Source URL": "https://www.robinrakkeby.com/contact",
+   "Author Identity Evidence URL": "https://www.robinrakkeby.com/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/240209231-those-we-see-in-the-dark"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: Those We See in the Dark — 2025-10-02 (source URL: https://www.goodreads.com/book/show/240209231-those-we-see-in-the-dark). Only one book selected: only one verifiable book (debut novel; other credit is an anthology contribution)."
+  },
+  {
+   "Author Name": "A.S. Colworth",
+   "Verified Public Email": [
+    "ash@ascolworth.co.uk"
+   ],
+   "Official Author Website": "https://ascolworth.co.uk/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/55717251.A_S_Colworth"
+   ],
+   "Selected Book Titles for Outreach": [
+    "Dreams of the Fallen",
+    "Empire's End"
+   ],
+   "Additional Discoverable Books and Series": "Dreams of the Fallen #1; Empire's End (prequel novella, newsletter reader magnet)",
+   "Book Genres": [
+    "Epic fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "Dreams of the Fallen: In the city of Amira, Dela carries a mark of the fallen empire's darkest magic and memories she doesn't own, as the old magic wakes. Empire's End: Prequel novella: when a kosar, a magical species bred to serve, is accused of murder, official Seritues digs for the truth.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/235178289-dreams-of-the-fallen",
+    "https://www.goodreads.com/book/show/254434402-empire-s-end"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "From Empire's End to Dela's mark",
+   "Personalized Email Body": "Hi Ash,\n\nMy name is Roland Jacobs. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Dreams of the Fallen and Empire's End while researching your work. I was particularly interested in Dela, whose skin bears the brand of a fallen empire's darkest magic, and in an official of the Red Empire investigating a murder by an enslaved kosar.\n\nThat made me think reader-engagement automation could help more of the right readers discover your work. I'd map a short automated sequence that follows the Empire's End download and leads readers into Dela's story at the right moment.\n\nI'd gladly put together a no-cost concept sample so you can judge the idea for yourself. Shall I send it over?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Reader-engagement automation",
+   "Secondary Service Opportunity": [
+    "Email marketing"
+   ],
+   "Evidence-Based Service-Fit Explanation": "The prequel novella is already offered as a newsletter magnet (Goodreads bio); an automated welcome sequence that moves novella readers to the novel fits that setup.",
+   "Reader and Review Signals": "Goodreads: Dreams of the Fallen 4.03 / 33 (as of research date)",
+   "Discoverability and Promotional Observations": "Newsletter with free prequel advertised.",
+   "Country": "United Kingdom",
+   "Region, State, or Province": "England",
+   "City": "Winchester",
+   "Geographic Evidence and Relationship": "About page: 'A. S. Colworth lives in Winchester'.",
+   "Email Source URL": "https://ascolworth.co.uk/contact/",
+   "Author Identity Evidence URL": "https://ascolworth.co.uk/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/235178289-dreams-of-the-fallen",
+    "https://www.goodreads.com/book/show/254434402-empire-s-end"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant; no outside publisher found",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: Dreams of the Fallen — 2025-05-28 (source URL: https://www.goodreads.com/book/show/235178289-dreams-of-the-fallen)."
+  },
+  {
+   "Author Name": "Justin Greer",
+   "Verified Public Email": [
+    "justin@thegardenknight.com"
+   ],
+   "Official Author Website": "https://www.thegardenknight.com",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/48877677.Justin_Greer"
+   ],
+   "Selected Book Titles for Outreach": [
+    "The Servant",
+    "Woodfire & Lakelight"
+   ],
+   "Additional Discoverable Books and Series": "The Garden Knight (Leafdust & Deadwood, Tangleweed & Waterbloom, Splinterleaf & Hollowfrost, Woodfire & Lakelight, Lanternmoss & Shadowstone); The Prophecy of the Five; The Guild Trials",
+   "Book Genres": [
+    "Cozy fantasy",
+    "Epic fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "The Servant: The Prophecy of the Five #1: a thousand years after Lightbringer's sacrifice stopped Mordechai, blood rituals begin again. Woodfire & Lakelight: The Garden Knight #2: Derry, Caedan and friends visit House Ulforre's highland holdings for a celebration that hides danger.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/232536134-the-servant",
+    "https://www.goodreads.com/book/show/224375902-woodfire-lakelight"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Mordechai's return and Derry's autumn",
+   "Personalized Email Body": "Hi Justin,\n\nI'm Roland Jacobs, a designer and book services specialist who helps authors present, publish and promote their books professionally.\n\nWhile looking through this year's SPFBO entries, I found The Servant and then Woodfire & Lakelight. What stayed with me was the tyrant-sorcerer Mordechai's ancient assault on the throne of Reality and evil stirring again, and, in Woodfire & Lakelight, Derry's autumn journey to a lakeland estate of moors, bogs and misty countryside.\n\nIt got me thinking about how a reader-retention approach might bring your books in front of more readers who would enjoy them. A reader-retention plan could give Garden Knight readers a gentle bridge into The Servant, and vice versa, without mixing up the two moods.\n\nI could sketch a short complimentary concept so you can see whether it suits you. Would you be open to taking a look?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Customer retention",
+   "Secondary Service Opportunity": [
+    "12-month book marketing roadmap"
+   ],
+   "Evidence-Based Service-Fit Explanation": "Two series in very different registers (gentle Garden Knight; dark Prophecy of the Five) plus several novellas: a retention path keeps each readership engaged.",
+   "Reader and Review Signals": "Goodreads: The Servant 4.89 / 18; Woodfire & Lakelight 5.0 / 10 (as of research date)",
+   "Discoverability and Promotional Observations": "Own site with author page; multiple releases in 2025-2026.",
+   "Country": "United States",
+   "Region, State, or Province": "Utah",
+   "City": "Salt Lake City",
+   "Geographic Evidence and Relationship": "Site about: 'currently live in Salt Lake City, Utah'.",
+   "Email Source URL": "https://www.thegardenknight.com",
+   "Author Identity Evidence URL": "https://www.thegardenknight.com",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/232536134-the-servant",
+    "https://www.goodreads.com/book/show/224375902-woodfire-lakelight"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: The Servant — 2025-06-28 (source URL: https://www.goodreads.com/book/show/232536134-the-servant)."
+  },
+  {
+   "Author Name": "M.T. Kadisin",
+   "Verified Public Email": [
+    "hello@mtkadisin.com"
+   ],
+   "Official Author Website": "https://www.mtkadisin.com/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/57209668.M_T_Kadisin"
+   ],
+   "Selected Book Titles for Outreach": [
+    "An Oath Sworn"
+   ],
+   "Additional Discoverable Books and Series": "Saga of the Stone King #1",
+   "Book Genres": [
+    "Dark fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "An Oath Sworn: Saga of the Stone King #1: Grady, a lonely clanless dwarf, is drawn into warlord Keyrdegen Salzum's experiment and must fight to reclaim his identity.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/236804809-an-oath-sworn"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Grady and the Stone King saga",
+   "Personalized Email Body": "Hi M.T.,\n\nMy name is Roland Jacobs; I work as a designer and book services specialist, helping independent authors present and promote their books with care.\n\nI came across An Oath Sworn while looking through the SPFBO entries. I was particularly interested in Grady, a clanless dwarf molded into an obedient soldier who must reclaim his will.\n\nIt suggested a way email marketing could support the books you have out now. I'd draft a simple newsletter welcome series that introduces Grady's world and keeps readers waiting for the next Stone King book.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind. Would you like to see it?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Email marketing",
+   "Secondary Service Opportunity": [
+    "12-month book marketing roadmap"
+   ],
+   "Evidence-Based Service-Fit Explanation": "A debut opening a saga; no newsletter signup was observed in the fetched contact page, so building a list before book two is the most concrete need.",
+   "Reader and Review Signals": "Goodreads: An Oath Sworn 4.71 / 17 (as of research date)",
+   "Discoverability and Promotional Observations": "SPFBO 11 review on Before We Go Blog.",
+   "Country": "Unknown / not publicly verified",
+   "Region, State, or Province": "",
+   "City": "",
+   "Geographic Evidence and Relationship": "No residence statement found.",
+   "Email Source URL": "https://www.mtkadisin.com/contact",
+   "Author Identity Evidence URL": "https://www.mtkadisin.com/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/236804809-an-oath-sworn"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant (reviewed on beforewegoblog.com)",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: An Oath Sworn — 2025-08-01 (source URL: https://www.goodreads.com/book/show/236804809-an-oath-sworn). Only one book selected: only one verifiable book (debut)."
+  },
+  {
+   "Author Name": "Tobias Youngblood",
+   "Verified Public Email": [
+    "contact@tobiasyoungblood.com"
+   ],
+   "Official Author Website": "https://www.tobiasyoungblood.com",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/36900273.Tobias_Youngblood"
+   ],
+   "Selected Book Titles for Outreach": [
+    "False Idol",
+    "Grave Covenant"
+   ],
+   "Additional Discoverable Books and Series": "Projectionists (Windlyn Vale #0, Grave Covenant, Dragon Apostle, False Idol); Nightmares (Death Sketch, Tom); Riposte Press",
+   "Book Genres": [
+    "Dark fantasy",
+    "Science fantasy horror"
+   ],
+   "Verified Book Descriptions or Synopses": "False Idol: Projectionists finale: Ridley and his strange friends try to beat the Projectionists before Ava is gone forever. Grave Covenant: Projectionists #1: Siv, Ridley and Iris face a darkness growing beneath The Outskirts in a world of hidden vampires and dragons.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/244599660-false-idol",
+    "https://www.goodreads.com/book/show/182729903-grave-covenant"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "The Projectionists series, complete",
+   "Personalized Email Body": "Hi Tobias,\n\nI'm Roland Jacobs. As a designer and book services specialist, I help authors present, publish and promote their work.\n\nYour recent release False Idol led me to Grave Covenant as well. I especially liked Ridley racing to stop the Projectionists before his fiancée Ava is taken; an insectile shapeshifter, a boxer and a knife-wielding nine-year-old beneath the Conjoined Republic is a memorable contrast.\n\nThose details gave me an idea for how a reader-retention approach could help present your books to more of the readers who may enjoy them. I'd outline a reader-retention path for the completed series, so readers who meet Siv, Ridley and Iris in Grave Covenant carry on to False Idol.\n\nIf it's useful, I can prepare a free concept sample to show the direction. Would that be of interest?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Customer retention",
+   "Secondary Service Opportunity": [
+    "Book promotion and marketing"
+   ],
+   "Evidence-Based Service-Fit Explanation": "With the Projectionists series now complete (False Idol is the finale), a retention approach that moves finished-series readers to the full set or his Nightmares books fits.",
+   "Reader and Review Signals": "Goodreads: Grave Covenant 4.51 / 21; False Idol 4.8 / 5 (as of research date)",
+   "Discoverability and Promotional Observations": "Own site with publisher page (Riposte Press).",
+   "Country": "United States",
+   "Region, State, or Province": "Virginia",
+   "City": "",
+   "Geographic Evidence and Relationship": "Goodreads bio: 'lives in Coastal Virginia'.",
+   "Email Source URL": "https://www.tobiasyoungblood.com/contact",
+   "Author Identity Evidence URL": "https://www.tobiasyoungblood.com",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/244599660-false-idol",
+    "https://www.goodreads.com/book/show/182729903-grave-covenant"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Independent publisher, evidence available — site has a Riposte Press page",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: False Idol — 2025-11-30 (source URL: https://www.goodreads.com/book/show/244599660-false-idol)."
+  },
+  {
+   "Author Name": "Bart Carroll",
+   "Verified Public Email": [
+    "contact.bartcarroll@gmail.com"
+   ],
+   "Official Author Website": "https://www.bartcarroll.com",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/48937215.Bart_Carroll"
+   ],
+   "Selected Book Titles for Outreach": [
+    "Bolted to the Bone"
+   ],
+   "Additional Discoverable Books and Series": "Bolted to the Bone (novel); tabletop credits incl. Mordenkainen's Fiendish Folio Vol. 1, Lost Laboratory of Kwalish",
+   "Book Genres": [
+    "Science fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "Bolted to the Bone: Celtic-infused science fantasy: on the garden world of the Emerald, a sky panel falls before Yuletide and Saint Alexandra investigates.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/239673479-bolted-to-the-bone"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "A falling sky over the Emerald",
+   "Personalized Email Body": "Hi Bart,\n\nMy name is Roland Jacobs. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nBolted to the Bone caught my attention while I was researching recent SPFBO books. One detail caught my eye: a saint and her disgraced former commander investigating a fallen panel of artificial sky.\n\nThat made me think a short book trailer could help more of the right readers discover your work. A short trailer could build from the shattered sky panel and the Yuletide setting to Saint Alexandra's investigation.\n\nI'd gladly put together a no-cost concept sample so you can judge the idea for yourself. Shall I send it over?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Book trailers",
+   "Secondary Service Opportunity": [
+    "Book-focused website design"
+   ],
+   "Evidence-Based Service-Fit Explanation": "A failing artificial sky over a Celtic-tinged garden world is strongly visual; his site already exists and he has a gaming-industry audience, so a trailer suits sharing better than a new website or email set-up.",
+   "Reader and Review Signals": "Goodreads: Bolted to the Bone 4.14 / 43 (as of research date)",
+   "Discoverability and Promotional Observations": "Bio cites 20+ years at D&D/Dragon+.",
+   "Country": "Unknown / not publicly verified",
+   "Region, State, or Province": "",
+   "City": "",
+   "Geographic Evidence and Relationship": "No residence statement found.",
+   "Email Source URL": "https://www.bartcarroll.com",
+   "Author Identity Evidence URL": "https://www.bartcarroll.com",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/239673479-bolted-to-the-bone"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: Bolted to the Bone — 2025-11-18 (source URL: https://www.goodreads.com/book/show/239673479-bolted-to-the-bone). Only one book selected: only one verifiable book (novel; other Goodreads entries are tabletop game supplements)."
+  },
+  {
+   "Author Name": "Michael Widebrook",
+   "Verified Public Email": [
+    "michael.widebrook@hotmail.com"
+   ],
+   "Official Author Website": "https://www.michaelwidebrook.com/",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/67585135.Michael_Widebrook"
+   ],
+   "Selected Book Titles for Outreach": [
+    "Poisoned Past"
+   ],
+   "Additional Discoverable Books and Series": "Poisoned Past (debut)",
+   "Book Genres": [
+    "Science fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "Poisoned Past: On Vhar, comets of debris spread a Taint; former general Kural Serpentsbane clings to his daughter Tarka on a dying world.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/246161296-poisoned-past"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Ascended dolphins and a tainted sky",
+   "Personalized Email Body": "Hi Michael,\n\nI'm Roland Jacobs, a designer and book services specialist who helps authors present, publish and promote their books professionally.\n\nI came across Poisoned Past while looking through the SPFBO entries. I was particularly interested in ascended dolphins walking the land while arcane waste rains from the sky.\n\nIt got me thinking about how a short book trailer might bring your books in front of more readers who would enjoy them. A trailer could open on comets striking the ocean of Vhar and Kural's walk with Tarka through the fouling waters.\n\nI could sketch a short complimentary concept so you can see whether it suits you. Would you be open to taking a look?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "Book trailers",
+   "Secondary Service Opportunity": [
+    "Email marketing"
+   ],
+   "Evidence-Based Service-Fit Explanation": "The xenofiction premise (dolphins who walk, sky-falling waste) is unusual and visual; his site and newsletter page exist, so a trailer adds more than website or email setup.",
+   "Reader and Review Signals": "Goodreads: Poisoned Past 4.8 / 5 (as of research date)",
+   "Discoverability and Promotional Observations": "Site has newsletter and 'My Debut Novel' pages.",
+   "Country": "Belgium",
+   "Region, State, or Province": "",
+   "City": "",
+   "Geographic Evidence and Relationship": "Site footer: 'Author of science fantasy Based in Belgium'.",
+   "Email Source URL": "https://www.michaelwidebrook.com/",
+   "Author Identity Evidence URL": "https://www.michaelwidebrook.com/",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/246161296-poisoned-past"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant (debut)",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: Poisoned Past — 2026-01-04 (source URL: https://www.goodreads.com/book/show/246161296-poisoned-past). Only one book selected: only one verifiable book (debut)."
+  },
+  {
+   "Author Name": "Rowan Silver",
+   "Verified Public Email": [
+    "books@rowansilver.com"
+   ],
+   "Official Author Website": "https://www.rowansilver.com",
+   "Other Relevant Author Profile URLs": [
+    "https://www.goodreads.com/author/show/22692445.Rowan_Silver"
+   ],
+   "Selected Book Titles for Outreach": [
+    "The City of the Sun",
+    "Dragons of Frost and Fang"
+   ],
+   "Additional Discoverable Books and Series": "Dragons and Skylines (3 books + bundle); Dragonspark (The Isle of Arcanum, The City of the Sun, The Emperor's Tomb); Dragons of Frost and Fang",
+   "Book Genres": [
+    "Dragon fantasy",
+    "Science fantasy"
+   ],
+   "Verified Book Descriptions or Synopses": "The City of the Sun: Dragonspark #2: Gezon hunts the secrets under the Sanctuary while Zyra faces deadly clan Trials. Dragons of Frost and Fang: After wolves kill their mother, Alika and her brother travel north to find their pack before winter.",
+   "Book URLs Across Relevant Platforms": [
+    "https://www.goodreads.com/book/show/249079943-the-city-of-the-sun",
+    "https://www.goodreads.com/book/show/221832357-dragons-of-frost-and-fang"
+   ],
+   "Amazon Book URL": "",
+   "Amazon Author URL": "",
+   "Personalized Subject Line": "Dragonspark and the frozen north",
+   "Personalized Email Body": "Hi Rowan,\n\nMy name is Roland Jacobs; I work as a designer and book services specialist, helping independent authors present and promote their books with care.\n\nI recently read the descriptions of The City of the Sun and Dragons of Frost and Fang and wanted to get in touch. Two details caught my eye: a world where dragons defend the Seven Realms, androids light the dark and dinosaurs walk, and two orphaned dragon cubs crossing a frozen world.\n\nIt suggested a way a 12-month book marketing roadmap could support the books you have out now. I'd map a 12-month plan that runs from The City of the Sun to the next Dragonspark book, with Dragons of Frost and Fang as an entry point.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind. Would you like to see it?\n\nWarm regards,\nRoland Jacobs",
+   "Primary Recommended Service": "12-month book marketing roadmap",
+   "Secondary Service Opportunity": [
+    "Customer retention"
+   ],
+   "Evidence-Based Service-Fit Explanation": "Three dragon series and a further Dragonspark book listed for 2027 make a year-long release plan useful.",
+   "Reader and Review Signals": "Goodreads: Feathers of Gold 4.25 / 106; Dragons of Frost and Fang 4.63 / 27; The City of the Sun 4.83 / 6 (as of research date)",
+   "Discoverability and Promotional Observations": "Own site with newsletter.",
+   "Country": "Unknown / not publicly verified",
+   "Region, State, or Province": "",
+   "City": "",
+   "Geographic Evidence and Relationship": "Goodreads bio: 'hatched and raised in Austin, Texas' (upbringing only).",
+   "Email Source URL": "https://www.rowansilver.com",
+   "Author Identity Evidence URL": "https://www.rowansilver.com",
+   "Book Evidence Source URLs": [
+    "https://www.goodreads.com/book/show/249079943-the-city-of-the-sun",
+    "https://www.goodreads.com/book/show/221832357-dragons-of-frost-and-fang"
+   ],
+   "Other Relevant Platform Evidence URLs": [],
+   "Evidence Type": "Official author website; Goodreads author and book pages",
+   "Email Attribution": "Author direct (on own website)",
+   "Publishing Status": "Likely independent/KDP — SPFBO 11 entrant",
+   "Research Date": "2026-10-20",
+   "Platforms Actually Reviewed": [
+    "Official website",
+    "Goodreads"
+   ],
+   "Confidence and Manual Verification Notes": "Discovered via SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html; author site from Goodreads author page Website field. Email seen verbatim in raw HTML of Email Source URL (curl, 2026-10-20). Confidence: medium-high.",
+   "Other Notes": "Recent release: The City of the Sun — 2026-09-22 (source URL: https://www.goodreads.com/book/show/249079943-the-city-of-the-sun)."
+  }
+ ],
+ "log": [
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "John B. Cheek",
+   "Email": "authorjohnbcheek@gmail.com",
+   "Source URL": "https://johnbcheek.com/contact-us/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Ronit J",
+   "Email": "ronit@ronitjauthor.com",
+   "Source URL": "https://ronitjauthor.com/contact/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Steve Pannett",
+   "Email": "hello@stevepannett.com",
+   "Source URL": "https://stevepannett.com/about/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Robin Rakkeby",
+   "Email": "robinrakkeby@gmail.com",
+   "Source URL": "https://www.robinrakkeby.com/contact",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "A.S. Colworth",
+   "Email": "ash@ascolworth.co.uk",
+   "Source URL": "https://ascolworth.co.uk/contact/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Justin Greer",
+   "Email": "justin@thegardenknight.com",
+   "Source URL": "https://www.thegardenknight.com",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "M.T. Kadisin",
+   "Email": "hello@mtkadisin.com",
+   "Source URL": "https://www.mtkadisin.com/contact",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Tobias Youngblood",
+   "Email": "contact@tobiasyoungblood.com",
+   "Source URL": "https://www.tobiasyoungblood.com/contact",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Bart Carroll",
+   "Email": "contact.bartcarroll@gmail.com",
+   "Source URL": "https://www.bartcarroll.com",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Michael Widebrook",
+   "Email": "michael.widebrook@hotmail.com",
+   "Source URL": "https://www.michaelwidebrook.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Candidate Name": "Rowan Silver",
+   "Email": "books@rowansilver.com",
+   "Source URL": "https://www.rowansilver.com",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "accepted",
+   "Rejection Reason": ""
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "R.A Sandpiper",
+   "Email": "rasandpiper@gmail.com",
+   "Source URL": "https://www.rasandpiperbooks.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "signed traditional deal (Berkley/Del Rey) per Goodreads bio; agent listed; not an indie services prospect"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Tycho Dwelis",
+   "Email": "penny@misspennypress.com",
+   "Source URL": "https://www.tychodorian.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "Goodreads name match uncertain; only publisher press address found"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Kaylea Prime",
+   "Email": "info@kayleaprime.com",
+   "Source URL": "https://www.kayleaprime.com/sp/contact-us/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "no book first published 2025-01-01 or later found (latest Oct 2024)"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Samuel Chatman",
+   "Email": "sam@sampensfire.com",
+   "Source URL": "https://www.sampensfire.com",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "no 2025+ book found (latest 2021)"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "David T List",
+   "Email": "info@davidtlist.com",
+   "Source URL": "https://davidtlist.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "no 2025+ book found"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Sherrie A Bakelar",
+   "Email": "admin@sbakelar.com",
+   "Source URL": "https://sbakelar.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "no 2025+ book found; generic admin address"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Thomas K. Carpenter",
+   "Email": "thomaskcarpenter@gmail.com",
+   "Source URL": "http://www.thomaskcarpenter.com",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "could not confirm a 2025+ release within budget; 70+ title author"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Christian Warren Freed",
+   "Email": "christianwfreed@gmail.com",
+   "Source URL": "https://christianwfreed.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "could not confirm a 2025+ release on Goodreads pages fetched"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Ben Schenkman",
+   "Email": "",
+   "Source URL": "https://benschenkman.com/contact-me/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "only placeholder address (john@doe.com) on page"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "Tim B Carter",
+   "Email": "",
+   "Source URL": "https://www.timbcarter.com/",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "only placeholder address on page"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPSFC 5 (2025) Goodreads list 237401 → Goodreads author Website field",
+   "Candidate Name": "Joshua Scott Edwards",
+   "Email": "aerdys@archefire.com",
+   "Source URL": "https://joshse.com",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "address on different domain; identity link to author unclear"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPSFC 5 (2025) Goodreads list 237401 → Goodreads author Website field",
+   "Candidate Name": "Michael V. Colianna",
+   "Email": "info@mvc.ink",
+   "Source URL": "https://mvc.ink",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "no 2025+ book confirmed"
+  },
+  {
+   "Country or Target Market": "International (English-language SFF)",
+   "Geographic Division": "",
+   "City": "",
+   "Language": "English",
+   "Search Query": "SPFBO 11 (2025) entrant table, mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html → Goodreads author Website field",
+   "Candidate Name": "(SPFBO 11 entrants, ~250 others)",
+   "Email": "",
+   "Source URL": "https://mark---lawrence.blogspot.com/2026/01/spfbo-11-phase-1.html",
+   "Evidence Type": "author website",
+   "Platform": "Goodreads + author website",
+   "Decision": "rejected",
+   "Rejection Reason": "already in project records, no author website on Goodreads, or no email in site HTML (contact form only)"
+  }
+ ]
+}
