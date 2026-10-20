@@ -100,3 +100,7 @@ Write `leads/batches/<your batch name>.json`:
 ```
 
 Log **every** meaningful candidate you looked at (accepted ones with Decision `accepted`). Use the date 2026-10-19.
+
+## Recent-release campaign (from 2026-10-20)
+
+For batches named `batch08*` and later: accept only authors with **at least one book first published on or after 2025-01-01** (up to today). That book must be one of the Selected Book Titles. Confirm the publication date on a book page (Goodreads edition/first-published line, retailer listing, publisher page or the author's own release post) and record it in `Other Notes` as `Recent release: <Title> — <YYYY-MM-DD or Month YYYY> (source URL)`. Mention the recent book first in the email and subject. Preorders count only if the release date is already past. Sender is Roland Jacobs. German emails: greet "Guten Tag Frau/Herr <Nachname>" when using "Sie".
