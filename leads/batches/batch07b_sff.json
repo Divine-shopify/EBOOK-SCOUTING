@@ -2,62 +2,6 @@
  "batch": "batch07b_sff",
  "leads": [
   {
-   "Author Name": "Benjamin Kane Ethridge",
-   "Verified Public Email": [
-    "ben.ethridge@gmail.com"
-   ],
-   "Official Author Website": "https://bkebooks.com",
-   "Other Relevant Author Profile URLs": [
-    "https://www.goodreads.com/author/show/4448495.Benjamin_Kane_Ethridge"
-   ],
-   "Selected Book Titles for Outreach": [
-    "Bottled Abyss",
-    "Black and Orange"
-   ],
-   "Additional Discoverable Books and Series": "Black & Orange (Black and Orange, Nomads); Bottled Abyss; Dungeon Brain; Divine Scream; Nightmare Ballad",
-   "Book Genres": [
-    "Horror",
-    "Dark fantasy"
-   ],
-   "Verified Book Descriptions or Synopses": "Bottled Abyss: Bram Stoker Award nominee (Novel, 2012): Herman and Janet Erikson are shattered after losing their daughter in a hit and run; then their dog goes missing.",
-   "Book URLs Across Relevant Platforms": [
-    "https://www.goodreads.com/book/show/13630144-bottled-abyss",
-    "https://www.goodreads.com/book/show/9654818-black-and-orange"
-   ],
-   "Amazon Book URL": "",
-   "Amazon Author URL": "",
-   "Personalized Subject Line": "Bottled Abyss and Black and Orange",
-   "Personalized Email Body": "Hi Benjamin,\n\nI'm Roland Jacobs, a designer and book services specialist who helps authors present, publish and promote their books professionally.\n\nI recently read the descriptions of Bottled Abyss and Black and Orange and wanted to reach out.\n\nI was particularly interested in Herman and Janet Erikson's grief after a hit and run, made worse when their dog goes missing in Bottled Abyss, and I'd like to learn more about Black and Orange. Those details gave me an idea for how email marketing could help present your books to more of the readers who may enjoy them. A simple reader list with a short welcome series could bring readers from Bottled Abyss's grieving couple to your Black & Orange books.\n\nIf it's useful, I can prepare a free concept sample to show the direction. Would that be of interest?\n\nWarm regards,\nRoland Jacobs",
-   "Primary Recommended Service": "Email marketing",
-   "Secondary Service Opportunity": [
-    "Book-focused website design"
-   ],
-   "Evidence-Based Service-Fit Explanation": "No newsletter/subscribe prompt detected on the site across a multi-title backlist. Synopsis only verified for Bottled Abyss; Black and Orange mentioned by title only.",
-   "Reader and Review Signals": "Goodreads: Black and Orange 3.63 / 297; Bottled Abyss 3.50 / 296 (as of research date)",
-   "Discoverability and Promotional Observations": "Own site with contact page; no newsletter detected.",
-   "Country": "Unknown / not publicly verified",
-   "Region, State, or Province": "",
-   "City": "",
-   "Geographic Evidence and Relationship": "No residence statement found.",
-   "Email Source URL": "https://bkebooks.com/contact/",
-   "Author Identity Evidence URL": "https://bkebooks.com",
-   "Book Evidence Source URLs": [
-    "https://www.goodreads.com/book/show/13630144-bottled-abyss",
-    "https://www.goodreads.com/book/show/9654818-black-and-orange"
-   ],
-   "Other Relevant Platform Evidence URLs": [],
-   "Evidence Type": "Official author website; Goodreads author and book pages",
-   "Email Attribution": "Author direct (on own website)",
-   "Publishing Status": "Mixed publishing model — Bottled Abyss lists Redrum Horror; other editions unclear",
-   "Research Date": "2026-10-20",
-   "Platforms Actually Reviewed": [
-    "Official website",
-    "Goodreads"
-   ],
-   "Confidence and Manual Verification Notes": "Discovered via Bram Stoker Award First Novel / Novel lists (Wikipedia) → Goodreads. Email seen verbatim in raw HTML of Email Source URL (curl fetch, 2026-10-20). Confidence: medium-high. Second title has no verified synopsis; referenced by title only.",
-   "Other Notes": ""
-  },
-  {
    "Author Name": "Kate Jonez",
    "Verified Public Email": [
     "k8jonez@gmail.com"
@@ -336,6 +280,11 @@
    "Platform": "Goodreads + author website",
    "Decision": "rejected",
    "Rejection Reason": "only agent inbox listed"
+  },
+  {
+   "Candidate Name": "Benjamin Kane Ethridge",
+   "Decision": "rejected",
+   "Rejection Reason": "selected title used without reading its synopsis"
   }
  ]
 }

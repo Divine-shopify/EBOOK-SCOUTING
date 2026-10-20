@@ -171,61 +171,6 @@
    "Other Notes": ""
   },
   {
-   "Author Name": "K.R. Gangi",
-   "Verified Public Email": [
-    "k.r.gangi1@gmail.com"
-   ],
-   "Official Author Website": "https://krgangi1.wixsite.com/website",
-   "Other Relevant Author Profile URLs": [
-    "https://www.goodreads.com/author/show/20156766.K_R_Gangi"
-   ],
-   "Selected Book Titles for Outreach": [
-    "The Oathsworn Legacy",
-    "Bloodlines"
-   ],
-   "Additional Discoverable Books and Series": "Bloodlines; Deceit; The Oathsworn Legacy",
-   "Book Genres": [
-    "Dark fantasy"
-   ],
-   "Verified Book Descriptions or Synopses": "The Oathsworn Legacy: Rawley and Baelin protect the people of Centrum by slaying the dark things — monsters and everything evil — that stole their childhood.",
-   "Book URLs Across Relevant Platforms": [
-    "https://www.goodreads.com/book/show/200554028-the-oathsworn-legacy",
-    "https://www.goodreads.com/book/show/52678532-bloodlines"
-   ],
-   "Amazon Book URL": "",
-   "Amazon Author URL": "",
-   "Personalized Subject Line": "A home base for The Oathsworn Legacy",
-   "Personalized Email Body": "Hi K.R.,\n\nMy name is Roland Jacobs. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nWhile looking through recent SPFBO and award lists, I found The Oathsworn Legacy and Bloodlines.\n\nI was particularly interested in Rawley and Baelin earning their living by slaying the monsters that stole their childhood in The Oathsworn Legacy, and I'd like to learn more about Bloodlines. It got me thinking about how a book-focused website might bring your books in front of more readers who would enjoy them. A focused author site could put Rawley and Baelin's monster-hunting story front and center, with Bloodlines alongside it and a simple reader sign-up.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind. Would you like to see it?\n\nWarm regards,\nRoland Jacobs",
-   "Primary Recommended Service": "Book-focused website design",
-   "Secondary Service Opportunity": [
-    "Email marketing"
-   ],
-   "Evidence-Based Service-Fit Explanation": "The author site is on a free wixsite.com subdomain and no newsletter prompt was detected in the fetched pages; a dedicated book site with a sign-up would help. Synopsis only verified for The Oathsworn Legacy; Bloodlines mentioned by title only.",
-   "Reader and Review Signals": "Goodreads: The Oathsworn Legacy 4.35 / 86; Bloodlines 4.56 / 36 (as of research date)",
-   "Discoverability and Promotional Observations": "Free Wix subdomain site; no newsletter sign-up detected; SPFBO 10 finalist listed on Wikipedia SPFBO page.",
-   "Country": "Unknown / not publicly verified",
-   "Region, State, or Province": "",
-   "City": "",
-   "Geographic Evidence and Relationship": "No residence statement found on site or Goodreads.",
-   "Email Source URL": "https://krgangi1.wixsite.com/website/contact-1",
-   "Author Identity Evidence URL": "https://krgangi1.wixsite.com/website",
-   "Book Evidence Source URLs": [
-    "https://www.goodreads.com/book/show/200554028-the-oathsworn-legacy",
-    "https://www.goodreads.com/book/show/52678532-bloodlines"
-   ],
-   "Other Relevant Platform Evidence URLs": [],
-   "Evidence Type": "Official author website; Goodreads author and book pages",
-   "Email Attribution": "Author direct (on own website)",
-   "Publishing Status": "Likely independent/KDP — Bloodlines Goodreads edition shows 'Independently published'",
-   "Research Date": "2026-10-20",
-   "Platforms Actually Reviewed": [
-    "Official website",
-    "Goodreads"
-   ],
-   "Confidence and Manual Verification Notes": "Discovered via SPFBO finalists (Wikipedia) → Goodreads. Email seen verbatim in raw HTML of Email Source URL (curl fetch, 2026-10-20). Confidence: medium-high. Second title has no verified synopsis; referenced by title only.",
-   "Other Notes": ""
-  },
-  {
    "Author Name": "Deborah Jarvis",
    "Verified Public Email": [
     "the.rael.coyote@gmail.com"
@@ -1940,6 +1885,11 @@
    "Platform": "Goodreads + author website",
    "Decision": "rejected",
    "Rejection Reason": "no email in fetched HTML"
+  },
+  {
+   "Candidate Name": "K.R. Gangi",
+   "Decision": "rejected",
+   "Rejection Reason": "selected title used without reading its synopsis"
   }
  ]
 }
