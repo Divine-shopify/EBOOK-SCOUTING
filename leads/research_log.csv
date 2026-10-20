@@ -879,3 +879,46 @@
 2026-10-20,Germany/Austria,,,German,selfpublisher-verband.de/mitglieder/ country filter (Österreich / Deutschland),Karlheinz Six,kontakt@diakonsix.at,https://www.diakonsix.at/ueber-mich/,author website,Selfpublisher-Verband member directory,rejected,not completed in budget; Impressum location not checked,batch03_de_at
 2026-10-20,Germany/Austria,,,German,selfpublisher-verband.de/mitglieder/ country filter (Österreich / Deutschland),Christian Oswald Buchacher,buch@cob.at,https://cobuchacher.at/impressum/,author website,Selfpublisher-Verband member directory,rejected,email not visible in HTML on re-fetch,batch03_de_at
 2026-10-20,Germany/Austria,,,German,selfpublisher-verband.de/mitglieder/ country filter (Österreich / Deutschland),Andrea Eder-Morawetz,kontakt@agathas-abenteuer.at,https://www.agathas-abenteuer.at/,author website,Selfpublisher-Verband member directory,rejected,email not found on own website; only one book,batch03_de_at
+2026-10-20,Australia,,,English,Sisters in Crime/Fiji search,B.M. Allsopp,bernadette@bmallsopp.com,https://bmallsopp.com,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Sisters in Crime Australia author blogs,Laraine Stephens,stephens.laraine@gmail.com,https://larainestephens.com/contact,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,WebSearch: Western Australian author self-published,Phillip Strang,phillip@phillipstrang.com,https://www.phillipstrang.com/contact,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,WebSearch: Australian author fantasy/romance contact,Cassandra Dean,hello@cassandradean.com,https://cassandradean.com/contact,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Australasian Christian Writers our-authors,Dienece Darling,dienecedarling@dienecedarling.com,http://www.dienecedarling.com/contact,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Australasian Christian Writers new releases,Sara Powter,saragpowter@gmail.com,https://www.sarapowter.com.au/contact,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Goodreads Aussie Readers upcoming releases thread,Ilsa Evans,info@ilsaevans.com,https://www.ilsaevans.com/contact,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Goodreads Aussie Readers upcoming releases thread,Sandi Wallace,sandi@sandiwallace.com,https://www.sandiwallace.com/meet-sandi/,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Goodreads Aussie Readers upcoming releases thread,C.A. Larmer,christina@calarmer.com,https://calarmer.com/contact/,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Goodreads Aussie Readers upcoming releases thread,Annie Seaton,annie@annieseaton.net,https://annieseaton.net/contact/,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,Goodreads Aussie Readers upcoming releases thread,Rhonda Forrest,rhonda@rhondaforrest.com,https://www.rhondaforrest.com/about,author website,author website,accepted,,batch03_australia
+2026-10-20,Australia,,,English,,K.L. Harris,,https://www.masterofmakebelieve.com/contact,author website,author website,rejected,"email only in hidden site JSON (Squarespace social data), not visible",batch03_australia
+2026-10-20,Australia,,,English,,Susan Horsnell,,https://linktr.ee/SusanHorsnell,author website,author website,rejected,email only in Linktree JSON data; no own-site email,batch03_australia
+2026-10-20,Australia,,,English,,Tim Hawken,,https://www.timhawken.com/contact,author website,author website,rejected,email only in hidden Squarespace JSON,batch03_australia
+2026-10-20,Australia,,,English,,Frank Prem,,https://frankprem.com/contact/,author website,author website,rejected,author email only in JSON-LD structured data; visible email is publisher inbox,batch03_australia
+2026-10-20,Australia,,,English,,Kevin Klehr,,https://kevinklehr.com/contact/,author website,author website,rejected,only malformed address in page source,batch03_australia
+2026-10-20,Australia,,,English,,Scott Luper,,https://ueni.com/en-us/b/scottluper,author website,author website,rejected,US phone listing; not Australia-verified; business directory,batch03_australia
+2026-10-20,Australia,,,English,,Michelle Prak,,https://michelleprak.com/contact,author website,author website,rejected,only publisher PR inbox (Simon & Schuster); traditional,batch03_australia
+2026-10-20,Australia,,,English,,Lee Christine,,https://leechristine.com.au/contact,author website,author website,rejected,no email on site,batch03_australia
+2026-10-20,Australia,,,English,,Catherine Lee,,https://catherineleeauthor.com,author website,author website,rejected,no email on site,batch03_australia
+2026-10-20,Australia,,,English,,K.J. Emrick,,https://kathrineemrick.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Christine Dillon,,https://www.storytellerchristine.com/,author website,author website,rejected,only meta tag with non-matching domain,batch03_australia
+2026-10-20,Australia,,,English,,Phillipa Nefri Clark,,https://phillipaclark.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Cheryl Adnams,,https://www.cheryladnams.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Jacquie Underdown,,https://www.jacquieunderdown.com/contact,author website,author website,rejected,no email in HTML (Wix),batch03_australia
+2026-10-20,Australia,,,English,,J.J. Fischer,,https://www.jjfischer.com/contact,author website,author website,rejected,"JS-rendered Wix page, no email in HTML",batch03_australia
+2026-10-20,Australia,,,English,,Debra Clewer,,https://www.clewerbooknook.com/contact,author website,author website,rejected,"JS-rendered Wix page, no email in HTML",batch03_australia
+2026-10-20,Australia,,,English,,Hannah Currie,,https://www.hannahcurrie.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Narelle Atkins,,http://www.narelleatkins.com/contact/,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Jessica Wakefield,,https://www.jessicawakefield.com,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Rachel Nightingale,,https://rachel-nightingale.info/about-rachel/,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Blair Denholm,,https://blairdenholm.com/contact/,author website,author website,rejected,contact form only,batch03_australia
+2026-10-20,Australia,,,English,,Jeanette O'Hagan,,https://jeanetteohagan.com/contact-jeanette/,author website,author website,rejected,contact form only,batch03_australia
+2026-10-20,Australia,,,English,,Kathryn Gossow,,https://kathryngossow.net/contact/,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Ged Gillmore,,https://gedgillmore.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Sonia Parin,,https://soniaparin.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Maggie Christensen,,https://maggiechristensenauthor.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Iris Blobel,,https://www.irisblobel.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Ashley Capes,,https://ashleycapes.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Alison Stuart,,https://www.alisonstuart.com/contact,author website,author website,rejected,no email in HTML,batch03_australia
+2026-10-20,Australia,,,English,,Riley James,,https://sistersincrime.org.au/the-wreck-is-bass-strait-the-bermuda-triangle-of-the-south-riley-james/,author website,author website,rejected,traditional (Allen & Unwin); no author site linked,batch03_australia
+2026-10-20,Australia,,Sydney,,,Phillip Strang,phillip@phillipstrang.com,https://www.phillipstrang.com/contact,email re-check,,manual_verification,email not found on source page(s): phillip@phillipstrang.com (https://www.phillipstrang.com/contact: HTTP 404),batch03_australia
+2026-10-20,Australia,,Phillip Island,,,Sandi Wallace,sandi@sandiwallace.com,https://www.sandiwallace.com/meet-sandi/,email re-check,,manual_verification,email not found on source page(s): sandi@sandiwallace.com (https://www.sandiwallace.com/meet-sandi/: robots.txt disallows /meet-sandi/ on www.sandiwallace.com),batch03_australia
