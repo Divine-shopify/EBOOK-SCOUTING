@@ -102,6 +102,11 @@ async function merge(files: string[]) {
     }
     for (const raw of batch.leads ?? []) {
       const l = L.normalizeLead(raw);
+      // Recent-release batches (batch08+) must document a 2025-or-later book.
+      if (/^batch(0[89]|[1-9]\d)/.test(name) && !/Recent release:[^|]*20(2[5-9])/.test(l["Other Notes"])) {
+        log.push({ ...Object.fromEntries(L.LOG_COLUMNS.map((c) => [c, ""])), "Research Date": today, "Candidate Name": l["Author Name"], Decision: "rejected", "Rejection Reason": "no documented 2025+ release", Batch: name } as L.LogRow);
+        continue;
+      }
       const known = L.dedupKeys(l).some((k) => existingKeys.has(k));
       if (!known && !flag("--no-fetch") && !L.validateLead(l).length) {
         const problem = await confirmEmails(fetcher, l);
