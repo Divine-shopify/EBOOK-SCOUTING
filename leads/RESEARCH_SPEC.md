@@ -15,6 +15,8 @@ Accuracy beats volume. A lead you cannot verify is logged as rejected, never pad
 5. **Location**: only from an explicit statement ("lives in", "based in", Impressum address country, bio). Never from publisher, setting, university or birthplace. Otherwise `Country` = `Unknown / not publicly verified`. City only if stated; never record street addresses.
 6. **Platforms Actually Reviewed**: list only the platforms whose pages you actually fetched or whose search results you actually read for this author.
 
+**No bulk probing.** Do not generate and test lists of guessed domains or URLs (at most a handful of obvious `<name>.com`-style checks for an author you have already identified). Discover candidates from real directories, lists and links instead.
+
 Prefer independent / small-press / hybrid authors who plausibly buy services. Skip household-name bestsellers.
 Skip authors whose sites say they do not accept unsolicited marketing or vendor pitches.
 
