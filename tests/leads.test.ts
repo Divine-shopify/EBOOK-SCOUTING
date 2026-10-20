@@ -77,3 +77,11 @@ describe("shared platforms", () => {
     expect(mergeLeads([], [a, b]).added).toHaveLength(2);
   });
 });
+
+describe("shared listing pages", () => {
+  it("ignores directory URLs that many authors share", () => {
+    const a = normalizeLead({ ...base, "Other Relevant Author Profile URLs": ["https://christianauthorsnetwork.com/member-directory-2/"] });
+    const b = normalizeLead({ ...base, "Author Name": "Ann Roe", "Verified Public Email": ["ann@annroe.com"], "Official Author Website": "https://annroe.com", "Other Relevant Author Profile URLs": ["https://christianauthorsnetwork.com/member-directory-2/"], "Amazon Book URL": "" });
+    expect(mergeLeads([], [a, b]).added).toHaveLength(2);
+  });
+});

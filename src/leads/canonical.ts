@@ -109,6 +109,8 @@ export const UNKNOWN_LOCATION = "Unknown / not publicly verified";
 
 /** Hosts whose domain is shared by many authors, so it can never identify one author on its own. */
 const SHARED_HOSTS = /(^|\.)(amazon\.[a-z.]+|goodreads\.com|facebook\.com|instagram\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|linkedin\.com|wordpress\.com|blogspot\.com|wixsite\.com|substack\.com|linktr\.ee|bookbub\.com|wattpad\.com|medium\.com|squarespace\.com|weebly\.com|carrd\.co|beacons\.ai|kobo\.com|books\.apple\.com|apple\.com|google\.com|barnesandnoble\.com|smashwords\.com|books2read\.com|lulu\.com|draft2digital\.com|thestorygraph\.com|librarything\.com|reedsy\.com|threads\.net|pinterest\.com)$/;
+/** Directory and listing pages shared by many authors (e.g. ".../member-directory-2", ".../our-authors"). */
+const LISTING_PATH = /\/(?:[a-z-]*(?:directory|directories|members?|mitglieder|authors|writers|winners|finalists|list|lists)[a-z0-9-]*)$/;
 const FREEMAIL = /^(gmail|googlemail|yahoo|ymail|hotmail|outlook|live|msn|icloud|me|mac|aol|gmx|web|proton|protonmail|mail|yandex|zoho|qq|163|126|naver|hanmail|libero|orange|free|t-online|seznam|wp|o2|interia|rediffmail)\./i;
 
 export function splitList(v: string | undefined): string[] {
@@ -150,7 +152,7 @@ export function dedupKeys(l: Partial<Lead>): string[] {
   const urls = [...site, l["Amazon Author URL"], ...splitList(l["Other Relevant Author Profile URLs"])].flatMap((u) => splitList(u));
   for (const u of urls) {
     const n = normalizeUrl(u);
-    if (n && n.includes("/")) keys.add(`profile:${n}`);
+    if (n && n.includes("/") && !LISTING_PATH.test(n)) keys.add(`profile:${n}`);
     const aid = amazonAuthorId(u);
     if (aid) keys.add(`amazon_author:${aid}`);
   }
