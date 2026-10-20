@@ -3986,3 +3986,59 @@
 2026-10-20,United Kingdom,Scotland,,English,Scottish Book Trust Live Literature author directory,Caileansteed / Cailean Steed,caileansteed@gmail.com,https://www.caileansteed.com/,author website via SBT directory,Scottish Book Trust directory,rejected,only one book (Bloomsbury); not pursued,batch06b_ukie
 2026-10-20,United Kingdom,Scotland,,English,Scottish Book Trust Live Literature author directory,Cara Rooney,caralouiserooney@gmail.com,https://www.cararooney.com/,author website via SBT directory,Scottish Book Trust directory,rejected,only one book (Two Hoots); not pursued,batch06b_ukie
 2026-10-20,,,,,,Anna Levin,,,,,rejected,email body does not mention selected title: Incandescent – We Need to Talk about Light,merge-validation
+2026-10-20,,,,,,Lilian Li,bylilianli@gmail.com,https://linktr.ee/lilianofli,,,rejected,"linktr.ee page shows only an ""Email"" button; address not visible as text/mailto in fetched page (only in page data) - cannot confirm",batch07_manual_verified
+2026-10-20,,,,,,MJ Porter,mjporter@mjporterauthor.com,https://mjporterauthor.co.uk/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Mary Ellen Roberson,maryln25@comcast.net,https://maryellenroberson.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Kylee Marshall,kyleejeanmarshall@gmail.com,https://kyleemarshall.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Phillip Strang,phillip@phillipstrang.com,https://www.phillipstrang.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Sandi Wallace,sandi@sandiwallace.com,https://www.sandiwallace.com/meet-sandi/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Klára Smolíková,klara.smolikova@tiscali.cz,https://klarasmolikova.cz/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Adele Royce,adele@adeleroyce.com,https://adeleroyce.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,A.B. Patterson,andrew@abpatterson.com.au,http://www.abpatterson.com.au,,,rejected,Site returned HTTP 429 to both curl and WebFetch on every attempt; not confirmed (no bypass attempted),batch07_manual_verified
+2026-10-20,,,,,,Cynthia L. Simmons,CynthiaLSimmons@gmail.com,https://clsimmons.com/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,April Graney,april@onehappyhouse.org,https://onehappyhouse.org/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Cheri Strange,cheri@cheristrange.com,https://www.sheyearns.com/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Carol Ashby,carolashbyauthor@gmail.com,https://carol-ashby.com/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Cherilyn Chin,schoolvisits@oceanofhope.net,https://oceanofhope.net/school-visits/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Stacy DeKeyser,stacy@stacydekeyser.com,https://stacydekeyser.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Rita Lorraine Hubbard,heyrita@ritahubbard.com,https://ritahubbard.com/about/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,C.V. Vobh,cv@vobhbooks.com,https://vobhbooks.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Christine Steinmann,info@christinesteinmann.de,https://www.christinesteinmann.de/impressum,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Ella Lane,autorin.ella.lane@gmail.com,http://www.ellalane.de/impressum,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Kim S. Kinney,kim@kimskinney.com,https://kimskinney.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Carol Schlorff,carol@carolschlorff.com,https://carolschlorff.com/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Cher Gatto,cherlyngatto@gmail.com,https://journeywithwords.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Victoria Winifred,VW@VictoriaWinifred.com,https://victoriawinifred.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Danielle Lincoln Hanna,hearthandhomicide@gmail.com,https://daniellelincolnhanna.com/in-the-media/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Elle E. Kay,press@elleekay.com,https://elleekay.com/presskit/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Donna E. Lane,thedoctorslane@gmail.com,https://thedoctorslane.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Trinity Slain,trinityslainauthor@gmail.com,https://trinityslainauthor.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,S.R. Fabrico,srfabricoauthor@gmail.com,https://www.srfabrico.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Natalie J. Damschroder,info@nataliedamschroder.com,https://nataliedamschroder.com/about-the-author/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Amra Pajalic,amrapajalic@yahoo.com.au,http://www.amrapajalic.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Lou Paduano,lou@loupaduano.com,https://loupaduano.com/contact-me/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Lucy H. Delaney,lucyhdelaney@gmail.com,http://www.lucyhdelaney.com/contact.html,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Teri M Brown,teri@terimbrown.com,https://www.terimbrown.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Avery Chandler,avery@averychandler.com,https://averychandler.com/contact,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Amy Winters-Voss,hello@amywintersvoss.com,http://amywintersvoss.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Jane Yearout,ashfoard1@gmail.com,https://www.ashfoard.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,E.G. Stone,thewriter@egstone.com,https://egstone.com/contact-me/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Amy Rivers,amy@amyrivers.com,http://www.amyrivers.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Cristina van S. Dima,obstundgemueseentdecken@gmail.com,https://obstundgemueseentdecken.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Reyna Marder Gentin,reyna@reynamardergentin.com,https://reynamardergentin.com/book-clubs-and-events-signup-page/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Rachel Spangler,Rachel_Spangler@yahoo.com,https://rachelspangler.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Marty Essen,Marty@EncantePress.com,https://martyessen.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Gabrielle Barnby,gabrielle@gabriellebarnby.com,https://gabriellebarnby.com/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Pandora Shooter,pandorashooter@outlook.com,http://www.pandorashooter.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Andrea Revers,info@andrearevers.de,https://www.andrearevers.de/kontakt/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Jasmin Jülicher,jasmin.juelicher@web.de,https://www.jasmin-juelicher.de/impressum,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Michael Bridges,michael@michaelbridgesbooks.com,https://michaelbridgesbooks.com/contact.html,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Camilla Vavruch,camilla@camillavavruch.com,https://www.camillavavruch.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Sue Wickstead,stories@suewickstead.co.uk,https://suewickstead.co.uk/,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Nick Lennon-Barrett,nick@nicklennonbarrett.com,https://www.nicklennonbarrett.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Peter Turnham,peterturnham.author@gmail.com,https://peterturnhamauthor.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,CJ Harter,chris@cjharterbooks.co.uk,http://www.cjharterbooks.co.uk,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Kathy Shuker,kathyshuker@kathyshuker.co.uk,https://www.kathyshuker.co.uk/contact.html,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,John Alex Taylor,john@johnalextaylor.com,https://johnalextaylor.com,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Sara Sweeney,authorsara@readingroompress.com,https://readingroompress.com/the-year-that-wasnt-hers.html,,,accepted,,batch07_manual_verified
+2026-10-20,,,,,,Suzi Bamblett,suzibambi@gmail.com,https://broodleroo.com/,,,accepted,,batch07_manual_verified
