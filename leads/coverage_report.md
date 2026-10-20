@@ -1,46 +1,47 @@
 # Canonical author leads — QC and coverage report
 
-Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
+Generated 2026-10-20T16:14:43.255Z from `leads/canonical_leads.csv`.
 
 ## Totals
 
 | metric | value |
 | --- | --- |
-| Accepted leads (rows) | 743 |
-| Unique authors | 743 |
-| Unique dedup keys | 4703 |
-| Email-bearing rows | 743 |
+| Accepted leads (rows) | 1016 |
+| Unique authors | 1016 |
+| Unique dedup keys | 6365 |
+| Email-bearing rows | 1016 |
 | Target | 1000 |
-| Remaining to target | 257 |
-| Candidates logged | 1960 |
-| Log decisions | rejected: 1468, accepted: 861, manual_verification: 49 |
+| Remaining to target | 0 |
+| Candidates logged | 3479 |
+| Log decisions | rejected: 2774, accepted: 1151, manual_verification: 62 |
 | Validator | pass |
 
 ## Accepted leads by country
 
 | value | n |
 | --- | --- |
-| Unknown / not publicly verified | 235 |
-| United States | 170 |
-| Germany | 99 |
-| Canada | 71 |
-| United Kingdom | 19 |
-| Australia | 18 |
-| Austria | 16 |
+| Unknown / not publicly verified | 310 |
+| United States | 235 |
+| Germany | 121 |
+| United Kingdom | 112 |
+| Canada | 72 |
+| Austria | 21 |
+| Australia | 20 |
 | Switzerland | 13 |
-| New Zealand | 12 |
-| South Africa | 7 |
-| Spain | 6 |
+| New Zealand | 13 |
+| South Africa | 8 |
+| Spain | 7 |
 | India | 5 |
+| Denmark | 5 |
 | Ireland | 5 |
 | Finland | 5 |
+| Portugal | 4 |
 | France | 4 |
-| Denmark | 4 |
+| Norway | 4 |
 | Philippines | 3 |
 | Brazil | 3 |
-| Portugal | 3 |
+| Netherlands | 3 |
 | Sweden | 3 |
-| Norway | 3 |
 | Israel | 2 |
 | United Arab Emirates | 2 |
 | Belgium | 2 |
@@ -50,11 +51,11 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Singapore | 2 |
 | Ghana | 2 |
 | Argentina | 2 |
+| Ecuador | 2 |
 | Panama | 2 |
 | Mexico | 2 |
 | Japan | 1 |
 | Hong Kong | 1 |
-| Netherlands | 1 |
 | Greece | 1 |
 | Poland | 1 |
 | Croatia | 1 |
@@ -66,193 +67,215 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Rwanda | 1 |
 | Chile | 1 |
 | Costa Rica | 1 |
-| Ecuador | 1 |
 | Egypt | 1 |
 | Slovenia | 1 |
+| Cyprus | 1 |
 
 ## Publishing models
 
 | value | n |
 | --- | --- |
-| Likely independent/KDP | 228 |
-| Independent publisher, evidence available | 180 |
-| Mixed publishing model | 111 |
-| Traditional publisher | 98 |
-| Publishing status unclear | 67 |
-| Amazon-listed, KDP unverified | 56 |
-| Confirmed KDP | 3 |
+| Likely independent/KDP | 349 |
+| Independent publisher, evidence available | 219 |
+| Mixed publishing model | 162 |
+| Traditional publisher | 128 |
+| Publishing status unclear | 89 |
+| Amazon-listed, KDP unverified | 65 |
+| Confirmed KDP | 4 |
 
 ## Primary recommended service
 
 | value | n |
 | --- | --- |
-| Book trailers | 148 |
-| Book promotion and marketing | 126 |
-| Email marketing | 114 |
-| 12-month book marketing roadmap | 111 |
-| Book-focused website design | 75 |
-| Customer retention | 65 |
-| Christmas preorder campaigns | 49 |
-| Reader-engagement automation | 12 |
-| Book sales marketing | 10 |
-| Facebook Ads | 10 |
+| Book trailers | 186 |
+| Email marketing | 175 |
+| Book promotion and marketing | 164 |
+| 12-month book marketing roadmap | 134 |
+| Book-focused website design | 108 |
+| Customer retention | 106 |
+| Christmas preorder campaigns | 70 |
+| Reader-engagement automation | 14 |
+| Book sales marketing | 13 |
+| Facebook Ads | 13 |
+| Publishing-related assistance | 6 |
+| TikTok Shop | 6 |
 | SEO optimization | 6 |
-| TikTok Shop | 4 |
-| AEO (Answer Engine Optimization) | 4 |
-| Publishing-related assistance | 3 |
-| YouTube automation | 3 |
+| AEO (Answer Engine Optimization) | 5 |
+| YouTube automation | 5 |
 | Ads management | 2 |
-| Ebook formatting | 1 |
+| Ebook formatting | 2 |
+| Marketing and sales workflow automation | 1 |
 
 ## Secondary services
 
 | value | n |
 | --- | --- |
-| Email marketing | 280 |
-| Customer retention | 115 |
-| Book promotion and marketing | 107 |
-| 12-month book marketing roadmap | 85 |
-| Book trailers | 85 |
-| Book-focused website design | 62 |
-| Christmas preorder campaigns | 32 |
-| Reader-engagement automation | 24 |
-| Facebook Ads | 19 |
-| SEO optimization | 10 |
-| Ads management | 7 |
-| Book sales marketing | 7 |
-| Ebook formatting | 6 |
+| Email marketing | 398 |
+| Customer retention | 163 |
+| Book promotion and marketing | 139 |
+| 12-month book marketing roadmap | 102 |
+| Book trailers | 92 |
+| Book-focused website design | 79 |
+| Reader-engagement automation | 40 |
+| Christmas preorder campaigns | 33 |
+| Facebook Ads | 20 |
+| SEO optimization | 13 |
+| Ads management | 10 |
+| Book sales marketing | 10 |
+| Ebook formatting | 7 |
+| AEO (Answer Engine Optimization) | 6 |
 | TikTok Shop | 5 |
-| YouTube automation | 3 |
-| AEO (Answer Engine Optimization) | 3 |
+| Interior layout | 5 |
+| YouTube automation | 5 |
+| Cover design | 5 |
 | Email templates | 2 |
+| Publishing-related assistance | 2 |
 | Marketing and sales workflow automation | 2 |
-| Interior layout | 1 |
-| Publishing-related assistance | 1 |
-| Cover design | 1 |
 | GEO (Generative Engine Optimization) | 1 |
 
 ## Genres
 
 | value | n |
 | --- | --- |
-| contemporary romance | 63 |
-| historical fiction | 51 |
-| literary fiction | 42 |
-| fantasy | 37 |
-| thriller | 34 |
-| mystery | 31 |
-| romance | 29 |
+| romance | 67 |
+| contemporary romance | 65 |
+| historical fiction | 60 |
+| literary fiction | 49 |
+| mystery | 47 |
+| fantasy | 45 |
+| thriller | 38 |
+| science fiction | 32 |
+| women's fiction | 29 |
+| memoir | 29 |
+| picture books | 29 |
 | fantasy/scifi/speculative | 29 |
-| women's fiction | 27 |
-| picture books | 26 |
-| middle grade | 25 |
-| romantic suspense | 23 |
-| memoir | 23 |
-| young adult | 22 |
-| contemporary fiction | 22 |
-| science fiction | 20 |
+| romantic suspense | 26 |
+| middle grade | 26 |
+| horror | 25 |
+| young adult | 23 |
+| contemporary fiction | 23 |
+| cozy mystery | 21 |
+| urban fantasy | 21 |
 | general fiction | 19 |
-| horror | 16 |
+| dark fantasy | 18 |
+| paranormal romance | 18 |
+| romantasy | 17 |
+| historical mystery | 16 |
+| crime | 16 |
 | romantic comedy | 15 |
-| paranormal romance | 14 |
+| short stories | 14 |
 | historical romance | 14 |
-| dark fantasy | 13 |
-| cozy mystery | 12 |
+| poetry | 14 |
+| children's picture books | 14 |
+| crime thriller | 13 |
 | epic fantasy | 12 |
-| urban fantasy | 12 |
-| children's picture books | 12 |
+| children's fiction | 12 |
+| adventure | 12 |
 | young adult (ya) | 12 |
 | crime fiction | 11 |
-| short stories | 11 |
-| romantasy | 10 |
-| fantasy romance | 10 |
+| fantasy romance | 11 |
 | children's books | 10 |
-| children's fiction | 10 |
 | new adult | 10 |
-| adventure | 10 |
+| speculative fiction | 9 |
 | dark romance | 9 |
-| historical mystery | 9 |
-| poetry | 9 |
 | middle grade fantasy | 9 |
 | humour | 9 |
-| crime | 9 |
+| speculative / genre fiction | 9 |
+| christian fiction | 8 |
 | christmas romance | 8 |
+| police procedural | 8 |
 | christian nonfiction | 8 |
+| ya fantasy | 8 |
 | young adult romance | 7 |
-| christian fiction | 7 |
-| speculative fiction | 7 |
+| psychological thriller | 7 |
+| suspense | 7 |
 | children's picture book | 7 |
+| historischer roman | 7 |
+| regency romance | 7 |
 | fiction | 7 |
+| ya thriller | 7 |
 | new adult romance | 6 |
 | young adult fantasy | 6 |
-| crime thriller | 6 |
-| psychological thriller | 6 |
-| suspense | 6 |
+| historical fantasy | 6 |
+| sports romance | 6 |
+| high fantasy | 6 |
+| political thriller | 6 |
+| lgbtq+ | 6 |
 | biography | 6 |
 | mind body spirit | 6 |
 | self-help/personal development | 6 |
-| sports romance | 5 |
 | afrikaans romance | 5 |
-| lgbtq+ | 5 |
-| ya fantasy | 5 |
-| regency romance | 5 |
+| historical saga | 5 |
 | christian historical romance | 5 |
 | children's nonfiction | 5 |
-| historical fantasy | 4 |
-| political thriller | 4 |
 | cosy mystery | 4 |
-| historical saga | 4 |
+| noir | 4 |
+| paranormal mystery | 4 |
+| cozy fantasy | 4 |
+| satire | 4 |
 | travel memoir | 4 |
 | gothic horror | 4 |
 | children's mystery | 4 |
+| steampunk | 4 |
 | christian devotional | 4 |
+| coming-of-age | 4 |
 | christian memoir | 4 |
+| psychological suspense | 4 |
+| magical realism | 4 |
+| dystopian | 4 |
 | commercial fiction | 4 |
 | science fiction (sci-fi) | 4 |
 | advice & how to | 4 |
 | time-travel romance | 4 |
+| space opera | 3 |
 | gay romance | 3 |
+| billionaire romance | 3 |
+| international thriller | 3 |
+| middle-grade fantasy | 3 |
 | mafia romance | 3 |
 | humorous fantasy | 3 |
-| police procedural | 3 |
-| paranormal mystery | 3 |
+| dark fantasy romance | 3 |
 | small-town romance | 3 |
 | children's poetry | 3 |
-| satire | 3 |
-| steampunk | 3 |
+| short fiction | 3 |
+| paranormal cozy mystery | 3 |
 | christian suspense | 3 |
 | humorous fiction | 3 |
 | krimi | 3 |
 | children's chapter books | 3 |
 | christian contemporary romance | 3 |
 | lesbian romance | 3 |
-| psychological suspense | 3 |
-| magical realism | 3 |
+| ya science fiction | 3 |
+| humorous mystery | 3 |
 | science | 3 |
-| dystopian | 3 |
+| historical crime | 3 |
+| children's fantasy | 3 |
 | self-help | 3 |
+| legal thriller | 3 |
+| children's adventure | 3 |
+| folk horror | 3 |
+| kriminalroman | 3 |
+| phantastik | 3 |
+| supernatural thriller | 3 |
+| scottish crime | 3 |
+| scottish literary fiction | 3 |
 | space fantasy | 2 |
 | progression fantasy | 2 |
 | post-apocalyptic fantasy | 2 |
 | erotic romance | 2 |
-| billionaire romance | 2 |
-| high fantasy | 2 |
 | fantasía urbana | 2 |
 | comedia romántica | 2 |
 | romance contemporâneo | 2 |
 | fantasia | 2 |
 | fantasía juvenil | 2 |
 | romance contemporáneo | 2 |
-| international thriller | 2 |
-| middle-grade fantasy | 2 |
 | christmas novella | 2 |
-| dark fantasy romance | 2 |
-| noir | 2 |
+| historical adventure | 2 |
 | speculative short fiction | 2 |
-| cozy fantasy | 2 |
+| children's fantasy adventure | 2 |
 | sapphic paranormal romance | 2 |
-| short fiction | 2 |
-| paranormal cozy mystery | 2 |
+| weird fiction | 2 |
+| contemporary women's fiction | 2 |
 | humorous women's fiction | 2 |
 | family saga | 2 |
 | outdoor guidebooks | 2 |
@@ -260,17 +283,21 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | comédia romântica | 2 |
 | sapphic romance | 2 |
 | jugendfantasy | 2 |
-| historischer roman | 2 |
 | kinderbuch | 2 |
+| fantasy-krimi | 2 |
 | lyrik | 2 |
+| dystopie | 2 |
 | southern literary fiction | 2 |
 | western | 2 |
 | christian fantasy | 2 |
+| cyberpunk | 2 |
 | paranormal | 2 |
-| coming-of-age | 2 |
+| humorous memoir | 2 |
+| family history | 2 |
 | caregiving | 2 |
+| non-fiction | 2 |
+| social history | 2 |
 | nature | 2 |
-| humorous mystery | 2 |
 | social-emotional | 2 |
 | young adult thriller | 2 |
 | western romance | 2 |
@@ -278,7 +305,8 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | social-emotional learning | 2 |
 | sports fiction | 2 |
 | sweet romance | 2 |
-| historical crime | 2 |
+| urban fiction | 2 |
+| alternate history | 2 |
 | graphic novels | 2 |
 | history | 2 |
 | bible study | 2 |
@@ -292,18 +320,24 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | essays | 2 |
 | narrative nonfiction | 2 |
 | other | 2 |
-| children's fantasy | 2 |
 | graphic novel | 2 |
+| time travel | 2 |
 | motorcycle club romance | 2 |
+| ya paranormal | 2 |
 | humor | 2 |
+| family drama | 2 |
 | cozy crime | 2 |
+| comic mystery | 2 |
+| spy thriller | 2 |
+| historische fantasy | 2 |
+| epische fantasy | 2 |
+| children's graphic novels | 2 |
 | detective thriller | 1 |
 | young adult post-apocalyptic science fiction | 1 |
 | christian romantic suspense | 1 |
 | paranormal romance (m/m) | 1 |
 | lgbtq+ fiction | 1 |
 | queer/sapphic fantasy romance | 1 |
-| space opera | 1 |
 | litrpg | 1 |
 | young adult dystopian science fiction | 1 |
 | gothic fantasy | 1 |
@@ -344,7 +378,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | historical/scientific thriller | 1 |
 | mystery romance | 1 |
 | children's/ya fantasy adventure | 1 |
-| historical adventure | 1 |
 | espionage thriller | 1 |
 | middle-grade horror/suspense | 1 |
 | cozy/comic crime | 1 |
@@ -357,7 +390,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | ya portal fantasy | 1 |
 | children's illustrated folklore | 1 |
 | children's picture/chapter books | 1 |
-| children's fantasy adventure | 1 |
 | fantasy horror | 1 |
 | civic / community nonfiction | 1 |
 | christian split-time fiction | 1 |
@@ -369,7 +401,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | devotional / inspirational | 1 |
 | grief memoir | 1 |
 | personal development | 1 |
-| weird fiction | 1 |
 | mystery-horror thriller | 1 |
 | psychological crime novel | 1 |
 | satirical thriller | 1 |
@@ -379,7 +410,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | romance / historical women's fiction | 1 |
 | children's fiction (8+) | 1 |
 | crime novel | 1 |
-| contemporary women's fiction | 1 |
 | historical family novel | 1 |
 | family novel | 1 |
 | horror fantasy | 1 |
@@ -462,10 +492,8 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | fantasia urbana | 1 |
 | erotik | 1 |
 | satire/fantasy | 1 |
-| fantasy-krimi | 1 |
 | ratgeber | 1 |
 | jugendbuch | 1 |
-| dystopie | 1 |
 | roman | 1 |
 | erzählungen | 1 |
 | australian historical romance | 1 |
@@ -476,7 +504,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | fairy-tale retelling | 1 |
 | children's fiction (middle grade) | 1 |
 | fantasy adventure | 1 |
-| cyberpunk | 1 |
 | dystopian science fiction | 1 |
 | eco-dystopian fiction | 1 |
 | fairytale retelling | 1 |
@@ -486,11 +513,7 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | time travel romantic suspense | 1 |
 | historical fantasy romance | 1 |
 | wilderness suspense | 1 |
-| humorous memoir | 1 |
-| family history | 1 |
 | children's | 1 |
-| non-fiction | 1 |
-| social history | 1 |
 | creative non-fiction | 1 |
 | christian middle-grade mystery | 1 |
 | biblical fiction | 1 |
@@ -510,7 +533,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | cozy fantasy romance | 1 |
 | fantasy epic | 1 |
 | humorous non-fiction | 1 |
-| ya science fiction | 1 |
 | coming-of-age novel | 1 |
 | political non-fiction | 1 |
 | horse novel | 1 |
@@ -541,8 +563,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | medical thriller | 1 |
 | young adult dystopian | 1 |
 | travel fiction | 1 |
-| urban fiction | 1 |
-| alternate history | 1 |
 | historical dark fantasy | 1 |
 | war of the worlds sequel | 1 |
 | bilingual | 1 |
@@ -580,7 +600,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | social fiction | 1 |
 | novel | 1 |
 | youth novel | 1 |
-| time travel | 1 |
 | spiritual fiction | 1 |
 | fantastic fiction | 1 |
 | parenting non-fiction | 1 |
@@ -596,8 +615,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | gothic | 1 |
 | dark fairy-tale retelling | 1 |
 | crime caper | 1 |
-| ya thriller | 1 |
-| ya paranormal | 1 |
 | multicultural fiction | 1 |
 | nonfiction | 1 |
 | health nonfiction | 1 |
@@ -613,26 +630,144 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | parenting nonfiction | 1 |
 | humorous society novels | 1 |
 | escape-game books | 1 |
-| legal thriller | 1 |
 | upmarket fiction | 1 |
 | book club fiction | 1 |
-| family drama | 1 |
 | scottish mystery | 1 |
-| children's adventure | 1 |
+| literary horror | 1 |
+| historical horror | 1 |
+| horror poetry | 1 |
+| speculative thriller | 1 |
+| private eye mystery | 1 |
+| mystery thriller | 1 |
+| culinary mystery | 1 |
+| hard science fiction | 1 |
+| humorvolle fantasy | 1 |
+| justizthriller | 1 |
+| fantasy-thriller | 1 |
+| science fantasy | 1 |
+| romantic fantasy | 1 |
+| klimakrimi | 1 |
+| dunkle phantastik | 1 |
+| kurzgeschichten | 1 |
+| unheimliche phantastik | 1 |
+| speculative | 1 |
+| tech thriller | 1 |
+| literary folk horror | 1 |
+| lgbtq+ historical fiction | 1 |
+| austenesque | 1 |
+| sci-fi romance | 1 |
+| cozy urban fantasy mystery | 1 |
+| mythic fantasy | 1 |
+| near-future science fiction | 1 |
+| fae romance | 1 |
+| romantic epic fantasy | 1 |
+| m/m romance | 1 |
+| romantic escape fiction | 1 |
+| öko-thriller | 1 |
+| zeitreise-fantasy | 1 |
+| military science fiction | 1 |
+| küstenkrimi | 1 |
+| all-age | 1 |
+| psychothriller | 1 |
+| wohlfühlroman | 1 |
+| technothriller | 1 |
+| liebesroman | 1 |
+| weihnachtsroman | 1 |
+| spannung | 1 |
+| tragikomödie | 1 |
+| queere urban fantasy | 1 |
+| monster romance | 1 |
+| children's time-travel adventure | 1 |
+| historical cozy mystery | 1 |
+| time-slip fantasy | 1 |
+| middle-grade science fiction | 1 |
+| paranormal women's fiction | 1 |
+| comic fantasy | 1 |
+| paranormal cozy | 1 |
+| scottish fiction | 1 |
+| children's / ya adventure | 1 |
+| ghost stories | 1 |
+| humorous sci-fi adventure | 1 |
+| time-travel adventure | 1 |
+| comics | 1 |
+| ya murder mystery | 1 |
+| supernatural historical fiction | 1 |
+| middle-grade contemporary fiction | 1 |
+| scottish non-fiction | 1 |
+| cold war fiction | 1 |
+| travel / whisky non-fiction | 1 |
+| disability | 1 |
+| self-help / wellbeing | 1 |
+| art-world fiction | 1 |
+| children's fiction (backlist) | 1 |
+| dystopian thriller | 1 |
+| historical thriller | 1 |
+| gothic thriller | 1 |
+| ghost story | 1 |
+| dark fiction | 1 |
+| illustrated humour | 1 |
+| scottish history (illustrated) | 1 |
+| political cartoons | 1 |
+| comic fiction | 1 |
+| science fiction / fantasy | 1 |
+| post-apocalyptic fiction | 1 |
+| early reader chapter books | 1 |
+| memoir (surfing) | 1 |
+| ww2 thriller | 1 |
+| scottish murder mystery | 1 |
+| children's spooky adventure | 1 |
+| early chapter books | 1 |
+| children's wildlife stories | 1 |
+| middle-grade fiction | 1 |
+| contemporary mg | 1 |
+| picture book (ages 3–5) | 1 |
+| gaelic-language picture book | 1 |
+| dark comedy | 1 |
+| literary crime | 1 |
+| post-pandemic fiction | 1 |
+| football history | 1 |
+| travel / nostalgia | 1 |
+| fairy-tale adaptations | 1 |
+| memoir / nature writing | 1 |
+| nature / local history | 1 |
+| litrpg / fantasy | 1 |
+| graphic novel (poetry comic) | 1 |
+| children's activity / rme resources | 1 |
+| storytelling resources | 1 |
+| horror short fiction | 1 |
+| ya mystery | 1 |
+| scottish historical fiction | 1 |
+| local history | 1 |
+| scottish crime thriller | 1 |
+| folk tales | 1 |
+| children's picture book (danish) | 1 |
+| literary fiction (danish) | 1 |
+| scots-language picture books | 1 |
+| writing resource | 1 |
+| autism / disability | 1 |
+| poetry for teens | 1 |
+| sci-fi poetry | 1 |
+| supernatural fiction / weird tales | 1 |
+| tragicomedy | 1 |
+| folk-horror crime | 1 |
+| music non-fiction | 1 |
 
 ## Platforms actually reviewed (accepted leads)
 
 | value | n |
 | --- | --- |
-| Official website | 733 |
-| Goodreads | 342 |
+| Official website | 1003 |
+| Goodreads | 470 |
 | ALLi author directory/profile | 104 |
-| Selfpublisher-Verband member directory | 71 |
+| ALLi author directory | 98 |
+| Goodreads (search results and book pages) | 90 |
+| Selfpublisher-Verband member directory | 82 |
 | Readers' Favorite (award winners page and review page) | 67 |
+| Scottish Book Trust directory | 47 |
 | Goodreads (author list and book pages fetched) | 46 |
 | Writers' Union of Canada member profile | 44 |
 | DeLiA member directory | 44 |
-| Goodreads (search results and book pages) | 41 |
+| PAN member directory | 39 |
 | IPPY Awards medalist list | 28 |
 | Goodreads (search results) | 21 |
 | New Jersey Romance Writers member directory | 21 |
@@ -644,7 +779,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Selah Awards finalist list (BRMCWC) | 12 |
 | National Indie Excellence Awards winner/finalist pages | 12 |
 | Amazon.de (search results and product pages) | 11 |
-| ALLi author directory | 11 |
 | Selfpublisher-Verband profile | 11 |
 | Writers' Union of Canada directory | 11 |
 | ROSA member directory | 10 |
@@ -790,24 +924,34 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Christian Indie Awards 2025 winners page | 1 |
 | Amazon (links) | 1 |
 | Amazon (link) | 1 |
+| Official website (blog) | 1 |
+| Severn House | 1 |
+| Floris Books | 1 |
+| Hashtag Press | 1 |
+| Author stories page | 1 |
+| Arachnid Press website | 1 |
+| Smashwords (page fetch, limited) | 1 |
+| Official website (Blogger) | 1 |
 
 ## Email attribution
 
 | value | n |
 | --- | --- |
-| Author direct (on own website) | 312 |
+| Author direct (on own website) | 536 |
 | Author direct (on own website Impressum/Kontakt page) | 71 |
 | Author direct (own website contact/Impressum page) | 25 |
 | Author direct (own website) | 23 |
+| Author direct (visible on own contact page) | 22 |
 | Author direct (Impressum of own website) | 16 |
 | Author direct (own website contact page) | 15 |
 | Author direct (mailto on own contact page) | 12 |
-| Author direct (visible on own contact page) | 10 |
 | Author direct (TWUC member profile) | 10 |
 | Author direct (mailto on own website) | 6 |
+| Author direct (visible on own website contact page) | 6 |
 | Author direct (Impressum of own website, plain text and mailto) | 5 |
 | Author direct (visible text on own contact page) | 4 |
 | Author direct (Impressum of own website, plain text) | 3 |
+| Author direct (mailto link on own homepage) | 3 |
 | Author direct (contact page) | 3 |
 | Author direct (series website inbox) | 3 |
 | Author direct (on own website homepage) | 2 |
@@ -815,8 +959,7 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Author direct (mailto on own website contact page; same address on ROSA member listing) | 2 |
 | Author direct (mailto link on own website homepage) | 2 |
 | Author direct (mailto on own homepage) | 2 |
-| Author direct (visible on own website contact page) | 2 |
-| Author direct (mailto link on own homepage) | 2 |
+| Author direct (visible on own homepage) | 2 |
 | Author direct (mailto on homepage) | 2 |
 | Author direct (author-visits page) | 2 |
 | Author direct (on own website bio page: 'You can get in touch with me at: michaelpronko@gmail.com') | 1 |
@@ -953,7 +1096,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Author direct (own domain, contact page) | 1 |
 | Author direct (mailto 'email Graeme' link on own press homepage) | 1 |
 | Author direct (info@ on own domain, contact page) | 1 |
-| Author direct (visible on own homepage) | 1 |
 | Author direct (visible 'Contact:' line on own publications page) | 1 |
 | Author direct (mailto link on own homepage; text shown obfuscated as songspinner(at)shaw(dot)ca) | 1 |
 | Author direct (author bio on Audible author page: 'To contact me, please email here') | 1 |
@@ -1026,6 +1168,37 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Author series email (visible caption on her series blog) | 1 |
 | Publisher contact presented on the author's own site for queries ('Contact the Publisher') | 1 |
 | Author direct (mailto 'Contact me here' on own homepage) | 1 |
+| Author direct (on author's own small-press website) | 1 |
+| Author address on publisher (Saltbone Press) author page | 1 |
+| Author direct (address given by the author in a visible comment reply on his own About page, offering it for school-visit contact) | 1 |
+| Author direct (mailto link labelled 'Author: Caro Ramsay' on own contact page) | 1 |
+| Author direct (visible on own homepage contact block; craigamooney@gmail.com labelled 'For author related emails / school visits') | 1 |
+| Author direct (mailto behind 'Get In Touch' on own homepage) | 1 |
+| Author direct (mailto link in own site menu) | 1 |
+| Author direct (visible on own books page and homepage) | 1 |
+| Author direct (visible 'Get in touch' on own website) | 1 |
+| Author direct (visible 'Email Helen' on own contact page) | 1 |
+| Author direct (visible on own contact page; fireopal@ address in site header) | 1 |
+| Author direct (mailto link from 'Email' icon on own homepage) | 1 |
+| Author direct (visible 'Contact:' line on his stories page) | 1 |
+| Author direct (visible in Contact section of own homepage) | 1 |
+| Author direct (visible in a homepage blog post inviting readers to email) | 1 |
+| Author direct (visible mailto in own website footer) | 1 |
+| Author direct (mailto links on own homepage) | 1 |
+| Author direct (visible on own website; contact block and body text) | 1 |
+| Author direct (visible on own homepage, at her film company domain, offered for writing projects) | 1 |
+| Author direct (mailto 'Email' link in own website header) | 1 |
+| Author direct (visible 'For booking details, email ...' on own About page) | 1 |
+| Author direct (visible on own website contact section) | 1 |
+| Author direct (visible in own blog header) | 1 |
+| Author direct (visible in own website header) | 1 |
+| Author direct (visible in own website header and contact block) | 1 |
+| Author direct (visible mailto on own website) | 1 |
+| Author direct (visible on own homepage and books page) | 1 |
+| Author direct (visible on own About page) | 1 |
+| Author direct (mailto link 'Email Info' in own website sidebar; href written as 'mailto: info@timturnbull.co.uk') | 1 |
+| Author direct (visible 'Personal Contact' on own contact page) | 1 |
+| Author direct (mailto link 'email me here' on own homepage) | 1 |
 
 ## Rows with one selected book
 
@@ -1120,6 +1293,31 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Gabriela De Forrest | 1 |
 | J. Timothy Damiani | 1 |
 | Ajay Close | 1 |
+| Ayleen K. Kyrstin | 1 |
+| Janne Birk | 1 |
+| Philipp Schaab | 1 |
+| Mel Rellington | 1 |
+| Julia A. Jorges | 1 |
+| M.S. Hooks | 1 |
+| Julia McTrill | 1 |
+| N.L. Castle | 1 |
+| Jodi Thompson Carr | 1 |
+| Clara Maria Rose | 1 |
+| Alexandra Foley | 1 |
+| Lovelace Cook | 1 |
+| Asna Chiron | 1 |
+| Daniel Deflieze | 1 |
+| Tay R. Dornie | 1 |
+| Ursulina Pittrof | 1 |
+| Eric Vallardon | 1 |
+| Ben Weber | 1 |
+| Tia Urban | 1 |
+| Cliff Lovette | 1 |
+| Deborah Lyon | 1 |
+| Lenny Gallo | 1 |
+| Emily Tellwright | 1 |
+| Christopher Mackie | 1 |
+| Stewart Ennis | 1 |
 
 ## Research coverage (log)
 
@@ -1127,92 +1325,100 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 
 | value | n |
 | --- | --- |
-| United States | 250 |
-| Germany | 238 |
-| Canada | 130 |
-| Unknown / not publicly verified | 124 |
+| United Kingdom | 664 |
+| United States of America | 560 |
+| United States | 281 |
+| Germany | 241 |
+| Unknown / not publicly verified | 180 |
+| Canada | 170 |
+| Germany/Austria (DACH) | 125 |
+| (blank) | 114 |
+| Australia | 90 |
 | International | 87 |
 | US/Canada/UK/Ireland/Australia/NZ/Caribbean | 74 |
 | Christian market (global) | 71 |
-| Australia | 66 |
-| (blank) | 56 |
-| South Africa | 53 |
-| Spain | 51 |
-| Italy | 51 |
-| Brazil | 49 |
+| South Africa | 58 |
+| Spain | 57 |
+| Italy | 52 |
+| Brazil | 50 |
 | Mexico | 46 |
+| India | 46 |
 | United States / Canada | 46 |
-| India | 44 |
-| United Kingdom | 42 |
+| France | 41 |
 | Philippines | 40 |
-| France | 36 |
+| New Zealand | 39 |
 | Nigeria | 34 |
 | DACH (DeLiA) | 34 |
-| Thailand | 32 |
-| New Zealand | 32 |
+| Thailand | 33 |
 | United States / international kidlit | 32 |
 | International kidlit (SCBWI regions) | 31 |
 | Switzerland | 30 |
 | Austria | 28 |
 | Argentina | 24 |
 | Singapore | 22 |
-| Netherlands | 21 |
+| Netherlands | 22 |
+| Sweden | 21 |
 | Malaysia | 20 |
 | Finland | 20 |
 | Austria/Switzerland/Germany | 20 |
 | Germany / DACH (DeLiA) | 19 |
-| Sweden | 18 |
-| Denmark | 16 |
+| Belgium | 17 |
+| Denmark | 17 |
 | Panama | 16 |
 | Chile | 14 |
 | Pakistan | 14 |
 | Kenya | 14 |
-| Belgium | 14 |
+| Australia & New Zealand | 14 |
 | Colombia | 12 |
 | Sri Lanka | 12 |
+| Norway | 12 |
+| Ireland | 12 |
 | Germany/Austria | 12 |
-| Ireland | 11 |
 | Israel | 10 |
 | Ghana | 10 |
 | Croatia | 10 |
 | Guatemala | 10 |
+| Portugal | 9 |
 | Turkey | 9 |
-| Norway | 9 |
 | various | 9 |
-| Portugal | 8 |
 | South Africa (ROSA member) | 8 |
 | Uganda | 8 |
 | Romania | 8 |
+| Netherlands (the) | 8 |
+| Europe | 8 |
+| Japan | 7 |
 | South Korea | 7 |
 | Venezuela | 7 |
-| Japan | 6 |
+| United Arab Emirates | 6 |
+| Poland | 6 |
 | El Salvador | 6 |
+| Hong Kong | 5 |
 | Taiwan | 5 |
-| United Arab Emirates | 5 |
-| Poland | 5 |
+| Greece | 5 |
 | Hungary | 5 |
 | Czechia | 5 |
 | Morocco | 5 |
 | Bolivia | 5 |
-| Hong Kong | 4 |
+| United States Minor Outlying Islands | 5 |
 | Unknown | 4 |
 | Vietnam | 4 |
 | Peru | 4 |
 | UAE | 4 |
 | Bangladesh | 4 |
 | Nepal | 4 |
+| Mauritius | 4 |
 | Zambia | 4 |
 | Iceland | 4 |
 | Cameroon | 4 |
 | Egypt | 4 |
 | Honduras | 4 |
 | Botswana | 3 |
-| Mauritius | 3 |
-| Greece | 3 |
 | Slovakia | 3 |
 | Singapore (origin) | 3 |
+| Ecuador | 3 |
 | Slovenia | 3 |
 | Bulgaria | 3 |
+| Asia & Middle East | 3 |
 | Philippines (search) | 2 |
 | Philippines (community) | 2 |
 | South Korea / Taiwan | 2 |
@@ -1226,6 +1432,7 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Costa Rica | 2 |
 | Mexico/US | 2 |
 | Paraguay | 2 |
+| Åland Islands | 2 |
 | Caribbean (not UK/IE) | 1 |
 | Luxembourg | 1 |
 | Cyprus | 1 |
@@ -1237,19 +1444,18 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Malaysia (origin) | 1 |
 | Senegal | 1 |
 | Puerto Rico | 1 |
-| Ecuador | 1 |
 | Spain/Venezuela | 1 |
 | Qatar | 1 |
 | Ukraine | 1 |
 | Honduras/Guatemala | 1 |
-| United States Minor Outlying Islands | 1 |
+| Bahamas (the) | 1 |
 
 ### Languages used
 
 | value | n |
 | --- | --- |
-| English | 1467 |
-| German | 379 |
+| English | 2935 |
+| German | 504 |
 | Spanish | 204 |
 | French | 61 |
 | Portuguese | 55 |
@@ -1277,13 +1483,17 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 
 | value | n |
 | --- | --- |
+| ALLi directory | 1418 |
 | selfpublisher-verband.de member directory | 197 |
 | Official website | 191 |
 | Google search | 178 |
-| ALLi directory | 169 |
+| Directory link + author website | 145 |
 | Web search | 122 |
+| PAN member directory | 97 |
+| Scottish Book Trust directory | 74 |
 | Christian author directory | 71 |
-| Directory link + author website | 70 |
+| Goodreads Listopia / official website | 70 |
+| (blank) | 65 |
 | TWUC directory | 65 |
 | SCBWI regional directory | 63 |
 | IPPY list + author site | 60 |
@@ -1291,11 +1501,11 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Direct fetch | 52 |
 | Readers' Favorite + official website + Goodreads | 51 |
 | Readers' Favorite + official website | 50 |
-| (blank) | 49 |
 | RWA chapter directory | 48 |
 | escritores.org | 43 |
 | author website | 41 |
 | Goodreads | 40 |
+| Selfpublisher-Verband directory | 39 |
 | Directory + author website | 38 |
 | Readers' Favorite directory | 36 |
 | romanceclassbooks.com author directory | 32 |
@@ -1318,7 +1528,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | WFNS directory | 14 |
 | ALLi author directory + official website | 12 |
 | Selfpublisher-Verband directory / author website | 11 |
-| Selfpublisher-Verband directory | 11 |
 | milibrohispano.org | 11 |
 | Article | 10 |
 | Directory browse (Indie Books NZ / Kiwi Kids' Bookstore / Tamariki Book Festival) + author site | 10 |
@@ -1438,6 +1647,11 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 
 | value | n |
 | --- | --- |
+| no email visible on site pages checked (contact form only or none) | 702 |
+| no author website linked on ALLi profile | 184 |
+| only agent/publisher/third-party or non-author address found, or non-fiction/off-target | 113 |
+| possible no-solicitation/no-marketing wording on site; skipped | 61 |
+| Goodreads books/official synopses not verifiable (no match, wrong same-name author, tagline-only or missing descriptions | 42 |
 | No email address in site HTML | 23 |
 | no email in HTML | 23 |
 | No email on blog | 20 |
@@ -1448,6 +1662,8 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Impressum objects to advertising emails | 15 |
 | contact form only | 14 |
 | No email found | 14 |
+| duplicate of earlier research (domain/email already in project files) | 14 |
+| Goodreads book pages not found | 13 |
 | No email on site | 12 |
 | Impressum/Kontakt objects to advertising emails | 11 |
 | no Goodreads page verified | 10 |
@@ -1458,6 +1674,7 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | No website or email found | 5 |
 | Impressum widerspricht unaufgeforderter Werbung | 5 |
 | agency inbox only | 5 |
+| household-name bestseller | 5 |
 | sells Lektorat | 5 |
 | second synopsis not found | 5 |
 | No author website or public email found | 4 |
@@ -1480,6 +1697,7 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | duplicate: already in existing records | 4 |
 | no Goodreads/retailer page verified | 4 |
 | book titles not readable | 4 |
+| email not found verbatim on re-fetch of source page (likely JavaScript-rendered) | 4 |
 | Website unreachable (proxy 502) | 3 |
 | Website unreachable (connection reset) | 3 |
 | No email in HTML (contact form only) | 3 |
@@ -1489,8 +1707,12 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | email only in hidden Squarespace JSON | 3 |
 | sells author services | 3 |
 | publisher inbox | 3 |
+| sells Lektorat/Korrektorat | 3 |
+| email not visible/mailto | 3 |
 | site content not readable | 3 |
 | offers Lektorat | 3 |
+| Goodreads book pages not found; synopses not verified | 3 |
+| Goodreads author page not resolved | 3 |
 | Blog posts are datelined 'Canada' and describe Saskatoon/Vancouver travel; no in-market residence statement; only one bo | 2 |
 | Contact page limits the address to interviews, rights/permissions, media and book reactions; she runs her own publishing | 2 |
 | Email verified, but no residence statement found anywhere; she contributed to an anthology of 'Filipinos in Europe', sug | 2 |
@@ -1699,6 +1921,7 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | not pursued: only one book; batch target reached | 2 |
 | not pursued; batch target reached | 2 |
 | email only inside JS-escaped page data | 2 |
+| sells author services (Lektorat) | 2 |
 | duplicate (already in canonical/log) | 2 |
 | Site connection reset; could not verify | 2 |
 | household-name bestseller; skipped | 2 |
@@ -1706,11 +1929,16 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | no Goodreads/retailer page could be verified | 2 |
 | sells Buchsatz | 2 |
 | no email verifiable | 2 |
-| sells Lektorat/Korrektorat | 2 |
 | already in batch04b_twuc | 2 |
 | bestseller scale, skipped | 2 |
 | large traditional readership, skipped | 2 |
 | Goodreads blocked; books unverified | 2 |
+| household-name bestsellers skipped | 2 |
+| second book blurb unavailable | 2 |
+| only agent email | 2 |
+| site content not loadable | 2 |
+| book titles not found | 2 |
+| second book blurb not retrieved | 2 |
 | Skipped: already in the database | 1 |
 | No email found; Gumroad page has no contact details and no author website located | 1 |
 | Site returns 403/empty to fetches; email could not be verified | 1 |
@@ -2122,7 +2350,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | only template/unrelated addresses | 1 |
 | only vanity-publisher media address | 1 |
 | email not found on source page(s): andrew@abpatterson.com.au | 1 |
-| sells author services (Lektorat) | 1 |
 | sells author services (Lektorat/Coaching) | 1 |
 | sells audiobook production services to authors | 1 |
 | Impressum objects to ad emails; sells Buchsatz services | 1 |
@@ -2226,7 +2453,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | Why We Fight the Tide description 'TBC' on Goodreads | 1 |
 | Katie Crumble has no description; site email is publisher sales address | 1 |
 | already in batch04_twuc log | 1 |
-| household-name bestseller | 1 |
 | high-profile traditionally published series (23k ratings); deprioritised | 1 |
 | only one TWUC-listed book; email on site is a writing-business address; deprioritised | 1 |
 | email address on site malformed (somewhatgrumpypress.com@somewhatgrumpypress.com) | 1 |
@@ -2322,7 +2548,6 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | no public member directory with author links found; not pursued within search budget | 1 |
 | email not found on source page(s): info@nataliedamschroder.com (https://nataliedamschroder.com/about-the-author/: fetch  | 1 |
 | contact page says 'no unsolicited material' | 1 |
-| email not visible/mailto | 1 |
 | bestseller scale (36k+ ratings), skipped | 1 |
 | major-publisher bestseller scale, skipped | 1 |
 | second book has no readable blurb | 1 |
@@ -2415,3 +2640,163 @@ Generated 2026-10-20T15:27:36.829Z from `leads/canonical_leads.csv`.
 | directory lists few personal websites; no usable emails found | 1 |
 | site returned 503 | 1 |
 | email not found on source page(s): gabrielle@gabriellebarnby.com (https://gabriellebarnby.com/contact: HTTP 404) | 1 |
+| email appears only intermittently on re-fetch (unstable page) | 1 |
+| bestseller scale (26k ratings) | 1 |
+| Goodreads matches unclear/mismatched | 1 |
+| Goodreads results conflate multiple Ann Parkers | 1 |
+| second book blurb not fetched | 1 |
+| no books found on Goodreads | 1 |
+| Goodreads blocked; unverified | 1 |
+| Goodreads search returned no content after slow retries | 1 |
+| only one book | 1 |
+| second matching book not confirmed | 1 |
+| big names / agent-only contacts | 1 |
+| no author-site links usable | 1 |
+| email seen on first crawl but not present on re-fetch of home page; could not re-verify | 1 |
+| household-name/BookTok bestseller with trade publisher | 1 |
+| USA Today bestselling author of 50+ novels; skipped as major bestseller | 1 |
+| established bestseller with PR team; skipped | 1 |
+| household-name bestseller; only agent email | 1 |
+| household-name bestseller; assistant email only | 1 |
+| major bestselling duo | 1 |
+| major bestseller | 1 |
+| only agent emails on site | 1 |
+| only PR/agency email on site | 1 |
+| only support email of a third-party service | 1 |
+| only company email, attribution unclear | 1 |
+| only publisher email | 1 |
+| email appears to belong to an assistant (different name) | 1 |
+| publisher emails mixed with author email; trad-published, skipped | 1 |
+| trad-published, many publisher/agent emails | 1 |
+| trad-published (Simon & Schuster), PA email only | 1 |
+| many third-party emails; attribution unclear | 1 |
+| only one book synopsis retrievable | 1 |
+| Goodreads synopses could not be retrieved | 1 |
+| admin email alongside agency email; skipped as ambiguous | 1 |
+| PR agency email primary; skipped | 1 |
+| press-page email only; trad-published | 1 |
+| established bestseller with agent | 1 |
+| sells author services (Schreibberatung) | 1 |
+| offers mentoring to writers; agency-managed | 1 |
+| sells translation & illustration services; English site, NZ | 1 |
+| email is her publishing house inbox (Fanowa Verlag) | 1 |
+| sells Lektorat and Buchsatz | 1 |
+| sells coaching and cover design | 1 |
+| offers book graphic design services | 1 |
+| sells Buchsatz & Coverdesign | 1 |
+| sells text/PR services | 1 |
+| Mediengestaltung/Verleger business; borderline service seller | 1 |
+| SPIEGEL-bestselling duo, agency inbox | 1 |
+| no book of her own (anthology story only) | 1 |
+| book pages/Impressum returned 403; books not verified | 1 |
+| agency-managed traditional author; book blurbs not reachable | 1 |
+| bookshelf page 404; books not verified | 1 |
+| traditional (Droemer), agency-managed; lower fit | 1 |
+| blog empty; no books found | 1 |
+| debut novel title/blurb not verifiable on site | 1 |
+| publications page 404 | 1 |
+| publications page empty without JS | 1 |
+| book page not reachable | 1 |
+| no synopsis available beyond series name | 1 |
+| shop-only listings; synopses not read | 1 |
+| only one-line taglines, no synopses | 1 |
+| publisher pages empty; synopses not read | 1 |
+| one book, blurb not read; also lecturer | 1 |
+| next novel still crowdfunding; published titles not verified | 1 |
+| no book list verified; Impressum city fictional | 1 |
+| book pages on other domain not read | 1 |
+| primarily actor site | 1 |
+| site lists no books | 1 |
+| site bot-check blocked fetch | 1 |
+| site bot-check blocked book pages | 1 |
+| site mainly reviews; own books not verified | 1 |
+| email not found on source page(s): info@andrearevers.de (https://www.andrearevers.de/kontakt/: robots.txt disallows /kon | 1 |
+| email not found on source page(s): jasmin.juelicher@web.de (https://www.jasmin-juelicher.de/impressum: robots.txt disall | 1 |
+| primarily course creator/nonfiction; fiction titles not verified | 1 |
+| Goodreads profile belongs to a different Alex Wagner; books not verified | 1 |
+| large-catalogue USA Today bestseller; Goodreads books not matched, deprioritised | 1 |
+| household-name bestseller with traditional agent/publisher contacts | 1 |
+| site behind JavaScript/Cloudflare challenge; email not reliably fetchable | 1 |
+| no official synopsis on Goodreads book page | 1 |
+| Goodreads lists only anthology contributions; debut novel synopsis not verified | 1 |
+| no published book verified | 1 |
+| selected title used without reading its synopsis | 1 |
+| email not found on source page(s): pandorashooter@outlook.com | 1 |
+| email not found on source page(s): michael@michaelbridgesbooks.com (https://michaelbridgesbooks.com/contact.html: HTTP 4 | 1 |
+| email not found on source page(s): camilla@camillavavruch.com (https://www.camillavavruch.com: HTTP 403) | 1 |
+| email not found on source page(s): stories@suewickstead.co.uk (https://suewickstead.co.uk/: HTTP 403) | 1 |
+| no books verified | 1 |
+| Goodreads data mostly nonfiction guides; fiction synopsis missing | 1 |
+| very large readership (32k ratings); deprioritised | 1 |
+| email not found on source page(s): nick@nicklennonbarrett.com | 1 |
+| email not found on source page(s): peterturnham.author@gmail.com (https://peterturnhamauthor.com: HTTP 403) | 1 |
+| email not found on source page(s): chris@cjharterbooks.co.uk | 1 |
+| email not found on source page(s): kathyshuker@kathyshuker.co.uk (https://www.kathyshuker.co.uk/contact.html: HTTP 403) | 1 |
+| email not found on source page(s): john@johnalextaylor.com (https://johnalextaylor.com: HTTP 403) | 1 |
+| sells Lektorat/Schreibwerkstatt | 1 |
+| sells workshops/shows | 1 |
+| book pages not read | 1 |
+| tied to her publisher Periplaneta (c/o publisher) | 1 |
+| no blurbs on publications page | 1 |
+| no book titles/blurbs found | 1 |
+| book blurbs not read; skip for time | 1 |
+| offers cover and graphics services | 1 |
+| novel blurbs not read | 1 |
+| sells Scrivener templates/tools to writers | 1 |
+| site stale since 2020; books not verified | 1 |
+| book blurbs not read | 1 |
+| actor site; agency contacts | 1 |
+| book titles not identifiable | 1 |
+| address is a social handle; Impressum email is publisher’s | 1 |
+| well-known traditionally published author | 1 |
+| bestselling traditionally published children’s author | 1 |
+| email on third-party journalism page, not own site | 1 |
+| email domain differs; books not verified | 1 |
+| no title/blurb on fetched pages | 1 |
+| book title/blurb only teaser | 1 |
+| individual book titles not found | 1 |
+| book titles not read | 1 |
+| only Leseproben, books unclear | 1 |
+| book titles not found on fetched pages | 1 |
+| offers kids’ parties/creative services; titles unclear | 1 |
+| titles not read | 1 |
+| works as Lektorin (service seller) | 1 |
+| writing school (service seller) | 1 |
+| homepage empty (JS) | 1 |
+| published-books page empty | 1 |
+| same person as Yvonne Fothe (merged) | 1 |
+| site says novels unpublished; book not verifiable | 1 |
+| email not found on source page(s): authorsara@readingroompress.com | 1 |
+| email not found on source page(s): suzibambi@gmail.com (https://broodleroo.com/: HTTP 403) | 1 |
+| large readership; name mismatch with site | 1 |
+| larger traditional readerships; deprioritised | 1 |
+| only one verifiable book | 1 |
+| catalogue mostly short fiction/nonfiction/anthologies or low verification | 1 |
+| not retried this round: Goodreads throttling consumed the time budget | 1 |
+| not processed this round | 1 |
+| site served bot-check page on re-fetch; email could not be re-verified | 1 |
+| books page blocked/without blurbs; no official synopsis readable | 1 |
+| no official synopsis found for forthcoming titles | 1 |
+| author enquiries routed to agent; only one book | 1 |
+| no author email on site (address found belonged to a commenter) | 1 |
+| music site; no verifiable books with synopses | 1 |
+| runs a press and offers PR/publishing services herself; low fit | 1 |
+| no official synopses retrievable (Goodreads pages empty) | 1 |
+| no email on site (only placeholder) | 1 |
+| already heavily marketed site; low service fit | 1 |
+| no plot synopses on site | 1 |
+| site is screenwriting-only; no books presented | 1 |
+| illustrator/designer with agent; low fit | 1 |
+| site rate-limited (429/bot check); synopses not readable | 1 |
+| poetry only; no synopses | 1 |
+| illustrator; no synopses on site | 1 |
+| no book descriptions on site | 1 |
+| new series titles not clearly stated; offers editing services herself | 1 |
+| books page images only; no synopses found | 1 |
+| no synopses on site; agent-represented | 1 |
+| legacy Google Site timed out; not re-verifiable | 1 |
+| only one book; email not visible on homepage text | 1 |
+| only publisher (Hachette) emails; bestseller | 1 |
+| only one book (Bloomsbury); not pursued | 1 |
+| only one book (Two Hoots); not pursued | 1 |
+| email body does not mention selected title: Incandescent – We Need to Talk about Light | 1 |
