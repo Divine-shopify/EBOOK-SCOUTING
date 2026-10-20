@@ -291,7 +291,7 @@
       "Amazon Book URL": "",
       "Amazon Author URL": "",
       "Personalized Subject Line": "Shall We Not Revenge and For You Were Strangers",
-      "Personalized Email Body": "Hi Diana,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Shall We Not Revenge and For You Were Strangers while researching your work. I was particularly interested in Chicago smoldering after the Great Fire and the bayonet murder of Ben Champion.\n\nThose details gave me an idea for how a reader newsletter could help present your books to more of the readers who may enjoy them. I didn't see a newsletter sign-up on your site; a short welcome sequence could guide new readers from Shall We Not Revenge to For You Were Strangers and on through the series.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
+      "Personalized Email Body": "Hi D.M.,\n\nMy name is Femi Emmanuel. I'm a designer and book services specialist, helping authors professionally present, publish, and promote their books.\n\nI came across Shall We Not Revenge and For You Were Strangers while researching your work. I was particularly interested in Chicago smoldering after the Great Fire and the bayonet murder of Ben Champion.\n\nThose details gave me an idea for how a reader newsletter could help present your books to more of the readers who may enjoy them. I didn't see a newsletter sign-up on your site; a short welcome sequence could guide new readers from Shall We Not Revenge to For You Were Strangers and on through the series.\n\nI'd be happy to put together a complimentary concept sample so you can see the direction I have in mind.\n\nWould you be open to taking a look?\n\nWarm regards,\nFemi Emmanuel",
       "Primary Recommended Service": "Email marketing",
       "Secondary Service Opportunity": [
         "Customer retention"
@@ -319,7 +319,7 @@
         "Goodreads (search results and book pages)"
       ],
       "Confidence and Manual Verification Notes": "Confidence: medium-high. Discovered via Mystery Writers of America national member listing (mysterywriters.org/member-listing, A–Z). Email verbatim (visible text or mailto) on Email Source URL.",
-      "Other Notes": "First name 'Diana' is not confirmed on fetched pages — verify before sending; consider 'Hi D.M.'."
+      "Other Notes": ""
     },
     {
       "Author Name": "Emily Ross",
@@ -849,7 +849,7 @@
         "Official website",
         "Goodreads (search results and book pages)"
       ],
-      "Confidence and Manual Verification Notes": "Confidence: medium-high. Discovered via Mystery Writers of America national member listing (mysterywriters.org/member-listing, A–Z). Email verbatim (visible text or mailto) on Email Source URL.",
+      "Confidence and Manual Verification Notes": "Confidence: medium-high. Discovered via Mystery Writers of America national member listing (mysterywriters.org/member-listing, A–Z). Email verbatim (visible text or mailto) on Email Source URL. Page occasionally failed a re-fetch; succeeded on retry.",
       "Other Notes": ""
     },
     {
@@ -993,8 +993,8 @@
       "Region, State, or Province": "",
       "City": "",
       "Geographic Evidence and Relationship": "No explicit residence statement seen on fetched pages.",
-      "Email Source URL": "https://robertknightly.com/contact/",
-      "Author Identity Evidence URL": "https://robertknightly.com/contact/",
+      "Email Source URL": "https://robertknightly.com/contact",
+      "Author Identity Evidence URL": "https://robertknightly.com/contact",
       "Book Evidence Source URLs": [
         "https://www.goodreads.com/book/show/6814967-bodies-in-winter",
         "https://www.goodreads.com/book/show/11464073-the-cold-room"
@@ -1008,7 +1008,7 @@
         "Official website",
         "Goodreads (search results and book pages)"
       ],
-      "Confidence and Manual Verification Notes": "Confidence: medium-high. Discovered via Mystery Writers of America national member listing (mysterywriters.org/member-listing, A–Z). Email verbatim (visible text or mailto) on Email Source URL.",
+      "Confidence and Manual Verification Notes": "Confidence: medium-high. Discovered via Mystery Writers of America national member listing (mysterywriters.org/member-listing, A–Z). Email verbatim (visible text or mailto) on Email Source URL. Page occasionally failed a re-fetch; succeeded on retry.",
       "Other Notes": ""
     },
     {
@@ -1644,7 +1644,7 @@
       "Search Query": "Mystery Writers of America national member listing (mysterywriters.org/member-listing, A–Z)",
       "Candidate Name": "Robert Knightly",
       "Email": "knightlylaw@gmail.com",
-      "Source URL": "https://robertknightly.com/contact/",
+      "Source URL": "https://robertknightly.com/contact",
       "Evidence Type": "author website",
       "Platform": "Directory link + author website",
       "Decision": "accepted",
